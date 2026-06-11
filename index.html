@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dünya Kupası 2026 — Levent'in Dashboard'u</title>
+<style>
+  :root{
+    --bg:#0d1321; --panel:#161d2f; --panel2:#1c2540; --line:#2a3554;
+    --text:#e8ecf5; --muted:#93a0bd; --accent:#ffd166; --green:#3ddc84;
+    --red:#e63946; --tur:#ff5c39; --blue:#4cc9f0;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:"Segoe UI",Roboto,Arial,sans-serif;line-height:1.45}
+  .wrap{max-width:1280px;margin:0 auto;padding:18px}
+
+  /* ---------- HEADER ---------- */
+  header{background:linear-gradient(135deg,#13294b 0%,#1d3a6e 55%,#7a1f2b 100%);
+    border-radius:16px;padding:26px 28px;margin-bottom:18px;position:relative;overflow:hidden}
+  header::after{content:"⚽";position:absolute;right:18px;top:-14px;font-size:120px;opacity:.08}
+  header h1{font-size:26px;letter-spacing:.5px}
+  header .sub{color:#cdd8ee;margin-top:6px;font-size:14px}
+  .badges{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
+  .badge{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);
+    padding:4px 12px;border-radius:20px;font-size:12.5px}
+  .headline{margin-top:14px;background:rgba(0,0,0,.28);border-left:4px solid var(--accent);
+    padding:10px 14px;border-radius:8px;font-size:14.5px}
+
+  /* ---------- GENEL ---------- */
+  section{margin-bottom:22px}
+  h2{font-size:17px;margin-bottom:10px;display:flex;align-items:center;gap:8px;
+     border-left:4px solid var(--accent);padding-left:10px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+  .muted{color:var(--muted);font-size:12.5px}
+
+  /* ---------- FAVORİLER ---------- */
+  .favgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:12px}
+  .fav{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;
+       border-top:3px solid var(--blue)}
+  .fav.tur{border-top-color:var(--tur);background:linear-gradient(180deg,#2a1620 0%,var(--panel) 40%)}
+  .fav .head{display:flex;align-items:center;gap:8px;font-size:17px;font-weight:700}
+  .fav .grp{margin-left:auto;font-size:11.5px;background:var(--panel2);border:1px solid var(--line);
+            padding:2px 8px;border-radius:10px;color:var(--muted)}
+  .fav .status{margin-top:8px;font-size:13px;color:var(--accent)}
+  .fav .next{margin-top:8px;font-size:13px}
+  .fav .next b{color:var(--green)}
+  .fav table{width:100%;margin-top:10px;border-collapse:collapse;font-size:12.5px}
+  .fav td{padding:3px 2px;border-top:1px dashed var(--line);color:var(--muted)}
+  .fav td:first-child{color:var(--text)}
+  .fav .note{margin-top:8px;font-size:11.5px;color:var(--muted);font-style:italic}
+
+  /* ---------- MAÇLAR ---------- */
+  .matchrow{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;
+    background:var(--panel2);border:1px solid var(--line);margin-bottom:8px;flex-wrap:wrap}
+  .matchrow .time{font-weight:700;color:var(--accent);min-width:88px}
+  .matchrow .grp{font-size:11px;background:#0d1321;padding:2px 8px;border-radius:8px;color:var(--muted)}
+  .matchrow .teams{font-size:14.5px;font-weight:600}
+  .matchrow .score{font-weight:800;color:var(--green);font-size:15px}
+  .matchrow .venue{margin-left:auto;color:var(--muted);font-size:12px}
+  .matchrow .mnote{width:100%;font-size:12px;color:var(--accent)}
+  .resnote{font-size:12px;color:var(--muted);width:100%}
+
+  .twocol{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:900px){.twocol{grid-template-columns:1fr}}
+
+  /* ---------- GOL KRALLIĞI ---------- */
+  .scorers{width:100%;border-collapse:collapse;font-size:14px}
+  .scorers th{font-size:12px;color:var(--muted);text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+  .scorers td{padding:7px 8px;border-bottom:1px solid var(--line)}
+  .scorers tr:last-child td{border-bottom:none}
+  .scorers .g{font-weight:800;color:var(--accent);text-align:center}
+  .crown{color:var(--accent)}
+
+  /* ---------- GRUPLAR ---------- */
+  .groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+  .gcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .gcard .gtitle{background:var(--panel2);padding:8px 12px;font-weight:700;font-size:14px;
+    display:flex;justify-content:space-between}
+  .gcard table{width:100%;border-collapse:collapse;font-size:12.5px}
+  .gcard th{color:var(--muted);font-size:10.5px;padding:5px 4px;text-align:center;font-weight:600}
+  .gcard td{padding:5px 4px;text-align:center;border-top:1px solid #202944}
+  .gcard td.t{text-align:left;padding-left:10px;white-space:nowrap}
+  .gcard tr.q1 td:first-child{border-left:3px solid var(--green)}
+  .gcard tr.q3 td:first-child{border-left:3px solid var(--accent)}
+  .gcard tr.q4 td:first-child{border-left:3px solid transparent}
+  .gcard tr.favrow{background:rgba(255,92,57,.12)}
+  .gcard td.pts{font-weight:800;color:var(--accent)}
+  .legend{font-size:11.5px;color:var(--muted);margin-top:8px}
+  .dotg{color:var(--green)} .dota{color:var(--accent)}
+
+  /* ---------- AĞAÇ ---------- */
+  .bracketwrap{overflow-x:auto;padding-bottom:8px}
+  .bracket{display:flex;gap:18px;min-width:1150px}
+  .round{display:flex;flex-direction:column;justify-content:space-around;gap:8px;flex:1}
+  .round h3{font-size:12.5px;color:var(--muted);text-align:center;margin-bottom:2px}
+  .bm{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:7px 9px;font-size:12px}
+  .bm.tur{border-color:var(--tur);box-shadow:0 0 0 1px var(--tur)}
+  .bm .mid{color:var(--muted);font-size:10px;display:flex;justify-content:space-between;margin-bottom:3px}
+  .bm .tm{display:flex;justify-content:space-between;padding:1.5px 0}
+  .bm.final{border-color:var(--accent);background:linear-gradient(180deg,#2b2410,var(--panel2))}
+  .bm.final .mid{color:var(--accent)}
+  .turpath{margin-top:10px;font-size:13px;background:rgba(255,92,57,.1);
+    border:1px dashed var(--tur);border-radius:10px;padding:10px 14px}
+
+  /* ---------- BİLGİ ---------- */
+  .facts li{margin:6px 0 6px 18px;font-size:13.5px}
+  footer{color:var(--muted);font-size:11.5px;text-align:center;padding:14px 0 30px;border-top:1px solid var(--line)}
+  footer a{color:var(--blue);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>🏆 FIFA Dünya Kupası 2026</h1>
+    <div class="sub">ABD · Kanada · Meksika &nbsp;|&nbsp; 11 Haziran – 19 Temmuz &nbsp;|&nbsp; 48 takım · 104 maç</div>
+    <div class="badges">
+      <span class="badge" id="bDay"></span>
+      <span class="badge" id="bUpdate"></span>
+      <span class="badge">⏰ Tüm saatler Türkiye saati (TSİ)</span>
+    </div>
+    <div class="headline" id="headline"></div>
+  </header>
+
+  <!-- FAVORİ TAKIMLAR -->
+  <section>
+    <h2>⭐ Favori Takımlarım — Son Durum</h2>
+    <div class="favgrid" id="favgrid"></div>
+  </section>
+
+  <div class="twocol">
+    <!-- BUGÜNÜN MAÇLARI -->
+    <section>
+      <h2>📅 Bugünün Maçları <span class="muted" id="todayLabel"></span></h2>
+      <div class="card" id="todayBox"></div>
+    </section>
+
+    <!-- SON SONUÇLAR + GOL KRALLIĞI -->
+    <section>
+      <h2>🥅 Son Sonuçlar</h2>
+      <div class="card" id="resultsBox"></div>
+      <h2 style="margin-top:16px">👑 Gol Krallığı</h2>
+      <div class="card">
+        <table class="scorers" id="scorersTbl">
+          <thead><tr><th>#</th><th>Oyuncu</th><th>Takım</th><th style="text-align:center">Gol</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <div class="muted" id="scorersNote" style="margin-top:6px"></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- GRUPLAR -->
+  <section>
+    <h2>📊 Gruplar ve Puan Durumu</h2>
+    <div class="groups" id="groupsBox"></div>
+    <div class="legend">
+      <span class="dotg">▌</span> İlk 2: Son 32'ye direkt &nbsp;&nbsp;
+      <span class="dota">▌</span> 3.lük: en iyi 8 üçüncü de turu geçer &nbsp;&nbsp;
+      🔶 Turuncu satır: favori takım
+    </div>
+  </section>
+
+  <!-- ELEME AĞACI -->
+  <section>
+    <h2>🌳 Final Yolu — Eleme Ağacı</h2>
+    <div class="bracketwrap card">
+      <div class="bracket" id="bracketBox"></div>
+    </div>
+    <div class="turpath" id="turPath"></div>
+  </section>
+
+  <!-- BİLGİ KUTUSU -->
+  <section>
+    <h2>💡 Bunları Biliyor muydunuz?</h2>
+    <div class="card"><ul class="facts" id="factsBox"></ul></div>
+  </section>
+
+  <footer>
+    Kaynaklar: <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026">FIFA.com</a> ·
+    <a href="https://www.espn.com/soccer/scoreboard/_/league/fifa.world">ESPN</a> ·
+    <a href="https://www.skysports.com/football/news/11095/13481245/">Sky Sports</a>
+    &nbsp;|&nbsp; <span id="footUpdate"></span> &nbsp;|&nbsp; 2 saatte bir otomatik güncellenir.
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+const D = window.WC_DATA;
+const $ = id => document.getElementById(id);
+
+$("bDay").textContent = "📆 Turnuvanın " + D.tournamentDay + ". günü";
+$("bUpdate").textContent = "🔄 Son güncelleme: " + D.lastUpdate;
+$("footUpdate").textContent = "Son güncelleme: " + D.lastUpdate;
+$("headline").textContent = D.headline;
+
+/* Favoriler */
+$("favgrid").innerHTML = D.favorites.map(f => `
+  <div class="fav ${f.code==='TUR'?'tur':''}">
+    <div class="head"><span style="font-size:22px">${f.flag}</span> ${f.name}
+      <span class="grp">${f.group} Grubu</span></div>
+    <div class="muted" style="margin-top:4px">Rakipler: ${f.groupRivals}</div>
+    <div class="status">${f.status}</div>
+    <div class="next">Sıradaki maç: <b>${f.nextMatch}</b></div>
+    <table>${f.fixtures.map(x => `
+      <tr><td>${x.rakip}</td><td>${x.tarih}</td><td>${x.yer}</td>
+      <td style="text-align:right;color:var(--green);font-weight:700">${x.sonuc ?? ""}</td></tr>`).join("")}
+    </table>
+    <div class="note">${f.note}</div>
+  </div>`).join("");
+
+/* Bugünün maçları */
+$("todayLabel").textContent = "· " + D.todayLabel;
+$("todayBox").innerHTML =
+  D.todayMatches.map(m => `
+    <div class="matchrow">
+      <span class="time">${m.saat}</span><span class="grp">${m.grup} Grubu</span>
+      <span class="teams">${m.ev} — ${m.dep}</span>
+      ${m.skor ? `<span class="score">${m.skor}</span>` : ""}
+      <span class="venue">📍 ${m.yer}</span>
+      ${m.not ? `<span class="mnote">⭐ ${m.not}</span>` : ""}
+    </div>`).join("")
+  + (D.tonightMatches?.length ? `<div class="muted" style="margin:10px 0 6px">🌙 Bu gece / yarın sabaha karşı:</div>`
+  + D.tonightMatches.map(m => `
+    <div class="matchrow" style="opacity:.85">
+      <span class="time">${m.saat}</span><span class="grp">${m.grup} Grubu</span>
+      <span class="teams">${m.ev} — ${m.dep}</span>
+      <span class="venue">📍 ${m.yer}</span>
+      ${m.not ? `<span class="mnote">⭐ ${m.not}</span>` : ""}
+    </div>`).join("") : "");
+
+/* Son sonuçlar */
+$("resultsBox").innerHTML = D.recentResults.length
+  ? D.recentResults.map(r => `
+    <div class="matchrow">
+      <span class="time">${r.tarih}</span><span class="grp">${r.grup} Grubu</span>
+      <span class="teams">${r.ev} <span class="score">${r.skor}</span> ${r.dep}</span>
+      ${r.not ? `<span class="resnote">${r.not}</span>` : ""}
+    </div>`).join("")
+  : `<div class="muted">Henüz oynanmış maç yok.</div>`;
+
+/* Gol krallığı */
+document.querySelector("#scorersTbl tbody").innerHTML = D.topScorers.map((s,i) => `
+  <tr><td>${i===0?'<span class="crown">👑</span>':s.sira}</td>
+  <td>${s.oyuncu}</td><td>${s.flag} ${s.takim}</td><td class="g">${s.gol}</td></tr>`).join("");
+$("scorersNote").textContent = D.topScorersNote || "";
+
+/* Gruplar */
+$("groupsBox").innerHTML = Object.entries(D.groups).map(([g,rows]) => `
+  <div class="gcard">
+    <div class="gtitle"><span>${g} Grubu</span>
+      <span class="muted">${rows.some(r=>r.fav)?'⭐ favori takım':''}</span></div>
+    <table>
+      <tr><th style="text-align:left;padding-left:10px">Takım</th>
+          <th>O</th><th>G</th><th>B</th><th>M</th><th>A</th><th>Y</th><th>Av</th><th>P</th></tr>
+      ${rows.map((r,i) => `
+        <tr class="${i<2?'q1':i===2?'q3':'q4'} ${r.fav?'favrow':''}">
+          <td class="t">${r.flag} ${r.takim}${r.ev?' <span class="muted">(ev)</span>':''}</td>
+          <td>${r.o}</td><td>${r.g}</td><td>${r.b}</td><td>${r.m}</td>
+          <td>${r.a}</td><td>${r.y}</td><td>${r.a-r.y>0?'+':''}${r.a-r.y}</td>
+          <td class="pts">${r.p}</td></tr>`).join("")}
+    </table>
+  </div>`).join("");
+
+/* Eleme ağacı */
+const mk = (m, cls="") => `
+  <div class="bm ${m.tur?'tur':''} ${cls}">
+    <div class="mid"><span>Maç ${m.id}</span><span>${m.tarih} · ${m.yer}</span></div>
+    <div class="tm"><span>${m.ev}</span></div>
+    <div class="tm"><span>${m.dep}</span></div>
+  </div>`;
+$("bracketBox").innerHTML = `
+  <div class="round"><h3>SON 32 (28 Haz – 4 Tem)</h3>${D.bracket.r32.map(m=>mk(m)).join("")}</div>
+  <div class="round"><h3>SON 16 (4 – 8 Tem)</h3>${D.bracket.r16.map(m=>mk(m)).join("")}</div>
+  <div class="round"><h3>ÇEYREK FİNAL (9 – 12 Tem)</h3>${D.bracket.qf.map(m=>mk(m)).join("")}</div>
+  <div class="round"><h3>YARI FİNAL (14 – 15 Tem)</h3>${D.bracket.sf.map(m=>mk(m)).join("")}</div>
+  <div class="round"><h3>FİNAL 🏆</h3>${mk(D.bracket.final,"final")}
+    <div class="muted" style="text-align:center;font-size:11px">3.lük maçı: 18 Tem, Miami</div></div>`;
+$("turPath").innerHTML = "🇹🇷 <b>Türkiye'nin olası yolu:</b> " + D.bracket.note;
+
+/* Bilgiler */
+$("factsBox").innerHTML = D.facts.map(f => `<li>${f}</li>`).join("");
+</script>
+</body>
+</html>
