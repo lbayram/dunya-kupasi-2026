@@ -5,8 +5,8 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "12 Haziran 2026, 00:45 TSİ",
-  headline: "Kupa açıldı! Meksika, açılış maçında Güney Afrika'yı 2-0 yendi. Türkiye sahaya 14 Haziran Pazar sabahı 07:00'de Avustralya karşısında çıkıyor.",
+  lastUpdate: "12 Haziran 2026, 01:45 TSİ",
+  headline: "Meksika açılışta Güney Afrika'yı 2-0 yendi. Bugün Güney Kore–Çekya (05:00) ve Kanada–Bosna Hersek (22:00) oynanıyor. Türkiye 14 Haziran Pazar 07:00'de Avustralya karşısında.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -29,7 +29,7 @@ window.WC_DATA = {
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
   // skor: null = oynanmadı. Oynanınca "2 - 0" formatında yazılır, "not" alanına golcüler eklenebilir.
   fixtures: [
-    { iso: "2026-06-11", saat: "22:00", grup: "A", ev: "Meksika", dep: "Güney Afrika", yer: "Mexico City", skor: "2 - 0", not: "Quiñones (9'), Jiménez. Maçta 3 kırmızı kart çıktı — açılış maçları tarihinde bir ilk." },
+    { iso: "2026-06-11", saat: "22:00", grup: "A", ev: "Meksika", dep: "Güney Afrika", yer: "Mexico City", skor: "2 - 0", not: "Goller: Quiñones (9'), Jiménez (66'). Maçta 3 kırmızı kart çıktı (G. Afrika'dan Sithole ve Zwane, Meksika'dan Montes) — açılış maçları tarihinde bir ilk." },
     { iso: "2026-06-12", saat: "05:00", grup: "A", ev: "Güney Kore", dep: "Çekya", yer: "Guadalajara", skor: null },
     { iso: "2026-06-12", saat: "22:00", grup: "B", ev: "Kanada", dep: "Bosna Hersek", yer: "Toronto", skor: null },
     { iso: "2026-06-13", saat: "04:00", grup: "D", ev: "ABD", dep: "Paraguay", yer: "Los Angeles", skor: null },
