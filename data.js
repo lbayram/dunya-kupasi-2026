@@ -5,8 +5,8 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "12 Haziran 2026, 01:45 TSİ",
-  headline: "Meksika açılışta Güney Afrika'yı 2-0 yendi. Bugün Güney Kore–Çekya (05:00) ve Kanada–Bosna Hersek (22:00) oynanıyor. Türkiye 14 Haziran Pazar 07:00'de Avustralya karşısında.",
+  lastUpdate: "12 Haziran 2026, 02:10 TSİ",
+  headline: "Meksika açılışta Güney Afrika'yı 2-0 yendi (Quiñones, Jiménez). Bu sabah 05:00'te Güney Kore–Çekya, akşam 22:00'de Kanada–Bosna Hersek sahnede. Türkiye 14 Haziran Pazar 07:00'de Avustralya karşısında.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
