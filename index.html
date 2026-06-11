@@ -190,7 +190,10 @@
   </footer>
 </div>
 
-<script src="data.js"></script>
+<script>
+/* Önbellek (cache) atlatma: data.js her açılışta benzersiz adresle taze indirilir. */
+document.write('<script src="data.js?v=' + Date.now() + '"><\/script>');
+</script>
 <script>
 const D = window.WC_DATA;
 const $ = id => document.getElementById(id);
