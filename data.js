@@ -1,107 +1,109 @@
 // =====================================================================
-// FIFA DÜNYA KUPASI 2026 — DASHBOARD VERİSİ
+// FIFA DÜNYA KUPASI 2026 — DASHBOARD VERİSİ (v2)
 // Bu dosya 2 saatte bir otomatik güncellenir.
-// Tüm saatler Türkiye saati (TSİ) ile verilmiştir.
+// Tüm saatler Türkiye saati (TSİ). Takım adları groups ile birebir aynı olmalı.
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "12 Haziran 2026, 01:00 TSİ",
-  tournamentDay: 2,
-  headline: "Meksika açılışı 2-0 kazandı (Quiñones 9', Jiménez 67'). Bu sabah 05:00'te Güney Kore–Çekya, gece 04:00'te Türkiye'nin grubunda ABD–Paraguay var.",
-
-  // ---------------- FAVORİ TAKIMLAR ----------------
-  favorites: [
-    {
-      code: "TUR", flag: "🇹🇷", name: "Türkiye", group: "D",
-      groupRivals: "ABD, Paraguay, Avustralya",
-      status: "Henüz oynamadı — 2002'den sonra ilk Dünya Kupası!",
-      position: "D Grubu: 4 takım da henüz puansız (ABD-Paraguay maçı 13 Haz 04:00)",
-      nextMatch: "Avustralya — 14 Haziran Pazar, 07:00 TSİ (Vancouver)",
-      fixtures: [
-        { rakip: "Avustralya 🇦🇺", tarih: "14 Haz Paz 07:00", yer: "Vancouver", sonuc: null },
-        { rakip: "Paraguay 🇵🇾", tarih: "20 Haz Cmt 06:00", yer: "Santa Clara", sonuc: null },
-        { rakip: "ABD 🇺🇸", tarih: "26 Haz Cum 05:00", yer: "Los Angeles", sonuc: null }
-      ],
-      note: "Milliler kampı Mesa, Arizona'da kurdu. Gruptan çıkarsa muhtemel yol: D1 → 81 No.lu maç (Santa Clara)."
-    },
-    {
-      code: "ESP", flag: "🇪🇸", name: "İspanya", group: "H",
-      groupRivals: "Cape Verde, S. Arabistan, Uruguay",
-      status: "Henüz oynamadı — FIFA sıralamasının 1 numarası, turnuvanın favorisi",
-      position: "H Grubu: tüm takımlar henüz puansız (ilk maçlar 15 Haziran)",
-      nextMatch: "Cape Verde — 15 Haziran Pzt, 19:00 TSİ (Atlanta)",
-      fixtures: [
-        { rakip: "Cape Verde 🇨🇻", tarih: "15 Haz Pzt 19:00", yer: "Atlanta", sonuc: null },
-        { rakip: "S. Arabistan 🇸🇦", tarih: "21 Haz Paz 19:00", yer: "Atlanta", sonuc: null },
-        { rakip: "Uruguay 🇺🇾", tarih: "27 Haz Cmt 03:00", yer: "Guadalajara", sonuc: null }
-      ],
-      note: "Kura gereği İspanya ve Arjantin ağacın zıt taraflarında: ikisi de grubunu kazanırsa ancak finalde karşılaşabilirler."
-    },
-    {
-      code: "GER", flag: "🇩🇪", name: "Almanya", group: "E",
-      groupRivals: "Curaçao, Fildişi Sahili, Ekvador",
-      status: "Henüz oynamadı — grubun açık favorisi",
-      position: "E Grubu: tüm takımlar henüz puansız (ilk maçlar 14 Haziran)",
-      nextMatch: "Curaçao — 14 Haziran Paz, 20:00 TSİ (Houston)",
-      fixtures: [
-        { rakip: "Curaçao 🇨🇼", tarih: "14 Haz Paz 20:00", yer: "Houston", sonuc: null },
-        { rakip: "Fildişi Sahili 🇨🇮", tarih: "20 Haz Cmt 23:00", yer: "Toronto", sonuc: null },
-        { rakip: "Ekvador 🇪🇨", tarih: "25 Haz Per 23:00", yer: "New Jersey", sonuc: null }
-      ],
-      note: "Curaçao turnuva tarihindeki ilk Dünya Kupası maçına çıkacak."
-    },
-    {
-      code: "ARG", flag: "🇦🇷", name: "Arjantin", group: "J",
-      groupRivals: "Cezayir, Avusturya, Ürdün",
-      status: "Henüz oynamadı — son şampiyon, kupayı koruma peşinde",
-      position: "J Grubu: tüm takımlar henüz puansız (ilk maçlar 16-17 Haziran)",
-      nextMatch: "Cezayir — 17 Haziran Çar, 04:00 TSİ (Kansas City)",
-      fixtures: [
-        { rakip: "Cezayir 🇩🇿", tarih: "17 Haz Çar 04:00", yer: "Kansas City", sonuc: null },
-        { rakip: "Avusturya 🇦🇹", tarih: "22 Haz Pzt 20:00", yer: "Arlington", sonuc: null },
-        { rakip: "Ürdün 🇯🇴", tarih: "28 Haz Paz 05:00", yer: "Arlington", sonuc: null }
-      ],
-      note: "Messi 5. Dünya Kupası'nda — 2022 Katar'ın ardından üst üste ikinci kupa hedefi."
-    },
-    {
-      code: "ENG", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", name: "İngiltere", group: "L",
-      groupRivals: "Hırvatistan, Gana, Panama",
-      status: "Henüz oynamadı — FIFA sıralamasında 4. sıradaki güçlü aday",
-      position: "L Grubu: tüm takımlar henüz puansız (ilk maçlar 17-18 Haziran)",
-      nextMatch: "Hırvatistan — 17 Haziran Çar, 23:00 TSİ (Dallas/Arlington)",
-      fixtures: [
-        { rakip: "Hırvatistan 🇭🇷", tarih: "17 Haz Çar 23:00", yer: "Arlington", sonuc: null },
-        { rakip: "Gana 🇬🇭", tarih: "23 Haz Sal 23:00", yer: "Boston", sonuc: null },
-        { rakip: "Panama 🇵🇦", tarih: "28 Haz Paz 00:00", yer: "New Jersey", sonuc: null }
-      ],
-      note: "İlk maç İngiltere-Hırvatistan, grubun en kritik karşılaşması."
-    }
-  ],
+  lastUpdate: "12 Haziran 2026, 00:45 TSİ",
+  headline: "Kupa açıldı! Meksika, açılış maçında Güney Afrika'yı 2-0 yendi. Türkiye sahaya 14 Haziran Pazar sabahı 07:00'de Avustralya karşısında çıkıyor.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Julián Quiñones", takim: "Meksika", flag: "🇲🇽", gol: 1 },
     { sira: 1, oyuncu: "Raúl Jiménez", takim: "Meksika", flag: "🇲🇽", gol: 1 }
   ],
-  topScorersNote: "Turnuva henüz başladı; tek maç oynandı. Liste her sabah güncellenir.",
+  topScorersNote: "Turnuva henüz başladı; tek maç oynandı. Liste her güncellemede yenilenir.",
 
-  // ---------------- BUGÜNÜN MAÇLARI (TSİ) ----------------
-  todayLabel: "12 Haziran Cuma (TSİ)",
-  todayMatches: [
-    { saat: "05:00", grup: "A", ev: "🇰🇷 Güney Kore", dep: "🇨🇿 Çekya", yer: "Guadalajara, Meksika", durum: "bekliyor" },
-    { saat: "22:00", grup: "B", ev: "🇨🇦 Kanada", dep: "🇧🇦 Bosna Hersek", yer: "Toronto, Kanada", durum: "bekliyor" }
-  ],
-  tonightMatches: [
-    { saat: "13 Haz 04:00", grup: "D", ev: "🇺🇸 ABD", dep: "🇵🇾 Paraguay", yer: "Los Angeles (SoFi)", not: "Türkiye'nin grubundaki ilk maç — takip et!" }
-  ],
+  // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
+  teamNotes: {
+    "Türkiye": "2002 dünya üçüncülüğünden bu yana ilk Dünya Kupası. Kamp: Mesa, Arizona. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
+    "İspanya": "FIFA sıralamasının 1 numarası, turnuvanın favorisi. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
+    "Almanya": "E Grubu'nun açık favorisi. İlk rakibi Curaçao, tarihindeki ilk Dünya Kupası maçına çıkacak.",
+    "Arjantin": "Son şampiyon. Messi 5. Dünya Kupası'nda — üst üste ikinci kupa hedefi.",
+    "İngiltere": "FIFA sıralamasında 4. İlk maçı Hırvatistan'la — grubun en kritik karşılaşması.",
+    "Brezilya": "Rekor 5 kez şampiyon; 2002'den beri kupa hasreti sürüyor.",
+    "Fransa": "2018 şampiyonu, 2022 finalisti. Mbappé yine en büyük koz."
+  },
 
-  // ---------------- SON SONUÇLAR ----------------
-  recentResults: [
-    { tarih: "11 Haz", grup: "A", ev: "🇲🇽 Meksika", dep: "🇿🇦 Güney Afrika", skor: "2 - 0", not: "Goller: Quiñones (9') ve Jiménez. Maçta 3 kırmızı kart çıktı — açılış maçları tarihinde bir ilk." }
+  // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
+  // skor: null = oynanmadı. Oynanınca "2 - 0" formatında yazılır, "not" alanına golcüler eklenebilir.
+  fixtures: [
+    { iso: "2026-06-11", saat: "22:00", grup: "A", ev: "Meksika", dep: "Güney Afrika", yer: "Mexico City", skor: "2 - 0", not: "Quiñones (9'), Jiménez. Maçta 3 kırmızı kart çıktı — açılış maçları tarihinde bir ilk." },
+    { iso: "2026-06-12", saat: "05:00", grup: "A", ev: "Güney Kore", dep: "Çekya", yer: "Guadalajara", skor: null },
+    { iso: "2026-06-12", saat: "22:00", grup: "B", ev: "Kanada", dep: "Bosna Hersek", yer: "Toronto", skor: null },
+    { iso: "2026-06-13", saat: "04:00", grup: "D", ev: "ABD", dep: "Paraguay", yer: "Los Angeles", skor: null },
+    { iso: "2026-06-13", saat: "22:00", grup: "B", ev: "Katar", dep: "İsviçre", yer: "Santa Clara", skor: null },
+    { iso: "2026-06-14", saat: "01:00", grup: "C", ev: "Brezilya", dep: "Fas", yer: "New Jersey", skor: null },
+    { iso: "2026-06-14", saat: "04:00", grup: "C", ev: "Haiti", dep: "İskoçya", yer: "Boston", skor: null },
+    { iso: "2026-06-14", saat: "07:00", grup: "D", ev: "Avustralya", dep: "Türkiye", yer: "Vancouver", skor: null },
+    { iso: "2026-06-14", saat: "20:00", grup: "E", ev: "Almanya", dep: "Curaçao", yer: "Houston", skor: null },
+    { iso: "2026-06-14", saat: "23:00", grup: "F", ev: "Hollanda", dep: "Japonya", yer: "Arlington", skor: null },
+    { iso: "2026-06-15", saat: "02:00", grup: "E", ev: "Fildişi Sahili", dep: "Ekvador", yer: "Philadelphia", skor: null },
+    { iso: "2026-06-15", saat: "05:00", grup: "F", ev: "İsveç", dep: "Tunus", yer: "Monterrey", skor: null },
+    { iso: "2026-06-15", saat: "19:00", grup: "H", ev: "İspanya", dep: "Cape Verde", yer: "Atlanta", skor: null },
+    { iso: "2026-06-15", saat: "22:00", grup: "G", ev: "Belçika", dep: "Mısır", yer: "Seattle", skor: null },
+    { iso: "2026-06-16", saat: "01:00", grup: "H", ev: "S. Arabistan", dep: "Uruguay", yer: "Miami", skor: null },
+    { iso: "2026-06-16", saat: "04:00", grup: "G", ev: "İran", dep: "Yeni Zelanda", yer: "Los Angeles", skor: null },
+    { iso: "2026-06-16", saat: "22:00", grup: "I", ev: "Fransa", dep: "Senegal", yer: "New Jersey", skor: null },
+    { iso: "2026-06-17", saat: "01:00", grup: "I", ev: "Irak", dep: "Norveç", yer: "Boston", skor: null },
+    { iso: "2026-06-17", saat: "04:00", grup: "J", ev: "Arjantin", dep: "Cezayir", yer: "Kansas City", skor: null },
+    { iso: "2026-06-17", saat: "07:00", grup: "J", ev: "Avusturya", dep: "Ürdün", yer: "Santa Clara", skor: null },
+    { iso: "2026-06-17", saat: "20:00", grup: "K", ev: "Portekiz", dep: "DR Kongo", yer: "Houston", skor: null },
+    { iso: "2026-06-17", saat: "23:00", grup: "L", ev: "İngiltere", dep: "Hırvatistan", yer: "Arlington", skor: null },
+    { iso: "2026-06-18", saat: "02:00", grup: "L", ev: "Gana", dep: "Panama", yer: "Toronto", skor: null },
+    { iso: "2026-06-18", saat: "05:00", grup: "K", ev: "Özbekistan", dep: "Kolombiya", yer: "Mexico City", skor: null },
+    { iso: "2026-06-18", saat: "19:00", grup: "A", ev: "Çekya", dep: "Güney Afrika", yer: "Atlanta", skor: null },
+    { iso: "2026-06-18", saat: "22:00", grup: "B", ev: "İsviçre", dep: "Bosna Hersek", yer: "Los Angeles", skor: null },
+    { iso: "2026-06-19", saat: "01:00", grup: "B", ev: "Kanada", dep: "Katar", yer: "Vancouver", skor: null },
+    { iso: "2026-06-19", saat: "04:00", grup: "A", ev: "Meksika", dep: "Güney Kore", yer: "Guadalajara", skor: null },
+    { iso: "2026-06-19", saat: "22:00", grup: "D", ev: "ABD", dep: "Avustralya", yer: "Seattle", skor: null },
+    { iso: "2026-06-20", saat: "01:00", grup: "C", ev: "İskoçya", dep: "Fas", yer: "Boston", skor: null },
+    { iso: "2026-06-20", saat: "03:30", grup: "C", ev: "Brezilya", dep: "Haiti", yer: "Philadelphia", skor: null },
+    { iso: "2026-06-20", saat: "06:00", grup: "D", ev: "Türkiye", dep: "Paraguay", yer: "Santa Clara", skor: null },
+    { iso: "2026-06-20", saat: "20:00", grup: "F", ev: "Hollanda", dep: "İsveç", yer: "Houston", skor: null },
+    { iso: "2026-06-20", saat: "23:00", grup: "E", ev: "Almanya", dep: "Fildişi Sahili", yer: "Toronto", skor: null },
+    { iso: "2026-06-21", saat: "03:00", grup: "E", ev: "Ekvador", dep: "Curaçao", yer: "Kansas City", skor: null },
+    { iso: "2026-06-21", saat: "07:00", grup: "F", ev: "Tunus", dep: "Japonya", yer: "Monterrey", skor: null },
+    { iso: "2026-06-21", saat: "19:00", grup: "H", ev: "İspanya", dep: "S. Arabistan", yer: "Atlanta", skor: null },
+    { iso: "2026-06-21", saat: "22:00", grup: "G", ev: "Belçika", dep: "İran", yer: "Los Angeles", skor: null },
+    { iso: "2026-06-22", saat: "01:00", grup: "H", ev: "Uruguay", dep: "Cape Verde", yer: "Miami", skor: null },
+    { iso: "2026-06-22", saat: "04:00", grup: "G", ev: "Yeni Zelanda", dep: "Mısır", yer: "Vancouver", skor: null },
+    { iso: "2026-06-22", saat: "20:00", grup: "J", ev: "Arjantin", dep: "Avusturya", yer: "Arlington", skor: null },
+    { iso: "2026-06-23", saat: "00:00", grup: "I", ev: "Fransa", dep: "Irak", yer: "Philadelphia", skor: null },
+    { iso: "2026-06-23", saat: "03:00", grup: "I", ev: "Norveç", dep: "Senegal", yer: "Toronto", skor: null },
+    { iso: "2026-06-23", saat: "06:00", grup: "J", ev: "Ürdün", dep: "Cezayir", yer: "Santa Clara", skor: null },
+    { iso: "2026-06-23", saat: "20:00", grup: "K", ev: "Portekiz", dep: "Özbekistan", yer: "Houston", skor: null },
+    { iso: "2026-06-23", saat: "23:00", grup: "L", ev: "İngiltere", dep: "Gana", yer: "Boston", skor: null },
+    { iso: "2026-06-24", saat: "02:00", grup: "L", ev: "Panama", dep: "Hırvatistan", yer: "Boston", skor: null },
+    { iso: "2026-06-24", saat: "05:00", grup: "K", ev: "Kolombiya", dep: "DR Kongo", yer: "Guadalajara", skor: null },
+    { iso: "2026-06-24", saat: "22:00", grup: "B", ev: "İsviçre", dep: "Kanada", yer: "Vancouver", skor: null },
+    { iso: "2026-06-24", saat: "22:00", grup: "B", ev: "Bosna Hersek", dep: "Katar", yer: "Seattle", skor: null },
+    { iso: "2026-06-25", saat: "01:00", grup: "C", ev: "Fas", dep: "Haiti", yer: "Atlanta", skor: null },
+    { iso: "2026-06-25", saat: "01:00", grup: "C", ev: "İskoçya", dep: "Brezilya", yer: "Miami", skor: null },
+    { iso: "2026-06-25", saat: "04:00", grup: "A", ev: "Güney Afrika", dep: "Güney Kore", yer: "Monterrey", skor: null },
+    { iso: "2026-06-25", saat: "04:00", grup: "A", ev: "Çekya", dep: "Meksika", yer: "Mexico City", skor: null },
+    { iso: "2026-06-25", saat: "23:00", grup: "E", ev: "Curaçao", dep: "Fildişi Sahili", yer: "Philadelphia", skor: null },
+    { iso: "2026-06-25", saat: "23:00", grup: "E", ev: "Ekvador", dep: "Almanya", yer: "New Jersey", skor: null },
+    { iso: "2026-06-26", saat: "02:00", grup: "F", ev: "Tunus", dep: "Hollanda", yer: "Kansas City", skor: null },
+    { iso: "2026-06-26", saat: "02:00", grup: "F", ev: "Japonya", dep: "İsveç", yer: "Arlington", skor: null },
+    { iso: "2026-06-26", saat: "05:00", grup: "D", ev: "Türkiye", dep: "ABD", yer: "Los Angeles", skor: null },
+    { iso: "2026-06-26", saat: "05:00", grup: "D", ev: "Paraguay", dep: "Avustralya", yer: "Santa Clara", skor: null },
+    { iso: "2026-06-26", saat: "22:00", grup: "I", ev: "Norveç", dep: "Fransa", yer: "Boston", skor: null },
+    { iso: "2026-06-26", saat: "22:00", grup: "I", ev: "Senegal", dep: "Irak", yer: "Toronto", skor: null },
+    { iso: "2026-06-27", saat: "03:00", grup: "H", ev: "Cape Verde", dep: "S. Arabistan", yer: "Houston", skor: null },
+    { iso: "2026-06-27", saat: "03:00", grup: "H", ev: "Uruguay", dep: "İspanya", yer: "Guadalajara", skor: null },
+    { iso: "2026-06-27", saat: "06:00", grup: "G", ev: "Yeni Zelanda", dep: "Belçika", yer: "Vancouver", skor: null },
+    { iso: "2026-06-27", saat: "06:00", grup: "G", ev: "Mısır", dep: "İran", yer: "Seattle", skor: null },
+    { iso: "2026-06-28", saat: "00:00", grup: "L", ev: "Panama", dep: "İngiltere", yer: "New Jersey", skor: null },
+    { iso: "2026-06-28", saat: "00:00", grup: "L", ev: "Hırvatistan", dep: "Gana", yer: "Philadelphia", skor: null },
+    { iso: "2026-06-28", saat: "02:30", grup: "K", ev: "Kolombiya", dep: "Portekiz", yer: "Miami", skor: null },
+    { iso: "2026-06-28", saat: "02:30", grup: "K", ev: "DR Kongo", dep: "Özbekistan", yer: "Atlanta", skor: null },
+    { iso: "2026-06-28", saat: "05:00", grup: "J", ev: "Cezayir", dep: "Avusturya", yer: "Kansas City", skor: null },
+    { iso: "2026-06-28", saat: "05:00", grup: "J", ev: "Ürdün", dep: "Arjantin", yer: "Arlington", skor: null }
   ],
 
   // ---------------- GRUPLAR VE PUAN DURUMU ----------------
-  // o:1/2 ilk iki (Son 32'ye direkt), o:3 en iyi 8 üçüncü ihtimali
   groups: {
     "A": [
       { takim: "Meksika", flag: "🇲🇽", ev: true, o: 1, g: 1, b: 0, m: 0, a: 2, y: 0, p: 3 },
@@ -125,10 +127,10 @@ window.WC_DATA = {
       { takim: "ABD", flag: "🇺🇸", ev: true, o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Paraguay", flag: "🇵🇾", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Avustralya", flag: "🇦🇺", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Türkiye", flag: "🇹🇷", fav: true, o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
+      { takim: "Türkiye", flag: "🇹🇷", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
     ],
     "E": [
-      { takim: "Almanya", flag: "🇩🇪", fav: true, o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "Almanya", flag: "🇩🇪", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Curaçao", flag: "🇨🇼", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Fildişi Sahili", flag: "🇨🇮", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Ekvador", flag: "🇪🇨", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
@@ -146,7 +148,7 @@ window.WC_DATA = {
       { takim: "Yeni Zelanda", flag: "🇳🇿", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
     ],
     "H": [
-      { takim: "İspanya", flag: "🇪🇸", fav: true, o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "İspanya", flag: "🇪🇸", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Cape Verde", flag: "🇨🇻", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "S. Arabistan", flag: "🇸🇦", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Uruguay", flag: "🇺🇾", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
@@ -158,7 +160,7 @@ window.WC_DATA = {
       { takim: "Norveç", flag: "🇳🇴", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
     ],
     "J": [
-      { takim: "Arjantin", flag: "🇦🇷", fav: true, o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "Arjantin", flag: "🇦🇷", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Cezayir", flag: "🇩🇿", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Avusturya", flag: "🇦🇹", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Ürdün", flag: "🇯🇴", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
@@ -170,7 +172,7 @@ window.WC_DATA = {
       { takim: "Kolombiya", flag: "🇨🇴", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
     ],
     "L": [
-      { takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", fav: true, o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Hırvatistan", flag: "🇭🇷", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Gana", flag: "🇬🇭", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Panama", flag: "🇵🇦", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
@@ -178,8 +180,6 @@ window.WC_DATA = {
   },
 
   // ---------------- ELEME AĞACI ----------------
-  // Takımlar belli oldukça "ev"/"dep" alanlarına gerçek isimler yazılır.
-  // Format: A1 = A Grubu birincisi, A2 = ikincisi, 3.(B/E..) = üçüncülerden biri
   bracket: {
     r32: [
       { id: 73, ev: "A 2.si", dep: "B 2.si", tarih: "29 Haz 03:00", yer: "Los Angeles" },
