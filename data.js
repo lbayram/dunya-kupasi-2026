@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "12 Haziran 2026, 20:00 TSİ",
-  headline_en: "Still no new results — Canada host Bosnia and Herzegovina in about 2 hours (22:00 TSİ) in Toronto (Canada's Alphonso Davies ruled out with injury), followed by USA vs Paraguay at 04:00 in Los Angeles. Mexico and South Korea still lead Group A on goal difference after Day 1. Türkiye face Australia on Sunday, June 14 at 07:00 TSİ in Vancouver.",
-  headline: "Yeni sonuç yok — Kanada, ev sahibi olarak yaklaşık 2 saat sonra (TSİ 22:00) Toronto'da Bosna Hersek'i ağırlıyor (Kanada'nın yıldızı Alphonso Davies sakatlık nedeniyle açılışta yok); gece TSİ 04:00'te ABD-Paraguay Los Angeles'ta oynanacak. 1. gün sonrası A Grubu'nda Meksika ve Güney Kore averajla başı çekiyor. Türkiye'nin Avustralya ile ilk maçı 14 Haziran Pazar TSİ 07:00'de Vancouver'da.",
+  lastUpdate: "13 Haziran 2026, 01:00 TSİ",
+  headline_en: "Day 1 wrapped up with wins for Mexico (2-0 over South Africa) and South Korea (2-1 over Czechia), while hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina in Toronto (Lukić 21', Larin 78'). Mexico and South Korea lead Group A on goal difference. The USA open their campaign against Paraguay in Los Angeles at 04:00 TSİ (a few hours from now). Türkiye face Australia on Sunday, June 14 at 07:00 TSİ in Vancouver.",
+  headline: "1. gün Meksika'nın Güney Afrika'yı 2-0, Güney Kore'nin Çekya'yı 2-1 yenmesiyle tamamlandı; ev sahibi Kanada ise Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (Lukić 21', Larin 78'). A Grubu'nda Meksika ve Güney Kore averajla başı çekiyor. ABD-Paraguay maçı Los Angeles'ta TSİ 04:00'te (birkaç saat sonra) başlayacak. Türkiye'nin Avustralya ile ilk maçı 14 Haziran Pazar TSİ 07:00'de Vancouver'da.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -15,14 +15,17 @@ window.WC_DATA = {
     { sira: 1, oyuncu: "Raúl Jiménez", takim: "Meksika", flag: "🇲🇽", gol: 1 },
     { sira: 1, oyuncu: "Ladislav Krejčí", takim: "Çekya", flag: "🇨🇿", gol: 1 },
     { sira: 1, oyuncu: "Hwang In-beom", takim: "Güney Kore", flag: "🇰🇷", gol: 1 },
-    { sira: 1, oyuncu: "Oh Hyeon-gyu", takim: "Güney Kore", flag: "🇰🇷", gol: 1 }
+    { sira: 1, oyuncu: "Oh Hyeon-gyu", takim: "Güney Kore", flag: "🇰🇷", gol: 1 },
+    { sira: 1, oyuncu: "Jovo Lukić", takim: "Bosna Hersek", flag: "🇧🇦", gol: 1 },
+    { sira: 1, oyuncu: "Cyle Larin", takim: "Kanada", flag: "🇨🇦", gol: 1 }
   ],
-  topScorersNote: "2 maç oynandı; 5 farklı oyuncu birer gol attı. Liste her güncellemede yenilenir.",
-  topScorersNote_en: "2 matches played; 5 different players have scored once each. Updated regularly.",
+  topScorersNote: "3 maç oynandı; 7 farklı oyuncu birer gol attı. Liste her güncellemede yenilenir.",
+  topScorersNote_en: "3 matches played; 7 different players have scored once each. Updated regularly.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
     "Türkiye": "2002 dünya üçüncülüğünden bu yana ilk Dünya Kupası. Hazırlık maçlarında Kuzey Makedonya'yı 4-0, Venezuela'yı 2-1 yendi. Kamp: Mesa, Arizona. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
+    "Kanada": "Ev sahibi Kanada, Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (1986 ve 2022'de 6 maçta 6 mağlubiyet vardı).",
     "İspanya": "FIFA sıralamasının 1 numarası, turnuvanın favorisi. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
     "Almanya": "E Grubu'nun açık favorisi. İlk rakibi Curaçao, tarihindeki ilk Dünya Kupası maçına çıkacak.",
     "Arjantin": "Son şampiyon. Messi 5. Dünya Kupası'nda — üst üste ikinci kupa hedefi.",
@@ -33,6 +36,7 @@ window.WC_DATA = {
 
   teamNotesEn: {
     "Türkiye": "First World Cup since finishing 3rd in 2002. Warmed up with wins over North Macedonia (4-0) and Venezuela (2-1). Base camp: Mesa, Arizona. If they top the group: 81 → 94 → 98 → 101 → Final.",
+    "Kanada": "Hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina (they had lost all 6 previous matches in 1986 and 2022).",
     "İspanya": "FIFA's No. 1 and tournament favourite. Due to the draw, they can only meet Argentina in the final.",
     "Almanya": "Clear favourite of Group E. First opponent Curaçao play their first ever World Cup match.",
     "Arjantin": "Defending champions. Messi's 5th World Cup — chasing back-to-back titles.",
@@ -46,7 +50,7 @@ window.WC_DATA = {
   fixtures: [
     { iso: "2026-06-11", saat: "22:00", grup: "A", ev: "Meksika", dep: "Güney Afrika", yer: "Mexico City", skor: "2 - 0", not: "Goller: Quiñones (9'), Jiménez (66'). Maçta 3 kırmızı kart çıktı (G. Afrika'dan Sithole ve Zwane, Meksika'dan Montes) — açılış maçları tarihinde bir ilk." },
     { iso: "2026-06-12", saat: "05:00", grup: "A", ev: "Güney Kore", dep: "Çekya", yer: "Guadalajara", skor: "2 - 1", not: "Goller: Krejčí (59' - Çekya), Hwang In-beom (67'), Oh Hyeon-gyu (80')." },
-    { iso: "2026-06-12", saat: "22:00", grup: "B", ev: "Kanada", dep: "Bosna Hersek", yer: "Toronto", skor: null },
+    { iso: "2026-06-12", saat: "22:00", grup: "B", ev: "Kanada", dep: "Bosna Hersek", yer: "Toronto", skor: "1 - 1", not: "Goller: Lukić (21' - Bosna Hersek), Larin (78' - Kanada). Kanada, Dünya Kupası tarihindeki ilk puanını aldı." },
     { iso: "2026-06-13", saat: "04:00", grup: "D", ev: "ABD", dep: "Paraguay", yer: "Los Angeles", skor: null },
     { iso: "2026-06-13", saat: "22:00", grup: "B", ev: "Katar", dep: "İsviçre", yer: "Santa Clara", skor: null },
     { iso: "2026-06-14", saat: "01:00", grup: "C", ev: "Brezilya", dep: "Fas", yer: "New Jersey", skor: null },
@@ -127,8 +131,8 @@ window.WC_DATA = {
       { takim: "Güney Afrika", flag: "🇿🇦", o: 1, g: 0, b: 0, m: 1, a: 0, y: 2, p: 0 }
     ],
     "B": [
-      { takim: "Kanada", flag: "🇨🇦", ev: true, o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Bosna Hersek", flag: "🇧🇦", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "Kanada", flag: "🇨🇦", ev: true, o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
+      { takim: "Bosna Hersek", flag: "🇧🇦", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
       { takim: "Katar", flag: "🇶🇦", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "İsviçre", flag: "🇨🇭", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
     ],
@@ -246,7 +250,7 @@ window.WC_DATA = {
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
     "The opening match saw 3 red cards — a first in World Cup opening match history.",
-    "Türkiye's 26-man World Cup squad has been confirmed, featuring Arda Güler, Hakan Çalhanoğlu and Kenan Yıldız."
+    "Canada earned their first-ever World Cup point with a 1-1 draw against Bosnia and Herzegovina."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
@@ -254,6 +258,6 @@ window.WC_DATA = {
     "Türkiye, 2002'de aldığı dünya üçüncülüğünden bu yana ilk kez Dünya Kupası'nda.",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
     "Açılış maçında 3 kırmızı kart çıktı — Dünya Kupası açılış maçlarında bir ilk.",
-    "Türkiye'nin 26 kişilik Dünya Kupası kadrosu açıklandı; kadroda Arda Güler, Hakan Çalhanoğlu ve Kenan Yıldız var."
+    "Kanada, Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı."
   ]
 };
