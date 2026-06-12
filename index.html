@@ -185,6 +185,7 @@
     <a href="https://www.espn.com/soccer/scoreboard/_/league/fifa.world">ESPN</a> ·
     <a href="https://www.skysports.com/football/news/11095/13481245/">Sky Sports</a>
     &nbsp;|&nbsp; <span id="footUpdate"></span> &nbsp;|&nbsp; <span id="footAuto"></span>
+    <span id="visitBadge" style="display:none">&nbsp;|&nbsp; 👁 <span id="visitCount"></span></span>
   </footer>
 </div>
 
@@ -602,6 +603,17 @@ $("langSel").onchange = () => {
 };
 
 renderStatic(); renderDynamic();
+
+/* Ziyaretçi rozeti (GoatCounter) — yüklenemezse gizli kalır */
+fetch("https://lbayram-dk2026.goatcounter.com/counter/TOTAL.json")
+  .then(r => r.ok ? r.json() : null)
+  .then(j => {
+    if (j && j.count) {
+      document.getElementById("visitCount").textContent = j.count;
+      document.getElementById("visitBadge").style.display = "";
+    }
+  }).catch(() => {});
 </script>
+<script data-goatcounter="https://lbayram-dk2026.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
