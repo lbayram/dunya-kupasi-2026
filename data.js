@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "12 Haziran 2026, 12:10 TSİ",
-  headline_en: "No new official results yet — Canada vs Bosnia and Herzegovina kicks off at 22:00 TSİ tonight, USA vs Paraguay follows at 04:00. Mexico and South Korea still lead Group A on goal difference after Day 1. Türkiye warmed up for the tournament with wins over North Macedonia (4-0) and Venezuela (2-1), and face Australia on Sunday, June 14 at 07:00.",
-  headline: "Yeni resmi sonuç yok — Kanada-Bosna Hersek bugün TSİ 22:00'de, ABD-Paraguay gece 04:00'te oynanacak. 1. gün sonrası A Grubu'nda Meksika ve Güney Kore averajla başı çekiyor. Türkiye, turnuva öncesi hazırlık maçlarını kazandı (Kuzey Makedonya'ya 4-0, Venezuela'ya 2-1) ve 14 Haziran Pazar TSİ 07:00'de Avustralya karşısında.",
+  lastUpdate: "12 Haziran 2026, 14:10 TSİ",
+  headline_en: "No new official results yet — tonight Canada face Bosnia and Herzegovina at 22:00 TSİ, followed by USA vs Paraguay at 04:00. Mexico and South Korea still lead Group A on goal difference after Day 1. Türkiye's 26-man World Cup squad has been confirmed, featuring Arda Güler, Hakan Çalhanoğlu and Kenan Yıldız, ahead of their opener against Australia on Sunday, June 14 at 07:00 TSİ.",
+  headline: "Yeni resmi sonuç yok — bu akşam TSİ 22:00'de Kanada-Bosna Hersek, gece 04:00'te ABD-Paraguay oynanacak. 1. gün sonrası A Grubu'nda Meksika ve Güney Kore averajla başı çekiyor. Türkiye'nin 26 kişilik Dünya Kupası kadrosu açıklandı (Arda Güler, Hakan Çalhanoğlu, Kenan Yıldız); 14 Haziran Pazar TSİ 07:00'de Avustralya ile ilk maça çıkılacak.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -245,13 +245,15 @@ window.WC_DATA = {
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "The opening match saw 3 red cards — a first in World Cup opening match history."
+    "The opening match saw 3 red cards — a first in World Cup opening match history.",
+    "Türkiye's 26-man World Cup squad has been confirmed, featuring Arda Güler, Hakan Çalhanoğlu and Kenan Yıldız."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
     "Türkiye, 2002'de aldığı dünya üçüncülüğünden bu yana ilk kez Dünya Kupası'nda.",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "Açılış maçında 3 kırmızı kart çıktı — Dünya Kupası açılış maçlarında bir ilk."
+    "Açılış maçında 3 kırmızı kart çıktı — Dünya Kupası açılış maçlarında bir ilk.",
+    "Türkiye'nin 26 kişilik Dünya Kupası kadrosu açıklandı; kadroda Arda Güler, Hakan Çalhanoğlu ve Kenan Yıldız var."
   ]
 };
