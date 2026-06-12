@@ -5,15 +5,18 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "12 Haziran 2026, 06:15 TSİ",
-  headline: "Güney Kore–Çekya Guadalajara'da 0-0 sürüyor; ikinci yarıda Çekya kalecisi Kovar, Hwang In-beom ve Lee Jae-sung'un şutlarını üst üste kurtardı. Akşam 22:00'de Kanada–Bosna Hersek var. Türkiye 14 Haziran Pazar 07:00'de Avustralya karşısında.",
+  lastUpdate: "12 Haziran 2026, 08:15 TSİ",
+  headline: "Güney Kore, Çekya'ya karşı 1-2 geriden gelerek 2-1 kazandı: Krejci 59'da Çekya'yı öne geçirdi, Hwang In-beom (67') ve Oh Hyeon-gyu (80') golleriyle maçı çevirdi. A Grubu'nda Meksika ve Güney Kore 3 puanla başı çekiyor. Bugün 22:00'de Kanada–Bosna Hersek, gece 04:00'te ABD–Paraguay oynanacak. Türkiye 14 Haziran Pazar 07:00'de Avustralya karşısında.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Julián Quiñones", takim: "Meksika", flag: "🇲🇽", gol: 1 },
-    { sira: 1, oyuncu: "Raúl Jiménez", takim: "Meksika", flag: "🇲🇽", gol: 1 }
+    { sira: 1, oyuncu: "Raúl Jiménez", takim: "Meksika", flag: "🇲🇽", gol: 1 },
+    { sira: 1, oyuncu: "Ladislav Krejčí", takim: "Çekya", flag: "🇨🇿", gol: 1 },
+    { sira: 1, oyuncu: "Hwang In-beom", takim: "Güney Kore", flag: "🇰🇷", gol: 1 },
+    { sira: 1, oyuncu: "Oh Hyeon-gyu", takim: "Güney Kore", flag: "🇰🇷", gol: 1 }
   ],
-  topScorersNote: "Turnuva henüz başladı; tek maç oynandı. Liste her güncellemede yenilenir.",
+  topScorersNote: "2 maç oynandı; 5 farklı oyuncu birer gol attı. Liste her güncellemede yenilenir.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -30,7 +33,7 @@ window.WC_DATA = {
   // skor: null = oynanmadı. Oynanınca "2 - 0" formatında yazılır, "not" alanına golcüler eklenebilir.
   fixtures: [
     { iso: "2026-06-11", saat: "22:00", grup: "A", ev: "Meksika", dep: "Güney Afrika", yer: "Mexico City", skor: "2 - 0", not: "Goller: Quiñones (9'), Jiménez (66'). Maçta 3 kırmızı kart çıktı (G. Afrika'dan Sithole ve Zwane, Meksika'dan Montes) — açılış maçları tarihinde bir ilk." },
-    { iso: "2026-06-12", saat: "05:00", grup: "A", ev: "Güney Kore", dep: "Çekya", yer: "Guadalajara", skor: null },
+    { iso: "2026-06-12", saat: "05:00", grup: "A", ev: "Güney Kore", dep: "Çekya", yer: "Guadalajara", skor: "2 - 1", not: "Goller: Krejčí (59' - Çekya), Hwang In-beom (67'), Oh Hyeon-gyu (80')." },
     { iso: "2026-06-12", saat: "22:00", grup: "B", ev: "Kanada", dep: "Bosna Hersek", yer: "Toronto", skor: null },
     { iso: "2026-06-13", saat: "04:00", grup: "D", ev: "ABD", dep: "Paraguay", yer: "Los Angeles", skor: null },
     { iso: "2026-06-13", saat: "22:00", grup: "B", ev: "Katar", dep: "İsviçre", yer: "Santa Clara", skor: null },
@@ -107,8 +110,8 @@ window.WC_DATA = {
   groups: {
     "A": [
       { takim: "Meksika", flag: "🇲🇽", ev: true, o: 1, g: 1, b: 0, m: 0, a: 2, y: 0, p: 3 },
-      { takim: "Güney Kore", flag: "🇰🇷", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Çekya", flag: "🇨🇿", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "Güney Kore", flag: "🇰🇷", o: 1, g: 1, b: 0, m: 0, a: 2, y: 1, p: 3 },
+      { takim: "Çekya", flag: "🇨🇿", o: 1, g: 0, b: 0, m: 1, a: 1, y: 2, p: 0 },
       { takim: "Güney Afrika", flag: "🇿🇦", o: 1, g: 0, b: 0, m: 1, a: 0, y: 2, p: 0 }
     ],
     "B": [
