@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "13 Haziran 2026, 01:00 TSİ",
-  headline_en: "Day 1 wrapped up with wins for Mexico (2-0 over South Africa) and South Korea (2-1 over Czechia), while hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina in Toronto (Lukić 21', Larin 78'). Mexico and South Korea lead Group A on goal difference. The USA open their campaign against Paraguay in Los Angeles at 04:00 TSİ (a few hours from now). Türkiye face Australia on Sunday, June 14 at 07:00 TSİ in Vancouver.",
-  headline: "1. gün Meksika'nın Güney Afrika'yı 2-0, Güney Kore'nin Çekya'yı 2-1 yenmesiyle tamamlandı; ev sahibi Kanada ise Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (Lukić 21', Larin 78'). A Grubu'nda Meksika ve Güney Kore averajla başı çekiyor. ABD-Paraguay maçı Los Angeles'ta TSİ 04:00'te (birkaç saat sonra) başlayacak. Türkiye'nin Avustralya ile ilk maçı 14 Haziran Pazar TSİ 07:00'de Vancouver'da.",
+  lastUpdate: "13 Haziran 2026, 02:00 TSİ",
+  headline_en: "Day 1 wrapped up with wins for Mexico (2-0 over South Africa) and South Korea (2-1 over Czechia), while hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina in Toronto (Lukić 21', Larin 78'). Mexico and South Korea lead Group A on goal difference. The USA open their campaign against Paraguay in Los Angeles at 04:00 TSİ (about 2 hours from now). Türkiye face Australia on Sunday, June 14 at 07:00 TSİ in Vancouver — bookmakers favour Türkiye, with Arda Güler and Kenan Yıldız leading the attack.",
+  headline: "1. gün Meksika'nın Güney Afrika'yı 2-0, Güney Kore'nin Çekya'yı 2-1 yenmesiyle tamamlandı; ev sahibi Kanada ise Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (Lukić 21', Larin 78'). A Grubu'nda Meksika ve Güney Kore averajla başı çekiyor. ABD-Paraguay maçı Los Angeles'ta TSİ 04:00'te (yaklaşık 2 saat sonra) başlayacak. Türkiye'nin Avustralya ile ilk maçı 14 Haziran Pazar TSİ 07:00'de Vancouver'da — bahis siteleri Arda Güler ve Kenan Yıldız'ın forma giyeceği Türkiye'yi favori gösteriyor.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -24,7 +24,7 @@ window.WC_DATA = {
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
-    "Türkiye": "2002 dünya üçüncülüğünden bu yana ilk Dünya Kupası. Hazırlık maçlarında Kuzey Makedonya'yı 4-0, Venezuela'yı 2-1 yendi. Kamp: Mesa, Arizona. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
+    "Türkiye": "2002 dünya üçüncülüğünden bu yana ilk Dünya Kupası. Hazırlık maçlarında Kuzey Makedonya'yı 4-0, Venezuela'yı 2-1 yendi. Kamp: Mesa, Arizona. Yarın (14 Haziran) Avustralya ile ilk maç — Arda Güler ve Kenan Yıldız orta sahada öne çıkıyor, bahis siteleri Türkiye'yi favori görüyor. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
     "Kanada": "Ev sahibi Kanada, Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (1986 ve 2022'de 6 maçta 6 mağlubiyet vardı).",
     "İspanya": "FIFA sıralamasının 1 numarası, turnuvanın favorisi. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
     "Almanya": "E Grubu'nun açık favorisi. İlk rakibi Curaçao, tarihindeki ilk Dünya Kupası maçına çıkacak.",
@@ -35,7 +35,7 @@ window.WC_DATA = {
   },
 
   teamNotesEn: {
-    "Türkiye": "First World Cup since finishing 3rd in 2002. Warmed up with wins over North Macedonia (4-0) and Venezuela (2-1). Base camp: Mesa, Arizona. If they top the group: 81 → 94 → 98 → 101 → Final.",
+    "Türkiye": "First World Cup since finishing 3rd in 2002. Warmed up with wins over North Macedonia (4-0) and Venezuela (2-1). Base camp: Mesa, Arizona. Tomorrow (June 14) they open against Australia — Arda Güler and Kenan Yıldız lead the attacking midfield, with bookmakers favouring Türkiye. If they top the group: 81 → 94 → 98 → 101 → Final.",
     "Kanada": "Hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina (they had lost all 6 previous matches in 1986 and 2022).",
     "İspanya": "FIFA's No. 1 and tournament favourite. Due to the draw, they can only meet Argentina in the final.",
     "Almanya": "Clear favourite of Group E. First opponent Curaçao play their first ever World Cup match.",
@@ -249,7 +249,7 @@ window.WC_DATA = {
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "The opening match saw 3 red cards — a first in World Cup opening match history.",
+    "Türkiye's World Cup opener is tomorrow (June 14) vs Australia in Vancouver; bookmakers favour Türkiye, with Arda Güler and Kenan Yıldız leading the attack.",
     "Canada earned their first-ever World Cup point with a 1-1 draw against Bosnia and Herzegovina."
   ],
   facts: [
@@ -257,7 +257,7 @@ window.WC_DATA = {
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
     "Türkiye, 2002'de aldığı dünya üçüncülüğünden bu yana ilk kez Dünya Kupası'nda.",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "Açılış maçında 3 kırmızı kart çıktı — Dünya Kupası açılış maçlarında bir ilk.",
+    "Türkiye'nin ilk maçı yarın (14 Haziran) Vancouver'da Avustralya ile; bahis siteleri Arda Güler ve Kenan Yıldız'ın forma giyeceği Türkiye'yi favori gösteriyor.",
     "Kanada, Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı."
   ]
 };
