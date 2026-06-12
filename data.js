@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "12 Haziran 2026, 10:10 TSİ",
-  headline_en: "South Korea came from behind to beat Czechia 2-1: Krejčí scored for Czechia on 59', then Hwang In-beom (67') and Oh Hyeon-gyu (80') turned it around. Mexico and South Korea lead Group A with 3 points each. Today: Canada–Bosnia at 22:00, USA–Paraguay at 04:00 (GMT+3). Türkiye face Australia on Sunday, June 14 at 07:00.",
-  headline: "Güney Kore, Çekya'ya karşı 1-2 geriden gelerek 2-1 kazandı: Krejci 59'da Çekya'yı öne geçirdi, Hwang In-beom (67') ve Oh Hyeon-gyu (80') golleriyle maçı çevirdi. A Grubu'nda Meksika ve Güney Kore 3 puanla başı çekiyor. Bugün 22:00'de Kanada–Bosna Hersek, gece 04:00'te ABD–Paraguay oynanacak. Türkiye 14 Haziran Pazar 07:00'de Avustralya karşısında.",
+  lastUpdate: "12 Haziran 2026, 12:10 TSİ",
+  headline_en: "No new official results yet — Canada vs Bosnia and Herzegovina kicks off at 22:00 TSİ tonight, USA vs Paraguay follows at 04:00. Mexico and South Korea still lead Group A on goal difference after Day 1. Türkiye warmed up for the tournament with wins over North Macedonia (4-0) and Venezuela (2-1), and face Australia on Sunday, June 14 at 07:00.",
+  headline: "Yeni resmi sonuç yok — Kanada-Bosna Hersek bugün TSİ 22:00'de, ABD-Paraguay gece 04:00'te oynanacak. 1. gün sonrası A Grubu'nda Meksika ve Güney Kore averajla başı çekiyor. Türkiye, turnuva öncesi hazırlık maçlarını kazandı (Kuzey Makedonya'ya 4-0, Venezuela'ya 2-1) ve 14 Haziran Pazar TSİ 07:00'de Avustralya karşısında.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -22,7 +22,7 @@ window.WC_DATA = {
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
-    "Türkiye": "2002 dünya üçüncülüğünden bu yana ilk Dünya Kupası. Kamp: Mesa, Arizona. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
+    "Türkiye": "2002 dünya üçüncülüğünden bu yana ilk Dünya Kupası. Hazırlık maçlarında Kuzey Makedonya'yı 4-0, Venezuela'yı 2-1 yendi. Kamp: Mesa, Arizona. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
     "İspanya": "FIFA sıralamasının 1 numarası, turnuvanın favorisi. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
     "Almanya": "E Grubu'nun açık favorisi. İlk rakibi Curaçao, tarihindeki ilk Dünya Kupası maçına çıkacak.",
     "Arjantin": "Son şampiyon. Messi 5. Dünya Kupası'nda — üst üste ikinci kupa hedefi.",
@@ -32,7 +32,7 @@ window.WC_DATA = {
   },
 
   teamNotesEn: {
-    "Türkiye": "First World Cup since finishing 3rd in 2002. Base camp: Mesa, Arizona. If they top the group: 81 → 94 → 98 → 101 → Final.",
+    "Türkiye": "First World Cup since finishing 3rd in 2002. Warmed up with wins over North Macedonia (4-0) and Venezuela (2-1). Base camp: Mesa, Arizona. If they top the group: 81 → 94 → 98 → 101 → Final.",
     "İspanya": "FIFA's No. 1 and tournament favourite. Due to the draw, they can only meet Argentina in the final.",
     "Almanya": "Clear favourite of Group E. First opponent Curaçao play their first ever World Cup match.",
     "Arjantin": "Defending champions. Messi's 5th World Cup — chasing back-to-back titles.",
