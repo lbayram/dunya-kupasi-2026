@@ -5,7 +5,7 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "12 Haziran 2026, 08:15 TSİ",
+  lastUpdate: "12 Haziran 2026, 10:10 TSİ",
   headline: "Güney Kore, Çekya'ya karşı 1-2 geriden gelerek 2-1 kazandı: Krejci 59'da Çekya'yı öne geçirdi, Hwang In-beom (67') ve Oh Hyeon-gyu (80') golleriyle maçı çevirdi. A Grubu'nda Meksika ve Güney Kore 3 puanla başı çekiyor. Bugün 22:00'de Kanada–Bosna Hersek, gece 04:00'te ABD–Paraguay oynanacak. Türkiye 14 Haziran Pazar 07:00'de Avustralya karşısında.",
 
   // ---------------- GOL KRALLIĞI ----------------
