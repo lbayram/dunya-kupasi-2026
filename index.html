@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dünya Kupası 2026 — Canlı Dashboard</title>
+<title>FIFA World Cup 2026 — Dashboard</title>
 <style>
   :root{
     --bg:#0d1321; --panel:#161d2f; --panel2:#1c2540; --line:#2a3554;
@@ -24,6 +24,9 @@
     padding:4px 12px;border-radius:20px;font-size:12.5px}
   .headline{margin-top:14px;background:rgba(0,0,0,.28);border-left:4px solid var(--accent);
     padding:10px 14px;border-radius:8px;font-size:14.5px}
+  .langsel{position:absolute;top:14px;right:16px;z-index:2}
+  .langsel select{background:rgba(0,0,0,.35);color:var(--text);border:1px solid rgba(255,255,255,.25);
+    border-radius:8px;padding:5px 8px;font-size:13px;cursor:pointer}
 
   section{margin-bottom:22px}
   h2{font-size:17px;margin-bottom:10px;display:flex;align-items:center;gap:8px;
@@ -31,12 +34,11 @@
   .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
   .muted{color:var(--muted);font-size:12.5px}
 
-  /* Favori seçimi */
   .picker{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:var(--panel);
     border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:12px}
   .picker label{font-size:13px;color:var(--muted)}
   .picker select{background:var(--panel2);color:var(--text);border:1px solid var(--line);
-    border-radius:8px;padding:6px 8px;font-size:13px;max-width:170px}
+    border-radius:8px;padding:6px 8px;font-size:13px;max-width:180px}
   .picker button{background:transparent;color:var(--muted);border:1px solid var(--line);
     border-radius:8px;padding:6px 10px;font-size:12px;cursor:pointer}
   .picker button:hover{color:var(--text);border-color:var(--muted)}
@@ -116,42 +118,42 @@
 <div class="wrap">
 
   <header>
-    <h1>🏆 FIFA Dünya Kupası 2026</h1>
-    <div class="sub">ABD · Kanada · Meksika &nbsp;|&nbsp; 11 Haziran – 19 Temmuz &nbsp;|&nbsp; 48 takım · 104 maç</div>
+    <div class="langsel"><select id="langSel"></select></div>
+    <h1>🏆 FIFA World Cup 2026</h1>
+    <div class="sub" id="hSub"></div>
     <div class="badges">
       <span class="badge" id="bDay"></span>
       <span class="badge" id="bUpdate"></span>
-      <span class="badge">⏰ Tüm saatler Türkiye saati (TSİ)</span>
+      <span class="badge" id="bTz"></span>
     </div>
     <div class="headline" id="headline"></div>
   </header>
 
-  <!-- FAVORİ TAKIMLAR -->
   <section>
-    <h2>⭐ Favori Takımlarım</h2>
+    <h2 id="hFav"></h2>
     <div class="picker">
-      <label>🇹🇷 Türkiye + seçtiklerin:</label>
+      <label id="pickLabel"></label>
       <select id="sel0"></select><select id="sel1"></select>
       <select id="sel2"></select><select id="sel3"></select>
-      <button id="clearBtn" title="Tüm seçimleri kaldır">Temizle</button>
-      <span class="muted">Seçimin bu tarayıcıda hatırlanır.</span>
+      <button id="clearBtn"></button>
+      <span class="muted" id="pickNote"></span>
     </div>
     <div class="favgrid" id="favgrid"></div>
   </section>
 
   <div class="twocol">
     <section>
-      <h2>📅 Bugünün Maçları <span class="muted" id="todayLabel"></span></h2>
+      <h2><span id="hToday"></span> <span class="muted" id="todayLabel"></span></h2>
       <div class="card" id="todayBox"></div>
     </section>
 
     <section>
-      <h2>🥅 Son Sonuçlar</h2>
+      <h2 id="hResults"></h2>
       <div class="card" id="resultsBox"></div>
-      <h2 style="margin-top:16px">👑 Gol Krallığı</h2>
+      <h2 style="margin-top:16px" id="hScorers"></h2>
       <div class="card">
         <table class="scorers" id="scorersTbl">
-          <thead><tr><th>#</th><th>Oyuncu</th><th>Takım</th><th style="text-align:center">Gol</th></tr></thead>
+          <thead><tr><th>#</th><th id="colP"></th><th id="colT"></th><th style="text-align:center" id="colG"></th></tr></thead>
           <tbody></tbody>
         </table>
         <div class="muted" id="scorersNote" style="margin-top:6px"></div>
@@ -160,217 +162,446 @@
   </div>
 
   <section>
-    <h2>📊 Gruplar ve Puan Durumu</h2>
+    <h2 id="hGroups"></h2>
     <div class="groups" id="groupsBox"></div>
-    <div class="legend">
-      <span class="dotg">▌</span> İlk 2: Son 32'ye direkt &nbsp;&nbsp;
-      <span class="dota">▌</span> 3.lük: en iyi 8 üçüncü de turu geçer &nbsp;&nbsp;
-      🔶 Turuncu satır: favori takımların
-    </div>
+    <div class="legend" id="legendBox"></div>
   </section>
 
   <section>
-    <h2>🌳 Final Yolu — Eleme Ağacı</h2>
+    <h2 id="hBracket"></h2>
     <div class="bracketwrap card">
       <div class="bracket" id="bracketBox"></div>
     </div>
     <div class="turpath" id="turPath"></div>
   </section>
 
-  <section>
-    <h2>💡 Bunları Biliyor muydunuz?</h2>
+  <section id="factsSection">
+    <h2 id="hFacts"></h2>
     <div class="card"><ul class="facts" id="factsBox"></ul></div>
   </section>
 
   <footer>
-    Kaynaklar: <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026">FIFA.com</a> ·
+    <span id="footSrc"></span>: <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026">FIFA.com</a> ·
     <a href="https://www.espn.com/soccer/scoreboard/_/league/fifa.world">ESPN</a> ·
     <a href="https://www.skysports.com/football/news/11095/13481245/">Sky Sports</a>
-    &nbsp;|&nbsp; <span id="footUpdate"></span> &nbsp;|&nbsp; 2 saatte bir otomatik güncellenir.
+    &nbsp;|&nbsp; <span id="footUpdate"></span> &nbsp;|&nbsp; <span id="footAuto"></span>
   </footer>
 </div>
 
-<script>
-/* Önbellek (cache) atlatma: data.js her açılışta benzersiz adresle taze indirilir. */
-document.write('<script src="data.js?v=' + Date.now() + '"><\/script>');
-</script>
+<script src="data.js"></script>
 <script>
 const D = window.WC_DATA;
 const $ = id => document.getElementById(id);
 
-/* ---------- Takım kayıtları (gruplardan türetilir) ---------- */
-const TEAMS = {};            // ad -> {flag, group}
+/* ================= ÇEVİRİ SÖZLÜKLERİ ================= */
+const LANGS = {
+  tr: { flag:"🇹🇷", name:"Türkçe", locale:"tr-TR",
+    sub:"ABD · Kanada · Meksika | 11 Haziran – 19 Temmuz | 48 takım · 104 maç",
+    day:n=>"📆 Turnuvanın "+n+". günü", upd:"🔄 Son güncelleme: ", tz:"⏰ Tüm saatler Türkiye saati (GMT+3)",
+    fav:"⭐ Favori Takımlarım", pick:"🇹🇷 Türkiye + seçtiklerin:", pickPh:"— takım seç —",
+    clear:"Temizle", pickNote:"Seçimin bu tarayıcıda hatırlanır.",
+    hint:n=>"⚙ Yukarıdaki kutulardan<br>en fazla "+n+" takım daha ekleyebilirsin",
+    opp:"Rakipler: ", next:"Sıradaki maç: ", noNext:"Planlanmış maçı yok", notPlayed:"Henüz maça çıkmadı",
+    status:(g,pos,me,gd)=>g+" Grubu'nda "+pos+". sırada — "+me.p+" puan ("+me.g+"G "+me.b+"B "+me.m+"M, averaj "+gd+")",
+    away:" (D)", today:"📅 Bugünün Maçları", tonight:"🌙 Yarın sabaha karşı:", noToday:"Bugün maç yok.",
+    results:"🥅 Son Sonuçlar", noResults:"Henüz oynanmış maç yok.", favMatch:"⭐ Favori takım maçı",
+    scorers:"👑 Gol Krallığı", colP:"Oyuncu", colT:"Takım", colG:"Gol",
+    groups:"📊 Gruplar ve Puan Durumu", grpWord:g=>g+" Grubu", host:" (ev)", favTag:"⭐ favori takım",
+    legend:'<span class="dotg">▌</span> İlk 2: Son 32\'ye direkt &nbsp;&nbsp; <span class="dota">▌</span> 3.lük: en iyi 8 üçüncü de turu geçer &nbsp;&nbsp; 🔶 Turuncu satır: favori takımların',
+    cols:["Takım","O","G","B","M","A","Y","Av","P"],
+    bracket:"🌳 Final Yolu — Eleme Ağacı",
+    rounds:["SON 32 (28 Haz – 4 Tem)","SON 16 (4 – 8 Tem)","ÇEYREK FİNAL (9 – 12 Tem)","YARI FİNAL (14 – 15 Tem)","FİNAL 🏆"],
+    third:"3.lük maçı: 18 Tem, Miami", match:"Maç ", turPath:"🇹🇷 <b>Türkiye'nin olası yolu:</b> ",
+    facts:"💡 Bunları Biliyor muydunuz?", src:"Kaynaklar", auto:"2 saatte bir otomatik güncellenir.",
+    g1:g=>g+" 1.si", g2:g=>g+" 2.si", win:m=>"M"+m+" galibi", thd:l=>"3. ("+l+")",
+    goals:"Goller:", months:{} },
+  en: { flag:"🇬🇧", name:"English", locale:"en-GB",
+    sub:"USA · Canada · Mexico | June 11 – July 19 | 48 teams · 104 matches",
+    day:n=>"📆 Tournament day "+n, upd:"🔄 Last update: ", tz:"⏰ All times GMT+3 (Türkiye time)",
+    fav:"⭐ My Favourite Teams", pick:"🇹🇷 Türkiye + your picks:", pickPh:"— pick a team —",
+    clear:"Clear", pickNote:"Your picks are remembered in this browser.",
+    hint:n=>"⚙ You can add up to "+n+"<br>more teams from the boxes above",
+    opp:"Rivals: ", next:"Next match: ", noNext:"No match scheduled", notPlayed:"Not played yet",
+    status:(g,pos,me,gd)=>"Group "+g+": position "+pos+" — "+me.p+" pts ("+me.g+"W "+me.b+"D "+me.m+"L, GD "+gd+")",
+    away:" (A)", today:"📅 Today's Matches", tonight:"🌙 Early tomorrow morning:", noToday:"No matches today.",
+    results:"🥅 Latest Results", noResults:"No matches played yet.", favMatch:"⭐ Favourite team match",
+    scorers:"👑 Top Scorers", colP:"Player", colT:"Team", colG:"Goals",
+    groups:"📊 Groups & Standings", grpWord:g=>"Group "+g, host:" (host)", favTag:"⭐ favourite team",
+    legend:'<span class="dotg">▌</span> Top 2: straight to Round of 32 &nbsp;&nbsp; <span class="dota">▌</span> 3rd place: best 8 thirds also advance &nbsp;&nbsp; 🔶 Orange row: your favourites',
+    cols:["Team","P","W","D","L","GF","GA","GD","Pts"],
+    bracket:"🌳 Road to the Final — Knockout Bracket",
+    rounds:["ROUND OF 32 (Jun 28 – Jul 4)","ROUND OF 16 (Jul 4 – 8)","QUARTER-FINALS (Jul 9 – 12)","SEMI-FINALS (Jul 14 – 15)","FINAL 🏆"],
+    third:"3rd place match: Jul 18, Miami", match:"Match ", turPath:"🇹🇷 <b>Türkiye's possible path:</b> ",
+    facts:"💡 Did You Know?", src:"Sources", auto:"Auto-updates every 2 hours.",
+    g1:g=>"Group "+g+" winner", g2:g=>"Group "+g+" runner-up", win:m=>"Winner M"+m, thd:l=>"3rd ("+l+")",
+    goals:"Goals:", months:{"Haziran":"June","Temmuz":"July","Haz":"Jun","Tem":"Jul","Pazar":"Sunday","TSİ":"GMT+3"} },
+  fr: { flag:"🇫🇷", name:"Français", locale:"fr-FR",
+    sub:"USA · Canada · Mexique | 11 juin – 19 juillet | 48 équipes · 104 matchs",
+    day:n=>"📆 Jour "+n+" du tournoi", upd:"🔄 Dernière mise à jour : ", tz:"⏰ Toutes les heures en GMT+3 (heure turque)",
+    fav:"⭐ Mes Équipes Favorites", pick:"🇹🇷 Türkiye + vos choix :", pickPh:"— choisir une équipe —",
+    clear:"Effacer", pickNote:"Vos choix sont mémorisés dans ce navigateur.",
+    hint:n=>"⚙ Vous pouvez ajouter jusqu'à "+n+"<br>équipes via les listes ci-dessus",
+    opp:"Adversaires : ", next:"Prochain match : ", noNext:"Aucun match prévu", notPlayed:"Pas encore joué",
+    status:(g,pos,me,gd)=>"Groupe "+g+" : "+pos+"e — "+me.p+" pts ("+me.g+"V "+me.b+"N "+me.m+"D, diff. "+gd+")",
+    away:" (E)", today:"📅 Matchs du Jour", tonight:"🌙 Demain au petit matin :", noToday:"Pas de match aujourd'hui.",
+    results:"🥅 Derniers Résultats", noResults:"Aucun match joué pour l'instant.", favMatch:"⭐ Match d'une équipe favorite",
+    scorers:"👑 Meilleurs Buteurs", colP:"Joueur", colT:"Équipe", colG:"Buts",
+    groups:"📊 Groupes et Classements", grpWord:g=>"Groupe "+g, host:" (hôte)", favTag:"⭐ équipe favorite",
+    legend:'<span class="dotg">▌</span> Top 2 : qualifiés directs pour les 32es &nbsp;&nbsp; <span class="dota">▌</span> 3e place : les 8 meilleurs troisièmes passent aussi &nbsp;&nbsp; 🔶 Ligne orange : vos favoris',
+    cols:["Équipe","J","V","N","D","BP","BC","Diff","Pts"],
+    bracket:"🌳 Route vers la Finale — Tableau Final",
+    rounds:["32es DE FINALE (28 juin – 4 juil)","8es DE FINALE (4 – 8 juil)","QUARTS (9 – 12 juil)","DEMI-FINALES (14 – 15 juil)","FINALE 🏆"],
+    third:"Match pour la 3e place : 18 juil, Miami", match:"Match ", turPath:"🇹🇷 <b>Parcours possible de la Türkiye :</b> ",
+    facts:"💡 Le Saviez-Vous ?", src:"Sources", auto:"Mise à jour automatique toutes les 2 heures.",
+    g1:g=>"1er groupe "+g, g2:g=>"2e groupe "+g, win:m=>"Vainqueur M"+m, thd:l=>"3e ("+l+")",
+    goals:"Buts :", months:{"Haziran":"juin","Temmuz":"juillet","Haz":"juin","Tem":"juil","Pazar":"dimanche","TSİ":"GMT+3"} },
+  es: { flag:"🇪🇸", name:"Español", locale:"es-ES",
+    sub:"EE. UU. · Canadá · México | 11 junio – 19 julio | 48 equipos · 104 partidos",
+    day:n=>"📆 Día "+n+" del torneo", upd:"🔄 Última actualización: ", tz:"⏰ Todas las horas en GMT+3 (hora turca)",
+    fav:"⭐ Mis Equipos Favoritos", pick:"🇹🇷 Türkiye + tus elecciones:", pickPh:"— elegir equipo —",
+    clear:"Borrar", pickNote:"Tus elecciones se recuerdan en este navegador.",
+    hint:n=>"⚙ Puedes añadir hasta "+n+"<br>equipos más en las listas de arriba",
+    opp:"Rivales: ", next:"Próximo partido: ", noNext:"Sin partido programado", notPlayed:"Aún no ha jugado",
+    status:(g,pos,me,gd)=>"Grupo "+g+": "+pos+".º — "+me.p+" pts ("+me.g+"G "+me.b+"E "+me.m+"P, dif. "+gd+")",
+    away:" (V)", today:"📅 Partidos de Hoy", tonight:"🌙 Mañana de madrugada:", noToday:"Hoy no hay partidos.",
+    results:"🥅 Últimos Resultados", noResults:"Aún no se han jugado partidos.", favMatch:"⭐ Partido de equipo favorito",
+    scorers:"👑 Máximos Goleadores", colP:"Jugador", colT:"Equipo", colG:"Goles",
+    groups:"📊 Grupos y Clasificación", grpWord:g=>"Grupo "+g, host:" (anfitrión)", favTag:"⭐ equipo favorito",
+    legend:'<span class="dotg">▌</span> Top 2: directos a dieciseisavos &nbsp;&nbsp; <span class="dota">▌</span> 3.º: los 8 mejores terceros también avanzan &nbsp;&nbsp; 🔶 Fila naranja: tus favoritos',
+    cols:["Equipo","PJ","G","E","P","GF","GC","Dif","Pts"],
+    bracket:"🌳 Camino a la Final — Cuadro Eliminatorio",
+    rounds:["DIECISEISAVOS (28 jun – 4 jul)","OCTAVOS (4 – 8 jul)","CUARTOS (9 – 12 jul)","SEMIFINALES (14 – 15 jul)","FINAL 🏆"],
+    third:"Tercer puesto: 18 jul, Miami", match:"Partido ", turPath:"🇹🇷 <b>Posible camino de Türkiye:</b> ",
+    facts:"💡 ¿Sabías Que...?", src:"Fuentes", auto:"Se actualiza automáticamente cada 2 horas.",
+    g1:g=>"1.º grupo "+g, g2:g=>"2.º grupo "+g, win:m=>"Ganador M"+m, thd:l=>"3.º ("+l+")",
+    goals:"Goles:", months:{"Haziran":"junio","Temmuz":"julio","Haz":"jun","Tem":"jul","Pazar":"domingo","TSİ":"GMT+3"} },
+  de: { flag:"🇩🇪", name:"Deutsch", locale:"de-DE",
+    sub:"USA · Kanada · Mexiko | 11. Juni – 19. Juli | 48 Teams · 104 Spiele",
+    day:n=>"📆 Turniertag "+n, upd:"🔄 Letzte Aktualisierung: ", tz:"⏰ Alle Zeiten GMT+3 (türkische Zeit)",
+    fav:"⭐ Meine Lieblingsteams", pick:"🇹🇷 Türkiye + deine Auswahl:", pickPh:"— Team wählen —",
+    clear:"Löschen", pickNote:"Deine Auswahl wird in diesem Browser gespeichert.",
+    hint:n=>"⚙ Du kannst oben noch bis zu "+n+"<br>weitere Teams hinzufügen",
+    opp:"Gegner: ", next:"Nächstes Spiel: ", noNext:"Kein Spiel geplant", notPlayed:"Noch nicht gespielt",
+    status:(g,pos,me,gd)=>"Gruppe "+g+": Platz "+pos+" — "+me.p+" Pkt. ("+me.g+"S "+me.b+"U "+me.m+"N, TD "+gd+")",
+    away:" (A)", today:"📅 Heutige Spiele", tonight:"🌙 Morgen früh:", noToday:"Heute keine Spiele.",
+    results:"🥅 Letzte Ergebnisse", noResults:"Noch keine Spiele gespielt.", favMatch:"⭐ Spiel eines Lieblingsteams",
+    scorers:"👑 Torschützenliste", colP:"Spieler", colT:"Team", colG:"Tore",
+    groups:"📊 Gruppen & Tabellen", grpWord:g=>"Gruppe "+g, host:" (Gastgeber)", favTag:"⭐ Lieblingsteam",
+    legend:'<span class="dotg">▌</span> Top 2: direkt in die Runde der 32 &nbsp;&nbsp; <span class="dota">▌</span> Platz 3: die 8 besten Dritten kommen ebenfalls weiter &nbsp;&nbsp; 🔶 Orange Zeile: deine Favoriten',
+    cols:["Team","Sp","S","U","N","T","GT","TD","Pkt"],
+    bracket:"🌳 Weg ins Finale — K.-o.-Baum",
+    rounds:["RUNDE DER 32 (28. Jun – 4. Jul)","ACHTELFINALE (4. – 8. Jul)","VIERTELFINALE (9. – 12. Jul)","HALBFINALE (14. – 15. Jul)","FINALE 🏆"],
+    third:"Spiel um Platz 3: 18. Jul, Miami", match:"Spiel ", turPath:"🇹🇷 <b>Möglicher Weg der Türkiye:</b> ",
+    facts:"💡 Schon Gewusst?", src:"Quellen", auto:"Aktualisiert sich alle 2 Stunden automatisch.",
+    g1:g=>"Sieger Gruppe "+g, g2:g=>"Zweiter Gruppe "+g, win:m=>"Sieger M"+m, thd:l=>"Dritter ("+l+")",
+    goals:"Tore:", months:{"Haziran":"Juni","Temmuz":"Juli","Haz":"Jun","Tem":"Jul","Pazar":"Sonntag","TSİ":"GMT+3"} },
+  ja: { flag:"🇯🇵", name:"日本語", locale:"ja-JP",
+    sub:"アメリカ · カナダ · メキシコ | 6月11日〜7月19日 | 48チーム · 104試合",
+    day:n=>"📆 大会"+n+"日目", upd:"🔄 最終更新: ", tz:"⏰ 時刻はすべてGMT+3（トルコ時間）",
+    fav:"⭐ お気に入りチーム", pick:"🇹🇷 トルコ + あなたの選択:", pickPh:"— チームを選ぶ —",
+    clear:"クリア", pickNote:"選択はこのブラウザに保存されます。",
+    hint:n=>"⚙ 上のボックスからあと"+n+"チーム<br>追加できます",
+    opp:"対戦相手: ", next:"次の試合: ", noNext:"予定された試合なし", notPlayed:"まだ試合なし",
+    status:(g,pos,me,gd)=>"グループ"+g+" "+pos+"位 — 勝点"+me.p+"（"+me.g+"勝"+me.b+"分"+me.m+"敗、得失差"+gd+"）",
+    away:"（A）", today:"📅 今日の試合", tonight:"🌙 明日早朝:", noToday:"今日は試合がありません。",
+    results:"🥅 最新結果", noResults:"まだ試合が行われていません。", favMatch:"⭐ お気に入りチームの試合",
+    scorers:"👑 得点ランキング", colP:"選手", colT:"チーム", colG:"得点",
+    groups:"📊 グループ順位表", grpWord:g=>"グループ"+g, host:"（開催国）", favTag:"⭐ お気に入り",
+    legend:'<span class="dotg">▌</span> 上位2チーム: 32強へ直接進出 &nbsp;&nbsp; <span class="dota">▌</span> 3位: 上位8つの3位チームも進出 &nbsp;&nbsp; 🔶 オレンジ行: お気に入りチーム',
+    cols:["チーム","試","勝","分","敗","得","失","差","点"],
+    bracket:"🌳 決勝への道 — トーナメント表",
+    rounds:["32強 (6/28–7/4)","16強 (7/4–8)","準々決勝 (7/9–12)","準決勝 (7/14–15)","決勝 🏆"],
+    third:"3位決定戦: 7/18 マイアミ", match:"試合", turPath:"🇹🇷 <b>トルコの想定ルート:</b> ",
+    facts:"💡 豆知識", src:"出典", auto:"2時間ごとに自動更新。",
+    g1:g=>"グループ"+g+"1位", g2:g=>"グループ"+g+"2位", win:m=>"M"+m+"の勝者", thd:l=>"3位 ("+l+")",
+    goals:"得点:", months:{"Haziran":"June","Temmuz":"July","Haz":"Jun","Tem":"Jul","Pazar":"Sun","TSİ":"GMT+3"} }
+};
+
+/* Takım adları (TR anahtar -> diğer diller) */
+const TEAM_I18N = {
+  "Meksika":{en:"Mexico",fr:"Mexique",es:"México",de:"Mexiko",ja:"メキシコ"},
+  "Güney Afrika":{en:"South Africa",fr:"Afrique du Sud",es:"Sudáfrica",de:"Südafrika",ja:"南アフリカ"},
+  "Güney Kore":{en:"South Korea",fr:"Corée du Sud",es:"Corea del Sur",de:"Südkorea",ja:"韓国"},
+  "Çekya":{en:"Czechia",fr:"Tchéquie",es:"Chequia",de:"Tschechien",ja:"チェコ"},
+  "Kanada":{en:"Canada",fr:"Canada",es:"Canadá",de:"Kanada",ja:"カナダ"},
+  "Bosna Hersek":{en:"Bosnia-Herzegovina",fr:"Bosnie-Herzégovine",es:"Bosnia y Herzegovina",de:"Bosnien-Herzegowina",ja:"ボスニア・ヘルツェゴビナ"},
+  "Katar":{en:"Qatar",fr:"Qatar",es:"Catar",de:"Katar",ja:"カタール"},
+  "İsviçre":{en:"Switzerland",fr:"Suisse",es:"Suiza",de:"Schweiz",ja:"スイス"},
+  "Brezilya":{en:"Brazil",fr:"Brésil",es:"Brasil",de:"Brasilien",ja:"ブラジル"},
+  "Fas":{en:"Morocco",fr:"Maroc",es:"Marruecos",de:"Marokko",ja:"モロッコ"},
+  "Haiti":{en:"Haiti",fr:"Haïti",es:"Haití",de:"Haiti",ja:"ハイチ"},
+  "İskoçya":{en:"Scotland",fr:"Écosse",es:"Escocia",de:"Schottland",ja:"スコットランド"},
+  "ABD":{en:"USA",fr:"États-Unis",es:"EE. UU.",de:"USA",ja:"アメリカ"},
+  "Paraguay":{en:"Paraguay",fr:"Paraguay",es:"Paraguay",de:"Paraguay",ja:"パラグアイ"},
+  "Avustralya":{en:"Australia",fr:"Australie",es:"Australia",de:"Australien",ja:"オーストラリア"},
+  "Türkiye":{en:"Türkiye",fr:"Türkiye",es:"Türkiye",de:"Türkiye",ja:"トルコ"},
+  "Almanya":{en:"Germany",fr:"Allemagne",es:"Alemania",de:"Deutschland",ja:"ドイツ"},
+  "Curaçao":{en:"Curaçao",fr:"Curaçao",es:"Curazao",de:"Curaçao",ja:"キュラソー"},
+  "Fildişi Sahili":{en:"Ivory Coast",fr:"Côte d'Ivoire",es:"Costa de Marfil",de:"Elfenbeinküste",ja:"コートジボワール"},
+  "Ekvador":{en:"Ecuador",fr:"Équateur",es:"Ecuador",de:"Ecuador",ja:"エクアドル"},
+  "Hollanda":{en:"Netherlands",fr:"Pays-Bas",es:"Países Bajos",de:"Niederlande",ja:"オランダ"},
+  "Japonya":{en:"Japan",fr:"Japon",es:"Japón",de:"Japan",ja:"日本"},
+  "İsveç":{en:"Sweden",fr:"Suède",es:"Suecia",de:"Schweden",ja:"スウェーデン"},
+  "Tunus":{en:"Tunisia",fr:"Tunisie",es:"Túnez",de:"Tunesien",ja:"チュニジア"},
+  "Belçika":{en:"Belgium",fr:"Belgique",es:"Bélgica",de:"Belgien",ja:"ベルギー"},
+  "Mısır":{en:"Egypt",fr:"Égypte",es:"Egipto",de:"Ägypten",ja:"エジプト"},
+  "İran":{en:"Iran",fr:"Iran",es:"Irán",de:"Iran",ja:"イラン"},
+  "Yeni Zelanda":{en:"New Zealand",fr:"Nouvelle-Zélande",es:"Nueva Zelanda",de:"Neuseeland",ja:"ニュージーランド"},
+  "İspanya":{en:"Spain",fr:"Espagne",es:"España",de:"Spanien",ja:"スペイン"},
+  "Cape Verde":{en:"Cape Verde",fr:"Cap-Vert",es:"Cabo Verde",de:"Kap Verde",ja:"カーボベルデ"},
+  "S. Arabistan":{en:"Saudi Arabia",fr:"Arabie saoudite",es:"Arabia Saudita",de:"Saudi-Arabien",ja:"サウジアラビア"},
+  "Uruguay":{en:"Uruguay",fr:"Uruguay",es:"Uruguay",de:"Uruguay",ja:"ウルグアイ"},
+  "Fransa":{en:"France",fr:"France",es:"Francia",de:"Frankreich",ja:"フランス"},
+  "Senegal":{en:"Senegal",fr:"Sénégal",es:"Senegal",de:"Senegal",ja:"セネガル"},
+  "Irak":{en:"Iraq",fr:"Irak",es:"Irak",de:"Irak",ja:"イラク"},
+  "Norveç":{en:"Norway",fr:"Norvège",es:"Noruega",de:"Norwegen",ja:"ノルウェー"},
+  "Arjantin":{en:"Argentina",fr:"Argentine",es:"Argentina",de:"Argentinien",ja:"アルゼンチン"},
+  "Cezayir":{en:"Algeria",fr:"Algérie",es:"Argelia",de:"Algerien",ja:"アルジェリア"},
+  "Avusturya":{en:"Austria",fr:"Autriche",es:"Austria",de:"Österreich",ja:"オーストリア"},
+  "Ürdün":{en:"Jordan",fr:"Jordanie",es:"Jordania",de:"Jordanien",ja:"ヨルダン"},
+  "Portekiz":{en:"Portugal",fr:"Portugal",es:"Portugal",de:"Portugal",ja:"ポルトガル"},
+  "DR Kongo":{en:"DR Congo",fr:"RD Congo",es:"RD del Congo",de:"DR Kongo",ja:"コンゴ民主共和国"},
+  "Özbekistan":{en:"Uzbekistan",fr:"Ouzbékistan",es:"Uzbekistán",de:"Usbekistan",ja:"ウズベキスタン"},
+  "Kolombiya":{en:"Colombia",fr:"Colombie",es:"Colombia",de:"Kolumbien",ja:"コロンビア"},
+  "İngiltere":{en:"England",fr:"Angleterre",es:"Inglaterra",de:"England",ja:"イングランド"},
+  "Hırvatistan":{en:"Croatia",fr:"Croatie",es:"Croacia",de:"Kroatien",ja:"クロアチア"},
+  "Gana":{en:"Ghana",fr:"Ghana",es:"Ghana",de:"Ghana",ja:"ガーナ"},
+  "Panama":{en:"Panama",fr:"Panama",es:"Panamá",de:"Panama",ja:"パナマ"}
+};
+
+/* ================= DİL DURUMU ================= */
+const LKEY = "dk2026_lang";
+let lang = localStorage.getItem(LKEY);
+if (!LANGS[lang]) {
+  const nav = (navigator.language || "tr").slice(0, 2);
+  lang = LANGS[nav] ? nav : "tr";
+}
+let L = LANGS[lang];
+
+const tname = ad => lang === "tr" ? ad : (TEAM_I18N[ad] ? (TEAM_I18N[ad][lang] || TEAM_I18N[ad].en) : ad);
+const trMonths = s => { let r = s; Object.entries(L.months).forEach(([k,v]) => r = r.split(k).join(v)); return r; };
+const prose = (trText, enText) => lang === "tr" ? trText : (enText || trText);
+
+/* ================= TAKIM KAYITLARI ================= */
+const TEAMS = {};
 Object.entries(D.groups).forEach(([g, rows]) =>
   rows.forEach(r => TEAMS[r.takim] = { flag: r.flag, group: g }));
-const tkm = ad => TEAMS[ad] ? TEAMS[ad].flag + " " + ad : ad;
+const tkm = ad => TEAMS[ad] ? TEAMS[ad].flag + " " + tname(ad) : tname(ad);
 
-/* ---------- Tarih yardımcıları (TSİ) ---------- */
-const fmtTR = new Intl.DateTimeFormat("tr-TR", { timeZone: "Europe/Istanbul",
+/* Eleme ağacı etiketlerini çevir */
+function bLabel(s) {
+  let m;
+  if ((m = s.match(/^([A-L]) 1\.si$/))) return L.g1(m[1]);
+  if ((m = s.match(/^([A-L]) 2\.si$/))) return L.g2(m[1]);
+  if ((m = s.match(/^M(\d+) galibi$/))) return L.win(m[1]);
+  if ((m = s.match(/^3\. \((.+)\)$/))) return L.thd(m[1]);
+  return TEAMS[s] ? tkm(s) : s;
+}
+
+/* ================= TARİH YARDIMCILARI (TSİ) ================= */
+const fmtKey = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Istanbul",
   year: "numeric", month: "2-digit", day: "2-digit" });
-const isoTR = d => { const p = fmtTR.formatToParts(d), o = {};
-  p.forEach(x => o[x.type] = x.value); return `${o.year}-${o.month}-${o.day}`; };
+const isoTR = d => fmtKey.format(d);
 const todayIso = isoTR(new Date());
 const tomorrowIso = isoTR(new Date(Date.now() + 864e5));
-const gunAdi = iso => { const [y,m,g] = iso.split("-").map(Number);
-  const aylar = ["","Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"];
-  const günler = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
-  const d = new Date(Date.UTC(y, m-1, g));
-  return `${g} ${aylar[m]} ${günler[d.getUTCDay()]}`; };
+function gunAdi(iso) {
+  const d = new Date(iso + "T12:00:00+03:00");
+  return new Intl.DateTimeFormat(L.locale, { timeZone: "Europe/Istanbul",
+    day: "numeric", month: "short", weekday: "long" }).format(d);
+}
+function gunKisa(iso) {
+  const d = new Date(iso + "T12:00:00+03:00");
+  return new Intl.DateTimeFormat(L.locale, { timeZone: "Europe/Istanbul",
+    day: "numeric", month: "short" }).format(d);
+}
 
-const start = new Date("2026-06-11T00:00:00+03:00");
-const day = Math.max(1, Math.floor((Date.now() - start) / 864e5) + 1);
-$("bDay").textContent = "📆 Turnuvanın " + day + ". günü";
-$("bUpdate").textContent = "🔄 Son güncelleme: " + D.lastUpdate;
-$("footUpdate").textContent = "Son güncelleme: " + D.lastUpdate;
-$("headline").textContent = D.headline;
-
-/* ---------- Favori seçimi (Türkiye sabit + 4 seçilebilir) ---------- */
+/* ================= FAVORİ SEÇİMİ ================= */
 const KEY = "dk2026_favoriler";
 let secim = [];
 try { secim = JSON.parse(localStorage.getItem(KEY)) || []; } catch (e) {}
 secim = secim.filter(t => TEAMS[t] && t !== "Türkiye").slice(0, 4);
 
-const havuz = Object.keys(TEAMS).filter(t => t !== "Türkiye")
-  .sort((a, b) => a.localeCompare(b, "tr"));
-
 function pickerKur() {
+  const havuz = Object.keys(TEAMS).filter(t => t !== "Türkiye")
+    .sort((a, b) => tname(a).localeCompare(tname(b), L.locale));
   for (let i = 0; i < 4; i++) {
     const s = $("sel" + i);
     const digerleri = secim.filter((_, j) => j !== i);
-    s.innerHTML = `<option value="">— takım seç —</option>` +
+    s.innerHTML = `<option value="">${L.pickPh}</option>` +
       havuz.filter(t => !digerleri.includes(t))
-        .map(t => `<option value="${t}" ${secim[i] === t ? "selected" : ""}>${TEAMS[t].flag} ${t}</option>`).join("");
+        .map(t => `<option value="${t}" ${secim[i] === t ? "selected" : ""}>${TEAMS[t].flag} ${tname(t)}</option>`).join("");
     s.onchange = () => {
       secim[i] = s.value || undefined;
       secim = secim.filter(Boolean);
       try { localStorage.setItem(KEY, JSON.stringify(secim)); } catch (e) {}
-      pickerKur(); favorileriCiz(); gruplariCiz();
+      renderDynamic();
     };
   }
 }
 $("clearBtn").onclick = () => {
   secim = [];
   try { localStorage.setItem(KEY, "[]"); } catch (e) {}
-  pickerKur(); favorileriCiz(); gruplariCiz();
+  renderDynamic();
 };
 
-/* ---------- Favori kartları (otomatik üretilir) ---------- */
+/* ================= BÖLÜM ÇİZİMLERİ ================= */
 function takimKarti(ad) {
   const t = TEAMS[ad], g = t.group;
   const rows = D.groups[g];
   const idx = rows.findIndex(r => r.takim === ad);
   const me = rows[idx];
-  const rakipler = rows.filter(r => r.takim !== ad).map(r => r.takim).join(", ");
+  const rakipler = rows.filter(r => r.takim !== ad).map(r => tname(r.takim)).join(", ");
   const maclar = D.fixtures.filter(f => f.ev === ad || f.dep === ad);
   const sonraki = maclar.find(f => !f.skor);
-  const durum = me.o === 0
-    ? "Henüz maça çıkmadı"
-    : `${g} Grubu'nda ${idx + 1}. sırada — ${me.p} puan (${me.g}G ${me.b}B ${me.m}M, averaj ${me.a - me.y > 0 ? "+" : ""}${me.a - me.y})`;
+  const gd = (me.a - me.y > 0 ? "+" : "") + (me.a - me.y);
+  const durum = me.o === 0 ? L.notPlayed : L.status(g, idx + 1, me, gd);
   const sonrakiTxt = sonraki
-    ? `${(sonraki.ev === ad ? sonraki.dep : sonraki.ev)} — ${gunAdi(sonraki.iso)}, ${sonraki.saat} TSİ (${sonraki.yer})`
-    : "Planlanmış maçı yok";
+    ? `${tname(sonraki.ev === ad ? sonraki.dep : sonraki.ev)} — ${gunAdi(sonraki.iso)}, ${sonraki.saat} (${sonraki.yer})`
+    : L.noNext;
+  const noteTr = D.teamNotes[ad], noteEn = (D.teamNotesEn || {})[ad];
+  const note = prose(noteTr, noteEn);
   return `
   <div class="fav ${ad === "Türkiye" ? "tur" : ""}">
-    <div class="head"><span style="font-size:22px">${t.flag}</span> ${ad}
-      <span class="grp">${g} Grubu</span></div>
-    <div class="muted" style="margin-top:4px">Rakipler: ${rakipler}</div>
+    <div class="head"><span style="font-size:22px">${t.flag}</span> ${tname(ad)}
+      <span class="grp">${L.grpWord(g)}</span></div>
+    <div class="muted" style="margin-top:4px">${L.opp}${rakipler}</div>
     <div class="status">${durum}</div>
-    <div class="next">Sıradaki maç: <b>${sonrakiTxt}</b></div>
+    <div class="next">${L.next}<b>${sonrakiTxt}</b></div>
     <table>${maclar.map(f => {
       const rakip = f.ev === ad ? f.dep : f.ev;
-      const evMi = f.ev === ad ? "" : " (D)";
-      return `<tr><td>${tkm(rakip)}${evMi}</td><td>${gunAdi(f.iso)} ${f.saat}</td>
+      const evMi = f.ev === ad ? "" : L.away;
+      return `<tr><td>${tkm(rakip)}${evMi}</td><td>${gunKisa(f.iso)} ${f.saat}</td>
         <td style="text-align:right;${f.skor ? "color:var(--green);font-weight:700" : "color:var(--muted)"}">${f.skor ?? f.yer}</td></tr>`;
     }).join("")}</table>
-    ${D.teamNotes[ad] ? `<div class="note">${D.teamNotes[ad]}</div>` : ""}
+    ${note ? `<div class="note">${note}</div>` : ""}
   </div>`;
 }
-function favorileriCiz() {
-  const liste = ["Türkiye", ...secim];
-  $("favgrid").innerHTML = liste.map(takimKarti).join("") +
-    (secim.length < 4 ? `<div class="fav" style="display:flex;align-items:center;justify-content:center">
-      <div class="favhint" style="text-align:center">⚙ Yukarıdaki kutulardan<br>en fazla ${4 - secim.length} takım daha ekleyebilirsin</div></div>` : "");
-}
 
-/* ---------- Bugünün maçları (fikstürden türetilir) ---------- */
-function favMi(f) { const L = ["Türkiye", ...secim]; return L.includes(f.ev) || L.includes(f.dep); }
-function macSatiri(f, zaman) {
+function favMi(f) { const Ls = ["Türkiye", ...secim]; return Ls.includes(f.ev) || Ls.includes(f.dep); }
+function grpEtiket(f) { return f.grup.length === 1 ? L.grpWord(f.grup) : f.grup; }
+function notCevir(s) { return lang === "tr" ? s : s.replace(/^Goller:/, L.goals); }
+
+function macSatiri(f) {
   return `<div class="matchrow ${favMi(f) ? "favmatch" : ""}">
-    <span class="time">${zaman}</span><span class="grp">${f.grup.length === 1 ? f.grup + " Grubu" : f.grup}</span>
+    <span class="time">${f.saat}</span><span class="grp">${grpEtiket(f)}</span>
     <span class="teams">${tkm(f.ev)} ${f.skor ? `<span class="score">${f.skor}</span>` : "—"} ${tkm(f.dep)}</span>
     <span class="venue">📍 ${f.yer}</span>
-    ${favMi(f) ? `<span class="mnote">⭐ Favori takım maçı</span>` : ""}
-    ${f.skor && f.not ? `<span class="resnote">${f.not}</span>` : ""}
+    ${favMi(f) ? `<span class="mnote">${L.favMatch}</span>` : ""}
+    ${f.skor && f.not ? `<span class="resnote">${notCevir(f.not)}</span>` : ""}
   </div>`;
 }
-const bugun = D.fixtures.filter(f => f.iso === todayIso);
-const gece = D.fixtures.filter(f => f.iso === tomorrowIso && f.saat <= "08:00");
-$("todayLabel").textContent = "· " + gunAdi(todayIso);
-$("todayBox").innerHTML =
-  (bugun.length ? bugun.map(f => macSatiri(f, f.saat)).join("") : `<div class="muted">Bugün maç yok.</div>`) +
-  (gece.length ? `<div class="muted" style="margin:10px 0 6px">🌙 Yarın sabaha karşı:</div>` +
-    gece.map(f => macSatiri(f, f.saat)).join("") : "");
 
-/* ---------- Son sonuçlar ---------- */
-const biten = D.fixtures.filter(f => f.skor)
-  .sort((a, b) => (b.iso + b.saat).localeCompare(a.iso + a.saat)).slice(0, 6);
-$("resultsBox").innerHTML = biten.length
-  ? biten.map(f => `
-    <div class="matchrow ${favMi(f) ? "favmatch" : ""}">
-      <span class="time">${gunAdi(f.iso).split(" ").slice(0, 2).join(" ")}</span>
-      <span class="grp">${f.grup.length === 1 ? f.grup + " Grubu" : f.grup}</span>
-      <span class="teams">${tkm(f.ev)} <span class="score">${f.skor}</span> ${tkm(f.dep)}</span>
-      ${f.not ? `<span class="resnote">${f.not}</span>` : ""}
-    </div>`).join("")
-  : `<div class="muted">Henüz oynanmış maç yok.</div>`;
+function renderDynamic() {
+  /* Favoriler */
+  const liste = ["Türkiye", ...secim];
+  pickerKur();
+  $("favgrid").innerHTML = liste.map(takimKarti).join("") +
+    (secim.length < 4 ? `<div class="fav" style="display:flex;align-items:center;justify-content:center">
+      <div class="favhint" style="text-align:center">${L.hint(4 - secim.length)}</div></div>` : "");
 
-/* ---------- Gol krallığı ---------- */
-document.querySelector("#scorersTbl tbody").innerHTML = D.topScorers.map((s, i) => `
-  <tr><td>${i === 0 ? '<span class="crown">👑</span>' : s.sira}</td>
-  <td>${s.oyuncu}</td><td>${s.flag} ${s.takim}</td><td class="g">${s.gol}</td></tr>`).join("");
-$("scorersNote").textContent = D.topScorersNote || "";
+  /* Bugünün maçları */
+  const bugun = D.fixtures.filter(f => f.iso === todayIso);
+  const gece = D.fixtures.filter(f => f.iso === tomorrowIso && f.saat <= "08:00");
+  $("todayLabel").textContent = "· " + gunAdi(todayIso);
+  $("todayBox").innerHTML =
+    (bugun.length ? bugun.map(macSatiri).join("") : `<div class="muted">${L.noToday}</div>`) +
+    (gece.length ? `<div class="muted" style="margin:10px 0 6px">${L.tonight}</div>` + gece.map(macSatiri).join("") : "");
 
-/* ---------- Gruplar ---------- */
-function gruplariCiz() {
-  const favs = ["Türkiye", ...secim];
+  /* Son sonuçlar */
+  const biten = D.fixtures.filter(f => f.skor)
+    .sort((a, b) => (b.iso + b.saat).localeCompare(a.iso + a.saat)).slice(0, 6);
+  $("resultsBox").innerHTML = biten.length
+    ? biten.map(f => `
+      <div class="matchrow ${favMi(f) ? "favmatch" : ""}">
+        <span class="time">${gunKisa(f.iso)}</span>
+        <span class="grp">${grpEtiket(f)}</span>
+        <span class="teams">${tkm(f.ev)} <span class="score">${f.skor}</span> ${tkm(f.dep)}</span>
+        ${f.not ? `<span class="resnote">${notCevir(f.not)}</span>` : ""}
+      </div>`).join("")
+    : `<div class="muted">${L.noResults}</div>`;
+
+  /* Gol krallığı */
+  document.querySelector("#scorersTbl tbody").innerHTML = D.topScorers.map((s, i) => `
+    <tr><td>${i === 0 ? '<span class="crown">👑</span>' : s.sira}</td>
+    <td>${s.oyuncu}</td><td>${s.flag} ${tname(s.takim)}</td><td class="g">${s.gol}</td></tr>`).join("");
+  $("scorersNote").textContent = prose(D.topScorersNote, D.topScorersNote_en) || "";
+
+  /* Gruplar */
+  const favs = liste;
   $("groupsBox").innerHTML = Object.entries(D.groups).map(([g, rows]) => `
     <div class="gcard">
-      <div class="gtitle"><span>${g} Grubu</span>
-        <span class="muted">${rows.some(r => favs.includes(r.takim)) ? "⭐ favori takım" : ""}</span></div>
+      <div class="gtitle"><span>${L.grpWord(g)}</span>
+        <span class="muted">${rows.some(r => favs.includes(r.takim)) ? L.favTag : ""}</span></div>
       <table>
-        <tr><th style="text-align:left;padding-left:10px">Takım</th>
-            <th>O</th><th>G</th><th>B</th><th>M</th><th>A</th><th>Y</th><th>Av</th><th>P</th></tr>
+        <tr>${L.cols.map((c, i) => i === 0
+          ? `<th style="text-align:left;padding-left:10px">${c}</th>` : `<th>${c}</th>`).join("")}</tr>
         ${rows.map((r, i) => `
           <tr class="${i < 2 ? "q1" : i === 2 ? "q3" : "q4"} ${favs.includes(r.takim) ? "favrow" : ""}">
-            <td class="t">${r.flag} ${r.takim}${r.ev ? ' <span class="muted">(ev)</span>' : ""}</td>
+            <td class="t">${r.flag} ${tname(r.takim)}${r.ev ? ` <span class="muted">${L.host}</span>` : ""}</td>
             <td>${r.o}</td><td>${r.g}</td><td>${r.b}</td><td>${r.m}</td>
             <td>${r.a}</td><td>${r.y}</td><td>${r.a - r.y > 0 ? "+" : ""}${r.a - r.y}</td>
             <td class="pts">${r.p}</td></tr>`).join("")}
       </table>
     </div>`).join("");
+  $("legendBox").innerHTML = L.legend;
+
+  /* Eleme ağacı */
+  const mk = (m, cls = "") => `
+    <div class="bm ${m.tur ? "tur" : ""} ${cls}">
+      <div class="mid"><span>${L.match}${m.id}</span><span>${trMonths(m.tarih)} · ${m.yer}</span></div>
+      <div class="tm"><span>${bLabel(m.ev)}</span>${m.skor ? `<b>${m.skor.split("-")[0]}</b>` : ""}</div>
+      <div class="tm"><span>${bLabel(m.dep)}</span>${m.skor ? `<b>${m.skor.split("-")[1]}</b>` : ""}</div>
+    </div>`;
+  $("bracketBox").innerHTML = `
+    <div class="round"><h3>${L.rounds[0]}</h3>${D.bracket.r32.map(m => mk(m)).join("")}</div>
+    <div class="round"><h3>${L.rounds[1]}</h3>${D.bracket.r16.map(m => mk(m)).join("")}</div>
+    <div class="round"><h3>${L.rounds[2]}</h3>${D.bracket.qf.map(m => mk(m)).join("")}</div>
+    <div class="round"><h3>${L.rounds[3]}</h3>${D.bracket.sf.map(m => mk(m)).join("")}</div>
+    <div class="round"><h3>${L.rounds[4]}</h3>${mk(D.bracket.final, "final")}
+      <div class="muted" style="text-align:center;font-size:11px">${L.third}</div></div>`;
+  $("turPath").innerHTML = L.turPath + prose(D.bracket.note, D.bracket.note_en);
+
+  /* Bilgiler */
+  const facts = lang === "tr" ? D.facts : (D.facts_en && D.facts_en.length ? D.facts_en : D.facts);
+  $("factsBox").innerHTML = facts.map(f => `<li>${f}</li>`).join("");
 }
 
-/* ---------- Eleme ağacı ---------- */
-const mk = (m, cls = "") => `
-  <div class="bm ${m.tur ? "tur" : ""} ${cls}">
-    <div class="mid"><span>Maç ${m.id}</span><span>${m.tarih} · ${m.yer}</span></div>
-    <div class="tm"><span>${m.ev}</span>${m.skor ? `<b>${m.skor.split("-")[0]}</b>` : ""}</div>
-    <div class="tm"><span>${m.dep}</span>${m.skor ? `<b>${m.skor.split("-")[1]}</b>` : ""}</div>
-  </div>`;
-$("bracketBox").innerHTML = `
-  <div class="round"><h3>SON 32 (28 Haz – 4 Tem)</h3>${D.bracket.r32.map(m => mk(m)).join("")}</div>
-  <div class="round"><h3>SON 16 (4 – 8 Tem)</h3>${D.bracket.r16.map(m => mk(m)).join("")}</div>
-  <div class="round"><h3>ÇEYREK FİNAL (9 – 12 Tem)</h3>${D.bracket.qf.map(m => mk(m)).join("")}</div>
-  <div class="round"><h3>YARI FİNAL (14 – 15 Tem)</h3>${D.bracket.sf.map(m => mk(m)).join("")}</div>
-  <div class="round"><h3>FİNAL 🏆</h3>${mk(D.bracket.final, "final")}
-    <div class="muted" style="text-align:center;font-size:11px">3.lük maçı: 18 Tem, Miami</div></div>`;
-$("turPath").innerHTML = "🇹🇷 <b>Türkiye'nin olası yolu:</b> " + D.bracket.note;
+function renderStatic() {
+  document.documentElement.lang = lang;
+  $("hSub").textContent = L.sub;
+  const start = new Date("2026-06-11T00:00:00+03:00");
+  const day = Math.max(1, Math.floor((Date.now() - start) / 864e5) + 1);
+  $("bDay").textContent = L.day(day);
+  $("bUpdate").textContent = L.upd + trMonths(D.lastUpdate);
+  $("bTz").textContent = L.tz;
+  $("headline").textContent = prose(D.headline, D.headline_en);
+  $("hFav").textContent = L.fav;
+  $("pickLabel").textContent = L.pick;
+  $("clearBtn").textContent = L.clear;
+  $("pickNote").textContent = L.pickNote;
+  $("hToday").textContent = L.today;
+  $("hResults").textContent = L.results;
+  $("hScorers").textContent = L.scorers;
+  $("colP").textContent = L.colP; $("colT").textContent = L.colT; $("colG").textContent = L.colG;
+  $("hGroups").textContent = L.groups;
+  $("hBracket").textContent = L.bracket;
+  $("hFacts").textContent = L.facts;
+  $("footSrc").textContent = L.src;
+  $("footUpdate").textContent = L.upd.replace("🔄 ", "") + trMonths(D.lastUpdate);
+  $("footAuto").textContent = L.auto;
+}
 
-/* ---------- Bilgiler ---------- */
-$("factsBox").innerHTML = D.facts.map(f => `<li>${f}</li>`).join("");
+/* ================= DİL SEÇİCİ ================= */
+$("langSel").innerHTML = Object.entries(LANGS)
+  .map(([k, v]) => `<option value="${k}" ${k === lang ? "selected" : ""}>${v.flag} ${v.name}</option>`).join("");
+$("langSel").onchange = () => {
+  lang = $("langSel").value;
+  L = LANGS[lang];
+  try { localStorage.setItem(LKEY, lang); } catch (e) {}
+  renderStatic(); renderDynamic();
+};
 
-/* ---------- Başlat ---------- */
-pickerKur(); favorileriCiz(); gruplariCiz();
+renderStatic(); renderDynamic();
 </script>
 </body>
 </html>
