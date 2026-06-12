@@ -5,8 +5,8 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "12 Haziran 2026, 05:45 TSİ",
-  headline: "Güney Kore–Çekya şu anda Guadalajara'da oynanıyor (ilk yarı 0-0; Son Heung-min ve Schick sahada). Akşam 22:00'de Kanada–Bosna Hersek var. Türkiye 14 Haziran Pazar 07:00'de Avustralya karşısında.",
+  lastUpdate: "12 Haziran 2026, 06:15 TSİ",
+  headline: "Güney Kore–Çekya Guadalajara'da 0-0 sürüyor; ikinci yarıda Çekya kalecisi Kovar, Hwang In-beom ve Lee Jae-sung'un şutlarını üst üste kurtardı. Akşam 22:00'de Kanada–Bosna Hersek var. Türkiye 14 Haziran Pazar 07:00'de Avustralya karşısında.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
