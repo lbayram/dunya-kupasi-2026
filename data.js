@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "12 Haziran 2026, 14:10 TSİ",
-  headline_en: "No new official results yet — tonight Canada face Bosnia and Herzegovina at 22:00 TSİ, followed by USA vs Paraguay at 04:00. Mexico and South Korea still lead Group A on goal difference after Day 1. Türkiye's 26-man World Cup squad has been confirmed, featuring Arda Güler, Hakan Çalhanoğlu and Kenan Yıldız, ahead of their opener against Australia on Sunday, June 14 at 07:00 TSİ.",
-  headline: "Yeni resmi sonuç yok — bu akşam TSİ 22:00'de Kanada-Bosna Hersek, gece 04:00'te ABD-Paraguay oynanacak. 1. gün sonrası A Grubu'nda Meksika ve Güney Kore averajla başı çekiyor. Türkiye'nin 26 kişilik Dünya Kupası kadrosu açıklandı (Arda Güler, Hakan Çalhanoğlu, Kenan Yıldız); 14 Haziran Pazar TSİ 07:00'de Avustralya ile ilk maça çıkılacak.",
+  lastUpdate: "12 Haziran 2026, 18:10 TSİ",
+  headline_en: "No new results yet — Canada host Bosnia and Herzegovina tonight at 22:00 TSİ in Toronto (Canada's Alphonso Davies ruled out with injury), followed by USA vs Paraguay at 04:00 in Los Angeles. Mexico and South Korea still lead Group A on goal difference after Day 1. Türkiye face Australia on Sunday, June 14 at 07:00 TSİ in Vancouver.",
+  headline: "Yeni sonuç yok — bu akşam TSİ 22:00'de Kanada, ev sahibi olarak Toronto'da Bosna Hersek'i ağırlıyor (Kanada'nın yıldızı Alphonso Davies sakatlık nedeniyle açılışta yok); gece TSİ 04:00'te ABD-Paraguay Los Angeles'ta oynanacak. 1. gün sonrası A Grubu'nda Meksika ve Güney Kore averajla başı çekiyor. Türkiye'nin Avustralya ile ilk maçı 14 Haziran Pazar TSİ 07:00'de Vancouver'da.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
