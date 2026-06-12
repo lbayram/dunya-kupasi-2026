@@ -6,6 +6,7 @@
 // =====================================================================
 window.WC_DATA = {
   lastUpdate: "12 Haziran 2026, 10:10 TSİ",
+  headline_en: "South Korea came from behind to beat Czechia 2-1: Krejčí scored for Czechia on 59', then Hwang In-beom (67') and Oh Hyeon-gyu (80') turned it around. Mexico and South Korea lead Group A with 3 points each. Today: Canada–Bosnia at 22:00, USA–Paraguay at 04:00 (GMT+3). Türkiye face Australia on Sunday, June 14 at 07:00.",
   headline: "Güney Kore, Çekya'ya karşı 1-2 geriden gelerek 2-1 kazandı: Krejci 59'da Çekya'yı öne geçirdi, Hwang In-beom (67') ve Oh Hyeon-gyu (80') golleriyle maçı çevirdi. A Grubu'nda Meksika ve Güney Kore 3 puanla başı çekiyor. Bugün 22:00'de Kanada–Bosna Hersek, gece 04:00'te ABD–Paraguay oynanacak. Türkiye 14 Haziran Pazar 07:00'de Avustralya karşısında.",
 
   // ---------------- GOL KRALLIĞI ----------------
@@ -17,6 +18,7 @@ window.WC_DATA = {
     { sira: 1, oyuncu: "Oh Hyeon-gyu", takim: "Güney Kore", flag: "🇰🇷", gol: 1 }
   ],
   topScorersNote: "2 maç oynandı; 5 farklı oyuncu birer gol attı. Liste her güncellemede yenilenir.",
+  topScorersNote_en: "2 matches played; 5 different players have scored once each. Updated regularly.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -27,6 +29,16 @@ window.WC_DATA = {
     "İngiltere": "FIFA sıralamasında 4. İlk maçı Hırvatistan'la — grubun en kritik karşılaşması.",
     "Brezilya": "Rekor 5 kez şampiyon; 2002'den beri kupa hasreti sürüyor.",
     "Fransa": "2018 şampiyonu, 2022 finalisti. Mbappé yine en büyük koz."
+  },
+
+  teamNotesEn: {
+    "Türkiye": "First World Cup since finishing 3rd in 2002. Base camp: Mesa, Arizona. If they top the group: 81 → 94 → 98 → 101 → Final.",
+    "İspanya": "FIFA's No. 1 and tournament favourite. Due to the draw, they can only meet Argentina in the final.",
+    "Almanya": "Clear favourite of Group E. First opponent Curaçao play their first ever World Cup match.",
+    "Arjantin": "Defending champions. Messi's 5th World Cup — chasing back-to-back titles.",
+    "İngiltere": "Ranked 4th by FIFA. Opening match vs Croatia is the group's key fixture.",
+    "Brezilya": "Record 5-time champions; waiting for a title since 2002.",
+    "Fransa": "2018 champions, 2022 finalists. Mbappé remains their biggest asset."
   },
 
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
@@ -223,10 +235,18 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
+    note_en: "If Türkiye top Group D, their path is: 81 → 94 → 98 → 101 → Final. (orange boxes)",
     note: "Türkiye D Grubu'nu lider bitirirse yolu: 81 → 94 → 98 → 101 → Final. (turuncu işaretli kutular)"
   },
 
   // ---------------- BİLGİ KUTUSU ----------------
+  facts_en: [
+    "First World Cup with 48 teams and 3 host nations (USA, Canada, Mexico). 104 matches in total.",
+    "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
+    "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002.",
+    "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
+    "The opening match saw 3 red cards — a first in World Cup opening match history."
+  ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
