@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "13 Haziran 2026, 02:00 TSİ",
-  headline_en: "Day 1 wrapped up with wins for Mexico (2-0 over South Africa) and South Korea (2-1 over Czechia), while hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina in Toronto (Lukić 21', Larin 78'). Mexico and South Korea lead Group A on goal difference. The USA open their campaign against Paraguay in Los Angeles at 04:00 TSİ (about 2 hours from now). Türkiye face Australia on Sunday, June 14 at 07:00 TSİ in Vancouver — bookmakers favour Türkiye, with Arda Güler and Kenan Yıldız leading the attack.",
-  headline: "1. gün Meksika'nın Güney Afrika'yı 2-0, Güney Kore'nin Çekya'yı 2-1 yenmesiyle tamamlandı; ev sahibi Kanada ise Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (Lukić 21', Larin 78'). A Grubu'nda Meksika ve Güney Kore averajla başı çekiyor. ABD-Paraguay maçı Los Angeles'ta TSİ 04:00'te (yaklaşık 2 saat sonra) başlayacak. Türkiye'nin Avustralya ile ilk maçı 14 Haziran Pazar TSİ 07:00'de Vancouver'da — bahis siteleri Arda Güler ve Kenan Yıldız'ın forma giyeceği Türkiye'yi favori gösteriyor.",
+  lastUpdate: "13 Haziran 2026, 04:10 TSİ",
+  headline_en: "USA vs Paraguay kicked off moments ago in Los Angeles and is still scoreless (0-0) in the early minutes. Day 1 recap: Mexico beat South Africa 2-0 and South Korea beat Czechia 2-1, while hosts Canada earned their first-ever World Cup point with a 1-1 draw against Bosnia and Herzegovina in Toronto (Lukić 21', Larin 78'). Mexico and South Korea lead Group A on goal difference. Türkiye's opener against Australia is tomorrow, Sunday June 14 at 07:00 TSİ in Vancouver — bookmakers favour Türkiye, with Arda Güler and Kenan Yıldız leading the attack.",
+  headline: "ABD-Paraguay maçı az önce Los Angeles'ta başladı, ilk dakikalarda skor 0-0. 1. gün özeti: Meksika Güney Afrika'yı 2-0, Güney Kore Çekya'yı 2-1 yendi; ev sahibi Kanada ise Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (Lukić 21', Larin 78'). A Grubu'nda Meksika ve Güney Kore averajla başı çekiyor. Türkiye'nin Avustralya ile ilk maçı yarın, 14 Haziran Pazar TSİ 07:00'de Vancouver'da — bahis siteleri Arda Güler ve Kenan Yıldız'ın forma giyeceği Türkiye'yi favori gösteriyor.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
