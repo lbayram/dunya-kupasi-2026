@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "13 Haziran 2026, 22:10 TSİ",
-  headline_en: "Hosts USA thrashed Paraguay 4-1 in Los Angeles in their World Cup opener — a 7th-minute Bobadilla own goal, a Balogun brace (31', 45+5'), a late Maurício reply for Paraguay (73'), and a stoppage-time Gio Reyna goal (90+8') sealed it. The USA lead Group D with 3 points. Day 1 recap: Mexico beat South Africa 2-0 and South Korea beat Czechia 2-1, while hosts Canada earned their first-ever World Cup point with a 1-1 draw against Bosnia and Herzegovina (Lukić 21', Larin 78'). Türkiye's opener against Australia is tomorrow, Sunday June 14 at 07:00 TSİ in Vancouver — Montella's starting XI is now confirmed: Uğurcan Çakır; Zeki Çelik, Abdülkerim Bardakcı, Merih Demiral, Ferdi Kadıoğlu; Orkun Kökçü, Çalhanoğlu; Barış Alper Yılmaz, Arda Güler, Yunus Akgün, Kerem Aktürkoğlu. Kenan Yıldız, still managing his calf injury, misses out on the squad for the opener. Bookmakers still favour Türkiye. Group B's Qatar vs Switzerland clash in Santa Clara kicked off at 22:00 TSİ and is currently underway, still 0-0 in the early minutes.",
-  headline: "Ev sahibi ABD, Los Angeles'ta açılış maçında Paraguay'ı 4-1 mağlup etti: 7' Bobadilla'nın kendi kalesine attığı golün ardından Balogun'dan çift (31', 45+5'), Paraguay adına Maurício'dan gol (73') ve uzatmalarda Gio Reyna'dan bir gol (90+8') geldi. ABD, D Grubu'nda 3 puanla lider. 1. gün özeti: Meksika Güney Afrika'yı 2-0, Güney Kore Çekya'yı 2-1 yendi; ev sahibi Kanada ise Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (Lukić 21', Larin 78'). Türkiye'nin Avustralya ile ilk maçı yarın, 14 Haziran Pazar TSİ 07:00'de Vancouver'da — Montella'nın ilk 11'i netleşti: Uğurcan Çakır; Zeki Çelik, Abdülkerim Bardakcı, Merih Demiral, Ferdi Kadıoğlu; Orkun Kökçü, Çalhanoğlu; Barış Alper Yılmaz, Arda Güler, Yunus Akgün, Kerem Aktürkoğlu. Baldır sakatlığı süren Kenan Yıldız kadroda yer almıyor. Bahis siteleri yine de Türkiye'yi favori gösteriyor. B Grubu'nda Katar-İsviçre (Santa Clara) maçı TSİ 22:00'de başladı, ilk dakikalarda skor 0-0.",
+  lastUpdate: "14 Haziran 2026, 01:10 TSİ",
+  headline_en: "Group B's Qatar held Switzerland to a dramatic 1-1 draw in Santa Clara — Breel Embolo's 17th-minute penalty had Switzerland ahead, but captain Boualem Khoukhi's stoppage-time header (90+4') earned Qatar their first-ever World Cup point. Group C's Brazil vs Morocco kicks off shortly at 01:00 TSİ in New Jersey, followed by Haiti vs Scotland at 04:00 TSİ in Boston. The big one for Turkish fans: Türkiye's World Cup opener against Australia is today, Sunday June 14 at 07:00 TSİ in Vancouver — Montella's starting XI is confirmed: Uğurcan Çakır; Zeki Çelik, Abdülkerim Bardakcı, Merih Demiral, Ferdi Kadıoğlu; Orkun Kökçü, Çalhanoğlu; Barış Alper Yılmaz, Arda Güler, Yunus Akgün, Kerem Aktürkoğlu. Kenan Yıldız, still managing his calf injury, misses out on the squad. Bookmakers still favour Türkiye.",
+  headline: "B Grubu'nda Katar, uzatma dakikalarında kaptan Boualem Khoukhi'nin kafa golüyle (90+4') İsviçre'yle 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı — İsviçre'yi öne geçiren gol Breel Embolo'dan penaltıyla gelmişti (17'). C Grubu'nda Brezilya-Fas mücadelesi TSİ 01:00'de New Jersey'de başlıyor, ardından TSİ 04:00'de Haiti-İskoçya (Boston) oynanacak. Türk taraftarların beklediği maç ise bugün: Türkiye'nin Dünya Kupası'ndaki ilk maçı, TSİ 07:00'de Vancouver'da Avustralya ile oynanacak — Montella'nın ilk 11'i netleşti: Uğurcan Çakır; Zeki Çelik, Abdülkerim Bardakcı, Merih Demiral, Ferdi Kadıoğlu; Orkun Kökçü, Çalhanoğlu; Barış Alper Yılmaz, Arda Güler, Yunus Akgün, Kerem Aktürkoğlu. Baldır sakatlığı süren Kenan Yıldız kadro dışı. Bahis siteleri yine de Türkiye'yi favori gösteriyor.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -19,17 +19,19 @@ window.WC_DATA = {
     { sira: 2, oyuncu: "Oh Hyeon-gyu", takim: "Güney Kore", flag: "🇰🇷", gol: 1 },
     { sira: 2, oyuncu: "Jovo Lukić", takim: "Bosna Hersek", flag: "🇧🇦", gol: 1 },
     { sira: 2, oyuncu: "Cyle Larin", takim: "Kanada", flag: "🇨🇦", gol: 1 },
-    { sira: 2, oyuncu: "Maurício", takim: "Paraguay", flag: "🇵🇾", gol: 1 },
-    { sira: 2, oyuncu: "Gio Reyna", takim: "ABD", flag: "🇺🇸", gol: 1 }
+    { sira: 2, oyuncu: "Breel Embolo", takim: "İsviçre", flag: "🇨🇭", gol: 1 },
+    { sira: 2, oyuncu: "Boualem Khoukhi", takim: "Katar", flag: "🇶🇦", gol: 1 }
   ],
-  topScorersNote: "4 maç oynandı; Folarin Balogun (ABD) 2 golle öne geçti, 9 oyuncu birer gol attı.",
-  topScorersNote_en: "4 matches played; Folarin Balogun (USA) leads with 2 goals, 9 players have scored once each.",
+  topScorersNote: "5 maç oynandı; Folarin Balogun (ABD) 2 golle öne geçti, 11 oyuncu birer gol attı.",
+  topScorersNote_en: "5 matches played; Folarin Balogun (USA) leads with 2 goals, 11 players have scored once each.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
     "Türkiye": "2002 dünya üçüncülüğünden bu yana ilk Dünya Kupası. Hazırlık maçlarında Kuzey Makedonya'yı 4-0, Venezuela'yı 2-1 yendi. Kamp: Mesa, Arizona. Yarın (14 Haziran, TSİ 07:00) Avustralya ile ilk maç — Montella'nın ilk 11'i netleşti: Uğurcan Çakır; Zeki Çelik, Abdülkerim Bardakcı, Merih Demiral, Ferdi Kadıoğlu; Orkun Kökçü, Çalhanoğlu; Barış Alper Yılmaz, Arda Güler, Yunus Akgün, Kerem Aktürkoğlu. Baldır sakatlığı süren Kenan Yıldız kadroda yer almıyor. Bahis siteleri Türkiye'yi favori görüyor. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
     "ABD": "Açılış maçında Paraguay'ı 4-1 yendi — Folarin Balogun 2 gol attı, Gio Reyna uzatmalarda farkı açtı. D Grubu'nda 3 puanla lider; ev sahibi avantajıyla favori konumda.",
     "Kanada": "Ev sahibi Kanada, Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (1986 ve 2022'de 6 maçta 6 mağlubiyet vardı).",
+    "Katar": "Katar, B Grubu'nda İsviçre ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı — kaptan Boualem Khoukhi'nin 90+4. dakikadaki kafa golü kurtardı.",
+    "İsviçre": "İsviçre, Embolo'nun 17. dakikada penaltıdan attığı golle öne geçti ve 26 şutla maça baskın kurdu, ancak Katar'ın son dakika golüyle 1-1'e razı oldu.",
     "İspanya": "FIFA sıralamasının 1 numarası, turnuvanın favorisi. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
     "Almanya": "E Grubu'nun açık favorisi. İlk rakibi Curaçao, tarihindeki ilk Dünya Kupası maçına çıkacak.",
     "Arjantin": "Son şampiyon. Messi 5. Dünya Kupası'nda — üst üste ikinci kupa hedefi.",
@@ -42,6 +44,8 @@ window.WC_DATA = {
     "Türkiye": "First World Cup since finishing 3rd in 2002. Warmed up with wins over North Macedonia (4-0) and Venezuela (2-1). Base camp: Mesa, Arizona. Tomorrow (June 14, 07:00 TSİ) they open against Australia — Montella's starting XI is confirmed: Uğurcan Çakır; Zeki Çelik, Abdülkerim Bardakcı, Merih Demiral, Ferdi Kadıoğlu; Orkun Kökçü, Çalhanoğlu; Barış Alper Yılmaz, Arda Güler, Yunus Akgün, Kerem Aktürkoğlu. Kenan Yıldız, still managing a calf injury, misses out on the squad. Bookmakers favour Türkiye. If they top the group: 81 → 94 → 98 → 101 → Final.",
     "ABD": "Opened with a 4-1 win over Paraguay — Folarin Balogun scored twice and Gio Reyna added a stoppage-time goal. They lead Group D with 3 points, riding home advantage.",
     "Kanada": "Hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina (they had lost all 6 previous matches in 1986 and 2022).",
+    "Katar": "Qatar earned their first-ever World Cup point with a 1-1 draw against Switzerland — captain Boualem Khoukhi's stoppage-time header (90+4') rescued the point.",
+    "İsviçre": "Switzerland took the lead through Embolo's 17th-minute penalty and dominated with 26 shots, but had to settle for a 1-1 draw after Qatar's late equaliser.",
     "İspanya": "FIFA's No. 1 and tournament favourite. Due to the draw, they can only meet Argentina in the final.",
     "Almanya": "Clear favourite of Group E. First opponent Curaçao play their first ever World Cup match.",
     "Arjantin": "Defending champions. Messi's 5th World Cup — chasing back-to-back titles.",
@@ -57,7 +61,7 @@ window.WC_DATA = {
     { iso: "2026-06-12", saat: "05:00", grup: "A", ev: "Güney Kore", dep: "Çekya", yer: "Guadalajara", skor: "2 - 1", not: "Goller: Krejčí (59' - Çekya), Hwang In-beom (67'), Oh Hyeon-gyu (80')." },
     { iso: "2026-06-12", saat: "22:00", grup: "B", ev: "Kanada", dep: "Bosna Hersek", yer: "Toronto", skor: "1 - 1", not: "Goller: Lukić (21' - Bosna Hersek), Larin (78' - Kanada). Kanada, Dünya Kupası tarihindeki ilk puanını aldı." },
     { iso: "2026-06-13", saat: "04:00", grup: "D", ev: "ABD", dep: "Paraguay", yer: "Los Angeles", skor: "4 - 1", not: "Goller: Bobadilla (7' kendi kalesine - ABD), Balogun (31'), Balogun (45+5'), Maurício (73' - Paraguay), Reyna (90+8')." },
-    { iso: "2026-06-13", saat: "22:00", grup: "B", ev: "Katar", dep: "İsviçre", yer: "Santa Clara", skor: null },
+    { iso: "2026-06-13", saat: "22:00", grup: "B", ev: "Katar", dep: "İsviçre", yer: "Santa Clara", skor: "1 - 1", not: "Goller: Embolo (17' penaltı - İsviçre), Khoukhi (90+4' - Katar). Katar, Dünya Kupası tarihindeki ilk puanını aldı." },
     { iso: "2026-06-14", saat: "01:00", grup: "C", ev: "Brezilya", dep: "Fas", yer: "New Jersey", skor: null },
     { iso: "2026-06-14", saat: "04:00", grup: "C", ev: "Haiti", dep: "İskoçya", yer: "Boston", skor: null },
     { iso: "2026-06-14", saat: "07:00", grup: "D", ev: "Avustralya", dep: "Türkiye", yer: "Vancouver", skor: null },
@@ -138,8 +142,8 @@ window.WC_DATA = {
     "B": [
       { takim: "Kanada", flag: "🇨🇦", ev: true, o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
       { takim: "Bosna Hersek", flag: "🇧🇦", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
-      { takim: "Katar", flag: "🇶🇦", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "İsviçre", flag: "🇨🇭", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
+      { takim: "Katar", flag: "🇶🇦", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
+      { takim: "İsviçre", flag: "🇨🇭", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 }
     ],
     "C": [
       { takim: "Brezilya", flag: "🇧🇷", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
@@ -254,15 +258,15 @@ window.WC_DATA = {
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "Hosts USA opened with a 4-1 win over Paraguay — Balogun scored twice and they lead Group D with 3 points.",
-    "Türkiye's World Cup opener is tomorrow (June 14) at 07:00 TSİ vs Australia in Vancouver; Montella's starting XI is confirmed (Çalhanoğlu, Arda Güler, Orkun Kökçü, Merih Demiral among them), while the injured Kenan Yıldız misses out on the squad — bookmakers still favour Türkiye."
+    "Qatar drew 1-1 with Switzerland (Embolo 17' pen, Khoukhi 90+4') to earn their first-ever World Cup point.",
+    "Türkiye's World Cup opener is today (June 14) at 07:00 TSİ vs Australia in Vancouver; Montella's starting XI is confirmed (Çalhanoğlu, Arda Güler, Orkun Kökçü, Merih Demiral among them), while the injured Kenan Yıldız misses out on the squad — bookmakers still favour Türkiye."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
     "Türkiye, 2002'de aldığı dünya üçüncülüğünden bu yana ilk kez Dünya Kupası'nda.",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "Ev sahibi ABD, açılış maçında Paraguay'ı 4-1 yendi; Balogun 2 gol attı, D Grubu'nda 3 puanla lider.",
-    "Türkiye'nin ilk maçı yarın (14 Haziran) TSİ 07:00'de Vancouver'da Avustralya ile; Montella'nın ilk 11'i netleşti (Çalhanoğlu, Arda Güler, Orkun Kökçü, Merih Demiral dahil) — sakatlığı süren Kenan Yıldız kadroda yer almıyor, bahis siteleri yine de Türkiye'yi favori gösteriyor."
+    "Katar, İsviçre ile 1-1 berabere kalarak (Embolo 17' pen, Khoukhi 90+4') Dünya Kupası tarihindeki ilk puanını aldı.",
+    "Türkiye'nin ilk maçı bugün (14 Haziran) TSİ 07:00'de Vancouver'da Avustralya ile; Montella'nın ilk 11'i netleşti (Çalhanoğlu, Arda Güler, Orkun Kökçü, Merih Demiral dahil) — sakatlığı süren Kenan Yıldız kadroda yer almıyor, bahis siteleri yine de Türkiye'yi favori gösteriyor."
   ]
 };
