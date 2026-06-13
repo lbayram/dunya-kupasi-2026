@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "13 Haziran 2026, 06:10 TSİ",
-  headline_en: "Hosts USA thrashed Paraguay 4-1 in Los Angeles in their World Cup opener — a 7th-minute Bobadilla own goal, a Balogun brace (31', 45+5'), a late Maurício reply for Paraguay (73'), and a stoppage-time Gio Reyna goal (90+8') sealed it. The USA lead Group D with 3 points. Day 1 recap: Mexico beat South Africa 2-0 and South Korea beat Czechia 2-1, while hosts Canada earned their first-ever World Cup point with a 1-1 draw against Bosnia and Herzegovina (Lukić 21', Larin 78'). Türkiye's opener against Australia is today, Sunday June 14 at 07:00 TSİ in Vancouver — Montella's likely XI features Çalhanoğlu, Arda Güler, Orkun Kökçü and Barış Alper Yılmaz, with bookmakers favouring Türkiye.",
-  headline: "Ev sahibi ABD, Los Angeles'ta açılış maçında Paraguay'ı 4-1 mağlup etti: 7' Bobadilla'nın kendi kalesine attığı golün ardından Balogun'dan çift (31', 45+5'), Paraguay adına Maurício'dan gol (73') ve uzatmalarda Gio Reyna'dan bir gol (90+8') geldi. ABD, D Grubu'nda 3 puanla lider. 1. gün özeti: Meksika Güney Afrika'yı 2-0, Güney Kore Çekya'yı 2-1 yendi; ev sahibi Kanada ise Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (Lukić 21', Larin 78'). Türkiye'nin Avustralya ile ilk maçı bugün, 14 Haziran Pazar TSİ 07:00'de Vancouver'da — Montella'nın muhtemel 11'inde Çalhanoğlu, Arda Güler, Orkun Kökçü ve Barış Alper Yılmaz öne çıkıyor, bahis siteleri Türkiye'yi favori gösteriyor.",
+  lastUpdate: "13 Haziran 2026, 08:10 TSİ",
+  headline_en: "Hosts USA thrashed Paraguay 4-1 in Los Angeles in their World Cup opener — a 7th-minute Bobadilla own goal, a Balogun brace (31', 45+5'), a late Maurício reply for Paraguay (73'), and a stoppage-time Gio Reyna goal (90+8') sealed it. The USA lead Group D with 3 points. Day 1 recap: Mexico beat South Africa 2-0 and South Korea beat Czechia 2-1, while hosts Canada earned their first-ever World Cup point with a 1-1 draw against Bosnia and Herzegovina (Lukić 21', Larin 78'). Türkiye's opener against Australia is tomorrow, Sunday June 14 at 07:00 TSİ in Vancouver — Montella has settled on his XI: Uğurcan Çakır; Zeki Çelik, Merih Demiral, Abdülkerim Bardakcı, Ferdi Kadıoğlu; Çalhanoğlu, Orkun Kökçü; Yunus Akgün, Arda Güler, Barış Alper Yılmaz, Kerem Aktürkoğlu — with a recovered Kenan Yıldız also in contention on the left, and bookmakers favouring Türkiye.",
+  headline: "Ev sahibi ABD, Los Angeles'ta açılış maçında Paraguay'ı 4-1 mağlup etti: 7' Bobadilla'nın kendi kalesine attığı golün ardından Balogun'dan çift (31', 45+5'), Paraguay adına Maurício'dan gol (73') ve uzatmalarda Gio Reyna'dan bir gol (90+8') geldi. ABD, D Grubu'nda 3 puanla lider. 1. gün özeti: Meksika Güney Afrika'yı 2-0, Güney Kore Çekya'yı 2-1 yendi; ev sahibi Kanada ise Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (Lukić 21', Larin 78'). Türkiye'nin Avustralya ile ilk maçı yarın, 14 Haziran Pazar TSİ 07:00'de Vancouver'da — Montella ilk 11'ini netleştirdi: Uğurcan Çakır; Zeki Çelik, Merih Demiral, Abdülkerim Bardakcı, Ferdi Kadıoğlu; Çalhanoğlu, Orkun Kökçü; Yunus Akgün, Arda Güler, Barış Alper Yılmaz, Kerem Aktürkoğlu — sakatlığını atlatan Kenan Yıldız da sol kanatta forma giymeye aday. Bahis siteleri Türkiye'yi favori gösteriyor.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -27,7 +27,7 @@ window.WC_DATA = {
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
-    "Türkiye": "2002 dünya üçüncülüğünden bu yana ilk Dünya Kupası. Hazırlık maçlarında Kuzey Makedonya'yı 4-0, Venezuela'yı 2-1 yendi. Kamp: Mesa, Arizona. Bugün (14 Haziran, TSİ 07:00) Avustralya ile ilk maç — Montella'nın muhtemel 11'inde Çalhanoğlu, Arda Güler, Orkun Kökçü ve Barış Alper Yılmaz öne çıkıyor, bahis siteleri Türkiye'yi favori görüyor. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
+    "Türkiye": "2002 dünya üçüncülüğünden bu yana ilk Dünya Kupası. Hazırlık maçlarında Kuzey Makedonya'yı 4-0, Venezuela'yı 2-1 yendi. Kamp: Mesa, Arizona. Yarın (14 Haziran, TSİ 07:00) Avustralya ile ilk maç — Montella'nın ilk 11'i: Uğurcan Çakır; Zeki Çelik, Merih Demiral, Abdülkerim Bardakcı, Ferdi Kadıoğlu; Çalhanoğlu, Orkun Kökçü; Yunus Akgün, Arda Güler, Barış Alper Yılmaz, Kerem Aktürkoğlu — sakatlığını atlatan Kenan Yıldız da sol kanatta forma giymeye aday. Bahis siteleri Türkiye'yi favori görüyor. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
     "ABD": "Açılış maçında Paraguay'ı 4-1 yendi — Folarin Balogun 2 gol attı, Gio Reyna uzatmalarda farkı açtı. D Grubu'nda 3 puanla lider; ev sahibi avantajıyla favori konumda.",
     "Kanada": "Ev sahibi Kanada, Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (1986 ve 2022'de 6 maçta 6 mağlubiyet vardı).",
     "İspanya": "FIFA sıralamasının 1 numarası, turnuvanın favorisi. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
@@ -39,7 +39,7 @@ window.WC_DATA = {
   },
 
   teamNotesEn: {
-    "Türkiye": "First World Cup since finishing 3rd in 2002. Warmed up with wins over North Macedonia (4-0) and Venezuela (2-1). Base camp: Mesa, Arizona. Today (June 14, 07:00 TSİ) they open against Australia — Montella's likely XI features Çalhanoğlu, Arda Güler, Orkun Kökçü and Barış Alper Yılmaz, with bookmakers favouring Türkiye. If they top the group: 81 → 94 → 98 → 101 → Final.",
+    "Türkiye": "First World Cup since finishing 3rd in 2002. Warmed up with wins over North Macedonia (4-0) and Venezuela (2-1). Base camp: Mesa, Arizona. Tomorrow (June 14, 07:00 TSİ) they open against Australia — Montella's XI: Uğurcan Çakır; Zeki Çelik, Merih Demiral, Abdülkerim Bardakcı, Ferdi Kadıoğlu; Çalhanoğlu, Orkun Kökçü; Yunus Akgün, Arda Güler, Barış Alper Yılmaz, Kerem Aktürkoğlu — a recovered Kenan Yıldız is also in contention on the left. Bookmakers favour Türkiye. If they top the group: 81 → 94 → 98 → 101 → Final.",
     "ABD": "Opened with a 4-1 win over Paraguay — Folarin Balogun scored twice and Gio Reyna added a stoppage-time goal. They lead Group D with 3 points, riding home advantage.",
     "Kanada": "Hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina (they had lost all 6 previous matches in 1986 and 2022).",
     "İspanya": "FIFA's No. 1 and tournament favourite. Due to the draw, they can only meet Argentina in the final.",
@@ -255,7 +255,7 @@ window.WC_DATA = {
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
     "Hosts USA opened with a 4-1 win over Paraguay — Balogun scored twice and they lead Group D with 3 points.",
-    "Türkiye's World Cup opener is today (June 14) at 07:00 TSİ vs Australia in Vancouver; Montella's likely XI features Çalhanoğlu and Arda Güler, with bookmakers favouring Türkiye."
+    "Türkiye's World Cup opener is tomorrow (June 14) at 07:00 TSİ vs Australia in Vancouver; Montella has named his XI, with Çalhanoğlu, Arda Güler, Orkun Kökçü and a recovered Kenan Yıldız among the key names, and bookmakers favouring Türkiye."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
@@ -263,6 +263,6 @@ window.WC_DATA = {
     "Türkiye, 2002'de aldığı dünya üçüncülüğünden bu yana ilk kez Dünya Kupası'nda.",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
     "Ev sahibi ABD, açılış maçında Paraguay'ı 4-1 yendi; Balogun 2 gol attı, D Grubu'nda 3 puanla lider.",
-    "Türkiye'nin ilk maçı bugün (14 Haziran) TSİ 07:00'de Vancouver'da Avustralya ile; Montella'nın muhtemel 11'inde Çalhanoğlu ve Arda Güler bekleniyor, bahis siteleri Türkiye'yi favori gösteriyor."
+    "Türkiye'nin ilk maçı yarın (14 Haziran) TSİ 07:00'de Vancouver'da Avustralya ile; Montella ilk 11'ini açıkladı — Çalhanoğlu, Arda Güler, Orkun Kökçü ve sakatlığını atlatan Kenan Yıldız öne çıkıyor, bahis siteleri Türkiye'yi favori gösteriyor."
   ]
 };
