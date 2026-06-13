@@ -5,26 +5,30 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "13 Haziran 2026, 04:10 TSİ",
-  headline_en: "USA vs Paraguay kicked off moments ago in Los Angeles and is still scoreless (0-0) in the early minutes. Day 1 recap: Mexico beat South Africa 2-0 and South Korea beat Czechia 2-1, while hosts Canada earned their first-ever World Cup point with a 1-1 draw against Bosnia and Herzegovina in Toronto (Lukić 21', Larin 78'). Mexico and South Korea lead Group A on goal difference. Türkiye's opener against Australia is tomorrow, Sunday June 14 at 07:00 TSİ in Vancouver — bookmakers favour Türkiye, with Arda Güler and Kenan Yıldız leading the attack.",
-  headline: "ABD-Paraguay maçı az önce Los Angeles'ta başladı, ilk dakikalarda skor 0-0. 1. gün özeti: Meksika Güney Afrika'yı 2-0, Güney Kore Çekya'yı 2-1 yendi; ev sahibi Kanada ise Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (Lukić 21', Larin 78'). A Grubu'nda Meksika ve Güney Kore averajla başı çekiyor. Türkiye'nin Avustralya ile ilk maçı yarın, 14 Haziran Pazar TSİ 07:00'de Vancouver'da — bahis siteleri Arda Güler ve Kenan Yıldız'ın forma giyeceği Türkiye'yi favori gösteriyor.",
+  lastUpdate: "13 Haziran 2026, 06:10 TSİ",
+  headline_en: "Hosts USA thrashed Paraguay 4-1 in Los Angeles in their World Cup opener — a 7th-minute Bobadilla own goal, a Balogun brace (31', 45+5'), a late Maurício reply for Paraguay (73'), and a stoppage-time Gio Reyna goal (90+8') sealed it. The USA lead Group D with 3 points. Day 1 recap: Mexico beat South Africa 2-0 and South Korea beat Czechia 2-1, while hosts Canada earned their first-ever World Cup point with a 1-1 draw against Bosnia and Herzegovina (Lukić 21', Larin 78'). Türkiye's opener against Australia is today, Sunday June 14 at 07:00 TSİ in Vancouver — Montella's likely XI features Çalhanoğlu, Arda Güler, Orkun Kökçü and Barış Alper Yılmaz, with bookmakers favouring Türkiye.",
+  headline: "Ev sahibi ABD, Los Angeles'ta açılış maçında Paraguay'ı 4-1 mağlup etti: 7' Bobadilla'nın kendi kalesine attığı golün ardından Balogun'dan çift (31', 45+5'), Paraguay adına Maurício'dan gol (73') ve uzatmalarda Gio Reyna'dan bir gol (90+8') geldi. ABD, D Grubu'nda 3 puanla lider. 1. gün özeti: Meksika Güney Afrika'yı 2-0, Güney Kore Çekya'yı 2-1 yendi; ev sahibi Kanada ise Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (Lukić 21', Larin 78'). Türkiye'nin Avustralya ile ilk maçı bugün, 14 Haziran Pazar TSİ 07:00'de Vancouver'da — Montella'nın muhtemel 11'inde Çalhanoğlu, Arda Güler, Orkun Kökçü ve Barış Alper Yılmaz öne çıkıyor, bahis siteleri Türkiye'yi favori gösteriyor.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
-    { sira: 1, oyuncu: "Julián Quiñones", takim: "Meksika", flag: "🇲🇽", gol: 1 },
-    { sira: 1, oyuncu: "Raúl Jiménez", takim: "Meksika", flag: "🇲🇽", gol: 1 },
-    { sira: 1, oyuncu: "Ladislav Krejčí", takim: "Çekya", flag: "🇨🇿", gol: 1 },
-    { sira: 1, oyuncu: "Hwang In-beom", takim: "Güney Kore", flag: "🇰🇷", gol: 1 },
-    { sira: 1, oyuncu: "Oh Hyeon-gyu", takim: "Güney Kore", flag: "🇰🇷", gol: 1 },
-    { sira: 1, oyuncu: "Jovo Lukić", takim: "Bosna Hersek", flag: "🇧🇦", gol: 1 },
-    { sira: 1, oyuncu: "Cyle Larin", takim: "Kanada", flag: "🇨🇦", gol: 1 }
+    { sira: 1, oyuncu: "Folarin Balogun", takim: "ABD", flag: "🇺🇸", gol: 2 },
+    { sira: 2, oyuncu: "Julián Quiñones", takim: "Meksika", flag: "🇲🇽", gol: 1 },
+    { sira: 2, oyuncu: "Raúl Jiménez", takim: "Meksika", flag: "🇲🇽", gol: 1 },
+    { sira: 2, oyuncu: "Ladislav Krejčí", takim: "Çekya", flag: "🇨🇿", gol: 1 },
+    { sira: 2, oyuncu: "Hwang In-beom", takim: "Güney Kore", flag: "🇰🇷", gol: 1 },
+    { sira: 2, oyuncu: "Oh Hyeon-gyu", takim: "Güney Kore", flag: "🇰🇷", gol: 1 },
+    { sira: 2, oyuncu: "Jovo Lukić", takim: "Bosna Hersek", flag: "🇧🇦", gol: 1 },
+    { sira: 2, oyuncu: "Cyle Larin", takim: "Kanada", flag: "🇨🇦", gol: 1 },
+    { sira: 2, oyuncu: "Maurício", takim: "Paraguay", flag: "🇵🇾", gol: 1 },
+    { sira: 2, oyuncu: "Gio Reyna", takim: "ABD", flag: "🇺🇸", gol: 1 }
   ],
-  topScorersNote: "3 maç oynandı; 7 farklı oyuncu birer gol attı. Liste her güncellemede yenilenir.",
-  topScorersNote_en: "3 matches played; 7 different players have scored once each. Updated regularly.",
+  topScorersNote: "4 maç oynandı; Folarin Balogun (ABD) 2 golle öne geçti, 9 oyuncu birer gol attı.",
+  topScorersNote_en: "4 matches played; Folarin Balogun (USA) leads with 2 goals, 9 players have scored once each.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
-    "Türkiye": "2002 dünya üçüncülüğünden bu yana ilk Dünya Kupası. Hazırlık maçlarında Kuzey Makedonya'yı 4-0, Venezuela'yı 2-1 yendi. Kamp: Mesa, Arizona. Yarın (14 Haziran) Avustralya ile ilk maç — Arda Güler ve Kenan Yıldız orta sahada öne çıkıyor, bahis siteleri Türkiye'yi favori görüyor. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
+    "Türkiye": "2002 dünya üçüncülüğünden bu yana ilk Dünya Kupası. Hazırlık maçlarında Kuzey Makedonya'yı 4-0, Venezuela'yı 2-1 yendi. Kamp: Mesa, Arizona. Bugün (14 Haziran, TSİ 07:00) Avustralya ile ilk maç — Montella'nın muhtemel 11'inde Çalhanoğlu, Arda Güler, Orkun Kökçü ve Barış Alper Yılmaz öne çıkıyor, bahis siteleri Türkiye'yi favori görüyor. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
+    "ABD": "Açılış maçında Paraguay'ı 4-1 yendi — Folarin Balogun 2 gol attı, Gio Reyna uzatmalarda farkı açtı. D Grubu'nda 3 puanla lider; ev sahibi avantajıyla favori konumda.",
     "Kanada": "Ev sahibi Kanada, Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (1986 ve 2022'de 6 maçta 6 mağlubiyet vardı).",
     "İspanya": "FIFA sıralamasının 1 numarası, turnuvanın favorisi. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
     "Almanya": "E Grubu'nun açık favorisi. İlk rakibi Curaçao, tarihindeki ilk Dünya Kupası maçına çıkacak.",
@@ -35,7 +39,8 @@ window.WC_DATA = {
   },
 
   teamNotesEn: {
-    "Türkiye": "First World Cup since finishing 3rd in 2002. Warmed up with wins over North Macedonia (4-0) and Venezuela (2-1). Base camp: Mesa, Arizona. Tomorrow (June 14) they open against Australia — Arda Güler and Kenan Yıldız lead the attacking midfield, with bookmakers favouring Türkiye. If they top the group: 81 → 94 → 98 → 101 → Final.",
+    "Türkiye": "First World Cup since finishing 3rd in 2002. Warmed up with wins over North Macedonia (4-0) and Venezuela (2-1). Base camp: Mesa, Arizona. Today (June 14, 07:00 TSİ) they open against Australia — Montella's likely XI features Çalhanoğlu, Arda Güler, Orkun Kökçü and Barış Alper Yılmaz, with bookmakers favouring Türkiye. If they top the group: 81 → 94 → 98 → 101 → Final.",
+    "ABD": "Opened with a 4-1 win over Paraguay — Folarin Balogun scored twice and Gio Reyna added a stoppage-time goal. They lead Group D with 3 points, riding home advantage.",
     "Kanada": "Hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina (they had lost all 6 previous matches in 1986 and 2022).",
     "İspanya": "FIFA's No. 1 and tournament favourite. Due to the draw, they can only meet Argentina in the final.",
     "Almanya": "Clear favourite of Group E. First opponent Curaçao play their first ever World Cup match.",
@@ -51,7 +56,7 @@ window.WC_DATA = {
     { iso: "2026-06-11", saat: "22:00", grup: "A", ev: "Meksika", dep: "Güney Afrika", yer: "Mexico City", skor: "2 - 0", not: "Goller: Quiñones (9'), Jiménez (66'). Maçta 3 kırmızı kart çıktı (G. Afrika'dan Sithole ve Zwane, Meksika'dan Montes) — açılış maçları tarihinde bir ilk." },
     { iso: "2026-06-12", saat: "05:00", grup: "A", ev: "Güney Kore", dep: "Çekya", yer: "Guadalajara", skor: "2 - 1", not: "Goller: Krejčí (59' - Çekya), Hwang In-beom (67'), Oh Hyeon-gyu (80')." },
     { iso: "2026-06-12", saat: "22:00", grup: "B", ev: "Kanada", dep: "Bosna Hersek", yer: "Toronto", skor: "1 - 1", not: "Goller: Lukić (21' - Bosna Hersek), Larin (78' - Kanada). Kanada, Dünya Kupası tarihindeki ilk puanını aldı." },
-    { iso: "2026-06-13", saat: "04:00", grup: "D", ev: "ABD", dep: "Paraguay", yer: "Los Angeles", skor: null },
+    { iso: "2026-06-13", saat: "04:00", grup: "D", ev: "ABD", dep: "Paraguay", yer: "Los Angeles", skor: "4 - 1", not: "Goller: Bobadilla (7' kendi kalesine - ABD), Balogun (31'), Balogun (45+5'), Maurício (73' - Paraguay), Reyna (90+8')." },
     { iso: "2026-06-13", saat: "22:00", grup: "B", ev: "Katar", dep: "İsviçre", yer: "Santa Clara", skor: null },
     { iso: "2026-06-14", saat: "01:00", grup: "C", ev: "Brezilya", dep: "Fas", yer: "New Jersey", skor: null },
     { iso: "2026-06-14", saat: "04:00", grup: "C", ev: "Haiti", dep: "İskoçya", yer: "Boston", skor: null },
@@ -143,10 +148,10 @@ window.WC_DATA = {
       { takim: "İskoçya", flag: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
     ],
     "D": [
-      { takim: "ABD", flag: "🇺🇸", ev: true, o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Paraguay", flag: "🇵🇾", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "ABD", flag: "🇺🇸", ev: true, o: 1, g: 1, b: 0, m: 0, a: 4, y: 1, p: 3 },
       { takim: "Avustralya", flag: "🇦🇺", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Türkiye", flag: "🇹🇷", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
+      { takim: "Türkiye", flag: "🇹🇷", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "Paraguay", flag: "🇵🇾", o: 1, g: 0, b: 0, m: 1, a: 1, y: 4, p: 0 }
     ],
     "E": [
       { takim: "Almanya", flag: "🇩🇪", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
@@ -249,15 +254,15 @@ window.WC_DATA = {
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "Türkiye's World Cup opener is tomorrow (June 14) vs Australia in Vancouver; bookmakers favour Türkiye, with Arda Güler and Kenan Yıldız leading the attack.",
-    "Canada earned their first-ever World Cup point with a 1-1 draw against Bosnia and Herzegovina."
+    "Hosts USA opened with a 4-1 win over Paraguay — Balogun scored twice and they lead Group D with 3 points.",
+    "Türkiye's World Cup opener is today (June 14) at 07:00 TSİ vs Australia in Vancouver; Montella's likely XI features Çalhanoğlu and Arda Güler, with bookmakers favouring Türkiye."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
     "Türkiye, 2002'de aldığı dünya üçüncülüğünden bu yana ilk kez Dünya Kupası'nda.",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "Türkiye'nin ilk maçı yarın (14 Haziran) Vancouver'da Avustralya ile; bahis siteleri Arda Güler ve Kenan Yıldız'ın forma giyeceği Türkiye'yi favori gösteriyor.",
-    "Kanada, Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı."
+    "Ev sahibi ABD, açılış maçında Paraguay'ı 4-1 yendi; Balogun 2 gol attı, D Grubu'nda 3 puanla lider.",
+    "Türkiye'nin ilk maçı bugün (14 Haziran) TSİ 07:00'de Vancouver'da Avustralya ile; Montella'nın muhtemel 11'inde Çalhanoğlu ve Arda Güler bekleniyor, bahis siteleri Türkiye'yi favori gösteriyor."
   ]
 };
