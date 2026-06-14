@@ -5,35 +5,36 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "14 Haziran 2026, 08:10 TSİ",
-  headline_en: "Türkiye 0-1 down at the break in Vancouver: Australia lead through Nestory Irankunda's 27th-minute opener and the second half is underway right now. Türkiye dominated possession in the first half but couldn't break through; Abdülkerim Bardakcı's long-range effort hit the post (30'). Overnight in Group C, Scotland beat Haiti 1-0 (McGinn 28') for their first World Cup win since 1990 to top the group, while Brazil and Morocco drew 1-1 (Saibari 21', Vinícius Júnior 32'). Full-time result of Türkiye-Australia in the next update.",
-  headline: "Türkiye, Vancouver'da ilk yarıyı 0-1 geride kapadı: Nestory Irankunda'nın 27. dakika golüyle Avustralya önde, ikinci yarı şu anda oynanıyor. Türkiye ilk yarıda topa daha çok sahip oldu ama gole çeviremedi; Abdülkerim Bardakcı'nın uzaktan şutu direkten döndü (30'). Gece C Grubu'nda İskoçya, Haiti'yi John McGinn'in 28. dakika golüyle 1-0 yendi (1990'dan sonraki ilk DK galibiyeti) ve grup lideri oldu; Brezilya–Fas 1-1 (Saibari 21', Vinícius Júnior 32'). Türkiye–Avustralya maçının sonucu bir sonraki güncellemede.",
+  lastUpdate: "14 Haziran 2026, 10:30 TSİ",
+  headline_en: "Australia stun Türkiye 2-0 in Vancouver to spoil the Crescent Stars' return to the World Cup after 24 years. Nestory Irankunda opened the scoring on the counter (27') — becoming Australia's youngest ever World Cup scorer — and Connor Metcalfe sealed it with a low drive from range (75'). Türkiye had the better of possession but couldn't beat Mat Ryan; Bardakcı hit the post in the first half. Australia move level with the USA at the top of Group D on 3 points. Overnight in Group C, Scotland beat Haiti 1-0 (McGinn 28') for their first World Cup win since 1990 and Brazil drew 1-1 with Morocco (Saibari 21', Vinícius Júnior 32'). Germany–Curaçao (20:00) and Netherlands–Japan (23:00) follow tonight.",
+  headline: "Avustralya, Vancouver'da Türkiye'yi 2-0 yenerek Ay-Yıldızlıların 24 yıl sonra Dünya Kupası'na dönüşünü gölgeledi. Nestory Irankunda kontratakta öne geçirdi (27') — Avustralya tarihinin en genç DK golcüsü oldu — Connor Metcalfe uzaktan yerden vuruşla maçı bitirdi (75'). Türkiye topa daha çok sahip oldu ama Mat Ryan'ı geçemedi; Bardakcı ilk yarıda direkten döndü. Avustralya, D Grubu'nda 3 puanla ABD ile birlikte zirvede. Gece C Grubu'nda İskoçya, Haiti'yi McGinn'in 28. dakika golüyle 1-0 yendi (1990'dan sonraki ilk DK galibiyeti); Brezilya–Fas 1-1 (Saibari 21', Vinícius Júnior 32'). Akşam Almanya–Curaçao (20:00) ve Hollanda–Japonya (23:00) maçları var.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Folarin Balogun", takim: "ABD", flag: "🇺🇸", gol: 2 },
+    { sira: 2, oyuncu: "Nestory Irankunda", takim: "Avustralya", flag: "🇦🇺", gol: 1 },
+    { sira: 2, oyuncu: "Connor Metcalfe", takim: "Avustralya", flag: "🇦🇺", gol: 1 },
     { sira: 2, oyuncu: "Vinícius Júnior", takim: "Brezilya", flag: "🇧🇷", gol: 1 },
     { sira: 2, oyuncu: "Ismael Saibari", takim: "Fas", flag: "🇲🇦", gol: 1 },
     { sira: 2, oyuncu: "John McGinn", takim: "İskoçya", flag: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", gol: 1 },
     { sira: 2, oyuncu: "Julián Quiñones", takim: "Meksika", flag: "🇲🇽", gol: 1 },
     { sira: 2, oyuncu: "Raúl Jiménez", takim: "Meksika", flag: "🇲🇽", gol: 1 },
     { sira: 2, oyuncu: "Hwang In-beom", takim: "Güney Kore", flag: "🇰🇷", gol: 1 },
-    { sira: 2, oyuncu: "Cyle Larin", takim: "Kanada", flag: "🇨🇦", gol: 1 },
-    { sira: 2, oyuncu: "Breel Embolo", takim: "İsviçre", flag: "🇨🇭", gol: 1 },
-    { sira: 2, oyuncu: "Boualem Khoukhi", takim: "Katar", flag: "🇶🇦", gol: 1 }
+    { sira: 2, oyuncu: "Cyle Larin", takim: "Kanada", flag: "🇨🇦", gol: 1 }
   ],
-  topScorersNote: "7 maç tamamlandı; Folarin Balogun (ABD) 2 golle öne geçti, çok sayıda oyuncu birer gol attı (listede en güncel 9 isim yer alıyor).",
-  topScorersNote_en: "7 matches completed; Folarin Balogun (USA) leads with 2 goals, many players have scored once (the 9 most notable are listed).",
+  topScorersNote: "8 maç tamamlandı; Folarin Balogun (ABD) hâlâ 2 golle tek başına lider. Türkiye-Avustralya maçında Irankunda ve Metcalfe golcüler listesine girdi.",
+  topScorersNote_en: "8 matches completed; Folarin Balogun (USA) still leads alone with 2 goals. Irankunda and Metcalfe joined the scorers list after Australia's win over Türkiye.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
-    "Türkiye": "2002 dünya üçüncülüğünden bu yana ilk Dünya Kupası. Vancouver'da Avustralya ile ilk maçı şu anda 2. yarısında oynanıyor — ilk yarı, Irankunda'nın 27. dakika golüyle 0-1 geride tamamlandı; Bardakcı'nın uzaktan şutu direkten döndü (30'). Sonuç bir sonraki güncellemede. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
-    "ABD": "Açılış maçında Paraguay'ı 4-1 yendi — Folarin Balogun 2 gol attı, Gio Reyna uzatmalarda farkı açtı. D Grubu'nda 3 puanla lider; ev sahibi avantajıyla favori konumda.",
+    "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası kötü başladı: Vancouver'da Avustralya'ya 2-0 yenildi (Irankunda 27', Metcalfe 75'). Türkiye topa daha çok sahip oldu, Bardakcı'nın şutu direkten döndü ama Mat Ryan aşılamadı. Gruptan çıkmak için 20 Haziran'daki Paraguay maçı kritik. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
+    "ABD": "Açılış maçında Paraguay'ı 4-1 yendi — Folarin Balogun 2 gol attı, Gio Reyna uzatmalarda farkı açtı. D Grubu'nda 3 puanla Avustralya ile birlikte zirvede; ev sahibi avantajıyla favori konumda.",
+    "Avustralya": "Vancouver'da Türkiye'yi 2-0 yenerek turnuvaya güçlü başladı. Irankunda (27') Avustralya tarihinin en genç DK golcüsü oldu; Metcalfe (75') uzaktan attı. D Grubu'nda ABD ile zirvede.",
     "Kanada": "Ev sahibi Kanada, Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (1986 ve 2022'de 6 maçta 6 mağlubiyet vardı).",
     "Katar": "Katar, B Grubu'nda İsviçre ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı — kaptan Boualem Khoukhi'nin 90+4. dakikadaki kafa golü kurtardı.",
     "İsviçre": "İsviçre, Embolo'nun 17. dakikada penaltıdan attığı golle öne geçti ve 26 şutla maça baskın kurdu, ancak Katar'ın son dakika golüyle 1-1'e razı oldu.",
     "İspanya": "FIFA sıralamasının 1 numarası, turnuvanın favorisi. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
-    "Almanya": "E Grubu'nun açık favorisi. İlk rakibi Curaçao, tarihindeki ilk Dünya Kupası maçına çıkacak.",
+    "Almanya": "E Grubu'nun açık favorisi. Curaçao maçı bugün TSİ 20:00'de Houston'da; Curaçao tarihindeki ilk Dünya Kupası maçına çıkıyor.",
     "Arjantin": "Son şampiyon. Messi 5. Dünya Kupası'nda — üst üste ikinci kupa hedefi.",
     "İngiltere": "FIFA sıralamasında 4. İlk maçı Hırvatistan'la — grubun en kritik karşılaşması.",
     "Brezilya": "Fas ile 1-1 berabere kaldı (Saibari 21', Vinícius Júnior 32') — Alisson'un son dakika çift kurtarışı puanı korudu. Rekor 5 kez şampiyon; 2002'den beri kupa hasreti sürüyor.",
@@ -42,13 +43,14 @@ window.WC_DATA = {
   },
 
   teamNotesEn: {
-    "Türkiye": "First World Cup since finishing 3rd in 2002. Their opener vs Australia in Vancouver is currently in the second half — Australia lead 1-0 at the break thanks to Irankunda (27'); Bardakcı hit the post (30'). Result in the next update. If they top the group: 81 → 94 → 98 → 101 → Final.",
-    "ABD": "Opened with a 4-1 win over Paraguay — Folarin Balogun scored twice and Gio Reyna added a stoppage-time goal. They lead Group D with 3 points, riding home advantage.",
+    "Türkiye": "First World Cup since finishing 3rd in 2002 began badly: a 2-0 defeat to Australia in Vancouver (Irankunda 27', Metcalfe 75'). Türkiye dominated possession and Bardakcı hit the post, but couldn't beat Mat Ryan. The June 20 game vs Paraguay is now critical to reach the Round of 32. If they top the group: 81 → 94 → 98 → 101 → Final.",
+    "ABD": "Opened with a 4-1 win over Paraguay — Folarin Balogun scored twice and Gio Reyna added a stoppage-time goal. Level with Australia at the top of Group D on 3 points, riding home advantage.",
+    "Avustralya": "Strong start to the tournament with a 2-0 win over Türkiye in Vancouver. Irankunda (27') became Australia's youngest ever World Cup scorer; Metcalfe (75') struck from range. Level with the USA at the top of Group D.",
     "Kanada": "Hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina (they had lost all 6 previous matches in 1986 and 2022).",
     "Katar": "Qatar earned their first-ever World Cup point with a 1-1 draw against Switzerland — captain Boualem Khoukhi's stoppage-time header (90+4') rescued the point.",
     "İsviçre": "Switzerland took the lead through Embolo's 17th-minute penalty and dominated with 26 shots, but had to settle for a 1-1 draw after Qatar's late equaliser.",
     "İspanya": "FIFA's No. 1 and tournament favourite. Due to the draw, they can only meet Argentina in the final.",
-    "Almanya": "Clear favourite of Group E. First opponent Curaçao play their first ever World Cup match.",
+    "Almanya": "Clear favourite of Group E. Their opener vs Curaçao kicks off tonight at 20:00 TSİ in Houston; Curaçao play their first ever World Cup match.",
     "Arjantin": "Defending champions. Messi's 5th World Cup — chasing back-to-back titles.",
     "İngiltere": "Ranked 4th by FIFA. Opening match vs Croatia is the group's key fixture.",
     "Brezilya": "Drew 1-1 with Morocco (Saibari 21', Vinícius Júnior 32') — a late Alisson double save preserved the point. Record 5-time champions, still chasing a title since 2002.",
@@ -66,7 +68,7 @@ window.WC_DATA = {
     { iso: "2026-06-13", saat: "22:00", grup: "B", ev: "Katar", dep: "İsviçre", yer: "Santa Clara", skor: "1 - 1", not: "Goller: Embolo (17' penaltı - İsviçre), Khoukhi (90+4' - Katar). Katar, Dünya Kupası tarihindeki ilk puanını aldı." },
     { iso: "2026-06-14", saat: "01:00", grup: "C", ev: "Brezilya", dep: "Fas", yer: "New Jersey", skor: "1 - 1", not: "Goller: Saibari (21' - Fas), Vinícius Júnior (32' - Brezilya)." },
     { iso: "2026-06-14", saat: "04:00", grup: "C", ev: "Haiti", dep: "İskoçya", yer: "Boston", skor: "0 - 1", not: "Goller: McGinn (28' - İskoçya). İskoçya, 1990'dan sonraki ilk Dünya Kupası galibiyetini aldı." },
-    { iso: "2026-06-14", saat: "07:00", grup: "D", ev: "Avustralya", dep: "Türkiye", yer: "Vancouver", skor: null },
+    { iso: "2026-06-14", saat: "07:00", grup: "D", ev: "Avustralya", dep: "Türkiye", yer: "Vancouver", skor: "2 - 0", not: "Goller: Irankunda (27'), Metcalfe (75'). Irankunda, Avustralya tarihinin en genç DK golcüsü oldu. Türkiye topa daha çok sahip oldu, Bardakcı'nın şutu direkten döndü (30')." },
     { iso: "2026-06-14", saat: "20:00", grup: "E", ev: "Almanya", dep: "Curaçao", yer: "Houston", skor: null },
     { iso: "2026-06-14", saat: "23:00", grup: "F", ev: "Hollanda", dep: "Japonya", yer: "Arlington", skor: null },
     { iso: "2026-06-15", saat: "02:00", grup: "E", ev: "Fildişi Sahili", dep: "Ekvador", yer: "Philadelphia", skor: null },
@@ -155,8 +157,8 @@ window.WC_DATA = {
     ],
     "D": [
       { takim: "ABD", flag: "🇺🇸", ev: true, o: 1, g: 1, b: 0, m: 0, a: 4, y: 1, p: 3 },
-      { takim: "Avustralya", flag: "🇦🇺", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Türkiye", flag: "🇹🇷", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "Avustralya", flag: "🇦🇺", o: 1, g: 1, b: 0, m: 0, a: 2, y: 0, p: 3 },
+      { takim: "Türkiye", flag: "🇹🇷", o: 1, g: 0, b: 0, m: 1, a: 0, y: 2, p: 0 },
       { takim: "Paraguay", flag: "🇵🇾", o: 1, g: 0, b: 0, m: 1, a: 1, y: 4, p: 0 }
     ],
     "E": [
@@ -250,25 +252,41 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "If Türkiye top Group D, their path is: 81 → 94 → 98 → 101 → Final. (orange boxes)",
-    note: "Türkiye D Grubu'nu lider bitirirse yolu: 81 → 94 → 98 → 101 → Final. (turuncu işaretli kutular)"
+    note_en: "Türkiye lost their opener 2-0 to Australia, making the June 20 match vs Paraguay decisive for reaching the Round of 32. If they still top Group D, their path is: 81 → 94 → 98 → 101 → Final. (orange boxes)",
+    note: "Türkiye, Avustralya'ya 2-0 yenilerek kötü başladı; 20 Haziran'daki Paraguay maçı eleme turuna kalmak için kritik. Yine de D Grubu'nu lider bitirirse yolu: 81 → 94 → 98 → 101 → Final. (turuncu işaretli kutular)"
   },
 
   // ---------------- BİLGİ KUTUSU ----------------
   facts_en: [
     "First World Cup with 48 teams and 3 host nations (USA, Canada, Mexico). 104 matches in total.",
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
-    "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002.",
+    "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27', Metcalfe 75').",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "Scotland beat Haiti 1-0 (McGinn 28') for their first World Cup win since 1990, and currently top Group C after Brazil and Morocco drew 1-1 (Saibari 21', Vinícius Júnior 32').",
-    "Türkiye's World Cup opener vs Australia in Vancouver is in the second half: Australia lead 1-0 at the break (Irankunda 27'); Bardakcı hit the post (30'). Full-time result in the next update."
+    "Australia's Nestory Irankunda (20) became their youngest ever World Cup scorer with the opener vs Türkiye; Australia move level with the USA at the top of Group D on 3 points.",
+    "Scotland beat Haiti 1-0 (McGinn 28') for their first World Cup win since 1990, while Brazil and Morocco drew 1-1 (Saibari 21', Vinícius Júnior 32') in Group C."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
-    "Türkiye, 2002'de aldığı dünya üçüncülüğünden bu yana ilk kez Dünya Kupası'nda.",
+    "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya Vancouver'da 2-0 yenilerek başladı (Irankunda 27', Metcalfe 75').",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "İskoçya, Haiti'yi 1-0 yenerek (McGinn 28') 1990'dan sonraki ilk Dünya Kupası galibiyetini aldı ve C Grubu'nda lider oldu; Brezilya ile Fas 1-1 berabere kaldı (Saibari 21', Vinícius Júnior 32').",
-    "Türkiye'nin Vancouver'daki Avustralya açılış maçı 2. yarısında: ilk yarı sonu Avustralya 1-0 önde (Irankunda 27'), Bardakcı'nın şutu direkten döndü (30'). Sonuç bir sonraki güncellemede."
+    "Avustralyalı Nestory Irankunda (20) Türkiye karşısında Avustralya tarihinin en genç DK golcüsü oldu; Avustralya 3 puanla D Grubu'nda ABD ile birlikte zirvede.",
+    "İskoçya, Haiti'yi 1-0 yenerek (McGinn 28') 1990'dan sonraki ilk Dünya Kupası galibiyetini aldı; C Grubu'nda Brezilya–Fas 1-1 (Saibari 21', Vinícius Júnior 32')."
+  ]
+};
+nations (USA, Canada, Mexico). 104 matches in total.",
+    "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
+    "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27', Metcalfe 75').",
+    "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
+    "Australia's Nestory Irankunda (20) became their youngest ever World Cup scorer with the opener vs Türkiye; Australia move level with the USA at the top of Group D on 3 points.",
+    "Scotland beat Haiti 1-0 (McGinn 28') for their first World Cup win since 1990, while Brazil and Morocco drew 1-1 (Saibari 21', Vinícius Júnior 32') in Group C."
+  ],
+  facts: [
+    "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
+    "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
+    "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya Vancouver'da 2-0 yenilerek başladı (Irankunda 27', Metcalfe 75').",
+    "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
+    "Avustralyalı Nestory Irankunda (20) Türkiye karşısında Avustralya tarihinin en genç DK golcüsü oldu; Avustralya 3 puanla D Grubu'nda ABD ile birlikte zirvede.",
+    "İskoçya, Haiti'yi 1-0 yenerek (McGinn 28') 1990'dan sonraki ilk Dünya Kupası galibiyetini aldı; C Grubu'nda Brezilya–Fas 1-1 (Saibari 21', Vinícius Júnior 32')."
   ]
 };
