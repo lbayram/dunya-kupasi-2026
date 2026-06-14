@@ -5,25 +5,25 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "15 Haziran 2026, 00:15 TSİ",
-  headline_en: "Germany's win over Curaçao didn't stay at 3-1 — it finished 7-1 at NRG Stadium in Houston, with Kai Havertz scoring twice (45+5' pen, 88') and Musiala, Brown, Undav, Nmecha and Schlotterbeck also on target; Comenencia's 21st-minute strike remains Curaçao's historic first-ever World Cup goal. Meanwhile in Arlington, the Netherlands and Japan are still scoreless (0-0) midway through the second half. Côte d'Ivoire–Ecuador follows at 02:00 TSİ and Sweden–Tunisia at 05:00. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
-  headline: "Almanya'nın Curaçao karşısındaki galibiyeti 3-1'de kalmadı, maç 7-1 ile bitti: Houston'daki NRG Stadyumu'nda Kai Havertz 2 gol attı (45+5' pen, 88'), Musiala, Brown, Undav, Nmecha ve Schlotterbeck de skora katkı yaptı; Comenencia'nın 21. dakika golü Curaçao'nun Dünya Kupası tarihindeki ilk golü olarak kayıtlara geçti. Bu arada Arlington'da Hollanda–Japonya ikinci yarının ortasında hâlâ 0-0; ardından 02:00 TSİ'de Fildişi Sahili–Ekvador ve 05:00'te İsveç–Tunus oynanacak. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
+  lastUpdate: "15 Haziran 2026, 02:15 TSİ",
+  headline_en: "The Netherlands and Japan served up a thriller in Arlington, sharing the points in a 2-2 draw: Van Dijk (51') and Summerville (64') gave the Dutch the lead twice, but Nakamura (57') and a stoppage-time Kamada goal (88', turning in an Ogawa flick from an Ito corner) brought Japan level both times. Attention now turns to Philadelphia for Côte d'Ivoire vs Ecuador (02:00 TSİ), followed by Sweden vs Tunisia in Monterrey at 05:00. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
+  headline: "Hollanda-Japonya maçı Arlington'da nefes kesen bir 2-2 ile bitti: Van Dijk (51') ve Summerville (64') ile iki kez öne geçen Hollanda'yı, Japonya Nakamura (57') ve uzatmalarda Kamada'nın (88', Ito'nun kornerinden Ogawa'nın uzatmasıyla) golleriyle her seferinde yakaladı. Sıra şimdi Philadelphia'da Fildişi Sahili–Ekvador'a (02:00 TSİ) geldi, ardından 05:00'te Monterrey'de İsveç–Tunus oynanacak. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Folarin Balogun", takim: "ABD", flag: "🇺🇸", gol: 2 },
     { sira: 1, oyuncu: "Kai Havertz", takim: "Almanya", flag: "🇩🇪", gol: 2 },
-    { sira: 3, oyuncu: "Felix Nmecha", takim: "Almanya", flag: "🇩🇪", gol: 1 },
-    { sira: 3, oyuncu: "Nico Schlotterbeck", takim: "Almanya", flag: "🇩🇪", gol: 1 },
     { sira: 3, oyuncu: "Jamal Musiala", takim: "Almanya", flag: "🇩🇪", gol: 1 },
-    { sira: 3, oyuncu: "Nathaniel Brown", takim: "Almanya", flag: "🇩🇪", gol: 1 },
-    { sira: 3, oyuncu: "Deniz Undav", takim: "Almanya", flag: "🇩🇪", gol: 1 },
     { sira: 3, oyuncu: "Livano Comenencia", takim: "Curaçao", flag: "🇨🇼", gol: 1 },
     { sira: 3, oyuncu: "Nestory Irankunda", takim: "Avustralya", flag: "🇦🇺", gol: 1 },
-    { sira: 3, oyuncu: "Connor Metcalfe", takim: "Avustralya", flag: "🇦🇺", gol: 1 }
+    { sira: 3, oyuncu: "Connor Metcalfe", takim: "Avustralya", flag: "🇦🇺", gol: 1 },
+    { sira: 3, oyuncu: "Virgil van Dijk", takim: "Hollanda", flag: "🇳🇱", gol: 1 },
+    { sira: 3, oyuncu: "Keito Nakamura", takim: "Japonya", flag: "🇯🇵", gol: 1 },
+    { sira: 3, oyuncu: "Crysencio Summerville", takim: "Hollanda", flag: "🇳🇱", gol: 1 },
+    { sira: 3, oyuncu: "Daichi Kamada", takim: "Japonya", flag: "🇯🇵", gol: 1 }
   ],
-  topScorersNote: "9 maç tamamlandı; Almanya'nın Curaçao'yu 7-1 yendiği maç sonradan netleşti — Kai Havertz 2 gol atarak (45+5' pen, 88') Folarin Balogun (ABD) ile gol krallığında ortak liderliğe yükseldi. Musiala, Brown, Undav, Nmecha ve Schlotterbeck de bu maçtan 1'er golle listeye girdi; Curaçao'nun tarihi golünü atan Comenencia yerini koruyor.",
-  topScorersNote_en: "9 matches completed; Germany's win over Curaçao turned out to be 7-1 — Kai Havertz scored twice (45+5' pen, 88') to join Folarin Balogun (USA) at the top with 2 goals each. Musiala, Brown, Undav, Nmecha and Schlotterbeck all add to Germany's tally with one goal apiece, while Comenencia's historic goal for Curaçao keeps him on the list.",
+  topScorersNote: "10 maç tamamlandı; Hollanda-Japonya açılış maçı nefes kesen bir 2-2 ile bitti. Van Dijk (51') ve Summerville (64') Hollanda'ya iki kez öncülük etti, Nakamura (57') ve uzatmalarda Kamada (88') Japonya'yı her seferinde eşitledi — dördü de gol krallığına 1 golle girdi. Balogun (ABD) ve Havertz (Almanya) 2 golle ortak liderliğini sürdürüyor.",
+  topScorersNote_en: "10 matches completed; the Netherlands-Japan opener finished as a thrilling 2-2. Van Dijk (51') and Summerville (64') put the Dutch ahead twice, while Nakamura (57') and a stoppage-time Kamada goal (88') brought Japan level both times — all four join the scoring chart with 1 goal apiece. Balogun (USA) and Havertz (Germany) remain joint top scorers with 2 each.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -39,7 +39,9 @@ window.WC_DATA = {
     "İngiltere": "FIFA sıralamasında 4. İlk maçı Hırvatistan'la — grubun en kritik karşılaşması.",
     "Brezilya": "Fas ile 1-1 berabere kaldı (Saibari 21', Vinícius Júnior 32') — Alisson'un son dakika çift kurtarışı puanı korudu. Rekor 5 kez şampiyon; 2002'den beri kupa hasreti sürüyor.",
     "Fransa": "2018 şampiyonu, 2022 finalisti. Mbappé yine en büyük koz.",
-    "İskoçya": "Haiti'yi McGinn'in 28. dakika golüyle 1-0 yendi — 1990'dan sonraki ilk Dünya Kupası galibiyeti. C Grubu'nda lider durumda."
+    "İskoçya": "Haiti'yi McGinn'in 28. dakika golüyle 1-0 yendi — 1990'dan sonraki ilk Dünya Kupası galibiyeti. C Grubu'nda lider durumda.",
+    "Hollanda": "Dallas'ta Japonya ile nefes kesen bir 2-2'ye imza attı: Van Dijk (51') ve Summerville (64') ile iki kez öne geçti, ancak Nakamura (57') ve uzatmalarda Kamada'nın (88') golleriyle her seferinde yakalandı. F Grubu'na 1 puanla başladı.",
+    "Japonya": "2022'de Almanya ve İspanya'yı deviren Japonya, açılış maçında Hollanda karşısında 2-2'lik müthiş bir geri dönüş gösterdi: Nakamura (57') ve Kamada (88', Ito'nun kornerinden Ogawa'nın uzatmasıyla) golleriyle iki kez öne geçen rakibini yakaladı."
   },
 
   teamNotesEn: {
@@ -55,7 +57,9 @@ window.WC_DATA = {
     "İngiltere": "Ranked 4th by FIFA. Opening match vs Croatia is the group's key fixture.",
     "Brezilya": "Drew 1-1 with Morocco (Saibari 21', Vinícius Júnior 32') — a late Alisson double save preserved the point. Record 5-time champions, still chasing a title since 2002.",
     "Fransa": "2018 champions, 2022 finalists. Mbappé remains their biggest asset.",
-    "İskoçya": "Beat Haiti 1-0 thanks to John McGinn's 28th-minute goal — their first World Cup win since 1990. They top Group C."
+    "İskoçya": "Beat Haiti 1-0 thanks to John McGinn's 28th-minute goal — their first World Cup win since 1990. They top Group C.",
+    "Hollanda": "Produced a thrilling 2-2 draw with Japan in Dallas: Van Dijk (51') and Summerville (64') gave the Dutch the lead twice, but Nakamura (57') and a stoppage-time Kamada goal (88') brought Japan level both times. They open Group F with 1 point.",
+    "Japonya": "Having shocked Germany and Spain in 2022, Japan fought back from behind twice to draw 2-2 with the Netherlands in their opener — Nakamura (57') and Kamada (88', turning in an Ogawa flick from an Ito corner) cancelled out two Dutch leads."
   },
 
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
@@ -70,7 +74,7 @@ window.WC_DATA = {
     { iso: "2026-06-14", saat: "04:00", grup: "C", ev: "Haiti", dep: "İskoçya", yer: "Boston", skor: "0 - 1", not: "Goller: McGinn (28' - İskoçya). İskoçya, 1990'dan sonraki ilk Dünya Kupası galibiyetini aldı." },
     { iso: "2026-06-14", saat: "07:00", grup: "D", ev: "Avustralya", dep: "Türkiye", yer: "Vancouver", skor: "2 - 0", not: "Goller: Irankunda (27'), Metcalfe (75'). Irankunda, Avustralya tarihinin en genç DK golcüsü oldu. Türkiye topa daha çok sahip oldu, Bardakcı'nın şutu direkten döndü (30')." },
     { iso: "2026-06-14", saat: "20:00", grup: "E", ev: "Almanya", dep: "Curaçao", yer: "Houston", skor: "7 - 1", not: "Goller: Nmecha (6' - Almanya), Comenencia (21' - Curaçao), Schlotterbeck (38' - Almanya), Havertz (45+5' penaltı - Almanya), Musiala (47' - Almanya), Brown (68' - Almanya), Undav (78' - Almanya), Havertz (88' - Almanya). Comenencia'nın golü, Curaçao'nun Dünya Kupası tarihindeki ilk golü oldu; Almanya 7-1'lik farkla turnuvanın en büyük galibiyetlerinden birini aldı." },
-    { iso: "2026-06-14", saat: "23:00", grup: "F", ev: "Hollanda", dep: "Japonya", yer: "Arlington", skor: null },
+    { iso: "2026-06-14", saat: "23:00", grup: "F", ev: "Hollanda", dep: "Japonya", yer: "Arlington", skor: "2 - 2", not: "Goller: Van Dijk (51' - Hollanda), Nakamura (57' - Japonya), Summerville (64' - Hollanda), Kamada (88' - Japonya)." },
     { iso: "2026-06-15", saat: "02:00", grup: "E", ev: "Fildişi Sahili", dep: "Ekvador", yer: "Philadelphia", skor: null },
     { iso: "2026-06-15", saat: "05:00", grup: "F", ev: "İsveç", dep: "Tunus", yer: "Monterrey", skor: null },
     { iso: "2026-06-15", saat: "19:00", grup: "H", ev: "İspanya", dep: "Cape Verde", yer: "Atlanta", skor: null },
@@ -168,8 +172,8 @@ window.WC_DATA = {
       { takim: "Curaçao", flag: "🇨🇼", o: 1, g: 0, b: 0, m: 1, a: 1, y: 7, p: 0 }
     ],
     "F": [
-      { takim: "Hollanda", flag: "🇳🇱", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Japonya", flag: "🇯🇵", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "Hollanda", flag: "🇳🇱", o: 1, g: 0, b: 1, m: 0, a: 2, y: 2, p: 1 },
+      { takim: "Japonya", flag: "🇯🇵", o: 1, g: 0, b: 1, m: 0, a: 2, y: 2, p: 1 },
       { takim: "İsveç", flag: "🇸🇪", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Tunus", flag: "🇹🇳", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
     ],
@@ -262,7 +266,7 @@ window.WC_DATA = {
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27', Metcalfe 75').",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "Germany opened Group E with a 7-1 win over Curaçao at NRG Stadium — their biggest margin of the tournament so far. Havertz scored twice (45+5' pen, 88'), with Nmecha, Schlotterbeck, Musiala, Brown and Undav also on target (Comenencia 21' for Curaçao).",
+    "The Netherlands and Japan shared a thrilling 2-2 draw in the Group F opener — Japan came from behind twice, just as they did against Germany and Spain in 2022 (Nakamura 57', Kamada 88').",
     "Curaçao — the smallest nation ever to qualify for the men's World Cup — scored their first ever World Cup goal through Livano Comenencia (21')."
   ],
   facts: [
@@ -270,7 +274,7 @@ window.WC_DATA = {
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
     "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya Vancouver'da 2-0 yenilerek başladı (Irankunda 27', Metcalfe 75').",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "Almanya, E Grubu'na NRG Stadyumu'nda Curaçao'yu 7-1 yenerek başladı — turnuvanın şimdiye kadarki en farklı sonucu. Havertz 2 gol attı (45+5' pen, 88'); Nmecha, Schlotterbeck, Musiala, Brown ve Undav da skora katkı yaptı (Curaçao için Comenencia 21').",
+    "Hollanda ile Japonya, F Grubu açılış maçında 2-2'lik nefes kesen bir mücadeleye imza attı — Japonya, 2022'de Almanya ve İspanya'ya karşı yaptığı gibi iki kez geriden geldi (Nakamura 57', Kamada 88').",
     "Curaçao, erkekler Dünya Kupası'na katılan en küçük ülke; tarihindeki ilk DK golünü Livano Comenencia 21'de attı."
   ]
 };
