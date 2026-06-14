@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "14 Haziran 2026, 12:15 TSİ",
-  headline_en: "Eyes turn to Houston tonight as Germany open their Group E campaign vs Curaçao (20:00 TSİ) and Netherlands take on Japan in Arlington (23:00 TSİ) — Curaçao making their first World Cup appearance ever. Overnight, Türkiye's tournament began with a 2-0 defeat to Australia in Vancouver: Nestory Irankunda's counter (27') and Connor Metcalfe's drive from range (75') sank the Crescent Stars. Türkiye dominated possession and Bardakcı hit the post but couldn't beat Mat Ryan. Australia now sit level with the USA atop Group D on 3 points. Earlier in Group C, Scotland beat Haiti 1-0 (McGinn 28') — their first World Cup win since 1990 — and Brazil drew 1-1 with Morocco (Saibari 21', Vinícius Júnior 32').",
-  headline: "Bu akşam gözler Houston'a çevrildi: Almanya, E Grubu'na Curaçao karşısında başlıyor (20:00 TSİ); Hollanda ise Arlington'da Japonya ile karşılaşacak (23:00 TSİ). Curaçao, tarihindeki ilk Dünya Kupası maçına çıkıyor. Gece Türkiye, Vancouver'da Avustralya'ya 2-0 yenilerek turnuvaya kötü başladı: Irankunda kontratakta öne geçirdi (27'), Metcalfe uzaktan yerden vurdu (75'). Türkiye topa daha çok sahip oldu, Bardakcı direkten döndü ama Mat Ryan'ı geçemedi. Avustralya, D Grubu'nda 3 puanla ABD ile zirvede. Önce C Grubu'nda İskoçya, Haiti'yi McGinn'in 28. dakika golüyle 1-0 yendi (1990'dan sonraki ilk DK galibiyeti); Brezilya–Fas 1-1 (Saibari 21', Vinícius Júnior 32') bitti.",
+  lastUpdate: "14 Haziran 2026, 14:15 TSİ",
+  headline_en: "All eyes on Houston in a few hours: Germany open their Group E campaign vs Curaçao at 20:00 TSİ, with Netherlands–Japan following in Arlington at 23:00 TSİ — Curaçao playing their first ever World Cup match. Overnight in Vancouver, Türkiye's tournament began with a 2-0 defeat to Australia: Nestory Irankunda's counter (27') and Connor Metcalfe's drive from range (75') sank the Crescent Stars. Türkiye dominated possession and Bardakcı hit the post but couldn't beat goalkeeper Patrick Beach. Australia now sit level with the USA atop Group D on 3 points. Earlier in Group C, Scotland beat Haiti 1-0 (McGinn 28') — their first World Cup win since 1990 — and Brazil drew 1-1 with Morocco (Saibari 21', Vinícius Júnior 32').",
+  headline: "Birkaç saat sonra gözler Houston'da: Almanya, E Grubu'na Curaçao karşısında başlıyor (20:00 TSİ); ardından Hollanda Arlington'da Japonya ile karşılaşacak (23:00 TSİ). Curaçao, tarihindeki ilk Dünya Kupası maçına çıkıyor. Gece Türkiye, Vancouver'da Avustralya'ya 2-0 yenilerek turnuvaya kötü başladı: Irankunda kontratakta öne geçirdi (27'), Metcalfe uzaktan yerden vurdu (75'). Türkiye topa daha çok sahip oldu, Bardakcı direkten döndü ama kaleci Patrick Beach'i geçemedi. Avustralya, D Grubu'nda 3 puanla ABD ile zirvede. Önce C Grubu'nda İskoçya, Haiti'yi McGinn'in 28. dakika golüyle 1-0 yendi (1990'dan sonraki ilk DK galibiyeti); Brezilya–Fas 1-1 (Saibari 21', Vinícius Júnior 32') bitti.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -27,7 +27,7 @@ window.WC_DATA = {
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
-    "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası kötü başladı: Vancouver'da Avustralya'ya 2-0 yenildi (Irankunda 27', Metcalfe 75'). Türkiye topa daha çok sahip oldu, Bardakcı'nın şutu direkten döndü ama Mat Ryan aşılamadı. Gruptan çıkmak için 20 Haziran'daki Paraguay maçı kritik. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
+    "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası kötü başladı: Vancouver'da Avustralya'ya 2-0 yenildi (Irankunda 27', Metcalfe 75'). Türkiye topa daha çok sahip oldu, Bardakcı'nın şutu direkten döndü ama kaleci Patrick Beach aşılamadı. Gruptan çıkmak için 20 Haziran'daki Paraguay maçı kritik. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
     "ABD": "Açılış maçında Paraguay'ı 4-1 yendi — Folarin Balogun 2 gol attı, Gio Reyna uzatmalarda farkı açtı. D Grubu'nda 3 puanla Avustralya ile birlikte zirvede; ev sahibi avantajıyla favori konumda.",
     "Avustralya": "Vancouver'da Türkiye'yi 2-0 yenerek turnuvaya güçlü başladı. Irankunda (27') Avustralya tarihinin en genç DK golcüsü oldu; Metcalfe (75') uzaktan attı. D Grubu'nda ABD ile zirvede.",
     "Kanada": "Ev sahibi Kanada, Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (1986 ve 2022'de 6 maçta 6 mağlubiyet vardı).",
@@ -43,7 +43,7 @@ window.WC_DATA = {
   },
 
   teamNotesEn: {
-    "Türkiye": "First World Cup since finishing 3rd in 2002 began badly: a 2-0 defeat to Australia in Vancouver (Irankunda 27', Metcalfe 75'). Türkiye dominated possession and Bardakcı hit the post, but couldn't beat Mat Ryan. The June 20 game vs Paraguay is now critical to reach the Round of 32. If they top the group: 81 → 94 → 98 → 101 → Final.",
+    "Türkiye": "First World Cup since finishing 3rd in 2002 began badly: a 2-0 defeat to Australia in Vancouver (Irankunda 27', Metcalfe 75'). Türkiye dominated possession and Bardakcı hit the post, but couldn't beat goalkeeper Patrick Beach. The June 20 game vs Paraguay is now critical to reach the Round of 32. If they top the group: 81 → 94 → 98 → 101 → Final.",
     "ABD": "Opened with a 4-1 win over Paraguay — Folarin Balogun scored twice and Gio Reyna added a stoppage-time goal. Level with Australia at the top of Group D on 3 points, riding home advantage.",
     "Avustralya": "Strong start to the tournament with a 2-0 win over Türkiye in Vancouver. Irankunda (27') became Australia's youngest ever World Cup scorer; Metcalfe (75') struck from range. Level with the USA at the top of Group D.",
     "Kanada": "Hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina (they had lost all 6 previous matches in 1986 and 2022).",
