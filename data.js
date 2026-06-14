@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "14 Haziran 2026, 21:15 TSİ",
-  headline_en: "Germany opened their Group E campaign with a 3-1 win over debutants Curaçao at NRG Stadium in Houston: Nmecha scored after just 6 minutes, Comenencia equalised (21') with the smallest qualifying nation's first ever World Cup goal, then Schlotterbeck headed in from a corner (37') and Havertz converted a penalty deep in stoppage time (45+4'). Tonight at 23:00 TSİ the Netherlands take on Japan in Arlington, followed by Côte d'Ivoire–Ecuador (02:00) and Sweden–Tunisia (05:00). Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday morning's 2-0 loss to Australia in Vancouver.",
-  headline: "Almanya, E Grubu'na NRG Stadyumu'nda Curaçao'yu 3-1 yenerek başladı: Nmecha henüz 6. dakikada attı, Comenencia (21') turnuvaya katılan en küçük ülkenin tarihindeki ilk DK golüyle eşitledi; sonra Schlotterbeck kornerden kafayla (37') ve Havertz uzatmada penaltıdan (45+4') farkı yaptı. Bu gece 23:00 TSİ'de Arlington'da Hollanda–Japonya, ardından 02:00'de Fildişi Sahili–Ekvador ve 05:00'te İsveç–Tunus oynanacak. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
+  lastUpdate: "14 Haziran 2026, 23:15 TSİ",
+  headline_en: "Group F opens tonight: the Netherlands and Japan have just kicked off in Arlington (0-0 after 11 minutes), with Côte d'Ivoire–Ecuador to follow at 02:00 TSİ and Sweden–Tunisia at 05:00. Earlier today Germany beat debutants Curaçao 3-1 at NRG Stadium in Houston (Nmecha 6', Schlotterbeck 37', Havertz 45+4' pen; Comenencia 21' — the smallest qualifying nation's first ever World Cup goal). Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday morning's 2-0 loss to Australia in Vancouver.",
+  headline: "F Grubu bu gece açılıyor: Arlington'da Hollanda–Japonya az önce başladı (11. dakikada 0-0); ardından 02:00 TSİ'de Fildişi Sahili–Ekvador ve 05:00'te İsveç–Tunus oynanacak. Bugün öğleden sonra Almanya, NRG Stadyumu'nda Curaçao'yu 3-1 yenmişti (Nmecha 6', Schlotterbeck 37', Havertz 45+4' pen; Comenencia 21' — turnuvaya katılan en küçük ülkenin tarihindeki ilk DK golü). Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
