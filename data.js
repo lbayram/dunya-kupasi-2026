@@ -5,7 +5,7 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "15 Haziran 2026, 02:15 TSİ",
+  lastUpdate: "15 Haziran 2026, 02:30 TSİ",
   headline_en: "The Netherlands and Japan served up a thriller in Arlington, sharing the points in a 2-2 draw: Van Dijk (51') and Summerville (64') gave the Dutch the lead twice, but Nakamura (57') and a stoppage-time Kamada goal (88', turning in an Ogawa flick from an Ito corner) brought Japan level both times. Attention now turns to Philadelphia for Côte d'Ivoire vs Ecuador (02:00 TSİ), followed by Sweden vs Tunisia in Monterrey at 05:00. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
   headline: "Hollanda-Japonya maçı Arlington'da nefes kesen bir 2-2 ile bitti: Van Dijk (51') ve Summerville (64') ile iki kez öne geçen Hollanda'yı, Japonya Nakamura (57') ve uzatmalarda Kamada'nın (88', Ito'nun kornerinden Ogawa'nın uzatmasıyla) golleriyle her seferinde yakaladı. Sıra şimdi Philadelphia'da Fildişi Sahili–Ekvador'a (02:00 TSİ) geldi, ardından 05:00'te Monterrey'de İsveç–Tunus oynanacak. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
 
