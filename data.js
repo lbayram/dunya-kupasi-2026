@@ -5,25 +5,25 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "14 Haziran 2026, 16:45 TSİ",
-  headline_en: "Türkiye's tournament began with a 2-0 defeat to Australia in Vancouver (Irankunda 27', Metcalfe 75'); the Crescent Stars dominated possession and Bardakcı hit the post but couldn't beat goalkeeper Patrick Beach. The June 20 game vs Paraguay is now decisive for the Round of 32. Tonight: Germany open Group E vs debutants Curaçao at 20:00 TSİ in Houston, then Netherlands face Japan at 23:00 in Arlington. Earlier in Group C, Scotland beat Haiti 1-0 thanks to John McGinn (28') — their first World Cup win since 1990 — while Brazil and Morocco drew 1-1 (Saibari 21', Vinícius Júnior 32').",
-  headline: "Türkiye, Vancouver'da Avustralya'ya 2-0 yenilerek turnuvaya kötü başladı (Irankunda 27', Metcalfe 75'); Ay-Yıldızlılar topa daha çok sahip oldu, Bardakcı direkten döndü ama kaleci Patrick Beach aşılamadı. 20 Haziran'daki Paraguay maçı eleme turuna kalmak için kritik. Bu akşam 20:00 TSİ'de Houston'da Almanya, E Grubu'na turnuva çaylağı Curaçao karşısında başlıyor; 23:00'te Arlington'da Hollanda–Japonya var. Gece yarısı C Grubu'nda İskoçya, Haiti'yi McGinn'in 28. dakika golüyle 1-0 yendi (1990'dan sonraki ilk DK galibiyeti); Brezilya–Fas 1-1 (Saibari 21', Vinícius Júnior 32') bitti.",
+  lastUpdate: "14 Haziran 2026, 21:15 TSİ",
+  headline_en: "Germany opened their Group E campaign with a 3-1 win over debutants Curaçao at NRG Stadium in Houston: Nmecha scored after just 6 minutes, Comenencia equalised (21') with the smallest qualifying nation's first ever World Cup goal, then Schlotterbeck headed in from a corner (37') and Havertz converted a penalty deep in stoppage time (45+4'). Tonight at 23:00 TSİ the Netherlands take on Japan in Arlington, followed by Côte d'Ivoire–Ecuador (02:00) and Sweden–Tunisia (05:00). Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday morning's 2-0 loss to Australia in Vancouver.",
+  headline: "Almanya, E Grubu'na NRG Stadyumu'nda Curaçao'yu 3-1 yenerek başladı: Nmecha henüz 6. dakikada attı, Comenencia (21') turnuvaya katılan en küçük ülkenin tarihindeki ilk DK golüyle eşitledi; sonra Schlotterbeck kornerden kafayla (37') ve Havertz uzatmada penaltıdan (45+4') farkı yaptı. Bu gece 23:00 TSİ'de Arlington'da Hollanda–Japonya, ardından 02:00'de Fildişi Sahili–Ekvador ve 05:00'te İsveç–Tunus oynanacak. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Folarin Balogun", takim: "ABD", flag: "🇺🇸", gol: 2 },
-    { sira: 2, oyuncu: "Nestory Irankunda", takim: "Avustralya", flag: "🇦🇺", gol: 1 },
-    { sira: 2, oyuncu: "Connor Metcalfe", takim: "Avustralya", flag: "🇦🇺", gol: 1 },
+    { sira: 2, oyuncu: "Felix Nmecha", takim: "Almanya", flag: "🇩🇪", gol: 1 },
+    { sira: 2, oyuncu: "Nico Schlotterbeck", takim: "Almanya", flag: "🇩🇪", gol: 1 },
+    { sira: 2, oyuncu: "Kai Havertz", takim: "Almanya", flag: "🇩🇪", gol: 1 },
+    { sira: 2, oyuncu: "Livano Comenencia", takim: "Curaçao", flag: "🇨🇼", gol: 1 },
     { sira: 2, oyuncu: "Vinícius Júnior", takim: "Brezilya", flag: "🇧🇷", gol: 1 },
     { sira: 2, oyuncu: "Ismael Saibari", takim: "Fas", flag: "🇲🇦", gol: 1 },
     { sira: 2, oyuncu: "John McGinn", takim: "İskoçya", flag: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", gol: 1 },
-    { sira: 2, oyuncu: "Gio Reyna", takim: "ABD", flag: "🇺🇸", gol: 1 },
-    { sira: 2, oyuncu: "Breel Embolo", takim: "İsviçre", flag: "🇨🇭", gol: 1 },
-    { sira: 2, oyuncu: "Boualem Khoukhi", takim: "Katar", flag: "🇶🇦", gol: 1 },
-    { sira: 2, oyuncu: "Cyle Larin", takim: "Kanada", flag: "🇨🇦", gol: 1 }
+    { sira: 2, oyuncu: "Nestory Irankunda", takim: "Avustralya", flag: "🇦🇺", gol: 1 },
+    { sira: 2, oyuncu: "Connor Metcalfe", takim: "Avustralya", flag: "🇦🇺", gol: 1 }
   ],
-  topScorersNote: "8 maç tamamlandı; Folarin Balogun (ABD) 2 golle tek başına lider. Türkiye'yi yenen Avustralya'dan Irankunda ve Metcalfe ile C Grubu'ndaki Vinícius Júnior (Brezilya), Saibari (Fas) ve McGinn (İskoçya) listede yer alıyor. Almanya–Curaçao bu akşam oynanacak.",
-  topScorersNote_en: "8 matches completed; Folarin Balogun (USA) leads alone with 2 goals. Australia's Irankunda and Metcalfe (the Türkiye match) feature alongside Group C scorers Vinícius Júnior (Brazil), Saibari (Morocco) and McGinn (Scotland). Germany–Curaçao is still to come tonight.",
+  topScorersNote: "9 maç tamamlandı; Folarin Balogun (ABD) 2 golle tek başına lider. Almanya'nın Curaçao galibiyetinden Nmecha, Schlotterbeck ve Havertz; Curaçao adına tarihi golü atan Comenencia listeye girdi. Toplam 11 farklı oyuncu 1 gol attı.",
+  topScorersNote_en: "9 matches completed; Folarin Balogun (USA) still leads alone on 2 goals. Germany's win over Curaçao added Nmecha, Schlotterbeck and Havertz; Comenencia, scorer of Curaçao's historic first World Cup goal, also features. Eleven different players are tied on one goal.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -34,7 +34,7 @@ window.WC_DATA = {
     "Katar": "Katar, B Grubu'nda İsviçre ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı — kaptan Boualem Khoukhi'nin 90+4. dakikadaki kafa golü kurtardı.",
     "İsviçre": "İsviçre, Embolo'nun 17. dakikada penaltıdan attığı golle öne geçti ve 26 şutla maça baskın kurdu, ancak Katar'ın son dakika golüyle 1-1'e razı oldu.",
     "İspanya": "FIFA sıralamasının 1 numarası, turnuvanın favorisi. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
-    "Almanya": "E Grubu'na bu akşam 20:00 TSİ'de Houston'da Curaçao karşısında başlıyor. Nagelsmann'ın takımı son 5 hazırlık maçında 18 gol atarak güçlü form yakaladı; gruptaki diğer rakipler Fildişi Sahili ve Ekvador.",
+    "Almanya": "E Grubu'na NRG Stadyumu'nda Curaçao'yu 3-1 yenerek başladı. Nmecha (6'), Schlotterbeck (37' kafa) ve Havertz (45+4' penaltı) attı; Comenencia'nın 21'de eşitlik golüne izin vermek dışında ilk yarıda baskındı. Nagelsmann'ın takımı 3 puanla E Grubu'nun zirvesinde.",
     "Arjantin": "Son şampiyon. Messi 5. Dünya Kupası'nda — üst üste ikinci kupa hedefi.",
     "İngiltere": "FIFA sıralamasında 4. İlk maçı Hırvatistan'la — grubun en kritik karşılaşması.",
     "Brezilya": "Fas ile 1-1 berabere kaldı (Saibari 21', Vinícius Júnior 32') — Alisson'un son dakika çift kurtarışı puanı korudu. Rekor 5 kez şampiyon; 2002'den beri kupa hasreti sürüyor.",
@@ -50,7 +50,7 @@ window.WC_DATA = {
     "Katar": "Qatar earned their first-ever World Cup point with a 1-1 draw against Switzerland — captain Boualem Khoukhi's stoppage-time header (90+4') rescued the point.",
     "İsviçre": "Switzerland took the lead through Embolo's 17th-minute penalty and dominated with 26 shots, but had to settle for a 1-1 draw after Qatar's late equaliser.",
     "İspanya": "FIFA's No. 1 and tournament favourite. Due to the draw, they can only meet Argentina in the final.",
-    "Almanya": "Open their Group E campaign tonight at 20:00 TSİ in Houston against Curaçao. Nagelsmann's side hit form with 18 goals across five warm-up wins; other group rivals are Ivory Coast and Ecuador.",
+    "Almanya": "Opened their Group E campaign with a 3-1 win over Curaçao at NRG Stadium. Nmecha (6'), Schlotterbeck (37', header) and Havertz (45+4', pen) scored; aside from Comenencia's 21st-minute equaliser, Nagelsmann's side dominated the first half. Three points and top of Group E.",
     "Arjantin": "Defending champions. Messi's 5th World Cup — chasing back-to-back titles.",
     "İngiltere": "Ranked 4th by FIFA. Opening match vs Croatia is the group's key fixture.",
     "Brezilya": "Drew 1-1 with Morocco (Saibari 21', Vinícius Júnior 32') — a late Alisson double save preserved the point. Record 5-time champions, still chasing a title since 2002.",
@@ -69,7 +69,7 @@ window.WC_DATA = {
     { iso: "2026-06-14", saat: "01:00", grup: "C", ev: "Brezilya", dep: "Fas", yer: "New Jersey", skor: "1 - 1", not: "Goller: Saibari (21' - Fas), Vinícius Júnior (32' - Brezilya)." },
     { iso: "2026-06-14", saat: "04:00", grup: "C", ev: "Haiti", dep: "İskoçya", yer: "Boston", skor: "0 - 1", not: "Goller: McGinn (28' - İskoçya). İskoçya, 1990'dan sonraki ilk Dünya Kupası galibiyetini aldı." },
     { iso: "2026-06-14", saat: "07:00", grup: "D", ev: "Avustralya", dep: "Türkiye", yer: "Vancouver", skor: "2 - 0", not: "Goller: Irankunda (27'), Metcalfe (75'). Irankunda, Avustralya tarihinin en genç DK golcüsü oldu. Türkiye topa daha çok sahip oldu, Bardakcı'nın şutu direkten döndü (30')." },
-    { iso: "2026-06-14", saat: "20:00", grup: "E", ev: "Almanya", dep: "Curaçao", yer: "Houston", skor: null },
+    { iso: "2026-06-14", saat: "20:00", grup: "E", ev: "Almanya", dep: "Curaçao", yer: "Houston", skor: "3 - 1", not: "Goller: Nmecha (6' - Almanya), Comenencia (21' - Curaçao), Schlotterbeck (37' kafa - Almanya), Havertz (45+4' penaltı - Almanya). Comenencia'nın golü, Curaçao'nun Dünya Kupası tarihindeki ilk golü oldu." },
     { iso: "2026-06-14", saat: "23:00", grup: "F", ev: "Hollanda", dep: "Japonya", yer: "Arlington", skor: null },
     { iso: "2026-06-15", saat: "02:00", grup: "E", ev: "Fildişi Sahili", dep: "Ekvador", yer: "Philadelphia", skor: null },
     { iso: "2026-06-15", saat: "05:00", grup: "F", ev: "İsveç", dep: "Tunus", yer: "Monterrey", skor: null },
@@ -162,10 +162,10 @@ window.WC_DATA = {
       { takim: "Paraguay", flag: "🇵🇾", o: 1, g: 0, b: 0, m: 1, a: 1, y: 4, p: 0 }
     ],
     "E": [
-      { takim: "Almanya", flag: "🇩🇪", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "Almanya", flag: "🇩🇪", o: 1, g: 1, b: 0, m: 0, a: 3, y: 1, p: 3 },
       { takim: "Fildişi Sahili", flag: "🇨🇮", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Ekvador", flag: "🇪🇨", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Curaçao", flag: "🇨🇼", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
+      { takim: "Curaçao", flag: "🇨🇼", o: 1, g: 0, b: 0, m: 1, a: 1, y: 3, p: 0 }
     ],
     "F": [
       { takim: "Hollanda", flag: "🇳🇱", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
@@ -262,15 +262,15 @@ window.WC_DATA = {
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27', Metcalfe 75').",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "Day 4 (June 14) features World Cup debutants Curaçao opening against Germany in Houston (20:00 TSİ), followed by Netherlands vs Japan in Arlington (23:00 TSİ).",
-    "Scotland beat Haiti 1-0 (McGinn 28') for their first World Cup win since 1990, while Brazil and Morocco drew 1-1 (Saibari 21', Vinícius Júnior 32') in Group C."
+    "Germany opened Group E with a 3-1 win over Curaçao at NRG Stadium (Nmecha 6', Schlotterbeck 37', Havertz 45+4' pen; Comenencia 21').",
+    "Curaçao — the smallest nation ever to qualify for the men's World Cup — scored their first ever World Cup goal through Livano Comenencia (21')."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
     "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya Vancouver'da 2-0 yenilerek başladı (Irankunda 27', Metcalfe 75').",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "4. günün (14 Haziran) iki maçı: 20:00 TSİ Almanya–Curaçao (Houston, Curaçao'nun ilk DK maçı), 23:00 TSİ Hollanda–Japonya (Arlington).",
-    "İskoçya, Haiti'yi 1-0 yenerek (McGinn 28') 1990'dan sonraki ilk Dünya Kupası galibiyetini aldı; C Grubu'nda Brezilya–Fas 1-1 (Saibari 21', Vinícius Júnior 32')."
+    "Almanya, E Grubu'na NRG Stadyumu'nda Curaçao'yu 3-1 yenerek başladı (Nmecha 6', Schlotterbeck 37', Havertz 45+4' pen; Comenencia 21').",
+    "Curaçao, erkekler Dünya Kupası'na katılan en küçük ülke; tarihindeki ilk DK golünü Livano Comenencia 21'de attı."
   ]
 };
