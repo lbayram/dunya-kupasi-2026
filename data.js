@@ -5,7 +5,7 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "14 Haziran 2026, 12:00 TSİ",
+  lastUpdate: "14 Haziran 2026, 12:15 TSİ",
   headline_en: "Eyes turn to Houston tonight as Germany open their Group E campaign vs Curaçao (20:00 TSİ) and Netherlands take on Japan in Arlington (23:00 TSİ) — Curaçao making their first World Cup appearance ever. Overnight, Türkiye's tournament began with a 2-0 defeat to Australia in Vancouver: Nestory Irankunda's counter (27') and Connor Metcalfe's drive from range (75') sank the Crescent Stars. Türkiye dominated possession and Bardakcı hit the post but couldn't beat Mat Ryan. Australia now sit level with the USA atop Group D on 3 points. Earlier in Group C, Scotland beat Haiti 1-0 (McGinn 28') — their first World Cup win since 1990 — and Brazil drew 1-1 with Morocco (Saibari 21', Vinícius Júnior 32').",
   headline: "Bu akşam gözler Houston'a çevrildi: Almanya, E Grubu'na Curaçao karşısında başlıyor (20:00 TSİ); Hollanda ise Arlington'da Japonya ile karşılaşacak (23:00 TSİ). Curaçao, tarihindeki ilk Dünya Kupası maçına çıkıyor. Gece Türkiye, Vancouver'da Avustralya'ya 2-0 yenilerek turnuvaya kötü başladı: Irankunda kontratakta öne geçirdi (27'), Metcalfe uzaktan yerden vurdu (75'). Türkiye topa daha çok sahip oldu, Bardakcı direkten döndü ama Mat Ryan'ı geçemedi. Avustralya, D Grubu'nda 3 puanla ABD ile zirvede. Önce C Grubu'nda İskoçya, Haiti'yi McGinn'in 28. dakika golüyle 1-0 yendi (1990'dan sonraki ilk DK galibiyeti); Brezilya–Fas 1-1 (Saibari 21', Vinícius Júnior 32') bitti.",
 
