@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "15 Haziran 2026, 21:10 TSİ",
-  headline_en: "Spain were held to a stunning 0-0 draw by World Cup debutants Cape Verde in Atlanta — veteran goalkeeper Vozinha made 7 saves to deny La Roja's 27 shots (7 on target), one of the tournament's biggest shocks so far. Both sides open Group H with 1 point. Later tonight: Belgium vs Egypt (22:00 TSİ) kicks off Group G, followed by Saudi Arabia vs Uruguay (01:00) and Iran vs New Zealand (04:00). Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
-  headline: "İspanya, Atlanta'da Dünya Kupası'na ilk kez katılan Cape Verde'yi aşamadı ve 0-0'da kaldı — 40 yaşındaki kaleci Vozinha'nın 7 kurtarışı, La Roja'nın 27 şutunu (7'si isabetli) boşa çıkardı; turnuvanın en büyük sürprizlerinden biri yaşandı. H Grubu'na her iki takım da 1 puanla başladı. Gecenin devamında Belçika–Mısır (22:00 TSİ) G Grubu'nu açıyor, ardından S. Arabistan–Uruguay (01:00) ve İran–Yeni Zelanda (04:00) oynanacak. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
+  lastUpdate: "15 Haziran 2026, 22:10 TSİ",
+  headline_en: "Spain were held to a stunning 0-0 draw by World Cup debutants Cape Verde in Atlanta — veteran goalkeeper Vozinha made 7 saves to deny La Roja's 27 shots (7 on target), one of the tournament's biggest shocks so far. Both sides open Group H with 1 point. Right now in Seattle, Belgium vs Egypt is underway to open Group G, with Saudi Arabia vs Uruguay (01:00 TSİ) and Iran vs New Zealand (04:00 TSİ) still to come tonight. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
+  headline: "İspanya, Atlanta'da Dünya Kupası'na ilk kez katılan Cape Verde'yi aşamadı ve 0-0'da kaldı — 40 yaşındaki kaleci Vozinha'nın 7 kurtarışı, La Roja'nın 27 şutunu (7'si isabetli) boşa çıkardı; turnuvanın en büyük sürprizlerinden biri yaşandı. H Grubu'na her iki takım da 1 puanla başladı. Şu anda Seattle'da Belçika–Mısır maçı G Grubu'nu açmak için oynanıyor; gecenin devamında S. Arabistan–Uruguay (01:00 TSİ) ve İran–Yeni Zelanda (04:00 TSİ) oynanacak. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
