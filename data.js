@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "16 Haziran 2026, 00:16 TSİ",
-  headline_en: "Day 6 kicks off at 01:00 TSİ with Saudi Arabia vs Uruguay in Miami (Group H), followed by Iran vs New Zealand in Los Angeles at 04:00 TSİ (Group G). Tonight's headline match: France vs Senegal at 22:00 TSİ in New Jersey (Group I). Egypt top Group G with 3 pts after their 1-0 win over Belgium; Spain and Cape Verde are level on 1 pt each in Group H. Türkiye's tournament hopes hinge on the June 20 clash with Paraguay.",
-  headline: "6. gün saat 01:00'de H Grubu S. Arabistan–Uruguay (Miami), ardından 04:00'te G Grubu İran–Yeni Zelanda (Los Angeles) ile başlıyor. Gecenin ana karşılaşması: I Grubu Fransa–Senegal saat 22:00'de New Jersey'de. G Grubu'nda Mısır, Belçika'yı 1-0 yenerek 3 puanla lider; H Grubu'nda İspanya ve Cape Verde 1'er puanla başa baş. Türkiye'nin turu 20 Haziran'daki Paraguay maçına bağlı.",
+  lastUpdate: "16 Haziran 2026, 10:00 TSİ",
+  headline_en: "Day 7: Saudi Arabia vs Uruguay (Group H, 01:00 TSİ) and Iran vs New Zealand (Group G, 04:00 TSİ) were played overnight — scores not yet confirmed in this update. Tonight's headline: France vs Senegal at 22:00 TSİ in New Jersey (Group I, FS1), followed by Iraq vs Norway at 01:00 TSİ (Group I). Group G leaders: Egypt on 3 pts. Group H: Spain and Cape Verde level on 1 pt each. Turkey must beat Paraguay on June 20 to stay alive.",
+  headline: "7. gün: Gece 01:00'de S. Arabistan–Uruguay (H Grubu) ve 04:00'te İran–Yeni Zelanda (G Grubu) oynandı — bu güncellemede skorlar henüz doğrulanamadı. Akşamın büyük maçı: Fransa–Senegal saat 22:00'de New Jersey'de (I Grubu, FS1), ardından 01:00'de Irak–Norveç. G Grubu lideri Mısır 3 puanla; H Grubu'nda İspanya ve Cape Verde 1'er puanla. Türkiye 20 Haziran'da Paraguay'a karşı.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -22,8 +22,8 @@ window.WC_DATA = {
     { sira: 4, oyuncu: "Viktor Gyökeres", takim: "İsveç", flag: "🇸🇪", gol: 1 },
     { sira: 4, oyuncu: "Mattias Svanberg", takim: "İsveç", flag: "🇸🇪", gol: 1 }
   ],
-  topScorersNote: "14 maç tamamlandı. Saat 01:00'de S. Arabistan–Uruguay ve 04:00'te İran–Yeni Zelanda oynanacak; yeni gol krallığı adayları çıkabilir. Şimdilik Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider.",
-  topScorersNote_en: "14 matches completed. Saudi Arabia vs Uruguay (01:00 TSİ) and Iran vs New Zealand (04:00 TSİ) are next — new top-scorer candidates may emerge. For now, Balogun (USA), Havertz (Germany) and Ayari (Sweden) remain joint leaders with 2 goals each.",
+  topScorersNote: "16 maç tamamlandı (S. Arabistan–Uruguay ve İran–Yeni Zelanda gece oynandı; golcüler bu güncelleme itibarıyla doğrulanıyor). Şimdilik Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider. Akşam Fransa–Senegal'de yeni adaylar çıkabilir.",
+  topScorersNote_en: "16 matches completed (Saudi Arabia vs Uruguay and Iran vs New Zealand played overnight; scorers being confirmed for this update). For now, Balogun (USA), Havertz (Germany) and Ayari (Sweden) are joint leaders with 2 goals each. France vs Senegal tonight may bring new names into contention.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -281,7 +281,7 @@ window.WC_DATA = {
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27', Metcalfe 75').",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
     "Egypt beat Belgium 1-0 in Seattle to top Group G with 3 points — Emam Ashour's 19th-minute strike gave Egypt their first-ever half-time lead at a World Cup.",
-    "World Cup debutants Cape Verde held favourites Spain to a 0-0 draw in Atlanta — 40-year-old goalkeeper Vozinha's 7 saves are being hailed as the tournament's biggest shock so far."
+    "Tonight (June 16, 22:00 TSİ): 2018 champions France face Senegal in New Jersey — the tournament's most anticipated Group I clash. Mbappé leads the attack; Senegal's Sadio Mané may miss out."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
@@ -289,6 +289,6 @@ window.WC_DATA = {
     "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya Vancouver'da 2-0 yenilerek başladı (Irankunda 27', Metcalfe 75').",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
     "Mısır, Seattle'da Belçika'yı 1-0 yenerek G Grubu'na 3 puanla başladı — Emam Ashour'un 19. dakika golü Mısır'a Dünya Kupası tarihinde ilk kez devre arası liderliği yaşattı.",
-    "Cape Verde, Dünya Kupası'na ilk katılımında favori İspanya'yı Atlanta'da 0-0'a tuttu — 40 yaşındaki kaleci Vozinha'nın 7 kurtarışı, turnuvanın şimdiye kadarki en büyük sürprizi olarak değerlendiriliyor."
+    "Bu gece (16 Haziran, 22:00 TSİ): 2018 şampiyonu Fransa, New Jersey'de Senegal'e karşı — I Grubu'nun en çekişmeli ilk maçı. Mbappé'li Fransa favorisi; Sadio Mané'nin durumu belirsiz."
   ]
 };
