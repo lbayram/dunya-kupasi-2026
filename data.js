@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "15 Haziran 2026, 09:10 TSİ",
-  headline_en: "Sweden thrashed Tunisia 5-1 in Monterrey to top Group F on matchday 1 with 3 points — a Yasin Ayari double (7', 90+6') plus goals from Isak (30'), Gyökeres (59') and Svanberg (84') sealed the rout, with Omar Rekik (43') scoring Tunisia's only goal. Later today: Spain vs Cape Verde, Belgium vs Egypt, Saudi Arabia vs Uruguay and Iran vs New Zealand all open their campaigns. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
-  headline: "İsveç, Monterrey'de Tunus'u 5-1 farkla yenerek F Grubu'na 3 puanla lider başladı — Yasin Ayari'nin iki golü (7', 90+6') ve Isak (30'), Gyökeres (59'), Svanberg (84') ile farkı açtı, Omar Rekik (43') Tunus için tek golü kaydetti. Bugün İspanya–Cape Verde, Belçika–Mısır, S. Arabistan–Uruguay ve İran–Yeni Zelanda ilk maçlarına çıkıyor. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
+  lastUpdate: "15 Haziran 2026, 21:10 TSİ",
+  headline_en: "Spain were held to a stunning 0-0 draw by World Cup debutants Cape Verde in Atlanta — veteran goalkeeper Vozinha made 7 saves to deny La Roja's 27 shots (7 on target), one of the tournament's biggest shocks so far. Both sides open Group H with 1 point. Later tonight: Belgium vs Egypt (22:00 TSİ) kicks off Group G, followed by Saudi Arabia vs Uruguay (01:00) and Iran vs New Zealand (04:00). Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
+  headline: "İspanya, Atlanta'da Dünya Kupası'na ilk kez katılan Cape Verde'yi aşamadı ve 0-0'da kaldı — 40 yaşındaki kaleci Vozinha'nın 7 kurtarışı, La Roja'nın 27 şutunu (7'si isabetli) boşa çıkardı; turnuvanın en büyük sürprizlerinden biri yaşandı. H Grubu'na her iki takım da 1 puanla başladı. Gecenin devamında Belçika–Mısır (22:00 TSİ) G Grubu'nu açıyor, ardından S. Arabistan–Uruguay (01:00) ve İran–Yeni Zelanda (04:00) oynanacak. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -22,8 +22,8 @@ window.WC_DATA = {
     { sira: 4, oyuncu: "Viktor Gyökeres", takim: "İsveç", flag: "🇸🇪", gol: 1 },
     { sira: 4, oyuncu: "Mattias Svanberg", takim: "İsveç", flag: "🇸🇪", gol: 1 }
   ],
-  topScorersNote: "12 maç tamamlandı. İsveç, Monterrey'de Tunus'u 5-1 farkla yenerek F Grubu'na 3 puanla lider başladı — Yasin Ayari iki gol kaydetti (7', 90+6'), Isak (30'), Gyökeres (59') ve Svanberg (84') de skora katkı verdi; Omar Rekik (43') Tunus'un tek golünü attı. Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle gol krallığında ortak lider.",
-  topScorersNote_en: "12 matches completed. Sweden thrashed Tunisia 5-1 in Monterrey to top Group F on matchday 1 with 3 points — Yasin Ayari scored twice (7', 90+6'), with Isak (30'), Gyökeres (59') and Svanberg (84') adding to the rout; Omar Rekik (43') got Tunisia's only goal. Balogun (USA), Havertz (Germany) and Ayari (Sweden) are now joint top scorers with 2 goals each.",
+  topScorersNote: "13 maç tamamlandı. İspanya, Atlanta'da Dünya Kupası'na ilk kez katılan Cape Verde'yi yenemedi ve 0-0'da kaldı — kaleci Vozinha'nın 7 kurtarışı La Roja'nın 27 şutunu (7 isabetli) boşa çıkardı. Gol krallığında değişiklik yok: Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider.",
+  topScorersNote_en: "13 matches completed. Spain failed to beat World Cup debutants Cape Verde, settling for a scoreless draw in Atlanta — veteran keeper Vozinha's 7 saves denied La Roja's 27 shots (7 on target). No change at the top of the scoring charts: Balogun (USA), Havertz (Germany) and Ayari (Sweden) remain joint leaders with 2 goals each.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -33,7 +33,8 @@ window.WC_DATA = {
     "Kanada": "Ev sahibi Kanada, Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (1986 ve 2022'de 6 maçta 6 mağlubiyet vardı).",
     "Katar": "Katar, B Grubu'nda İsviçre ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı — kaptan Boualem Khoukhi'nin 90+4. dakikadaki kafa golü kurtardı.",
     "İsviçre": "İsviçre, Embolo'nun 17. dakikada penaltıdan attığı golle öne geçti ve 26 şutla maça baskın kurdu, ancak Katar'ın son dakika golüyle 1-1'e razı oldu.",
-    "İspanya": "FIFA sıralamasının 1 numarası, turnuvanın favorisi. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
+    "İspanya": "FIFA sıralamasının 1 numarası ve Avrupa şampiyonu olan İspanya, Atlanta'da Dünya Kupası'na ilk kez katılan Cape Verde'yi aşamadı ve 0-0'da kaldı. 27 şut (7 isabetli) çekmesine rağmen 40 yaşındaki kaleci Vozinha'nın 7 kurtarışına çarptı; Ferran Torres 39. dakikada direkten döndü. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
+    "Cape Verde": "Dünya Kupası'na ilk kez katılan Cape Verde, Atlanta'da favori İspanya'yı 0-0'a tuttu — turnuvanın en büyük sürprizlerinden biri. 40 yaşındaki kaleci Vozinha 7 kurtarış yaptı. H Grubu'na 1 puanla başladı.",
     "Almanya": "E Grubu'na NRG Stadyumu'nda Curaçao'yu 7-1 yenerek muhteşem başladı. Nmecha (6'), Schlotterbeck (38'), Havertz (45+5' pen ve 88'), Musiala (47'), Brown (68') ve Undav (78') gol attı; Comenencia (21') Curaçao'nun tarihi golünü kaydetti. Nagelsmann'ın takımı 3 puanla E Grubu'nun zirvesinde, turnuvanın şimdiye kadarki en farklı galibiyetlerinden birini aldı.",
     "Arjantin": "Son şampiyon. Messi 5. Dünya Kupası'nda — üst üste ikinci kupa hedefi.",
     "İngiltere": "FIFA sıralamasında 4. İlk maçı Hırvatistan'la — grubun en kritik karşılaşması.",
@@ -55,7 +56,8 @@ window.WC_DATA = {
     "Kanada": "Hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina (they had lost all 6 previous matches in 1986 and 2022).",
     "Katar": "Qatar earned their first-ever World Cup point with a 1-1 draw against Switzerland — captain Boualem Khoukhi's stoppage-time header (90+4') rescued the point.",
     "İsviçre": "Switzerland took the lead through Embolo's 17th-minute penalty and dominated with 26 shots, but had to settle for a 1-1 draw after Qatar's late equaliser.",
-    "İspanya": "FIFA's No. 1 and tournament favourite. Due to the draw, they can only meet Argentina in the final.",
+    "İspanya": "FIFA's No. 1 and reigning European champions Spain were held 0-0 by World Cup debutants Cape Verde in Atlanta. Despite 27 shots (7 on target), they were repelled by 40-year-old goalkeeper Vozinha's 7 saves; Ferran Torres hit the crossbar in the 39th minute. Due to the draw, they can only meet Argentina in the final.",
+    "Cape Verde": "World Cup debutants Cape Verde held favourites Spain to a 0-0 draw in Atlanta — one of the tournament's biggest shocks. Veteran goalkeeper Vozinha (40) made 7 saves. They start Group H with 1 point.",
     "Almanya": "Opened their Group E campaign in style with a 7-1 win over Curaçao at NRG Stadium. Nmecha (6'), Schlotterbeck (38'), Havertz (45+5' pen and 88'), Musiala (47'), Brown (68') and Undav (78') all scored; Comenencia (21') got Curaçao's historic goal. Nagelsmann's side top Group E after one of the tournament's biggest wins so far.",
     "Arjantin": "Defending champions. Messi's 5th World Cup — chasing back-to-back titles.",
     "İngiltere": "Ranked 4th by FIFA. Opening match vs Croatia is the group's key fixture.",
@@ -85,7 +87,7 @@ window.WC_DATA = {
     { iso: "2026-06-14", saat: "23:00", grup: "F", ev: "Hollanda", dep: "Japonya", yer: "Arlington", skor: "2 - 2", not: "Goller: Van Dijk (51' - Hollanda), Nakamura (57' - Japonya), Summerville (64' - Hollanda), Kamada (88' - Japonya)." },
     { iso: "2026-06-15", saat: "02:00", grup: "E", ev: "Fildişi Sahili", dep: "Ekvador", yer: "Philadelphia", skor: "1 - 0", not: "Goller: Diallo (90' - Fildişi Sahili). Ekvador uzun süre 0-0'ı korudu ama son dakikada golü yedi." },
     { iso: "2026-06-15", saat: "05:00", grup: "F", ev: "İsveç", dep: "Tunus", yer: "Monterrey", skor: "5 - 1", not: "Goller: Ayari (7' ve 90+6' - İsveç), Isak (30' - İsveç), Rekik (43' - Tunus), Gyökeres (59' - İsveç), Svanberg (84' - İsveç)." },
-    { iso: "2026-06-15", saat: "19:00", grup: "H", ev: "İspanya", dep: "Cape Verde", yer: "Atlanta", skor: null },
+    { iso: "2026-06-15", saat: "19:00", grup: "H", ev: "İspanya", dep: "Cape Verde", yer: "Atlanta", skor: "0 - 0", not: "Gol yok — Cape Verde kalecisi Vozinha (40) 7 kurtarış yaptı, İspanya 27 şut çekti (7 isabetli) ama golü bulamadı; Ferran Torres 39. dakikada direkten döndü. Turnuvanın en büyük sürprizlerinden biri." },
     { iso: "2026-06-15", saat: "22:00", grup: "G", ev: "Belçika", dep: "Mısır", yer: "Seattle", skor: null },
     { iso: "2026-06-16", saat: "01:00", grup: "H", ev: "S. Arabistan", dep: "Uruguay", yer: "Miami", skor: null },
     { iso: "2026-06-16", saat: "04:00", grup: "G", ev: "İran", dep: "Yeni Zelanda", yer: "Los Angeles", skor: null },
@@ -192,8 +194,8 @@ window.WC_DATA = {
       { takim: "Yeni Zelanda", flag: "🇳🇿", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
     ],
     "H": [
-      { takim: "İspanya", flag: "🇪🇸", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Cape Verde", flag: "🇨🇻", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "İspanya", flag: "🇪🇸", o: 1, g: 0, b: 1, m: 0, a: 0, y: 0, p: 1 },
+      { takim: "Cape Verde", flag: "🇨🇻", o: 1, g: 0, b: 1, m: 0, a: 0, y: 0, p: 1 },
       { takim: "S. Arabistan", flag: "🇸🇦", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
       { takim: "Uruguay", flag: "🇺🇾", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
     ],
@@ -275,7 +277,7 @@ window.WC_DATA = {
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27', Metcalfe 75').",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
     "Côte d'Ivoire opened their first World Cup since 2014 with a 1-0 win over Ecuador thanks to a 90th-minute Amad Diallo goal, moving level with Germany on 3 points at the top of Group E.",
-    "Sweden thrashed Tunisia 5-1 in Monterrey on matchday 1 to top Group F; Yasin Ayari's brace (7', 90+6') included a stunning long-range opener that's already among the early goal-of-the-tournament contenders."
+    "World Cup debutants Cape Verde held favourites Spain to a 0-0 draw in Atlanta — 40-year-old goalkeeper Vozinha's 7 saves are being hailed as the tournament's biggest shock so far."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
@@ -283,6 +285,6 @@ window.WC_DATA = {
     "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya Vancouver'da 2-0 yenilerek başladı (Irankunda 27', Metcalfe 75').",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
     "Fildişi Sahili, 2014'ten sonraki ilk Dünya Kupası'na Ekvador'u Amad Diallo'nun 90. dakika golüyle 1-0 yenerek başladı; E Grubu'nda Almanya ile birlikte 3 puanla zirvede.",
-    "İsveç, Monterrey'de Tunus'u 5-1 farkla yenerek matchday 1'i F Grubu lideri olarak tamamladı; Yasin Ayari'nin çiftesi (7', 90+6') içindeki uzaktan vuruş, turnuvanın erken dönem en güzel gollerinden biri olarak öne çıkıyor."
+    "Cape Verde, Dünya Kupası'na ilk katılımında favori İspanya'yı Atlanta'da 0-0'a tuttu — 40 yaşındaki kaleci Vozinha'nın 7 kurtarışı, turnuvanın şimdiye kadarki en büyük sürprizi olarak değerlendiriliyor."
   ]
 };
