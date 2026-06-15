@@ -5,25 +5,25 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "15 Haziran 2026, 06:10 TSİ",
-  headline_en: "Sweden topped Group F's opening matchday with a 2-1 win over Tunisia in Monterrey — Yasin Ayari's stunning long-range strike (6') put them ahead, Alexander Isak (29') doubled the lead, and Omar Rekik (42') pulled one back for Tunisia. Later today: Spain vs Cape Verde, Belgium vs Egypt, Saudi Arabia vs Uruguay and Iran vs New Zealand all open their campaigns. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
-  headline: "İsveç, Monterrey'de Tunus'u 2-1 yenerek F Grubu'nda 1. hafta sonunda 3 puanla lider oldu — Yasin Ayari'nin (6') müthiş uzaktan golüyle öne geçti, Alexander Isak (29') farkı ikiye çıkardı, Omar Rekik (42') ise Tunus için bir gol buldu. Bugün ayrıca İspanya–Cape Verde, Belçika–Mısır, S. Arabistan–Uruguay ve İran–Yeni Zelanda ilk maçlarına çıkıyor. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
+  lastUpdate: "15 Haziran 2026, 07:10 TSİ",
+  headline_en: "Sweden thrashed Tunisia 5-1 in Monterrey to top Group F on matchday 1 with 3 points — a Yasin Ayari double (7', 90+6') plus goals from Isak (30'), Gyökeres (59') and Svanberg (84') sealed the rout, with Omar Rekik (43') scoring Tunisia's only goal. Later today: Spain vs Cape Verde, Belgium vs Egypt, Saudi Arabia vs Uruguay and Iran vs New Zealand all open their campaigns. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
+  headline: "İsveç, Monterrey'de Tunus'u 5-1 farkla yenerek F Grubu'na 3 puanla lider başladı — Yasin Ayari'nin iki golü (7', 90+6') ve Isak (30'), Gyökeres (59'), Svanberg (84') ile farkı açtı, Omar Rekik (43') Tunus için tek golü kaydetti. Bugün İspanya–Cape Verde, Belçika–Mısır, S. Arabistan–Uruguay ve İran–Yeni Zelanda ilk maçlarına çıkıyor. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Folarin Balogun", takim: "ABD", flag: "🇺🇸", gol: 2 },
     { sira: 1, oyuncu: "Kai Havertz", takim: "Almanya", flag: "🇩🇪", gol: 2 },
-    { sira: 3, oyuncu: "Jamal Musiala", takim: "Almanya", flag: "🇩🇪", gol: 1 },
-    { sira: 3, oyuncu: "Virgil van Dijk", takim: "Hollanda", flag: "🇳🇱", gol: 1 },
-    { sira: 3, oyuncu: "Keito Nakamura", takim: "Japonya", flag: "🇯🇵", gol: 1 },
-    { sira: 3, oyuncu: "Daichi Kamada", takim: "Japonya", flag: "🇯🇵", gol: 1 },
-    { sira: 3, oyuncu: "Amad Diallo", takim: "Fildişi Sahili", flag: "🇨🇮", gol: 1 },
-    { sira: 3, oyuncu: "Alexander Isak", takim: "İsveç", flag: "🇸🇪", gol: 1 },
-    { sira: 3, oyuncu: "Yasin Ayari", takim: "İsveç", flag: "🇸🇪", gol: 1 },
-    { sira: 3, oyuncu: "Omar Rekik", takim: "Tunus", flag: "🇹🇳", gol: 1 }
+    { sira: 1, oyuncu: "Yasin Ayari", takim: "İsveç", flag: "🇸🇪", gol: 2 },
+    { sira: 4, oyuncu: "Jamal Musiala", takim: "Almanya", flag: "🇩🇪", gol: 1 },
+    { sira: 4, oyuncu: "Keito Nakamura", takim: "Japonya", flag: "🇯🇵", gol: 1 },
+    { sira: 4, oyuncu: "Daichi Kamada", takim: "Japonya", flag: "🇯🇵", gol: 1 },
+    { sira: 4, oyuncu: "Amad Diallo", takim: "Fildişi Sahili", flag: "🇨🇮", gol: 1 },
+    { sira: 4, oyuncu: "Alexander Isak", takim: "İsveç", flag: "🇸🇪", gol: 1 },
+    { sira: 4, oyuncu: "Viktor Gyökeres", takim: "İsveç", flag: "🇸🇪", gol: 1 },
+    { sira: 4, oyuncu: "Mattias Svanberg", takim: "İsveç", flag: "🇸🇪", gol: 1 }
   ],
-  topScorersNote: "12 maç tamamlandı. İsveç, Monterrey'de Tunus'u 2-1 yenerek F Grubu'na 3 puanla lider başladı — Yasin Ayari (6') müthiş bir uzaktan vuruşla öne geçirdi, Alexander Isak (29') farkı ikiye çıkardı, Omar Rekik (42') ise Tunus için farkı tek gole indirdi. Balogun (ABD) ve Havertz (Almanya) 2 golle gol krallığında ortak lider.",
-  topScorersNote_en: "12 matches completed. Sweden beat Tunisia 2-1 in Monterrey to top Group F on matchday 1 with 3 points — Yasin Ayari (6') opened the scoring with a stunning long-range strike, Alexander Isak (29') doubled the lead, and Omar Rekik (42') pulled one back for Tunisia. Balogun (USA) and Havertz (Germany) remain joint top scorers with 2 goals each.",
+  topScorersNote: "12 maç tamamlandı. İsveç, Monterrey'de Tunus'u 5-1 farkla yenerek F Grubu'na 3 puanla lider başladı — Yasin Ayari iki gol kaydetti (7', 90+6'), Isak (30'), Gyökeres (59') ve Svanberg (84') de skora katkı verdi; Omar Rekik (43') Tunus'un tek golünü attı. Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle gol krallığında ortak lider.",
+  topScorersNote_en: "12 matches completed. Sweden thrashed Tunisia 5-1 in Monterrey to top Group F on matchday 1 with 3 points — Yasin Ayari scored twice (7', 90+6'), with Isak (30'), Gyökeres (59') and Svanberg (84') adding to the rout; Omar Rekik (43') got Tunisia's only goal. Balogun (USA), Havertz (Germany) and Ayari (Sweden) are now joint top scorers with 2 goals each.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -44,8 +44,8 @@ window.WC_DATA = {
     "Japonya": "2022'de Almanya ve İspanya'yı deviren Japonya, açılış maçında Hollanda karşısında 2-2'lik müthiş bir geri dönüş gösterdi: Nakamura (57') ve Kamada (88', Ito'nun kornerinden Ogawa'nın uzatmasıyla) golleriyle iki kez öne geçen rakibini yakaladı.",
     "Fildişi Sahili": "Ekvador'u Amad Diallo'nun 90. dakikadaki golüyle 1-0 yenerek 2014'ten sonraki ilk Dünya Kupası'na 3 puanla başladı; E Grubu'nda Almanya ile birlikte zirvede.",
     "Ekvador": "Fildişi Sahili karşısında uzun süre 0-0'ı korudu, ancak 90. dakikada Amad Diallo'nun golüyle 1-0 mağlup oldu ve E Grubu'na puansız başladı.",
-    "İsveç": "Monterrey'de Tunus'u 2-1 yenerek F Grubu'na 3 puanla lider başladı. Yasin Ayari (6') uzaktan müthiş bir golle öne geçirdi, Alexander Isak (29') Gyökeres'in pasıyla farkı ikiye çıkardı; Rekik (42') Tunus için bir gol buldu.",
-    "Tunus": "Monterrey'de İsveç'e 2-1 mağlup oldu; Omar Rekik'in (42') golü farkı tek gole indirdi ama yetmedi. F Grubu'na puansız başladı."
+    "İsveç": "Monterrey'de Tunus'u 5-1 farkla yenerek F Grubu'na 3 puanla lider başladı. Yasin Ayari iki gol kaydetti (7', 90+6'), Isak (30'), Gyökeres (59') ve Svanberg (84') de farkı açan golleri attı; Rekik (43') Tunus için tek golü buldu.",
+    "Tunus": "Monterrey'de İsveç'e 5-1 farkla mağlup oldu; Omar Rekik (43') tek golü kaydetti. F Grubu'na puansız başladı."
   },
 
   teamNotesEn: {
@@ -66,8 +66,8 @@ window.WC_DATA = {
     "Japonya": "Having shocked Germany and Spain in 2022, Japan fought back from behind twice to draw 2-2 with the Netherlands in their opener — Nakamura (57') and Kamada (88', turning in an Ogawa flick from an Ito corner) cancelled out two Dutch leads.",
     "Fildişi Sahili": "Beat Ecuador 1-0 thanks to a 90th-minute Amad Diallo goal, opening their first World Cup since 2014 with 3 points and moving level with Germany at the top of Group E.",
     "Ekvador": "Held Côte d'Ivoire to 0-0 for long stretches but conceded a 90th-minute Amad Diallo goal, starting Group E with no points.",
-    "İsveç": "Beat Tunisia 2-1 in Monterrey to top Group F on matchday 1. Yasin Ayari (6') struck from distance to open the scoring, and Alexander Isak (29') doubled the lead after being set up by Gyökeres; Rekik (42') pulled one back for Tunisia.",
-    "Tunus": "Lost 2-1 to Sweden in Monterrey; Omar Rekik's goal (42') pulled them within one, but it wasn't enough. They start Group F with no points."
+    "İsveç": "Thrashed Tunisia 5-1 in Monterrey to top Group F on matchday 1. Yasin Ayari scored twice (7', 90+6'), with Isak (30'), Gyökeres (59') and Svanberg (84') adding further goals; Rekik (43') got Tunisia's only goal.",
+    "Tunus": "Lost 5-1 to Sweden in Monterrey; Omar Rekik (43') scored their only goal. They start Group F with no points."
   },
 
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
@@ -84,7 +84,7 @@ window.WC_DATA = {
     { iso: "2026-06-14", saat: "20:00", grup: "E", ev: "Almanya", dep: "Curaçao", yer: "Houston", skor: "7 - 1", not: "Goller: Nmecha (6' - Almanya), Comenencia (21' - Curaçao), Schlotterbeck (38' - Almanya), Havertz (45+5' penaltı - Almanya), Musiala (47' - Almanya), Brown (68' - Almanya), Undav (78' - Almanya), Havertz (88' - Almanya). Comenencia'nın golü, Curaçao'nun Dünya Kupası tarihindeki ilk golü oldu; Almanya 7-1'lik farkla turnuvanın en büyük galibiyetlerinden birini aldı." },
     { iso: "2026-06-14", saat: "23:00", grup: "F", ev: "Hollanda", dep: "Japonya", yer: "Arlington", skor: "2 - 2", not: "Goller: Van Dijk (51' - Hollanda), Nakamura (57' - Japonya), Summerville (64' - Hollanda), Kamada (88' - Japonya)." },
     { iso: "2026-06-15", saat: "02:00", grup: "E", ev: "Fildişi Sahili", dep: "Ekvador", yer: "Philadelphia", skor: "1 - 0", not: "Goller: Diallo (90' - Fildişi Sahili). Ekvador uzun süre 0-0'ı korudu ama son dakikada golü yedi." },
-    { iso: "2026-06-15", saat: "05:00", grup: "F", ev: "İsveç", dep: "Tunus", yer: "Monterrey", skor: "2 - 1", not: "Goller: Ayari (6' - İsveç), Isak (29' - İsveç), Rekik (42' - Tunus)." },
+    { iso: "2026-06-15", saat: "05:00", grup: "F", ev: "İsveç", dep: "Tunus", yer: "Monterrey", skor: "5 - 1", not: "Goller: Ayari (7' ve 90+6' - İsveç), Isak (30' - İsveç), Rekik (43' - Tunus), Gyökeres (59' - İsveç), Svanberg (84' - İsveç)." },
     { iso: "2026-06-15", saat: "19:00", grup: "H", ev: "İspanya", dep: "Cape Verde", yer: "Atlanta", skor: null },
     { iso: "2026-06-15", saat: "22:00", grup: "G", ev: "Belçika", dep: "Mısır", yer: "Seattle", skor: null },
     { iso: "2026-06-16", saat: "01:00", grup: "H", ev: "S. Arabistan", dep: "Uruguay", yer: "Miami", skor: null },
@@ -180,10 +180,10 @@ window.WC_DATA = {
       { takim: "Curaçao", flag: "🇨🇼", o: 1, g: 0, b: 0, m: 1, a: 1, y: 7, p: 0 }
     ],
     "F": [
-      { takim: "İsveç", flag: "🇸🇪", o: 1, g: 1, b: 0, m: 0, a: 2, y: 1, p: 3 },
+      { takim: "İsveç", flag: "🇸🇪", o: 1, g: 1, b: 0, m: 0, a: 5, y: 1, p: 3 },
       { takim: "Hollanda", flag: "🇳🇱", o: 1, g: 0, b: 1, m: 0, a: 2, y: 2, p: 1 },
       { takim: "Japonya", flag: "🇯🇵", o: 1, g: 0, b: 1, m: 0, a: 2, y: 2, p: 1 },
-      { takim: "Tunus", flag: "🇹🇳", o: 1, g: 0, b: 0, m: 1, a: 1, y: 2, p: 0 }
+      { takim: "Tunus", flag: "🇹🇳", o: 1, g: 0, b: 0, m: 1, a: 1, y: 5, p: 0 }
     ],
     "G": [
       { takim: "Belçika", flag: "🇧🇪", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
@@ -275,7 +275,7 @@ window.WC_DATA = {
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27', Metcalfe 75').",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
     "Côte d'Ivoire opened their first World Cup since 2014 with a 1-0 win over Ecuador thanks to a 90th-minute Amad Diallo goal, moving level with Germany on 3 points at the top of Group E.",
-    "Sweden finished matchday 1 top of Group F after a 2-1 win over Tunisia in Monterrey; Yasin Ayari's stunning long-range strike (6') is already among the early goal-of-the-tournament contenders."
+    "Sweden thrashed Tunisia 5-1 in Monterrey on matchday 1 to top Group F; Yasin Ayari's brace (7', 90+6') included a stunning long-range opener that's already among the early goal-of-the-tournament contenders."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
@@ -283,6 +283,6 @@ window.WC_DATA = {
     "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya Vancouver'da 2-0 yenilerek başladı (Irankunda 27', Metcalfe 75').",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
     "Fildişi Sahili, 2014'ten sonraki ilk Dünya Kupası'na Ekvador'u Amad Diallo'nun 90. dakika golüyle 1-0 yenerek başladı; E Grubu'nda Almanya ile birlikte 3 puanla zirvede.",
-    "İsveç, Monterrey'de Tunus'u 2-1 yenerek matchday 1'i F Grubu lideri olarak tamamladı; Yasin Ayari'nin (6') uzaktan golü turnuvanın erken dönem en güzel gollerinden biri olarak öne çıkıyor."
+    "İsveç, Monterrey'de Tunus'u 5-1 farkla yenerek matchday 1'i F Grubu lideri olarak tamamladı; Yasin Ayari'nin çiftesi (7', 90+6') içindeki uzaktan vuruş, turnuvanın erken dönem en güzel gollerinden biri olarak öne çıkıyor."
   ]
 };
