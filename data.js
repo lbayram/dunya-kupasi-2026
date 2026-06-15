@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "15 Haziran 2026, 03:10 TSİ",
-  headline_en: "Group E's second match, Côte d'Ivoire vs Ecuador, is underway in Philadelphia and went into the break goalless (0-0) — both John Yeboah and Alan Minda have hit the woodwork for Ecuador. Sweden vs Tunisia follows in Monterrey at 05:00 TSİ. The Netherlands and Japan shared the points in Arlington with a thrilling 2-2 draw on Sunday. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
-  headline: "Grup E'nin ikinci maçı Fildişi Sahili–Ekvador, Philadelphia'da oynanıyor; ilk yarı golsüz 0-0 bitti — Ekvador'dan John Yeboah ve Alan Minda direkten döndü. Ardından 05:00 TSİ'de Monterrey'de İsveç–Tunus oynanacak. Hollanda-Japonya maçı pazar günü nefes kesen bir 2-2 ile bitmişti. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
+  lastUpdate: "15 Haziran 2026, 04:15 TSİ",
+  headline_en: "Group E got even tighter: Côte d'Ivoire beat Ecuador 1-0 in Philadelphia thanks to a 90th-minute Amad Diallo strike, moving level with Germany on 3 points at the top of the group, while Ecuador start with nothing. Up next is Sweden vs Tunisia in Monterrey at 05:00 TSİ. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
+  headline: "E Grubu kızıştı: Fildişi Sahili, Philadelphia'da Ekvador'u Amad Diallo'nun 90. dakika golüyle 1-0 mağlup ederek Almanya'nın yanına 3 puanla ortak lider oldu; Ekvador ise puansız kaldı. Sırada 05:00 TSİ'de Monterrey'de oynanacak İsveç–Tunus maçı var. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -20,10 +20,11 @@ window.WC_DATA = {
     { sira: 3, oyuncu: "Virgil van Dijk", takim: "Hollanda", flag: "🇳🇱", gol: 1 },
     { sira: 3, oyuncu: "Keito Nakamura", takim: "Japonya", flag: "🇯🇵", gol: 1 },
     { sira: 3, oyuncu: "Crysencio Summerville", takim: "Hollanda", flag: "🇳🇱", gol: 1 },
-    { sira: 3, oyuncu: "Daichi Kamada", takim: "Japonya", flag: "🇯🇵", gol: 1 }
+    { sira: 3, oyuncu: "Daichi Kamada", takim: "Japonya", flag: "🇯🇵", gol: 1 },
+    { sira: 3, oyuncu: "Amad Diallo", takim: "Fildişi Sahili", flag: "🇨🇮", gol: 1 }
   ],
-  topScorersNote: "10 maç tamamlandı; Hollanda-Japonya açılış maçı nefes kesen bir 2-2 ile bitti. Van Dijk (51') ve Summerville (64') Hollanda'ya iki kez öncülük etti, Nakamura (57') ve uzatmalarda Kamada (88') Japonya'yı her seferinde eşitledi — dördü de gol krallığına 1 golle girdi. Balogun (ABD) ve Havertz (Almanya) 2 golle ortak liderliğini sürdürüyor.",
-  topScorersNote_en: "10 matches completed; the Netherlands-Japan opener finished as a thrilling 2-2. Van Dijk (51') and Summerville (64') put the Dutch ahead twice, while Nakamura (57') and a stoppage-time Kamada goal (88') brought Japan level both times — all four join the scoring chart with 1 goal apiece. Balogun (USA) and Havertz (Germany) remain joint top scorers with 2 each.",
+  topScorersNote: "11 maç tamamlandı. Fildişi Sahili, Ekvador'u Amad Diallo'nun 90. dakika golüyle 1-0 yenerek E Grubu'nda Almanya'nın yanına ortak lider oldu. Hollanda-Japonya açılış maçı nefes kesen bir 2-2 ile bitmişti — Van Dijk (51') ve Summerville (64') Hollanda'ya iki kez öncülük etti, Nakamura (57') ve uzatmalarda Kamada (88') Japonya'yı her seferinde eşitledi. Balogun (ABD) ve Havertz (Almanya) 2 golle ortak liderliğini sürdürüyor.",
+  topScorersNote_en: "11 matches completed. Côte d'Ivoire beat Ecuador 1-0 thanks to a 90th-minute Amad Diallo goal, moving level with Germany at the top of Group E. The Netherlands-Japan opener finished as a thrilling 2-2 — Van Dijk (51') and Summerville (64') put the Dutch ahead twice, while Nakamura (57') and a stoppage-time Kamada goal (88') brought Japan level both times. Balogun (USA) and Havertz (Germany) remain joint top scorers with 2 each.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -41,7 +42,9 @@ window.WC_DATA = {
     "Fransa": "2018 şampiyonu, 2022 finalisti. Mbappé yine en büyük koz.",
     "İskoçya": "Haiti'yi McGinn'in 28. dakika golüyle 1-0 yendi — 1990'dan sonraki ilk Dünya Kupası galibiyeti. C Grubu'nda lider durumda.",
     "Hollanda": "Dallas'ta Japonya ile nefes kesen bir 2-2'ye imza attı: Van Dijk (51') ve Summerville (64') ile iki kez öne geçti, ancak Nakamura (57') ve uzatmalarda Kamada'nın (88') golleriyle her seferinde yakalandı. F Grubu'na 1 puanla başladı.",
-    "Japonya": "2022'de Almanya ve İspanya'yı deviren Japonya, açılış maçında Hollanda karşısında 2-2'lik müthiş bir geri dönüş gösterdi: Nakamura (57') ve Kamada (88', Ito'nun kornerinden Ogawa'nın uzatmasıyla) golleriyle iki kez öne geçen rakibini yakaladı."
+    "Japonya": "2022'de Almanya ve İspanya'yı deviren Japonya, açılış maçında Hollanda karşısında 2-2'lik müthiş bir geri dönüş gösterdi: Nakamura (57') ve Kamada (88', Ito'nun kornerinden Ogawa'nın uzatmasıyla) golleriyle iki kez öne geçen rakibini yakaladı.",
+    "Fildişi Sahili": "Ekvador'u Amad Diallo'nun 90. dakikadaki golüyle 1-0 yenerek 2014'ten sonraki ilk Dünya Kupası'na 3 puanla başladı; E Grubu'nda Almanya ile birlikte zirvede.",
+    "Ekvador": "Fildişi Sahili karşısında uzun süre 0-0'ı korudu, ancak 90. dakikada Amad Diallo'nun golüyle 1-0 mağlup oldu ve E Grubu'na puansız başladı."
   },
 
   teamNotesEn: {
@@ -59,7 +62,9 @@ window.WC_DATA = {
     "Fransa": "2018 champions, 2022 finalists. Mbappé remains their biggest asset.",
     "İskoçya": "Beat Haiti 1-0 thanks to John McGinn's 28th-minute goal — their first World Cup win since 1990. They top Group C.",
     "Hollanda": "Produced a thrilling 2-2 draw with Japan in Dallas: Van Dijk (51') and Summerville (64') gave the Dutch the lead twice, but Nakamura (57') and a stoppage-time Kamada goal (88') brought Japan level both times. They open Group F with 1 point.",
-    "Japonya": "Having shocked Germany and Spain in 2022, Japan fought back from behind twice to draw 2-2 with the Netherlands in their opener — Nakamura (57') and Kamada (88', turning in an Ogawa flick from an Ito corner) cancelled out two Dutch leads."
+    "Japonya": "Having shocked Germany and Spain in 2022, Japan fought back from behind twice to draw 2-2 with the Netherlands in their opener — Nakamura (57') and Kamada (88', turning in an Ogawa flick from an Ito corner) cancelled out two Dutch leads.",
+    "Fildişi Sahili": "Beat Ecuador 1-0 thanks to a 90th-minute Amad Diallo goal, opening their first World Cup since 2014 with 3 points and moving level with Germany at the top of Group E.",
+    "Ekvador": "Held Côte d'Ivoire to 0-0 for long stretches but conceded a 90th-minute Amad Diallo goal, starting Group E with no points."
   },
 
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
@@ -75,7 +80,7 @@ window.WC_DATA = {
     { iso: "2026-06-14", saat: "07:00", grup: "D", ev: "Avustralya", dep: "Türkiye", yer: "Vancouver", skor: "2 - 0", not: "Goller: Irankunda (27'), Metcalfe (75'). Irankunda, Avustralya tarihinin en genç DK golcüsü oldu. Türkiye topa daha çok sahip oldu, Bardakcı'nın şutu direkten döndü (30')." },
     { iso: "2026-06-14", saat: "20:00", grup: "E", ev: "Almanya", dep: "Curaçao", yer: "Houston", skor: "7 - 1", not: "Goller: Nmecha (6' - Almanya), Comenencia (21' - Curaçao), Schlotterbeck (38' - Almanya), Havertz (45+5' penaltı - Almanya), Musiala (47' - Almanya), Brown (68' - Almanya), Undav (78' - Almanya), Havertz (88' - Almanya). Comenencia'nın golü, Curaçao'nun Dünya Kupası tarihindeki ilk golü oldu; Almanya 7-1'lik farkla turnuvanın en büyük galibiyetlerinden birini aldı." },
     { iso: "2026-06-14", saat: "23:00", grup: "F", ev: "Hollanda", dep: "Japonya", yer: "Arlington", skor: "2 - 2", not: "Goller: Van Dijk (51' - Hollanda), Nakamura (57' - Japonya), Summerville (64' - Hollanda), Kamada (88' - Japonya)." },
-    { iso: "2026-06-15", saat: "02:00", grup: "E", ev: "Fildişi Sahili", dep: "Ekvador", yer: "Philadelphia", skor: null },
+    { iso: "2026-06-15", saat: "02:00", grup: "E", ev: "Fildişi Sahili", dep: "Ekvador", yer: "Philadelphia", skor: "1 - 0", not: "Goller: Diallo (90' - Fildişi Sahili). Ekvador uzun süre 0-0'ı korudu ama son dakikada golü yedi." },
     { iso: "2026-06-15", saat: "05:00", grup: "F", ev: "İsveç", dep: "Tunus", yer: "Monterrey", skor: null },
     { iso: "2026-06-15", saat: "19:00", grup: "H", ev: "İspanya", dep: "Cape Verde", yer: "Atlanta", skor: null },
     { iso: "2026-06-15", saat: "22:00", grup: "G", ev: "Belçika", dep: "Mısır", yer: "Seattle", skor: null },
@@ -167,8 +172,8 @@ window.WC_DATA = {
     ],
     "E": [
       { takim: "Almanya", flag: "🇩🇪", o: 1, g: 1, b: 0, m: 0, a: 7, y: 1, p: 3 },
-      { takim: "Fildişi Sahili", flag: "🇨🇮", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Ekvador", flag: "🇪🇨", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "Fildişi Sahili", flag: "🇨🇮", o: 1, g: 1, b: 0, m: 0, a: 1, y: 0, p: 3 },
+      { takim: "Ekvador", flag: "🇪🇨", o: 1, g: 0, b: 0, m: 1, a: 0, y: 1, p: 0 },
       { takim: "Curaçao", flag: "🇨🇼", o: 1, g: 0, b: 0, m: 1, a: 1, y: 7, p: 0 }
     ],
     "F": [
@@ -266,7 +271,7 @@ window.WC_DATA = {
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27', Metcalfe 75').",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "The Netherlands and Japan shared a thrilling 2-2 draw in the Group F opener — Japan came from behind twice, just as they did against Germany and Spain in 2022 (Nakamura 57', Kamada 88').",
+    "Côte d'Ivoire opened their first World Cup since 2014 with a 1-0 win over Ecuador thanks to a 90th-minute Amad Diallo goal, moving level with Germany on 3 points at the top of Group E.",
     "Curaçao — the smallest nation ever to qualify for the men's World Cup — scored their first ever World Cup goal through Livano Comenencia (21')."
   ],
   facts: [
@@ -274,7 +279,7 @@ window.WC_DATA = {
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
     "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya Vancouver'da 2-0 yenilerek başladı (Irankunda 27', Metcalfe 75').",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "Hollanda ile Japonya, F Grubu açılış maçında 2-2'lik nefes kesen bir mücadeleye imza attı — Japonya, 2022'de Almanya ve İspanya'ya karşı yaptığı gibi iki kez geriden geldi (Nakamura 57', Kamada 88').",
+    "Fildişi Sahili, 2014'ten sonraki ilk Dünya Kupası'na Ekvador'u Amad Diallo'nun 90. dakika golüyle 1-0 yenerek başladı; E Grubu'nda Almanya ile birlikte 3 puanla zirvede.",
     "Curaçao, erkekler Dünya Kupası'na katılan en küçük ülke; tarihindeki ilk DK golünü Livano Comenencia 21'de attı."
   ]
 };
