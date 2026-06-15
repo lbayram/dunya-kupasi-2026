@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "15 Haziran 2026, 22:10 TSİ",
-  headline_en: "Spain were held to a stunning 0-0 draw by World Cup debutants Cape Verde in Atlanta — veteran goalkeeper Vozinha made 7 saves to deny La Roja's 27 shots (7 on target), one of the tournament's biggest shocks so far. Both sides open Group H with 1 point. Right now in Seattle, Belgium vs Egypt is underway to open Group G, with Saudi Arabia vs Uruguay (01:00 TSİ) and Iran vs New Zealand (04:00 TSİ) still to come tonight. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
-  headline: "İspanya, Atlanta'da Dünya Kupası'na ilk kez katılan Cape Verde'yi aşamadı ve 0-0'da kaldı — 40 yaşındaki kaleci Vozinha'nın 7 kurtarışı, La Roja'nın 27 şutunu (7'si isabetli) boşa çıkardı; turnuvanın en büyük sürprizlerinden biri yaşandı. H Grubu'na her iki takım da 1 puanla başladı. Şu anda Seattle'da Belçika–Mısır maçı G Grubu'nu açmak için oynanıyor; gecenin devamında S. Arabistan–Uruguay (01:00 TSİ) ve İran–Yeni Zelanda (04:00 TSİ) oynanacak. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
+  lastUpdate: "15 Haziran 2026, 23:10 TSİ",
+  headline_en: "Egypt beat Belgium 1-0 in Seattle to open Group G with 3 points — Emam Ashour's curling 19th-minute strike, assisted by Mohamed Salah, was his first international goal and gave the Pharaohs their first-ever half-time lead at a World Cup. Saudi Arabia vs Uruguay (01:00 TSİ) and Iran vs New Zealand (04:00 TSİ) are still to come tonight. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
+  headline: "Mısır, Seattle'da Belçika'yı 1-0 yenerek G Grubu'na 3 puanla başladı — Emam Ashour'un Mohamed Salah asistiyle 19. dakikada attığı gol, kendisinin A Milli Takım'daki ilk golü oldu ve Mısır'a Dünya Kupası tarihinde ilk kez bir maçı devre arasında önde tamamlama imkanı verdi. Gecenin devamında S. Arabistan–Uruguay (01:00 TSİ) ve İran–Yeni Zelanda (04:00 TSİ) oynanacak. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -22,8 +22,8 @@ window.WC_DATA = {
     { sira: 4, oyuncu: "Viktor Gyökeres", takim: "İsveç", flag: "🇸🇪", gol: 1 },
     { sira: 4, oyuncu: "Mattias Svanberg", takim: "İsveç", flag: "🇸🇪", gol: 1 }
   ],
-  topScorersNote: "13 maç tamamlandı. İspanya, Atlanta'da Dünya Kupası'na ilk kez katılan Cape Verde'yi yenemedi ve 0-0'da kaldı — kaleci Vozinha'nın 7 kurtarışı La Roja'nın 27 şutunu (7 isabetli) boşa çıkardı. Gol krallığında değişiklik yok: Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider.",
-  topScorersNote_en: "13 matches completed. Spain failed to beat World Cup debutants Cape Verde, settling for a scoreless draw in Atlanta — veteran keeper Vozinha's 7 saves denied La Roja's 27 shots (7 on target). No change at the top of the scoring charts: Balogun (USA), Havertz (Germany) and Ayari (Sweden) remain joint leaders with 2 goals each.",
+  topScorersNote: "14 maç tamamlandı. Mısır, Seattle'da Belçika'yı Emam Ashour'un 19. dakika golüyle 1-0 yendi — Salah'ın asistiyle gelen gol, Ashour'un A Milli Takım'daki ilk golüydü ve Mısır'a Dünya Kupası tarihinde ilk kez devre arası liderliği yaşattı. Gol krallığında değişiklik yok: Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider.",
+  topScorersNote_en: "14 matches completed. Egypt beat Belgium 1-0 in Seattle thanks to Emam Ashour's 19th-minute strike, assisted by Mohamed Salah — his first international goal, and Egypt's first-ever half-time lead at a World Cup. No change at the top of the scoring charts: Balogun (USA), Havertz (Germany) and Ayari (Sweden) remain joint leaders with 2 goals each.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -46,7 +46,9 @@ window.WC_DATA = {
     "Fildişi Sahili": "Ekvador'u Amad Diallo'nun 90. dakikadaki golüyle 1-0 yenerek 2014'ten sonraki ilk Dünya Kupası'na 3 puanla başladı; E Grubu'nda Almanya ile birlikte zirvede.",
     "Ekvador": "Fildişi Sahili karşısında uzun süre 0-0'ı korudu, ancak 90. dakikada Amad Diallo'nun golüyle 1-0 mağlup oldu ve E Grubu'na puansız başladı.",
     "İsveç": "Monterrey'de Tunus'u 5-1 farkla yenerek F Grubu'na 3 puanla lider başladı. Yasin Ayari iki gol kaydetti (7', 90+6'), Isak (30'), Gyökeres (59') ve Svanberg (84') de farkı açan golleri attı; Rekik (43') Tunus için tek golü buldu.",
-    "Tunus": "Monterrey'de İsveç'e 5-1 farkla mağlup oldu; Omar Rekik (43') tek golü kaydetti. F Grubu'na puansız başladı."
+    "Tunus": "Monterrey'de İsveç'e 5-1 farkla mağlup oldu; Omar Rekik (43') tek golü kaydetti. F Grubu'na puansız başladı.",
+    "Mısır": "Seattle'da Belçika'yı 1-0 yenerek G Grubu'na 3 puanla lider başladı. Emam Ashour'un Mohamed Salah asistiyle 19. dakikada attığı gol, kendisinin A Milli Takım'daki ilk golüydü ve Mısır'a Dünya Kupası tarihinde ilk kez bir maçı devre arasında önde tamamlama imkanı verdi.",
+    "Belçika": "Seattle'da Mısır'a 1-0 mağlup oldu ve G Grubu'na puansız başladı. De Bruyne ve ekibi ilk yarıda etkisiz kaldı, Ashour'un 19. dakika golüne yanıt bulamadı."
   },
 
   teamNotesEn: {
@@ -69,7 +71,9 @@ window.WC_DATA = {
     "Fildişi Sahili": "Beat Ecuador 1-0 thanks to a 90th-minute Amad Diallo goal, opening their first World Cup since 2014 with 3 points and moving level with Germany at the top of Group E.",
     "Ekvador": "Held Côte d'Ivoire to 0-0 for long stretches but conceded a 90th-minute Amad Diallo goal, starting Group E with no points.",
     "İsveç": "Thrashed Tunisia 5-1 in Monterrey to top Group F on matchday 1. Yasin Ayari scored twice (7', 90+6'), with Isak (30'), Gyökeres (59') and Svanberg (84') adding further goals; Rekik (43') got Tunisia's only goal.",
-    "Tunus": "Lost 5-1 to Sweden in Monterrey; Omar Rekik (43') scored their only goal. They start Group F with no points."
+    "Tunus": "Lost 5-1 to Sweden in Monterrey; Omar Rekik (43') scored their only goal. They start Group F with no points.",
+    "Mısır": "Beat Belgium 1-0 in Seattle to top Group G with 3 points. Emam Ashour's 19th-minute strike, assisted by Mohamed Salah, was his first international goal and gave Egypt their first-ever half-time lead at a World Cup.",
+    "Belçika": "Lost 1-0 to Egypt in Seattle, starting Group G without a point. De Bruyne's side were toothless in the first half and never found an answer to Ashour's 19th-minute goal."
   },
 
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
@@ -88,7 +92,7 @@ window.WC_DATA = {
     { iso: "2026-06-15", saat: "02:00", grup: "E", ev: "Fildişi Sahili", dep: "Ekvador", yer: "Philadelphia", skor: "1 - 0", not: "Goller: Diallo (90' - Fildişi Sahili). Ekvador uzun süre 0-0'ı korudu ama son dakikada golü yedi." },
     { iso: "2026-06-15", saat: "05:00", grup: "F", ev: "İsveç", dep: "Tunus", yer: "Monterrey", skor: "5 - 1", not: "Goller: Ayari (7' ve 90+6' - İsveç), Isak (30' - İsveç), Rekik (43' - Tunus), Gyökeres (59' - İsveç), Svanberg (84' - İsveç)." },
     { iso: "2026-06-15", saat: "19:00", grup: "H", ev: "İspanya", dep: "Cape Verde", yer: "Atlanta", skor: "0 - 0", not: "Gol yok — Cape Verde kalecisi Vozinha (40) 7 kurtarış yaptı, İspanya 27 şut çekti (7 isabetli) ama golü bulamadı; Ferran Torres 39. dakikada direkten döndü. Turnuvanın en büyük sürprizlerinden biri." },
-    { iso: "2026-06-15", saat: "22:00", grup: "G", ev: "Belçika", dep: "Mısır", yer: "Seattle", skor: null },
+    { iso: "2026-06-15", saat: "22:00", grup: "G", ev: "Belçika", dep: "Mısır", yer: "Seattle", skor: "0 - 1", not: "Goller: Ashour (19' - Mısır). Salah'ın asistiyle gelen gol Ashour'un A Milli Takım'daki ilk golüydü; Mısır, Dünya Kupası tarihinde ilk kez bir maçı devre arasında önde tamamladı." },
     { iso: "2026-06-16", saat: "01:00", grup: "H", ev: "S. Arabistan", dep: "Uruguay", yer: "Miami", skor: null },
     { iso: "2026-06-16", saat: "04:00", grup: "G", ev: "İran", dep: "Yeni Zelanda", yer: "Los Angeles", skor: null },
     { iso: "2026-06-16", saat: "22:00", grup: "I", ev: "Fransa", dep: "Senegal", yer: "New Jersey", skor: null },
@@ -188,10 +192,10 @@ window.WC_DATA = {
       { takim: "Tunus", flag: "🇹🇳", o: 1, g: 0, b: 0, m: 1, a: 1, y: 5, p: 0 }
     ],
     "G": [
-      { takim: "Belçika", flag: "🇧🇪", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Mısır", flag: "🇪🇬", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "Mısır", flag: "🇪🇬", o: 1, g: 1, b: 0, m: 0, a: 1, y: 0, p: 3 },
       { takim: "İran", flag: "🇮🇷", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Yeni Zelanda", flag: "🇳🇿", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
+      { takim: "Yeni Zelanda", flag: "🇳🇿", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
+      { takim: "Belçika", flag: "🇧🇪", o: 1, g: 0, b: 0, m: 1, a: 0, y: 1, p: 0 }
     ],
     "H": [
       { takim: "İspanya", flag: "🇪🇸", o: 1, g: 0, b: 1, m: 0, a: 0, y: 0, p: 1 },
@@ -276,7 +280,7 @@ window.WC_DATA = {
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27', Metcalfe 75').",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "Côte d'Ivoire opened their first World Cup since 2014 with a 1-0 win over Ecuador thanks to a 90th-minute Amad Diallo goal, moving level with Germany on 3 points at the top of Group E.",
+    "Egypt beat Belgium 1-0 in Seattle to top Group G with 3 points — Emam Ashour's 19th-minute strike gave Egypt their first-ever half-time lead at a World Cup.",
     "World Cup debutants Cape Verde held favourites Spain to a 0-0 draw in Atlanta — 40-year-old goalkeeper Vozinha's 7 saves are being hailed as the tournament's biggest shock so far."
   ],
   facts: [
@@ -284,7 +288,7 @@ window.WC_DATA = {
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
     "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya Vancouver'da 2-0 yenilerek başladı (Irankunda 27', Metcalfe 75').",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "Fildişi Sahili, 2014'ten sonraki ilk Dünya Kupası'na Ekvador'u Amad Diallo'nun 90. dakika golüyle 1-0 yenerek başladı; E Grubu'nda Almanya ile birlikte 3 puanla zirvede.",
+    "Mısır, Seattle'da Belçika'yı 1-0 yenerek G Grubu'na 3 puanla başladı — Emam Ashour'un 19. dakika golü Mısır'a Dünya Kupası tarihinde ilk kez devre arası liderliği yaşattı.",
     "Cape Verde, Dünya Kupası'na ilk katılımında favori İspanya'yı Atlanta'da 0-0'a tuttu — 40 yaşındaki kaleci Vozinha'nın 7 kurtarışı, turnuvanın şimdiye kadarki en büyük sürprizi olarak değerlendiriliyor."
   ]
 };
