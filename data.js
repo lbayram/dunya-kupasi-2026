@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "15 Haziran 2026, 23:10 TSİ",
-  headline_en: "Egypt beat Belgium 1-0 in Seattle to open Group G with 3 points — Emam Ashour's curling 19th-minute strike, assisted by Mohamed Salah, was his first international goal and gave the Pharaohs their first-ever half-time lead at a World Cup. Saudi Arabia vs Uruguay (01:00 TSİ) and Iran vs New Zealand (04:00 TSİ) are still to come tonight. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
-  headline: "Mısır, Seattle'da Belçika'yı 1-0 yenerek G Grubu'na 3 puanla başladı — Emam Ashour'un Mohamed Salah asistiyle 19. dakikada attığı gol, kendisinin A Milli Takım'daki ilk golü oldu ve Mısır'a Dünya Kupası tarihinde ilk kez bir maçı devre arasında önde tamamlama imkanı verdi. Gecenin devamında S. Arabistan–Uruguay (01:00 TSİ) ve İran–Yeni Zelanda (04:00 TSİ) oynanacak. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
+  lastUpdate: "16 Haziran 2026, 00:16 TSİ",
+  headline_en: "Day 6 kicks off at 01:00 TSİ with Saudi Arabia vs Uruguay in Miami (Group H), followed by Iran vs New Zealand in Los Angeles at 04:00 TSİ (Group G). Tonight's headline match: France vs Senegal at 22:00 TSİ in New Jersey (Group I). Egypt top Group G with 3 pts after their 1-0 win over Belgium; Spain and Cape Verde are level on 1 pt each in Group H. Türkiye's tournament hopes hinge on the June 20 clash with Paraguay.",
+  headline: "6. gün saat 01:00'de H Grubu S. Arabistan–Uruguay (Miami), ardından 04:00'te G Grubu İran–Yeni Zelanda (Los Angeles) ile başlıyor. Gecenin ana karşılaşması: I Grubu Fransa–Senegal saat 22:00'de New Jersey'de. G Grubu'nda Mısır, Belçika'yı 1-0 yenerek 3 puanla lider; H Grubu'nda İspanya ve Cape Verde 1'er puanla başa baş. Türkiye'nin turu 20 Haziran'daki Paraguay maçına bağlı.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -22,8 +22,8 @@ window.WC_DATA = {
     { sira: 4, oyuncu: "Viktor Gyökeres", takim: "İsveç", flag: "🇸🇪", gol: 1 },
     { sira: 4, oyuncu: "Mattias Svanberg", takim: "İsveç", flag: "🇸🇪", gol: 1 }
   ],
-  topScorersNote: "14 maç tamamlandı. Mısır, Seattle'da Belçika'yı Emam Ashour'un 19. dakika golüyle 1-0 yendi — Salah'ın asistiyle gelen gol, Ashour'un A Milli Takım'daki ilk golüydü ve Mısır'a Dünya Kupası tarihinde ilk kez devre arası liderliği yaşattı. Gol krallığında değişiklik yok: Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider.",
-  topScorersNote_en: "14 matches completed. Egypt beat Belgium 1-0 in Seattle thanks to Emam Ashour's 19th-minute strike, assisted by Mohamed Salah — his first international goal, and Egypt's first-ever half-time lead at a World Cup. No change at the top of the scoring charts: Balogun (USA), Havertz (Germany) and Ayari (Sweden) remain joint leaders with 2 goals each.",
+  topScorersNote: "14 maç tamamlandı. Saat 01:00'de S. Arabistan–Uruguay ve 04:00'te İran–Yeni Zelanda oynanacak; yeni gol krallığı adayları çıkabilir. Şimdilik Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider.",
+  topScorersNote_en: "14 matches completed. Saudi Arabia vs Uruguay (01:00 TSİ) and Iran vs New Zealand (04:00 TSİ) are next — new top-scorer candidates may emerge. For now, Balogun (USA), Havertz (Germany) and Ayari (Sweden) remain joint leaders with 2 goals each.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
