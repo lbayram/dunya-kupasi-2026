@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "16 Haziran 2026, 10:00 TSİ",
-  headline_en: "Day 7: Saudi Arabia vs Uruguay (Group H, 01:00 TSİ) and Iran vs New Zealand (Group G, 04:00 TSİ) were played overnight — scores not yet confirmed in this update. Tonight's headline: France vs Senegal at 22:00 TSİ in New Jersey (Group I, FS1), followed by Iraq vs Norway at 01:00 TSİ (Group I). Group G leaders: Egypt on 3 pts. Group H: Spain and Cape Verde level on 1 pt each. Turkey must beat Paraguay on June 20 to stay alive.",
-  headline: "7. gün: Gece 01:00'de S. Arabistan–Uruguay (H Grubu) ve 04:00'te İran–Yeni Zelanda (G Grubu) oynandı — bu güncellemede skorlar henüz doğrulanamadı. Akşamın büyük maçı: Fransa–Senegal saat 22:00'de New Jersey'de (I Grubu, FS1), ardından 01:00'de Irak–Norveç. G Grubu lideri Mısır 3 puanla; H Grubu'nda İspanya ve Cape Verde 1'er puanla. Türkiye 20 Haziran'da Paraguay'a karşı.",
+  lastUpdate: "16 Haziran 2026, 02:20 TSİ",
+  headline_en: "Day 7 correction: Belgium vs Egypt was 1-1 (Ashour 19', Hany OG 66') — previous update incorrectly showed 0-1. Saudi Arabia vs Uruguay (01:00 TSİ) is still being played; Iran vs New Zealand (04:00 TSİ) hasn't kicked off — scores in next update. Tonight at 22:00 TSİ: France vs Senegal (Group I). Group G: Belgium and Egypt level on 1 pt each. Türkiye vs Paraguay on June 20.",
+  headline: "7. gün düzeltmesi: Belçika–Mısır gerçek sonucu 1-1 (Ashour 19', Hany OG 66') — önceki güncelleme yanlışlıkla 0-1 yazmıştı. S. Arabistan–Uruguay (01:00) hâlâ oynanıyor, İran–Yeni Zelanda (04:00) başlamadı — sonraki güncellemede. G Grubu'nda Belçika ve Mısır 1'er puanla. Akşam 22:00'de Fransa–Senegal. Türkiye 20 Haziran'da Paraguay'a karşı.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -20,10 +20,11 @@ window.WC_DATA = {
     { sira: 4, oyuncu: "Amad Diallo", takim: "Fildişi Sahili", flag: "🇨🇮", gol: 1 },
     { sira: 4, oyuncu: "Alexander Isak", takim: "İsveç", flag: "🇸🇪", gol: 1 },
     { sira: 4, oyuncu: "Viktor Gyökeres", takim: "İsveç", flag: "🇸🇪", gol: 1 },
-    { sira: 4, oyuncu: "Mattias Svanberg", takim: "İsveç", flag: "🇸🇪", gol: 1 }
+    { sira: 4, oyuncu: "Mattias Svanberg", takim: "İsveç", flag: "🇸🇪", gol: 1 },
+    { sira: 4, oyuncu: "Emam Ashour", takim: "Mısır", flag: "🇪🇬", gol: 1 }
   ],
-  topScorersNote: "16 maç tamamlandı (S. Arabistan–Uruguay ve İran–Yeni Zelanda gece oynandı; golcüler bu güncelleme itibarıyla doğrulanıyor). Şimdilik Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider. Akşam Fransa–Senegal'de yeni adaylar çıkabilir.",
-  topScorersNote_en: "16 matches completed (Saudi Arabia vs Uruguay and Iran vs New Zealand played overnight; scorers being confirmed for this update). For now, Balogun (USA), Havertz (Germany) and Ayari (Sweden) are joint leaders with 2 goals each. France vs Senegal tonight may bring new names into contention.",
+  topScorersNote: "16 maç kesinleşti. Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider. Emam Ashour (Mısır) da 1 golle listeye girdi. S. Arabistan–Uruguay ve İran–Yeni Zelanda gece maçlarının golcüleri sonraki güncellemede.",
+  topScorersNote_en: "16 matches confirmed. Joint leaders: Balogun (USA), Havertz (Germany) and Ayari (Sweden) on 2 goals each. Emam Ashour (Egypt) joins the scorers on 1 goal. Saudi Arabia vs Uruguay and Iran vs New Zealand goal tallies in the next update.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -47,8 +48,8 @@ window.WC_DATA = {
     "Ekvador": "Fildişi Sahili karşısında uzun süre 0-0'ı korudu, ancak 90. dakikada Amad Diallo'nun golüyle 1-0 mağlup oldu ve E Grubu'na puansız başladı.",
     "İsveç": "Monterrey'de Tunus'u 5-1 farkla yenerek F Grubu'na 3 puanla lider başladı. Yasin Ayari iki gol kaydetti (7', 90+6'), Isak (30'), Gyökeres (59') ve Svanberg (84') de farkı açan golleri attı; Rekik (43') Tunus için tek golü buldu.",
     "Tunus": "Monterrey'de İsveç'e 5-1 farkla mağlup oldu; Omar Rekik (43') tek golü kaydetti. F Grubu'na puansız başladı.",
-    "Mısır": "Seattle'da Belçika'yı 1-0 yenerek G Grubu'na 3 puanla lider başladı. Emam Ashour'un Mohamed Salah asistiyle 19. dakikada attığı gol, kendisinin A Milli Takım'daki ilk golüydü ve Mısır'a Dünya Kupası tarihinde ilk kez bir maçı devre arasında önde tamamlama imkanı verdi.",
-    "Belçika": "Seattle'da Mısır'a 1-0 mağlup oldu ve G Grubu'na puansız başladı. De Bruyne ve ekibi ilk yarıda etkisiz kaldı, Ashour'un 19. dakika golüne yanıt bulamadı."
+    "Mısır": "Seattle'da Belçika ile 1-1 berabere kaldı. Emam Ashour, Salah'ın asistiyle 19. dakikada attığı golle (A Milli Takım'daki ilk golü) Mısır'ı öne geçirdi; ancak Mohamed Hany'nin 66. dakikadaki kendi kale goluyla (Lukaku baskısı) Belçika denkleştirdi. G Grubu'na 1 puanla başladı.",
+    "Belçika": "Seattle'da Mısır ile 1-1 berabere kaldı. Ashour'un 19. dakika golüyle (Salah asist) geriye düşen Belçika, Lukaku'nun baskısının yol açtığı Mohamed Hany kendi kale goluyla (66') denkliği yakaladı. G Grubu'na 1 puanla başladı. De Bruyne ilk yarıda etkisiz kaldı."
   },
 
   teamNotesEn: {
@@ -72,8 +73,8 @@ window.WC_DATA = {
     "Ekvador": "Held Côte d'Ivoire to 0-0 for long stretches but conceded a 90th-minute Amad Diallo goal, starting Group E with no points.",
     "İsveç": "Thrashed Tunisia 5-1 in Monterrey to top Group F on matchday 1. Yasin Ayari scored twice (7', 90+6'), with Isak (30'), Gyökeres (59') and Svanberg (84') adding further goals; Rekik (43') got Tunisia's only goal.",
     "Tunus": "Lost 5-1 to Sweden in Monterrey; Omar Rekik (43') scored their only goal. They start Group F with no points.",
-    "Mısır": "Beat Belgium 1-0 in Seattle to top Group G with 3 points. Emam Ashour's 19th-minute strike, assisted by Mohamed Salah, was his first international goal and gave Egypt their first-ever half-time lead at a World Cup.",
-    "Belçika": "Lost 1-0 to Egypt in Seattle, starting Group G without a point. De Bruyne's side were toothless in the first half and never found an answer to Ashour's 19th-minute goal."
+    "Mısır": "Drew 1-1 with Belgium in Seattle. Emam Ashour gave Egypt the lead in the 19th minute (Salah assist) — his first international goal — but a Mohamed Hany own goal in the 66th minute (Lukaku pressure) levelled for Belgium. Egypt start Group G with 1 point.",
+    "Belçika": "Drew 1-1 with Egypt in Seattle. Ashour put Egypt ahead on 19 minutes (Salah assist), but Lukaku's pressure forced a Mohamed Hany own goal in the 66th minute to earn Belgium a point. They start Group G with 1 point; De Bruyne's impact was limited."
   },
 
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
