@@ -5,7 +5,7 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "15 Haziran 2026, 08:10 TSİ",
+  lastUpdate: "15 Haziran 2026, 09:10 TSİ",
   headline_en: "Sweden thrashed Tunisia 5-1 in Monterrey to top Group F on matchday 1 with 3 points — a Yasin Ayari double (7', 90+6') plus goals from Isak (30'), Gyökeres (59') and Svanberg (84') sealed the rout, with Omar Rekik (43') scoring Tunisia's only goal. Later today: Spain vs Cape Verde, Belgium vs Egypt, Saudi Arabia vs Uruguay and Iran vs New Zealand all open their campaigns. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
   headline: "İsveç, Monterrey'de Tunus'u 5-1 farkla yenerek F Grubu'na 3 puanla lider başladı — Yasin Ayari'nin iki golü (7', 90+6') ve Isak (30'), Gyökeres (59'), Svanberg (84') ile farkı açtı, Omar Rekik (43') Tunus için tek golü kaydetti. Bugün İspanya–Cape Verde, Belçika–Mısır, S. Arabistan–Uruguay ve İran–Yeni Zelanda ilk maçlarına çıkıyor. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
 
