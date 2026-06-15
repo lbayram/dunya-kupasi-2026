@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "15 Haziran 2026, 04:15 TSİ",
-  headline_en: "Group E got even tighter: Côte d'Ivoire beat Ecuador 1-0 in Philadelphia thanks to a 90th-minute Amad Diallo strike, moving level with Germany on 3 points at the top of the group, while Ecuador start with nothing. Up next is Sweden vs Tunisia in Monterrey at 05:00 TSİ. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
-  headline: "E Grubu kızıştı: Fildişi Sahili, Philadelphia'da Ekvador'u Amad Diallo'nun 90. dakika golüyle 1-0 mağlup ederek Almanya'nın yanına 3 puanla ortak lider oldu; Ekvador ise puansız kaldı. Sırada 05:00 TSİ'de Monterrey'de oynanacak İsveç–Tunus maçı var. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
+  lastUpdate: "15 Haziran 2026, 05:10 TSİ",
+  headline_en: "Group E got even tighter: Côte d'Ivoire beat Ecuador 1-0 in Philadelphia thanks to a 90th-minute Amad Diallo strike, moving level with Germany on 3 points at the top of the group, while Ecuador start with nothing. Sweden vs Tunisia has just kicked off in Monterrey, with the winner set to top Group F after matchday 1. Later today: Spain vs Cape Verde, Belgium vs Egypt, Saudi Arabia vs Uruguay and Iran vs New Zealand all open their campaigns. Türkiye's tournament still hinges on the June 20 game vs Paraguay after Saturday's 2-0 loss to Australia in Vancouver.",
+  headline: "E Grubu kızıştı: Fildişi Sahili, Philadelphia'da Ekvador'u Amad Diallo'nun 90. dakika golüyle 1-0 mağlup ederek Almanya'nın yanına 3 puanla ortak lider oldu; Ekvador ise puansız kaldı. Monterrey'de İsveç–Tunus maçı başladı; galip taraf F Grubu'nda 1. hafta sonunda lidere yükselecek. Bugün ayrıca İspanya–Cape Verde, Belçika–Mısır, S. Arabistan–Uruguay ve İran–Yeni Zelanda ilk maçlarına çıkıyor. Türkiye'nin turu hâlâ 20 Haziran'daki Paraguay maçına bakıyor — Ay-Yıldızlılar Vancouver'da Avustralya'ya 2-0 yenilmişti.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
