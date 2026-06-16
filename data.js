@@ -5,7 +5,7 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "16 Haziran 2026, 05:09 TSİ",
+  lastUpdate: "16 Haziran 2026, 06:09 TSİ",
   headline_en: "Group G: Iran and New Zealand played out a 0-0 draw in Los Angeles — all four Group G teams are now level on 1 point. Tonight: France vs Senegal (22:00 TST, Group I) at MetLife Stadium, and Iraq vs Norway (01:00 TST, Group I) in Boston. Türkiye vs Paraguay on June 20 is a must-win.",
   headline: "G Grubu: İran–Yeni Zelanda Los Angeles'ta 0-0 berabere bitti — G Grubu'nda da 4 takım 1'er puanda eşit. Bu akşam: Fransa–Senegal (22:00 TSİ, I Grubu) New Jersey'de, ardından Irak–Norveç (01:00 TSİ). Türkiye 20 Haziran'da Paraguay'a karşı — kritik maç.",
 
