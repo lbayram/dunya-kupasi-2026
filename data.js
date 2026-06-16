@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "16 Haziran 2026, 22:09 TSİ",
-  headline_en: "France vs Senegal is UNDERWAY at MetLife Stadium (kicked off 22:00 TST) — Mbappé's Les Bleus face the side that stunned them in 2002. Iraq vs Norway follows at 01:00 TST in Boston, then Argentina vs Algeria at 04:00 TST in Kansas City (Messi chasing back-to-back titles) and Austria vs Jordan at 07:00 TST. Türkiye vs Paraguay on June 20 is decisive for Group D survival.",
-  headline: "CANLI: Fransa–Senegal maçı devam ediyor — MetLife'da karşılaşma başladı (22:00 TSİ). Sonraki: Irak–Norveç 01:00 TSİ Boston, Arjantin–Cezayir 04:00 TSİ Kansas City (Messi üst üste ikinci kupa peşinde), Avusturya–Ürdün 07:00 TSİ. Türkiye 20 Haziran'da Paraguay karşısında — kritik.",
+  lastUpdate: "16 Haziran 2026, 23:10 TSİ",
+  headline_en: "LIVE (2nd half, 0-0): France vs Senegal is goalless at MetLife Stadium — a tight affair with Senegal's defence standing firm against Mbappé & Co. Iraq vs Norway coming up at 01:00 TST in Boston, then Argentina vs Algeria at 04:00 TST in Kansas City (Messi chasing back-to-back titles) and Austria vs Jordan at 07:00 TST. Türkiye vs Paraguay on June 20 is decisive for Group D survival.",
+  headline: "CANLI (2. devre, 0-0): Fransa–Senegal MetLife'da golsüz seyirde — Senegal savunması Mbappé'yi kilitliyor. Sonraki: Irak–Norveç 01:00 TSİ Boston, Arjantin–Cezayir 04:00 TSİ Kansas City (Messi üst üste ikinci kupa peşinde), Avusturya–Ürdün 07:00 TSİ. Türkiye 20 Haziran'da Paraguay karşısında — kritik.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -22,8 +22,8 @@ window.WC_DATA = {
     { sira: 5, oyuncu: "Amad Diallo", takim: "Fildişi Sahili", flag: "🇨🇮", gol: 1 },
     { sira: 5, oyuncu: "Alexander Isak", takim: "İsveç", flag: "🇸🇪", gol: 1 }
   ],
-  topScorersNote: "17 maç kesinleşti. 4 ortak lider 2'şer gol: Balogun (ABD), Havertz (Almanya), Ayari (İsveç), Just (Yeni Zelanda). İran–Yeni Zelanda 2-2 bitti; Rezaeian ve Mohebbi listeye girdi. Fransa–Senegal ve Irak–Norveç golcüleri sonraki güncellemede.",
-  topScorersNote_en: "17 matches confirmed. Four joint leaders on 2 goals: Balogun (USA), Havertz (Germany), Ayari (Sweden) and Just (New Zealand). Iran–New Zealand ended 2-2; Rezaeian and Mohebbi enter the list. France–Senegal and Iraq–Norway scorers in the next update.",
+  topScorersNote: "16 maç tamamlandı. 4 ortak lider 2'şer gol: Balogun (ABD), Havertz (Almanya), Ayari (İsveç), Just (Yeni Zelanda). İran–Yeni Zelanda 2-2 bitti; Rezaeian ve Mohebbi listeye girdi. Fransa–Senegal 2. devrede 0-0 (devam ediyor); Irak–Norveç ve Arjantin–Cezayir henüz başlamadı.",
+  topScorersNote_en: "16 matches confirmed. Four joint leaders on 2 goals: Balogun (USA), Havertz (Germany), Ayari (Sweden) and Just (New Zealand). Iran–New Zealand ended 2-2; Rezaeian and Mohebbi enter the list. France–Senegal is 0-0 in the 2nd half (ongoing); Iraq–Norway and Argentina–Algeria yet to kick off.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -41,7 +41,7 @@ window.WC_DATA = {
     "Arjantin": "Son şampiyon Arjantin, bu akşam 04:00 TSİ'de (yerel 21:00) Kansas City'de Cezayir karşısına çıkıyor. Messi'nin 5. ve muhtemelen son Dünya Kupası'nda üst üste ikinci kupayı hedefliyor. FIFA sıralamasında 8. olan Cezayir zor olabilir.",
     "İngiltere": "FIFA sıralamasında 4. Bu akşam 23:00 TSİ'de Hırvatistan'a karşı L Grubunu açıyor. 2022 Katar'da Yarı Final'e ulaşmış İngiltere, bu sefer kupayı hedefliyor.",
     "Brezilya": "Fas ile 1-1 berabere kaldı (Saibari 21', Vinícius Júnior 32') — Alisson'un son dakika çift kurtarışı puanı korudu. Rekor 5 kez şampiyon; 2002'den beri kupa hasreti sürüyor.",
-    "Fransa": "2018 şampiyonu ve 2022 finalisti Fransa, bu akşam 22:00 TSİ'de New Jersey MetLife'da Senegal'a karşı turnuvaya başlıyor. Mbappé, Ballon d'Or sahibi Dembele, Olise ve Doue ile güçlü bir hücum. 2002'de Senegal'a 1-0 yenilmişlerdi — dikkatli oynaması gerekiyor.",
+    "Fransa": "2018 şampiyonu Fransa, MetLife'da Senegal karşısında 2. devrede 0-0. Senegal savunması Mbappé'yi etkisiz kılıyor. İlk yarıda Senegal baskı kurdu; Fransa pozisyon bulamadı. Sonuç değişirse gol krallığında Mbappé listelere girebilir.",
     "İskoçya": "Haiti'yi McGinn'in 28. dakika golüyle 1-0 yendi — 1990'dan sonraki ilk Dünya Kupası galibiyeti. C Grubu'nda lider durumda.",
     "Hollanda": "Dallas'ta Japonya ile nefes kesen bir 2-2'ye imza attı: Van Dijk (51') ve Summerville (64') ile iki kez öne geçti, ancak Nakamura (57') ve uzatmalarda Kamada'nın (88') golleriyle her seferinde yakalandı. F Grubu'na 1 puanla başladı.",
     "Japonya": "2022'de Almanya ve İspanya'yı deviren Japonya, açılış maçında Hollanda karşısında 2-2'lik müthiş bir geri dönüş gösterdi: Nakamura (57') ve Kamada (88', Ito'nun kornerinden Ogawa'nın uzatmasıyla) golleriyle iki kez öne geçen rakibini yakaladı.",
@@ -53,7 +53,7 @@ window.WC_DATA = {
     "Belçika": "Seattle'da Mısır ile 1-1 berabere kaldı. Ashour'un 19. dakika golüyle (Salah asist) geriye düşen Belçika, Lukaku'nun baskısının yol açtığı Mohamed Hany kendi kale goluyla (66') denkliği yakaladı. G Grubu'na 1 puanla başladı. De Bruyne ilk yarıda etkisiz kaldı.",
     "S. Arabistan": "Miami'de Uruguay ile gücünü belli eden bir beraberlik: Al-Amri'nin 41. dakika golüyle öne geçti, ancak Araujo'nun 80. dakika golüyle 1-1'e razı oldu. H Grubu'nda 4 takım da 1'er puanda — son iki maç belirleyici olacak.",
     "Uruguay": "Miami'de S. Arabistan karşısında 41. dakikadan itibaren geride kalan Uruguay, Maximiliano Araujo'nun 80. dakika golüyle 1-1'e denkleştirdi. H Grubu'na 1 puanla başlayan Uruguay, İspanya ve Cape Verde ile eşit durumda.",
-    "Senegal": "Sadio Mané, Nicolas Jackson ve Édouard Mendy liderliğindeki Senegal, bu akşam 22:00 TSİ'de New Jersey'de Fransa karşısında I Grubunu açıyor. 2002'de Fransa'yı 1-0 geçerek tarihi sürprizi gerçekleştirmişlerdi; tekrarını hayal ediyorlar. CAF kupa şampiyonluğu Mart'ta siyasi kararla ellerinden alındı — bu turnuva motivasyonları yüksek.",
+    "Senegal": "Senegal, MetLife'da Fransa karşısında 2. devrede 0-0 direniyor — savunma Mbappé'yi etkisiz kılıyor. 2002'de Fransa'yı 1-0 geçmişlerdi; o tarihi başarıyı tekrarlamak için 90. dakikaya kadar bir gol yeterli. Mané, Jackson ve Mendy'nin liderliğinde harika bir mücadele sergiliyorlar.",
     "Norveç": "Erling Haaland liderliğindeki Norveç, bu gece 01:00 TSİ'de Irak karşısında ilk Dünya Kupası maçına çıkıyor. 1998'den bu yana ilk DK katılımı olan Norveç'in şimdiye kadarki en iyi sonucu Son 16'ydı; Haaland ile bu sefer daha ileriye gitmeyi hedefliyor.",
     "Irak": "Irak, 1986'dan bu yana ilk Dünya Kupası'na bu gece 01:00 TSİ'de Norveç karşısında Boston'da başlıyor. Bolivya'yı 2-1 yenerek inter-konfederasyon play-off'tan kalifikasyonu aldılar. Büyük favoriler olmasa da tarihi fırsat peşindeler.",
     "Cezayir": "2022 Dünya Kupası'na katılamamış Cezayir, bu gece 04:00 TSİ'de Kansas City'de şampiyon Arjantin karşısında J Grubunu açıyor. FIFA sıralamasında 8. sırada olan Cezayir, Sofiane Feghouli, İslam Slimani ve Riyad Mahrez nesli kapandıktan sonra yeni kuşakla geliyor."
@@ -86,7 +86,7 @@ window.WC_DATA = {
     "Belçika": "Drew 1-1 with Egypt in Seattle. Ashour put Egypt ahead on 19 minutes (Salah assist), but Lukaku's pressure forced a Mohamed Hany own goal in the 66th minute to earn Belgium a point. They start Group G with 1 point; De Bruyne's impact was limited.",
     "S. Arabistan": "Showed real quality in Miami, taking the lead through Al-Amri's 41st-minute goal against Uruguay, only to be pegged back by Araujo's 80th-minute equaliser. All four Group H teams are level on 1 point — the group is wide open.",
     "Uruguay": "Fought back from a goal down in Miami to earn a 1-1 draw against Saudi Arabia — Maximiliano Araujo's 80th-minute strike cancelled out Al-Amri's first-half opener. Uruguay start Group H on 1 point alongside Spain, Cape Verde and Saudi Arabia.",
-    "Senegal": "With Sadio Mané, Nicolas Jackson and Édouard Mendy, Senegal arrive at the 2026 World Cup with genuine quality. They open Group I tonight at 22:00 TST against France in New Jersey. In 2002 they famously beat France 1-0 in the opening match of that World Cup — they'll be aiming for a repeat. Their CAF Cup of Nations title was controversially stripped in March, giving them extra motivation.",
+    "Senegal": "Senegal are holding firm at MetLife in the 2nd half, 0-0 against France — their defence has been outstanding against Mbappé & Co. In 2002 they beat France 1-0 in the opening game of that World Cup; one goal in the remaining minutes would echo that iconic upset. Mané, Jackson and Mendy are leading a disciplined and spirited performance.",
     "Norveç": "Erling Haaland leads Norway into their first World Cup since 1998, opening tonight at 01:00 TST against Iraq in Boston. Their best-ever World Cup finish was the Round of 16 in 1998; with Haaland now at his peak, they hope to go further.",
     "Irak": "Iraq return to the World Cup for the first time since 1986, opening against Norway tonight at 01:00 TST in Boston. They qualified through the inter-confederation playoff, beating Bolivia 2-1. Underdogs, but motivated by a historic opportunity.",
     "Cezayir": "Algeria return to the World Cup after missing out in 2022, opening against defending champions Argentina tonight at 04:00 TST in Kansas City. Ranked 8th by FIFA, they represent a genuine threat but face a daunting first test."
@@ -286,8 +286,8 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "Türkiye lost their opener 2-0 to Australia, making the June 20 match vs Paraguay decisive for reaching the Round of 32. If they top Group D, their path is: 81 → 94 → 98 → 101 → Final (orange boxes). LIVE: France–Senegal is underway at MetLife (22:09 TST). Iraq–Norway (01:00), Argentina–Algeria (04:00) and Austria–Jordan (07:00) follow.",
-    note: "Türkiye, Avustralya’ya 2-0 yenilerek kötü başladı; 20 Haziran’daki Paraguay maçı eleme turuna kalmak için kritik. D Grubu’nu lider bitirirse yolu: 81 → 94 → 98 → 101 → Final (turuncu kutular). CANLI: Fransa–Senegal MetLife’da devam ediyor (22:09 TSİ). Ardından Irak–Norveç (01:00), Arjantin–Cezayir (04:00), Avusturya–Ürdün (07:00)."
+    note_en: "Türkiye lost their opener 2-0 to Australia, making the June 20 match vs Paraguay decisive for reaching the Round of 32. If they top Group D, their path is: 81 → 94 → 98 → 101 → Final (orange boxes). LIVE (2nd half, 0-0): France–Senegal at MetLife — Senegal’s defence has been exceptional. Iraq–Norway (01:00), Argentina–Algeria (04:00) and Austria–Jordan (07:00) to follow.",
+    note: "Türkiye, Avustralya’ya 2-0 yenilerek kötü başladı; 20 Haziran’daki Paraguay maçı eleme turuna kalmak için kritik. D Grubu’nu lider bitirirse yolu: 81 → 94 → 98 → 101 → Final (turuncu kutular). CANLI (2. devre, 0-0): Fransa–Senegal MetLife’da — Senegal savunması mükemmel direnç gösteriyor. Ardından Irak–Norveç (01:00), Arjantin–Cezayir (04:00), Avusturya–Ürdün (07:00)."
   },
 
   // ---------------- BİLGİ KUTUSU ----------------
@@ -297,7 +297,7 @@ window.WC_DATA = {
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27’, Metcalfe 75’). June 20 vs Paraguay is now decisive.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
     "Group G: All four teams level on 1 point after a dramatic matchday 1 — Belgium–Egypt 1-1 and Iran–New Zealand 2-2 (Just scored twice for NZ; Rezaeian and Mohebbi each equalised for Iran). The group is wide open.",
-    "LIVE (June 16, 22:09 TST): France vs Senegal is underway at MetLife — the rematch of the famous 2002 upset. Three more matches to follow: Iraq–Norway (01:00), Argentina–Algeria (04:00) and Austria–Jordan (07:00)."
+    "LIVE (June 16, 23:10 TST — 2nd half, 0-0): France vs Senegal remains goalless at MetLife — Senegal's defence has been exceptional, keeping Mbappé quiet. Iraq–Norway (01:00), Argentina–Algeria (04:00) and Austria–Jordan (07:00) to follow."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
@@ -305,6 +305,6 @@ window.WC_DATA = {
     "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası’na Avustralya’ya 2-0 yenilerek başladı. 20 Haziran Paraguay maçı artık kritik.",
     "Final 19 Temmuz’da New Jersey MetLife Stadyumu’nda (TSİ 22:00 civarı).",
     "G Grubu’nda 4 takım 1’er puanda: Belçika–Mısır 1-1, İran–Yeni Zelanda ise 2-2 bitti (Just çifte gol; Rezaeian ve Mohebbi birer gol). Grup tamamen açık.",
-    "CANLI (16 Haziran 22:09 TSİ): Fransa–Senegal MetLife’da oynuyor — 2002’nin unutulmaz sürprizinin rövanşı. Ardından Irak–Norveç (01:00), Arjantin–Cezayir (04:00) ve Avusturya–Ürdün (07:00) gelecek."
+    "CANLI (16 Haziran 23:10 TSİ — 2. devre, 0-0): Fransa–Senegal MetLife'da golsüz seyirde — Senegal savunması Mbappé'yi etkisiz kılıyor. Ardından Irak–Norveç (01:00), Arjantin–Cezayir (04:00) ve Avusturya–Ürdün (07:00) gelecek."
   ]
 };
