@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "16 Haziran 2026, 08:00 TSİ",
-  headline_en: "Group H: Saudi Arabia and Uruguay drew 1-1 in Miami (Al-Amri 41', Araujo 80') — all four Group H teams are now level on 1 point. Iran vs New Zealand (04:00 TST) result to be confirmed. Tonight: France vs Senegal (22:00 TST, Group I) and Iraq vs Norway (01:00). Türkiye vs Paraguay on June 20 is a must-win.",
-  headline: "H Grubu: S. Arabistan–Uruguay Miami'de 1-1 berabere bitti (Al-Amri 41', Araujo 80') — H Grubu'nda 4 takım da 1'er puanda eşit. İran–Yeni Zelanda (04:00) sonucu teyit bekleniyor. Bu akşam: Fransa–Senegal (22:00) ve Irak–Norveç (01:00). Türkiye 20 Haziran'da Paraguay'a karşı — kritik maç.",
+  lastUpdate: "16 Haziran 2026, 10:00 TSİ",
+  headline_en: "Group G: Iran and New Zealand played out a 0-0 draw in Los Angeles — all four Group G teams are now level on 1 point. Tonight: France vs Senegal (22:00 TST, Group I) at MetLife Stadium, and Iraq vs Norway (01:00 TST, Group I) in Boston. Türkiye vs Paraguay on June 20 is a must-win.",
+  headline: "G Grubu: İran–Yeni Zelanda Los Angeles'ta 0-0 berabere bitti — G Grubu'nda da 4 takım 1'er puanda eşit. Bu akşam: Fransa–Senegal (22:00 TSİ, I Grubu) New Jersey'de, ardından Irak–Norveç (01:00 TSİ). Türkiye 20 Haziran'da Paraguay'a karşı — kritik maç.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -22,8 +22,8 @@ window.WC_DATA = {
     { sira: 4, oyuncu: "Abdulelah Al-Amri", takim: "S. Arabistan", flag: "🇸🇦", gol: 1 },
     { sira: 4, oyuncu: "Maximiliano Araujo", takim: "Uruguay", flag: "🇺🇾", gol: 1 }
   ],
-  topScorersNote: "15 maç kesinleşti. Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider. S. Arabistan–Uruguay maçından Al-Amri ve Araujo 1'er golle listeye girdi. İran–Yeni Zelanda ve Fransa–Senegal golcüleri sonraki güncellemede.",
-  topScorersNote_en: "15 matches confirmed. Joint leaders: Balogun (USA), Havertz (Germany) and Ayari (Sweden) on 2 goals each. From the Saudi Arabia vs Uruguay draw: Al-Amri and Araujo each join the scorers on 1 goal. Iran vs New Zealand and France vs Senegal tallies in the next update.",
+  topScorersNote: "16 maç kesinleşti. Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider. İran–Yeni Zelanda 0-0 bitti, listeye yeni isim girmedi. Fransa–Senegal ve Irak–Norveç golcüleri sonraki güncellemede.",
+  topScorersNote_en: "16 matches confirmed. Joint leaders: Balogun (USA), Havertz (Germany) and Ayari (Sweden) on 2 goals each. Iran vs New Zealand ended 0-0 — no new scorers. France vs Senegal and Iraq vs Norway tallies in the next update.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -36,6 +36,8 @@ window.WC_DATA = {
     "İspanya": "FIFA sıralamasının 1 numarası ve Avrupa şampiyonu olan İspanya, Atlanta'da Dünya Kupası'na ilk kez katılan Cape Verde'yi aşamadı ve 0-0'da kaldı. 27 şut (7 isabetli) çekmesine rağmen 40 yaşındaki kaleci Vozinha'nın 7 kurtarışına çarptı; Ferran Torres 39. dakikada direkten döndü. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
     "Cape Verde": "Dünya Kupası'na ilk kez katılan Cape Verde, Atlanta'da favori İspanya'yı 0-0'a tuttu — turnuvanın en büyük sürprizlerinden biri. 40 yaşındaki kaleci Vozinha 7 kurtarış yaptı. H Grubu'na 1 puanla başladı.",
     "Almanya": "E Grubu'na NRG Stadyumu'nda Curaçao'yu 7-1 yenerek muhteşem başladı. Nmecha (6'), Schlotterbeck (38'), Havertz (45+5' pen ve 88'), Musiala (47'), Brown (68') ve Undav (78') gol attı; Comenencia (21') Curaçao'nun tarihi golünü kaydetti. Nagelsmann'ın takımı 3 puanla E Grubu'nun zirvesinde, turnuvanın şimdiye kadarki en farklı galibiyetlerinden birini aldı.",
+    "İran": "Los Angeles'ta Yeni Zelanda ile 0-0 berabere kalan İran, grubun zirvesine çıkma fırsatını değerlendiremedi. Taremi ve kadro iyi performans gösterdi ancak gol bulunamadı. G Grubu'nda 4 takım da 1'er puanda eşit — Belçika ve Mısır maçları belirleyici olacak.",
+    "Yeni Zelanda": "Los Angeles'ta İran ile 0-0 berabere kalan Yeni Zelanda, son 32 yolunda 1 puanla devam ediyor. Dünya Kupası tarihinde grup aşamasını geçmeyi başaramamış olan All Whites için her puan değerli.",
     "Arjantin": "Son şampiyon. Messi 5. Dünya Kupası'nda — üst üste ikinci kupa hedefi.",
     "İngiltere": "FIFA sıralamasında 4. İlk maçı Hırvatistan'la — grubun en kritik karşılaşması.",
     "Brezilya": "Fas ile 1-1 berabere kaldı (Saibari 21', Vinícius Júnior 32') — Alisson'un son dakika çift kurtarışı puanı korudu. Rekor 5 kez şampiyon; 2002'den beri kupa hasreti sürüyor.",
@@ -63,6 +65,8 @@ window.WC_DATA = {
     "İspanya": "FIFA's No. 1 and reigning European champions Spain were held 0-0 by World Cup debutants Cape Verde in Atlanta. Despite 27 shots (7 on target), they were repelled by 40-year-old goalkeeper Vozinha's 7 saves; Ferran Torres hit the crossbar in the 39th minute. Due to the draw, they can only meet Argentina in the final.",
     "Cape Verde": "World Cup debutants Cape Verde held favourites Spain to a 0-0 draw in Atlanta — one of the tournament's biggest shocks. Veteran goalkeeper Vozinha (40) made 7 saves. They start Group H with 1 point.",
     "Almanya": "Opened their Group E campaign in style with a 7-1 win over Curaçao at NRG Stadium. Nmecha (6'), Schlotterbeck (38'), Havertz (45+5' pen and 88'), Musiala (47'), Brown (68') and Undav (78') all scored; Comenencia (21') got Curaçao's historic goal. Nagelsmann's side top Group E after one of the tournament's biggest wins so far.",
+    "İran": "Iran drew 0-0 with New Zealand in Los Angeles, missing the chance to go top of Group G. Both Iran and New Zealand are now on 1 point — the Belgim and Egypt matches will decide their fate in this wide-open group.",
+    "Yeni Zelanda": "The All Whites held Iran to a 0-0 draw in Los Angeles, earning a precious point in their 3rd World Cup appearance. New Zealand have never advanced past the group stage and every point counts.",
     "Arjantin": "Defending champions. Messi's 5th World Cup — chasing back-to-back titles.",
     "İngiltere": "Ranked 4th by FIFA. Opening match vs Croatia is the group's key fixture.",
     "Brezilya": "Drew 1-1 with Morocco (Saibari 21', Vinícius Júnior 32') — a late Alisson double save preserved the point. Record 5-time champions, still chasing a title since 2002.",
@@ -98,7 +102,7 @@ window.WC_DATA = {
     { iso: "2026-06-15", saat: "19:00", grup: "H", ev: "İspanya", dep: "Cape Verde", yer: "Atlanta", skor: "0 - 0", not: "Gol yok — Cape Verde kalecisi Vozinha (40) 7 kurtarış yaptı, İspanya 27 şut çekti (7 isabetli) ama golü bulamadı; Ferran Torres 39. dakikada direkten döndü. Turnuvanın en büyük sürprizlerinden biri." },
     { iso: "2026-06-15", saat: "22:00", grup: "G", ev: "Belçika", dep: "Mısır", yer: "Seattle", skor: "1 - 1", not: "Goller: Ashour (19' - Mısır, Salah asist), Hany OG (66' - Belçika). Ashour'un A Milli Takım'daki ilk golü Mısır'ı öne geçirdi; Lukaku'nun baskısıyla elde edilen Hany kendi kale goluyla Belçika 1-1'e denkleştirdi." },
     { iso: "2026-06-16", saat: "01:00", grup: "H", ev: "S. Arabistan", dep: "Uruguay", yer: "Miami", skor: "1 - 1", not: "Goller: Al-Amri (41' - S. Arabistan), Araujo (80' - Uruguay)." },
-    { iso: "2026-06-16", saat: "04:00", grup: "G", ev: "İran", dep: "Yeni Zelanda", yer: "Los Angeles", skor: null },
+    { iso: "2026-06-16", saat: "04:00", grup: "G", ev: "İran", dep: "Yeni Zelanda", yer: "Los Angeles", skor: "0 - 0", not: "Goller: Yok — goalless draw. Her iki takım da grubun zirvesine çıkma fırsatını kaçırdı; G Grubu'nda tüm takımlar 1'er puanda eşit kaldı." },
     { iso: "2026-06-16", saat: "22:00", grup: "I", ev: "Fransa", dep: "Senegal", yer: "New Jersey", skor: null },
     { iso: "2026-06-17", saat: "01:00", grup: "I", ev: "Irak", dep: "Norveç", yer: "Boston", skor: null },
     { iso: "2026-06-17", saat: "04:00", grup: "J", ev: "Arjantin", dep: "Cezayir", yer: "Kansas City", skor: null },
@@ -198,8 +202,8 @@ window.WC_DATA = {
     "G": [
       { takim: "Belçika", flag: "🇧🇪", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
       { takim: "Mısır", flag: "🇪🇬", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
-      { takim: "İran", flag: "🇮🇷", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Yeni Zelanda", flag: "🇳🇿", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
+      { takim: "İran", flag: "🇮🇷", o: 1, g: 0, b: 1, m: 0, a: 0, y: 0, p: 1 },
+      { takim: "Yeni Zelanda", flag: "🇳🇿", o: 1, g: 0, b: 1, m: 0, a: 0, y: 0, p: 1 }
     ],
     "H": [
       { takim: "S. Arabistan", flag: "🇸🇦", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
@@ -274,25 +278,25 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "Türkiye lost their opener 2-0 to Australia, making the June 20 match vs Paraguay decisive for reaching the Round of 32. If they still top Group D, their path is: 81 → 94 → 98 → 101 → Final. (orange boxes)",
-    note: "Türkiye, Avustralya'ya 2-0 yenilerek kötü başladı; 20 Haziran'daki Paraguay maçı eleme turuna kalmak için kritik. Yine de D Grubu'nu lider bitirirse yolu: 81 → 94 → 98 → 101 → Final. (turuncu işaretli kutular)"
+    note_en: "Türkiye lost their opener 2-0 to Australia, making the June 20 match vs Paraguay decisive for reaching the Round of 32. If they top Group D, their path is: 81 → 94 → 98 → 101 → Final. (orange boxes). Group I (France, Senegal, Iraq, Norway) kicks off tonight.",
+    note: "Türkiye, Avustralya'ya 2-0 yenilerek kötü başladı; 20 Haziran'daki Paraguay maçı eleme turuna kalmak için kritik. D Grubu'nu lider bitirirse yolu: 81 → 94 → 98 → 101 → Final. (turuncu işaretli kutular). I Grubu (Fransa, Senegal, Irak, Norveç) bu akşam başlıyor."
   },
 
   // ---------------- BİLGİ KUTUSU ----------------
   facts_en: [
     "First World Cup with 48 teams and 3 host nations (USA, Canada, Mexico). 104 matches in total.",
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
-    "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27', Metcalfe 75').",
+    "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27', Metcalfe 75'). June 20 vs Paraguay is now decisive.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "Group H: All four teams level on 1 point after matchday 1 — Saudi Arabia drew 1-1 with Uruguay (Al-Amri 41', Araujo 80') and Spain drew 0-0 with Cape Verde. The group is completely open heading into round 2.",
-    "Tonight (June 16, 22:00 TST): 2018 champions France face Senegal in New Jersey — Group I's most anticipated opener. Mbappé leads the attack; Senegal's Sadio Mané may miss out."
+    "Group G: All four teams (Belgium, Egypt, Iran, New Zealand) are level on 1 point after matchday 1. Iran and New Zealand drew 0-0 in Los Angeles; Belgium and Egypt drew 1-1 in Seattle.",
+    "Tonight (June 16, 22:00 TST): 2018 champions France face Senegal in New Jersey — Group I's most anticipated opener. Mbappé leads the attack; Senegal's Sadio Mané may miss out. Iraq vs Norway follows at 01:00 TST."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
-    "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya Vancouver'da 2-0 yenilerek başladı (Irankunda 27', Metcalfe 75').",
+    "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya 2-0 yenilerek başladı. 20 Haziran Paraguay maçı artık kritik.",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "H Grubu'nda 4 takım da 1'er puanda eşit: S. Arabistan–Uruguay 1-1 (Al-Amri 41', Araujo 80') ve İspanya–Cape Verde 0-0. Grup tamamen açık.",
-    "Bu akşam (16 Haziran, 22:00 TSİ): 2018 şampiyonu Fransa, New Jersey'de Senegal'e karşı — I Grubu'nun en çekişmeli açılış maçı. Mbappé'li Fransa favorisi; Sadio Mané'nin durumu belirsiz."
+    "G Grubu'nda 4 takım da 1'er puanda eşit: Belçika–Mısır 1-1 ve İran–Yeni Zelanda 0-0 bitti. Grup tamamen açık.",
+    "Bu akşam (16 Haziran, 22:00 TSİ): Fransa–Senegal New Jersey'de — I Grubu açılışı. Ardından Irak–Norveç (01:00 TSİ)."
   ]
 };
