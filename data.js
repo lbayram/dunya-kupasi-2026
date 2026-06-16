@@ -5,7 +5,7 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "16 Haziran 2026, 14:00 TSİ",
+  lastUpdate: "16 Haziran 2026, 22:00 TSİ",
   headline_en: "Four blockbuster matches tonight open Groups I and J: France vs Senegal (22:00 TST) at MetLife Stadium — Mbappé's Les Bleus face the side that beat them in 2002. Iraq vs Norway (01:00 TST) follows in Boston. Then Argentina vs Algeria (04:00 TST) in Kansas City where Messi bids for back-to-back titles, and Austria vs Jordan (07:00 TST). Türkiye vs Paraguay on June 20 remains decisive for Group D.",
   headline: "Büyük gece başlıyor — 4 kritik maç: Fransa–Senegal 22:00 TSİ MetLife'da (2002'nin intikamı mı?), Irak–Norveç 01:00 TSİ Boston'da, Arjantin–Cezayir 04:00 TSİ Kansas City'de (Messi üst üste ikinci kupada), Avusturya–Ürdün 07:00 TSİ. Türkiye 20 Haziran'da Paraguay karşısında — kritik.",
 
