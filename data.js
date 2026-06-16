@@ -5,26 +5,25 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "16 Haziran 2026, 02:20 TSİ",
-  headline_en: "Day 7 correction: Belgium vs Egypt was 1-1 (Ashour 19', Hany OG 66') — previous update incorrectly showed 0-1. Saudi Arabia vs Uruguay (01:00 TSİ) is still being played; Iran vs New Zealand (04:00 TSİ) hasn't kicked off — scores in next update. Tonight at 22:00 TSİ: France vs Senegal (Group I). Group G: Belgium and Egypt level on 1 pt each. Türkiye vs Paraguay on June 20.",
-  headline: "7. gün düzeltmesi: Belçika–Mısır gerçek sonucu 1-1 (Ashour 19', Hany OG 66') — önceki güncelleme yanlışlıkla 0-1 yazmıştı. S. Arabistan–Uruguay (01:00) hâlâ oynanıyor, İran–Yeni Zelanda (04:00) başlamadı — sonraki güncellemede. G Grubu'nda Belçika ve Mısır 1'er puanla. Akşam 22:00'de Fransa–Senegal. Türkiye 20 Haziran'da Paraguay'a karşı.",
+  lastUpdate: "16 Haziran 2026, 08:00 TSİ",
+  headline_en: "Group H: Saudi Arabia and Uruguay drew 1-1 in Miami (Al-Amri 41', Araujo 80') — all four Group H teams are now level on 1 point. Iran vs New Zealand (04:00 TST) result to be confirmed. Tonight: France vs Senegal (22:00 TST, Group I) and Iraq vs Norway (01:00). Türkiye vs Paraguay on June 20 is a must-win.",
+  headline: "H Grubu: S. Arabistan–Uruguay Miami'de 1-1 berabere bitti (Al-Amri 41', Araujo 80') — H Grubu'nda 4 takım da 1'er puanda eşit. İran–Yeni Zelanda (04:00) sonucu teyit bekleniyor. Bu akşam: Fransa–Senegal (22:00) ve Irak–Norveç (01:00). Türkiye 20 Haziran'da Paraguay'a karşı — kritik maç.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Folarin Balogun", takim: "ABD", flag: "🇺🇸", gol: 2 },
     { sira: 1, oyuncu: "Kai Havertz", takim: "Almanya", flag: "🇩🇪", gol: 2 },
     { sira: 1, oyuncu: "Yasin Ayari", takim: "İsveç", flag: "🇸🇪", gol: 2 },
-    { sira: 4, oyuncu: "Jamal Musiala", takim: "Almanya", flag: "🇩🇪", gol: 1 },
     { sira: 4, oyuncu: "Keito Nakamura", takim: "Japonya", flag: "🇯🇵", gol: 1 },
     { sira: 4, oyuncu: "Daichi Kamada", takim: "Japonya", flag: "🇯🇵", gol: 1 },
     { sira: 4, oyuncu: "Amad Diallo", takim: "Fildişi Sahili", flag: "🇨🇮", gol: 1 },
     { sira: 4, oyuncu: "Alexander Isak", takim: "İsveç", flag: "🇸🇪", gol: 1 },
-    { sira: 4, oyuncu: "Viktor Gyökeres", takim: "İsveç", flag: "🇸🇪", gol: 1 },
-    { sira: 4, oyuncu: "Mattias Svanberg", takim: "İsveç", flag: "🇸🇪", gol: 1 },
-    { sira: 4, oyuncu: "Emam Ashour", takim: "Mısır", flag: "🇪🇬", gol: 1 }
+    { sira: 4, oyuncu: "Emam Ashour", takim: "Mısır", flag: "🇪🇬", gol: 1 },
+    { sira: 4, oyuncu: "Abdulelah Al-Amri", takim: "S. Arabistan", flag: "🇸🇦", gol: 1 },
+    { sira: 4, oyuncu: "Maximiliano Araujo", takim: "Uruguay", flag: "🇺🇾", gol: 1 }
   ],
-  topScorersNote: "16 maç kesinleşti. Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider. Emam Ashour (Mısır) da 1 golle listeye girdi. S. Arabistan–Uruguay ve İran–Yeni Zelanda gece maçlarının golcüleri sonraki güncellemede.",
-  topScorersNote_en: "16 matches confirmed. Joint leaders: Balogun (USA), Havertz (Germany) and Ayari (Sweden) on 2 goals each. Emam Ashour (Egypt) joins the scorers on 1 goal. Saudi Arabia vs Uruguay and Iran vs New Zealand goal tallies in the next update.",
+  topScorersNote: "15 maç kesinleşti. Balogun (ABD), Havertz (Almanya) ve Ayari (İsveç) 2'şer golle ortak lider. S. Arabistan–Uruguay maçından Al-Amri ve Araujo 1'er golle listeye girdi. İran–Yeni Zelanda ve Fransa–Senegal golcüleri sonraki güncellemede.",
+  topScorersNote_en: "15 matches confirmed. Joint leaders: Balogun (USA), Havertz (Germany) and Ayari (Sweden) on 2 goals each. From the Saudi Arabia vs Uruguay draw: Al-Amri and Araujo each join the scorers on 1 goal. Iran vs New Zealand and France vs Senegal tallies in the next update.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -49,7 +48,9 @@ window.WC_DATA = {
     "İsveç": "Monterrey'de Tunus'u 5-1 farkla yenerek F Grubu'na 3 puanla lider başladı. Yasin Ayari iki gol kaydetti (7', 90+6'), Isak (30'), Gyökeres (59') ve Svanberg (84') de farkı açan golleri attı; Rekik (43') Tunus için tek golü buldu.",
     "Tunus": "Monterrey'de İsveç'e 5-1 farkla mağlup oldu; Omar Rekik (43') tek golü kaydetti. F Grubu'na puansız başladı.",
     "Mısır": "Seattle'da Belçika ile 1-1 berabere kaldı. Emam Ashour, Salah'ın asistiyle 19. dakikada attığı golle (A Milli Takım'daki ilk golü) Mısır'ı öne geçirdi; ancak Mohamed Hany'nin 66. dakikadaki kendi kale goluyla (Lukaku baskısı) Belçika denkleştirdi. G Grubu'na 1 puanla başladı.",
-    "Belçika": "Seattle'da Mısır ile 1-1 berabere kaldı. Ashour'un 19. dakika golüyle (Salah asist) geriye düşen Belçika, Lukaku'nun baskısının yol açtığı Mohamed Hany kendi kale goluyla (66') denkliği yakaladı. G Grubu'na 1 puanla başladı. De Bruyne ilk yarıda etkisiz kaldı."
+    "Belçika": "Seattle'da Mısır ile 1-1 berabere kaldı. Ashour'un 19. dakika golüyle (Salah asist) geriye düşen Belçika, Lukaku'nun baskısının yol açtığı Mohamed Hany kendi kale goluyla (66') denkliği yakaladı. G Grubu'na 1 puanla başladı. De Bruyne ilk yarıda etkisiz kaldı.",
+    "S. Arabistan": "Miami'de Uruguay ile gücünü belli eden bir beraberlik: Al-Amri'nin 41. dakika golüyle öne geçti, ancak Araujo'nun 80. dakika golüyle 1-1'e razı oldu. H Grubu'nda 4 takım da 1'er puanda — son iki maç belirleyici olacak.",
+    "Uruguay": "Miami'de S. Arabistan karşısında 41. dakikadan itibaren geride kalan Uruguay, Maximiliano Araujo'nun 80. dakika golüyle 1-1'e denkleştirdi. H Grubu'na 1 puanla başlayan Uruguay, İspanya ve Cape Verde ile eşit durumda."
   },
 
   teamNotesEn: {
@@ -74,7 +75,9 @@ window.WC_DATA = {
     "İsveç": "Thrashed Tunisia 5-1 in Monterrey to top Group F on matchday 1. Yasin Ayari scored twice (7', 90+6'), with Isak (30'), Gyökeres (59') and Svanberg (84') adding further goals; Rekik (43') got Tunisia's only goal.",
     "Tunus": "Lost 5-1 to Sweden in Monterrey; Omar Rekik (43') scored their only goal. They start Group F with no points.",
     "Mısır": "Drew 1-1 with Belgium in Seattle. Emam Ashour gave Egypt the lead in the 19th minute (Salah assist) — his first international goal — but a Mohamed Hany own goal in the 66th minute (Lukaku pressure) levelled for Belgium. Egypt start Group G with 1 point.",
-    "Belçika": "Drew 1-1 with Egypt in Seattle. Ashour put Egypt ahead on 19 minutes (Salah assist), but Lukaku's pressure forced a Mohamed Hany own goal in the 66th minute to earn Belgium a point. They start Group G with 1 point; De Bruyne's impact was limited."
+    "Belçika": "Drew 1-1 with Egypt in Seattle. Ashour put Egypt ahead on 19 minutes (Salah assist), but Lukaku's pressure forced a Mohamed Hany own goal in the 66th minute to earn Belgium a point. They start Group G with 1 point; De Bruyne's impact was limited.",
+    "S. Arabistan": "Showed real quality in Miami, taking the lead through Al-Amri's 41st-minute goal against Uruguay, only to be pegged back by Araujo's 80th-minute equaliser. All four Group H teams are level on 1 point — the group is wide open.",
+    "Uruguay": "Fought back from a goal down in Miami to earn a 1-1 draw against Saudi Arabia — Maximiliano Araujo's 80th-minute strike cancelled out Al-Amri's first-half opener. Uruguay start Group H on 1 point alongside Spain, Cape Verde and Saudi Arabia."
   },
 
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
@@ -93,8 +96,8 @@ window.WC_DATA = {
     { iso: "2026-06-15", saat: "02:00", grup: "E", ev: "Fildişi Sahili", dep: "Ekvador", yer: "Philadelphia", skor: "1 - 0", not: "Goller: Diallo (90' - Fildişi Sahili). Ekvador uzun süre 0-0'ı korudu ama son dakikada golü yedi." },
     { iso: "2026-06-15", saat: "05:00", grup: "F", ev: "İsveç", dep: "Tunus", yer: "Monterrey", skor: "5 - 1", not: "Goller: Ayari (7' ve 90+6' - İsveç), Isak (30' - İsveç), Rekik (43' - Tunus), Gyökeres (59' - İsveç), Svanberg (84' - İsveç)." },
     { iso: "2026-06-15", saat: "19:00", grup: "H", ev: "İspanya", dep: "Cape Verde", yer: "Atlanta", skor: "0 - 0", not: "Gol yok — Cape Verde kalecisi Vozinha (40) 7 kurtarış yaptı, İspanya 27 şut çekti (7 isabetli) ama golü bulamadı; Ferran Torres 39. dakikada direkten döndü. Turnuvanın en büyük sürprizlerinden biri." },
-    { iso: "2026-06-15", saat: "22:00", grup: "G", ev: "Belçika", dep: "Mısır", yer: "Seattle", skor: "0 - 1", not: "Goller: Ashour (19' - Mısır). Salah'ın asistiyle gelen gol Ashour'un A Milli Takım'daki ilk golüydü; Mısır, Dünya Kupası tarihinde ilk kez bir maçı devre arasında önde tamamladı." },
-    { iso: "2026-06-16", saat: "01:00", grup: "H", ev: "S. Arabistan", dep: "Uruguay", yer: "Miami", skor: null },
+    { iso: "2026-06-15", saat: "22:00", grup: "G", ev: "Belçika", dep: "Mısır", yer: "Seattle", skor: "1 - 1", not: "Goller: Ashour (19' - Mısır, Salah asist), Hany OG (66' - Belçika). Ashour'un A Milli Takım'daki ilk golü Mısır'ı öne geçirdi; Lukaku'nun baskısıyla elde edilen Hany kendi kale goluyla Belçika 1-1'e denkleştirdi." },
+    { iso: "2026-06-16", saat: "01:00", grup: "H", ev: "S. Arabistan", dep: "Uruguay", yer: "Miami", skor: "1 - 1", not: "Goller: Al-Amri (41' - S. Arabistan), Araujo (80' - Uruguay)." },
     { iso: "2026-06-16", saat: "04:00", grup: "G", ev: "İran", dep: "Yeni Zelanda", yer: "Los Angeles", skor: null },
     { iso: "2026-06-16", saat: "22:00", grup: "I", ev: "Fransa", dep: "Senegal", yer: "New Jersey", skor: null },
     { iso: "2026-06-17", saat: "01:00", grup: "I", ev: "Irak", dep: "Norveç", yer: "Boston", skor: null },
@@ -193,16 +196,16 @@ window.WC_DATA = {
       { takim: "Tunus", flag: "🇹🇳", o: 1, g: 0, b: 0, m: 1, a: 1, y: 5, p: 0 }
     ],
     "G": [
-      { takim: "Mısır", flag: "🇪🇬", o: 1, g: 1, b: 0, m: 0, a: 1, y: 0, p: 3 },
+      { takim: "Belçika", flag: "🇧🇪", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
+      { takim: "Mısır", flag: "🇪🇬", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
       { takim: "İran", flag: "🇮🇷", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Yeni Zelanda", flag: "🇳🇿", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Belçika", flag: "🇧🇪", o: 1, g: 0, b: 0, m: 1, a: 0, y: 1, p: 0 }
+      { takim: "Yeni Zelanda", flag: "🇳🇿", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
     ],
     "H": [
+      { takim: "S. Arabistan", flag: "🇸🇦", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
+      { takim: "Uruguay", flag: "🇺🇾", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
       { takim: "İspanya", flag: "🇪🇸", o: 1, g: 0, b: 1, m: 0, a: 0, y: 0, p: 1 },
-      { takim: "Cape Verde", flag: "🇨🇻", o: 1, g: 0, b: 1, m: 0, a: 0, y: 0, p: 1 },
-      { takim: "S. Arabistan", flag: "🇸🇦", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Uruguay", flag: "🇺🇾", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
+      { takim: "Cape Verde", flag: "🇨🇻", o: 1, g: 0, b: 1, m: 0, a: 0, y: 0, p: 1 }
     ],
     "I": [
       { takim: "Fransa", flag: "🇫🇷", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
@@ -281,15 +284,15 @@ window.WC_DATA = {
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27', Metcalfe 75').",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "Egypt beat Belgium 1-0 in Seattle to top Group G with 3 points — Emam Ashour's 19th-minute strike gave Egypt their first-ever half-time lead at a World Cup.",
-    "Tonight (June 16, 22:00 TSİ): 2018 champions France face Senegal in New Jersey — the tournament's most anticipated Group I clash. Mbappé leads the attack; Senegal's Sadio Mané may miss out."
+    "Group H: All four teams level on 1 point after matchday 1 — Saudi Arabia drew 1-1 with Uruguay (Al-Amri 41', Araujo 80') and Spain drew 0-0 with Cape Verde. The group is completely open heading into round 2.",
+    "Tonight (June 16, 22:00 TST): 2018 champions France face Senegal in New Jersey — Group I's most anticipated opener. Mbappé leads the attack; Senegal's Sadio Mané may miss out."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
     "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya Vancouver'da 2-0 yenilerek başladı (Irankunda 27', Metcalfe 75').",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "Mısır, Seattle'da Belçika'yı 1-0 yenerek G Grubu'na 3 puanla başladı — Emam Ashour'un 19. dakika golü Mısır'a Dünya Kupası tarihinde ilk kez devre arası liderliği yaşattı.",
-    "Bu gece (16 Haziran, 22:00 TSİ): 2018 şampiyonu Fransa, New Jersey'de Senegal'e karşı — I Grubu'nun en çekişmeli ilk maçı. Mbappé'li Fransa favorisi; Sadio Mané'nin durumu belirsiz."
+    "H Grubu'nda 4 takım da 1'er puanda eşit: S. Arabistan–Uruguay 1-1 (Al-Amri 41', Araujo 80') ve İspanya–Cape Verde 0-0. Grup tamamen açık.",
+    "Bu akşam (16 Haziran, 22:00 TSİ): 2018 şampiyonu Fransa, New Jersey'de Senegal'e karşı — I Grubu'nun en çekişmeli açılış maçı. Mbappé'li Fransa favorisi; Sadio Mané'nin durumu belirsiz."
   ]
 };
