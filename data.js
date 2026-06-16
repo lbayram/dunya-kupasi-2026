@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "17 Haziran 2026, 00:13 TSİ",
-  headline_en: "France beat Senegal 3-1 at MetLife (Mbappé 66' & late, Barcola 82' — Mbaye for Senegal). Group I: France leads on 3pts, Senegal 0pts. Iraq–Norway result unconfirmed. Today: Argentina vs Algeria (04:00 TST), Austria vs Jordan (07:00 TST), Portugal vs DR Congo (20:00 TST) and England vs Croatia (23:00 TST). Türkiye vs Paraguay on June 20 remains decisive.",
-  headline: "Fransa, Senegal'i 3-1 yendi (Mbappé 66' ve geç, Barcola 82' — Mbaye Senegal adına). I Grubu: Fransa 3 puanla lider, Senegal 0. Irak–Norveç sonucu teyit edilemedi. Bugün: Arjantin–Cezayir (04:00), Avusturya–Ürdün (07:00), Portekiz–DR Kongo (20:00), İngiltere–Hırvatistan (23:00). Türkiye 20 Haziran'da Paraguay karşısında — kritik.",
+  lastUpdate: "17 Haziran 2026, 01:16 TSİ",
+  headline_en: "France beat Senegal 3-1 at MetLife (Mbappé 66' & late, Barcola 82'). LIVE NOW: Iraq vs Norway (Group I, Boston) — kick-off 01:00 TST, currently 0-0. Still to come today: Argentina vs Algeria 04:00, Austria vs Jordan 07:00, Portugal vs DR Congo 20:00, England vs Croatia 23:00. Türkiye vs Paraguay June 20 is decisive.",
+  headline: "Fransa, Senegal'i 3-1 yendi (Mbappé 66' ve geç, Barcola 82'). ŞU AN CANLI: Irak–Norveç (I Grubu, Boston) — 01:00'de başladı, şu an 0-0. Bugün devam: Arjantin–Cezayir 04:00, Avusturya–Ürdün 07:00, Portekiz–DR Kongo 20:00, İngiltere–Hırvatistan 23:00. Türkiye 20 Haziran'da Paraguay karşısında — kritik.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
