@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "16 Haziran 2026, 22:00 TSİ",
-  headline_en: "Four blockbuster matches tonight open Groups I and J: France vs Senegal (22:00 TST) at MetLife Stadium — Mbappé's Les Bleus face the side that beat them in 2002. Iraq vs Norway (01:00 TST) follows in Boston. Then Argentina vs Algeria (04:00 TST) in Kansas City where Messi bids for back-to-back titles, and Austria vs Jordan (07:00 TST). Türkiye vs Paraguay on June 20 remains decisive for Group D.",
-  headline: "Büyük gece başlıyor — 4 kritik maç: Fransa–Senegal 22:00 TSİ MetLife'da (2002'nin intikamı mı?), Irak–Norveç 01:00 TSİ Boston'da, Arjantin–Cezayir 04:00 TSİ Kansas City'de (Messi üst üste ikinci kupada), Avusturya–Ürdün 07:00 TSİ. Türkiye 20 Haziran'da Paraguay karşısında — kritik.",
+  lastUpdate: "16 Haziran 2026, 22:09 TSİ",
+  headline_en: "France vs Senegal is UNDERWAY at MetLife Stadium (kicked off 22:00 TST) — Mbappé's Les Bleus face the side that stunned them in 2002. Iraq vs Norway follows at 01:00 TST in Boston, then Argentina vs Algeria at 04:00 TST in Kansas City (Messi chasing back-to-back titles) and Austria vs Jordan at 07:00 TST. Türkiye vs Paraguay on June 20 is decisive for Group D survival.",
+  headline: "CANLI: Fransa–Senegal maçı devam ediyor — MetLife'da karşılaşma başladı (22:00 TSİ). Sonraki: Irak–Norveç 01:00 TSİ Boston, Arjantin–Cezayir 04:00 TSİ Kansas City (Messi üst üste ikinci kupa peşinde), Avusturya–Ürdün 07:00 TSİ. Türkiye 20 Haziran'da Paraguay karşısında — kritik.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -286,8 +286,8 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "Türkiye lost their opener 2-0 to Australia, making the June 20 match vs Paraguay decisive for reaching the Round of 32. If they top Group D, their path is: 81 → 94 → 98 → 101 → Final (orange boxes). Tonight Groups I and J kick off: France–Senegal (22:00 TST), Iraq–Norway (01:00 TST), Argentina–Algeria (04:00 TST), Austria–Jordan (07:00 TST).",
-    note: "Türkiye, Avustralya’ya 2-0 yenilerek kötü başladı; 20 Haziran’daki Paraguay maçı eleme turuna kalmak için kritik. D Grubu’nu lider bitirirse yolu: 81 → 94 → 98 → 101 → Final. (turuncu işaretli kutular). Bu gece I ve J Grupları başlıyor: Fransa–Senegal (22:00 TSİ), Irak–Norveç (01:00 TSİ), Arjantin–Cezayir (04:00 TSİ), Avusturya–Ürdün (07:00 TSİ)."
+    note_en: "Türkiye lost their opener 2-0 to Australia, making the June 20 match vs Paraguay decisive for reaching the Round of 32. If they top Group D, their path is: 81 → 94 → 98 → 101 → Final (orange boxes). LIVE: France–Senegal is underway at MetLife (22:09 TST). Iraq–Norway (01:00), Argentina–Algeria (04:00) and Austria–Jordan (07:00) follow.",
+    note: "Türkiye, Avustralya’ya 2-0 yenilerek kötü başladı; 20 Haziran’daki Paraguay maçı eleme turuna kalmak için kritik. D Grubu’nu lider bitirirse yolu: 81 → 94 → 98 → 101 → Final (turuncu kutular). CANLI: Fransa–Senegal MetLife’da devam ediyor (22:09 TSİ). Ardından Irak–Norveç (01:00), Arjantin–Cezayir (04:00), Avusturya–Ürdün (07:00)."
   },
 
   // ---------------- BİLGİ KUTUSU ----------------
@@ -297,7 +297,7 @@ window.WC_DATA = {
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27’, Metcalfe 75’). June 20 vs Paraguay is now decisive.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
     "Group G: All four teams level on 1 point after a dramatic matchday 1 — Belgium–Egypt 1-1 and Iran–New Zealand 2-2 (Just scored twice for NZ; Rezaeian and Mohebbi each equalised for Iran). The group is wide open.",
-    "Tonight (June 16): 4 matches open Groups I and J — France vs Senegal (22:00 TST), Iraq vs Norway (01:00 TST), Argentina vs Algeria (04:00 TST), Austria vs Jordan (07:00 TST). Mbappe vs Mané and Messi vs Algeria headline the night."
+    "LIVE (June 16, 22:09 TST): France vs Senegal is underway at MetLife — the rematch of the famous 2002 upset. Three more matches to follow: Iraq–Norway (01:00), Argentina–Algeria (04:00) and Austria–Jordan (07:00)."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
@@ -305,6 +305,6 @@ window.WC_DATA = {
     "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası’na Avustralya’ya 2-0 yenilerek başladı. 20 Haziran Paraguay maçı artık kritik.",
     "Final 19 Temmuz’da New Jersey MetLife Stadyumu’nda (TSİ 22:00 civarı).",
     "G Grubu’nda 4 takım 1’er puanda: Belçika–Mısır 1-1, İran–Yeni Zelanda ise 2-2 bitti (Just çifte gol; Rezaeian ve Mohebbi birer gol). Grup tamamen açık.",
-    "Bu gece (16 Haziran) 4 maç I ve J Gruplarını açıyor: Fransa–Senegal (22:00 TSİ), Irak–Norveç (01:00 TSİ), Arjantin–Cezayir (04:00 TSİ), Avusturya–Ürdün (07:00 TSİ). Mbappé–Mané ve Messi–Cezayir düelloları geceyi aydınlatacak."
+    "CANLI (16 Haziran 22:09 TSİ): Fransa–Senegal MetLife’da oynuyor — 2002’nin unutulmaz sürprizinin rövanşı. Ardından Irak–Norveç (01:00), Arjantin–Cezayir (04:00) ve Avusturya–Ürdün (07:00) gelecek."
   ]
 };
