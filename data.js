@@ -5,25 +5,25 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "17 Haziran 2026, 06:10 TSİ",
-  headline_en: "Day 7: Argentina beat Algeria 1-0 in Kansas City — Messi struck in the 17th minute (De Paul assist) to begin their title defence with 3 points. Austria vs Jordan (Group J, 07:00 TST) and Portugal vs DR Congo (20:00) are today's next fixtures; England vs Croatia follows at 23:00 TST. Türkiye face Paraguay on June 20 — a must-win.",
-  headline: "7. gün: Arjantin, Kansas City'de Cezayir'i 1-0 yendi — Messi 17. dakikada De Paul'un asistinden uzaktan muhteşem bir golle kupa savunmasına 3 puanla başladı. Avusturya–Ürdün (07:00 TSİ) ve Portekiz–DR Kongo (20:00) bugün sahada; İngiltere–Hırvatistan 23:00 TSİ'de. Türkiye 20 Haziran Paraguay maçı kritik.",
+  lastUpdate: "17 Haziran 2026, 14:00 TSİ",
+  headline_en: "Day 8: Messi scores the World Cup's first-ever hat-trick — Argentina thrash Algeria 3-0 in Kansas City (17', 60', 76'). Messi becomes the first player to score at 6 different World Cups and equals Klose's all-time record with 16 WC goals. Austria beat debutants Jordan 3-1 for their first WC win in 36 years. Tonight: Portugal–DR Congo 20:00 TST, England–Croatia 23:00 TST. Türkiye face Paraguay on June 20 — must-win.",
+  headline: "8. gün: Messi, Dünya Kupası tarihinin ilk hat-trick'ini attı — Arjantin, Cezayir'i Kansas City'de 3-0 ezdi (17', 60', 76'). Messi, 6 farklı DK'da gol atan ilk oyuncu oldu ve 16. kariyer goliyle Klose'nin tüm zamanlar rekorunu eşitledi. Avusturya, ilk DK macerasındaki Ürdün'ü 3-1 yenerek 36 yılın ardından DK galibiyeti aldı. Bu akşam: Portekiz–DR Kongo 20:00, İngiltere–Hırvatistan 23:00 TSİ. Türkiye 20 Haziran Paraguay maçına yetişmeli.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
-    { sira: 1, oyuncu: "Folarin Balogun", takim: "ABD", flag: "🇺🇸", gol: 2 },
-    { sira: 1, oyuncu: "Kai Havertz", takim: "Almanya", flag: "🇩🇪", gol: 2 },
-    { sira: 1, oyuncu: "Erling Haaland", takim: "Norveç", flag: "🇳🇴", gol: 2 },
-    { sira: 1, oyuncu: "Yasin Ayari", takim: "İsveç", flag: "🇸🇪", gol: 2 },
-    { sira: 1, oyuncu: "Elijah Just", takim: "Yeni Zelanda", flag: "🇳🇿", gol: 2 },
-    { sira: 1, oyuncu: "Kylian Mbappé", takim: "Fransa", flag: "🇫🇷", gol: 2 },
-    { sira: 7, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 1 },
-    { sira: 7, oyuncu: "Keito Nakamura", takim: "Japonya", flag: "🇯🇵", gol: 1 },
-    { sira: 7, oyuncu: "Amad Diallo", takim: "Fildişi Sahili", flag: "🇨🇮", gol: 1 },
-    { sira: 7, oyuncu: "Bradley Barcola", takim: "Fransa", flag: "🇫🇷", gol: 1 }
+    { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 3 },
+    { sira: 2, oyuncu: "Kylian Mbappé", takim: "Fransa", flag: "🇫🇷", gol: 2 },
+    { sira: 2, oyuncu: "Erling Haaland", takim: "Norveç", flag: "🇳🇴", gol: 2 },
+    { sira: 2, oyuncu: "Folarin Balogun", takim: "ABD", flag: "🇺🇸", gol: 2 },
+    { sira: 2, oyuncu: "Kai Havertz", takim: "Almanya", flag: "🇩🇪", gol: 2 },
+    { sira: 2, oyuncu: "Yasin Ayari", takim: "İsveç", flag: "🇸🇪", gol: 2 },
+    { sira: 2, oyuncu: "Elijah Just", takim: "Yeni Zelanda", flag: "🇳🇿", gol: 2 },
+    { sira: 8, oyuncu: "Romano Schmid", takim: "Avusturya", flag: "🇦🇹", gol: 1 },
+    { sira: 8, oyuncu: "Bradley Barcola", takim: "Fransa", flag: "🇫🇷", gol: 1 },
+    { sira: 8, oyuncu: "Marko Arnautovic", takim: "Avusturya", flag: "🇦🇹", gol: 1 }
   ],
-  topScorersNote: "19 maç tamamlandı. 6 ortak lider 2'şer gol: Balogun (ABD), Havertz (Almanya), Haaland (Norveç), Ayari (İsveç), Just (Yeni Zelanda) ve Mbappé (Fransa). Messi, Cezayir'e karşı attığı golle tabloya 7. sıradan girdi (kariyer DK golü: 14). Avusturya–Ürdün 07:00, Portekiz–DR Kongo 20:00, İngiltere–Hırvatistan 23:00 TSİ'de başlıyor.",
-  topScorersNote_en: "19 matches confirmed. Six joint leaders on 2 goals: Balogun (USA), Havertz (Germany), Haaland (Norway), Ayari (Sweden), Just (New Zealand) and Mbappé (France). Messi joins the table in 7th place after scoring vs Algeria (career WC tally: 14). Today: Austria–Jordan 07:00, Portugal vs DR Congo 20:00, England vs Croatia 23:00 TST.",
+  topScorersNote: "21 maç tamamlandı. Messi, Cezayir'e hat-trick (17', 60', 76') atarak zirvede tek başına (3 gol). 6 oyuncu 2'şer gol: Mbappé (Fransa), Haaland (Norveç), Balogun (ABD), Havertz (Almanya), Ayari (İsveç) ve Just (Yeni Zelanda). Messi 16. kariyer DK golüyle Klose'nin tüm zamanlar rekorunu eşitledi — 6 farklı DK'da gol atan ilk oyuncu. Portekiz–DR Kongo 20:00, İngiltere–Hırvatistan 23:00 TSİ'de başlıyor.",
+  topScorersNote_en: "21 matches confirmed. Messi leads alone with 3 goals after his hat-trick vs Algeria (17', 60', 76'). Six players on 2 goals: Mbappé (France), Haaland (Norway), Balogun (USA), Havertz (Germany), Ayari (Sweden) and Just (New Zealand). Messi's 16th career WC goal equals Klose's all-time record — first player to score at 6 different World Cups. Tonight: Portugal–DR Congo 20:00, England–Croatia 23:00 TST.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
@@ -38,8 +38,10 @@ window.WC_DATA = {
     "Almanya": "E Grubu'na NRG Stadyumu'nda Curaçao'yu 7-1 yenerek muhteşem başladı. Nmecha (6'), Schlotterbeck (38'), Havertz (45+5' pen ve 88'), Musiala (47'), Brown (68') ve Undav (78') gol attı; Comenencia (21') Curaçao'nun tarihi golünü kaydetti. Nagelsmann'ın takımı 3 puanla E Grubu'nun zirvesinde, turnuvanın şimdiye kadarki en farklı galibiyetlerinden birini aldı.",
     "İran": "Los Angeles'ta Yeni Zelanda ile 2-2 berabere kalan İran, nefes kesen bir maç sergiledi. Elijah Just'ın çifte golüne (7', 54') Rezaeian (32') ve Mohebbi (64') birer golle cevap verdi; Mohebbi kafasıyla tamamladığı gol Rezaeian'ın asistinden geldi. G Grubu'nda 4 takım 1'er puanda — Belçika ve Mısır maçları belirleyici olacak.",
     "Yeni Zelanda": "Los Angeles'ta İran ile 2-2 berabere kalan Yeni Zelanda, Just'ın çifte golüyle (7', 54') iki kez öne geçti ama İran iki kez yakaladı (Rezaeian 32', Mohebbi 64'). Just bu performansıyla Dünya Kupası tarihinin en golcü All Whites oyuncuları arasına girdi. G Grubu'nda 1 puanla devam ediyorlar.",
-    "Arjantin": "Son şampiyon Arjantin, J Grubu'nu Cezayir'i 1-0 yenerek açtı. Messi 17. dakikada De Paul'un asistinden uzaktan harika bir vuruşla skoru açtı — 5 farklı Dünya Kupası'nda gol atan ikinci oyuncu (Ronaldo ile eşit, 14 kariyer golü). Cezayir'in Chaibi'nin golü ve Messi'nin önceki golü offside nedeniyle sayılmadı. Arjantin 3 puanla J Grubu'nun lideri.",
-    "İngiltere": "FIFA sıralamasında 4. Bu akşam 23:00 TSİ'de Hırvatistan'a karşı L Grubunu açıyor. 2022 Katar'da Yarı Final'e ulaşmış İngiltere, bu sefer kupayı hedefliyor.",
+    "Arjantin": "Son şampiyon Arjantin, J Grubu'nu Cezayir'i 3-0 ezerek açtı — Messi DK tarihinin ilk hat-trick'ini attı (17', 60', 76'). 6 farklı Dünya Kupası'nda gol atan ilk oyuncu olan Messi, 16. kariyer goliyle Miroslav Klose'nin tüm zamanlar DK golcülük rekorunu eşitledi. Avusturya ile birlikte J Grubu'nun zirvesinde (gol averajıyla önde); 22 Haziran'da Avusturya ile kritik düello.",
+    "İngiltere": "FIFA sıralamasında 4. Bu akşam 23:00 TSİ'de Arlington'da Hırvatistan'a karşı L Grubunu açıyor. 2022 Katar'da Yarı Final'e ulaşmış İngiltere, bu sefer kupayı hedefliyor.",
+    "Avusturya": "J Grubu'na Santa Clara'da Ürdün'ü 3-1 yenerek güçlü başladı — 1990'dan bu yana ilk Dünya Kupası galibiyeti (36 yıl sonra). Schmid (20') güzel bir uzak şutla açtı, Olwan'ın (50') tarihi Ürdün golünden sonra Al Arab kendi kalesine (76') ve Arnautovic penaltısıyla (90+12') zaferi pekiştirdi. 22 Haziran'da Arjantin karşı son derece çetin bir randevu var.",
+    "Ürdün": "İlk Dünya Kupası maçında Santa Clara'da Avusturya'ya 1-3 yenildi. Ali Olwan'ın 50. dakikadaki golü ülkenin DK tarihindeki ilk golü olarak tarihe geçti, ancak Avusturya'nın skor üstünlüğü engel aşılamadı. 23 Haziran'da Cezayir karşısında gruptan çıkmak için 3 puan şart.",
     "Brezilya": "Fas ile 1-1 berabere kaldı (Saibari 21', Vinícius Júnior 32') — Alisson'un son dakika çift kurtarışı puanı korudu. Rekor 5 kez şampiyon; 2002'den beri kupa hasreti sürüyor.",
     "Fransa": "2018 şampiyonu Fransa, I Grubu'na MetLife'da Senegal'i 3-1 yenerek 3 puanla başladı. Mbappé 66. dakikada skoru açtı, Barcola 82'de ikinci golü attı. Senegal geç gollerle 2-1'e düşürse de Mbappé ikinci golüyle skoru 3-1'e taşıdı. Mbappé 2 golle gol krallığında liderlere ortak oldu.",
     "İskoçya": "Haiti'yi McGinn'in 28. dakika golüyle 1-0 yendi — 1990'dan sonraki ilk Dünya Kupası galibiyeti. C Grubu'nda lider durumda.",
@@ -56,7 +58,7 @@ window.WC_DATA = {
     "Senegal": "Senegal, MetLife'da Fransa'ya 1-3 yenilerek I Grubu'na puansız başladı. İlk yarıyı 0-0 kapattılar; ancak Mbappé (66') ve Barcola (82') golle 2-0 geride kaldılar. Mbaye geç bir golle 2-1'e düşürse de Mbappé ikinci golüyle 3-1 oldu. Norveç maçı (23 Haziran) kritik.",
     "Norveç": "Erling Haaland, Boston'da Irak'a karşı oynadığı ilk Dünya Kupası maçında iki gol atarak Norveç'i 4-1'lik galibiyete taşıdı. Østigård (76') ve Thorstvedt da katkı sağlarken Aymen Hussein Irak'ın tek golünü kaydetti. 1998'den bu yana ilk DK katılımı olan Norveç, I Grubu'nda Fransa ile birlikte 3 puanda; Haaland 2 golle gol krallığında ortak lider.",
     "Irak": "Irak, 1986'dan bu yana ilk Dünya Kupası maçında Boston'da Norveç'e 1-4 yenildi. Aymen Hussein gol atarak tarihe geçti; ancak Haaland (×2), Østigård (76') ve Thorstvedt'in golleri Norveç'i büyük farka taşıdı. Bolivya'yı 2-1 yenerek inter-konfederasyon play-off'tan kalifikasyonu almışlardı — devam maçları kritik.",
-    "Cezayir": "Cezayir, J Grubu'na Kansas City'de şampiyon Arjantin karşısında 0-1 yenilerek başladı. Chaibi'nin golü offside nedeniyle sayılmadı; Mahrez ve Gouiri'nin tehditleri Messi'nin 17. dakika golünü önleyemedi. 23 Haziran'daki Ürdün maçı kritik — gruptan çıkmak için puan şart."
+    "Cezayir": "J Grubu'na Kansas City'de şampiyon Arjantin'e 0-3 yenilerek ağır bir başlangıç yaptı. Messi'nin hat-trick'i (17', 60', 76') önünde çaresiz kalan Cezayir, Chaibi'nin golünü de offside nedeniyle sayıramadı. 23 Haziran'daki Ürdün maçı artık mutlak 3 puan zorunluluğu."
   },
 
   teamNotesEn: {
@@ -71,8 +73,10 @@ window.WC_DATA = {
     "Almanya": "Opened their Group E campaign in style with a 7-1 win over Curaçao at NRG Stadium. Nmecha (6'), Schlotterbeck (38'), Havertz (45+5' pen and 88'), Musiala (47'), Brown (68') and Undav (78') all scored; Comenencia (21') got Curaçao's historic goal. Nagelsmann's side top Group E after one of the tournament's biggest wins so far.",
     "İran": "Iran fought back twice to draw 2-2 with New Zealand in Los Angeles. Elijah Just gave New Zealand the lead twice (7', 54'), but Rezaeian (32') and Mohebbi (64' — a header from Rezaeian's cross) earned Iran a point each time. All four Group G teams remain level on 1 point — the Belgium and Egypt matches will be decisive.",
     "Yeni Zelanda": "New Zealand twice led through Elijah Just's brace (7', 54') but couldn't hold on, as Iran equalised twice through Rezaeian (32') and Mohebbi (64') to earn a 2-2 draw in Los Angeles. Just's double makes him one of the most prolific All Whites scorers in World Cup history. They continue on 1 point in Group G.",
-    "Arjantin": "Defending champions Argentina opened Group J with a 1-0 win over Algeria in Kansas City. Messi scored in the 17th minute — a long-range drive from a De Paul through ball — to become only the second player to score at five different World Cups (joining Ronaldo, 14 career WC goals). Both Messi's earlier effort and Chaibi's Algeria goal were ruled offside. Argentina top Group J on 3 points.",
-    "İngiltere": "Ranked 4th by FIFA. They open Group L tonight at 23:00 TST against Croatia. England reached the semifinals in Qatar 2022 and are targeting the trophy this time.",
+    "Arjantin": "Defending champions Argentina opened Group J by thrashing Algeria 3-0 in Kansas City — Messi scored the World Cup's first-ever hat-trick (17', 60', 76'). He became the first player to score at 6 different World Cups and equals Miroslav Klose's all-time World Cup scoring record with 16 goals. Argentina top Group J on goal difference over Austria; their June 22 clash is a major group decider.",
+    "İngiltere": "Ranked 4th by FIFA. They open Group L tonight at 23:00 TST against Croatia in Arlington. England reached the semifinals in Qatar 2022 and are targeting the trophy this time.",
+    "Avusturya": "Austria opened Group J with a 3-1 win over Jordan in Santa Clara — their first World Cup victory in 36 years (since 1990). Schmid (20') struck from range to open the scoring; Olwan's (50') historic equaliser was cancelled out by an Al Arab own goal (76') and Arnautovic's stoppage-time penalty (90+12'). A massive Group J showdown vs Argentina awaits on June 22.",
+    "Ürdün": "Jordan lost 1-3 to Austria in their World Cup debut in Santa Clara. Ali Olwan's 50th-minute goal became the country's first-ever World Cup goal, but Austria's three-goal haul proved too much. The June 23 match vs Algeria is now must-win.",
     "Brezilya": "Drew 1-1 with Morocco (Saibari 21', Vinícius Júnior 32') — a late Alisson double save preserved the point. Record 5-time champions, still chasing a title since 2002.",
     "Fransa": "2018 champions France opened Group I with a 3-1 win over Senegal at MetLife. Mbappé scored in the 66th minute, Barcola added a second in the 82nd. Mbaye pulled one back for Senegal late on, but Mbappé sealed it with his second goal to make it 3-1. Mbappé now shares the golden boot lead with 2 goals.",
     "İskoçya": "Beat Haiti 1-0 thanks to John McGinn's 28th-minute goal — their first World Cup win since 1990. They top Group C.",
@@ -89,7 +93,7 @@ window.WC_DATA = {
     "Senegal": "Senegal lost 1-3 to France at MetLife, opening Group I with 0 points. They held firm through the first half but conceded to Mbappé (66') and Barcola (82'). Mbaye pulled one back late, but Mbappé sealed the result at 3-1. The June 23 clash vs Norway is now must-win.",
     "Norveç": "Erling Haaland delivered on his World Cup debut, scoring twice (both in the first half) as Norway beat Iraq 4-1 in Boston. Østigård added a 76th-minute header from an Ødegaard corner, and Thorstvedt also scored late. Haaland now joins the golden boot leaders on 2 goals. Norway's first World Cup since 1998, and they've made an emphatic start — top of Group I alongside France on 3 points.",
     "Irak": "Iraq's first World Cup since 1986 ended in a 1-4 defeat to Norway in Boston. Aymen Hussein scored to make history as Iraq's first World Cup scorer since 1986, but Erling Haaland's double, Østigård (76') and Thorstvedt's goals proved too much. They qualified through the inter-confederation playoff beating Bolivia 2-1 — next up is France on June 23.",
-    "Cezayir": "Algeria lost their Group J opener 0-1 to defending champions Argentina in Kansas City. Chaibi's goal was ruled offside, and Mahrez and Gouiri's threat couldn't overcome Messi's 17th-minute strike. The June 23 clash vs Jordan is now must-win to keep qualification hopes alive."
+    "Cezayir": "Algeria were on the wrong end of a historic night, losing 0-3 to defending champions Argentina in Kansas City. Messi's hat-trick (17', 60', 76') was devastating; Chaibi's goal was also ruled offside. With no points and a -3 goal difference, the June 23 clash vs Jordan is now must-win."
   },
 
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
@@ -113,8 +117,8 @@ window.WC_DATA = {
     { iso: "2026-06-16", saat: "04:00", grup: "G", ev: "İran", dep: "Yeni Zelanda", yer: "Los Angeles", skor: "2 - 2", not: "Goller: Just (7' ve 54' - Yeni Zelanda), Rezaeian (32' - İran), Mohebbi (64' - İran, Rezaeian asist). Just iki kez öne geçirdi, Rezaeian ve Mohebbi her seferinde yakaladı — heyecanlı beraberlik." },
     { iso: "2026-06-16", saat: "22:00", grup: "I", ev: "Fransa", dep: "Senegal", yer: "New Jersey", skor: "3 - 1", not: "Goller: Mbappé (66'), Barcola (82') - Fransa; Mbaye (dk. teyit edilemedi) - Senegal; Mbappé 2. gol (dk. teyit edilemedi) - Fransa. Fransa 3 puanla I Grubu'na lider başladı." },
     { iso: "2026-06-17", saat: "01:00", grup: "I", ev: "Irak", dep: "Norveç", yer: "Boston", skor: "1 - 4", not: "Goller: Haaland ×2 (ilk yarı) ve Østigård (76') ve Thorstvedt - Norveç; Aymen Hussein - Irak. Haaland'ın Dünya Kupası debutu; Østigård golü Ødegaard'ın köşe vuruşundan kafa." },
-    { iso: "2026-06-17", saat: "04:00", grup: "J", ev: "Arjantin", dep: "Cezayir", yer: "Kansas City", skor: "1 - 0", not: "Goller: Messi (17', De Paul asisti, uzaktan vuruş). Messi'nin önceki girişimi ve Cezayir'in Chaibi golü offside nedeniyle iptal. Messi 5 farklı DK'da gol atan 2. oyuncu (14 kariyer golü)." },
-    { iso: "2026-06-17", saat: "07:00", grup: "J", ev: "Avusturya", dep: "Ürdün", yer: "Santa Clara", skor: null },
+    { iso: "2026-06-17", saat: "04:00", grup: "J", ev: "Arjantin", dep: "Cezayir", yer: "Kansas City", skor: "3 - 0", not: "Goller: Messi (17' De Paul asisti, uzaktan vuruş), Messi (60', isabetli vuruş), Messi (76', köşeden bükülerek). Messi DK tarihinin ilk hat-trick'ini attı — 16. kariyer goliyle Klose'nin rekorunu eşitledi; 6 farklı DK'da gol atan ilk oyuncu. Cezayir'in Chaibi golü offside nedeniyle iptal." },
+    { iso: "2026-06-17", saat: "07:00", grup: "J", ev: "Avusturya", dep: "Ürdün", yer: "Santa Clara", skor: "3 - 1", not: "Goller: Schmid (20' - Avusturya, uzaktan isabetli vuruş), Olwan (50' - Ürdün, ülkenin DK tarihindeki ilk golü), Al Arab kendi kalesine (76' - Avusturya, köşe vuruşundan), Arnautovic (90+12' penaltı - Avusturya). Avusturya, 36 yılın ardından (1990'dan bu yana) ilk DK galibiyetini aldı." },
     { iso: "2026-06-17", saat: "20:00", grup: "K", ev: "Portekiz", dep: "DR Kongo", yer: "Houston", skor: null },
     { iso: "2026-06-17", saat: "23:00", grup: "L", ev: "İngiltere", dep: "Hırvatistan", yer: "Arlington", skor: null },
     { iso: "2026-06-18", saat: "02:00", grup: "L", ev: "Gana", dep: "Panama", yer: "Toronto", skor: null },
@@ -226,10 +230,10 @@ window.WC_DATA = {
       { takim: "Irak", flag: "🇮🇶", o: 1, g: 0, b: 0, m: 1, a: 1, y: 4, p: 0 }
     ],
     "J": [
-      { takim: "Arjantin", flag: "🇦🇷", o: 1, g: 1, b: 0, m: 0, a: 1, y: 0, p: 3 },
-      { takim: "Cezayir", flag: "🇩🇿", o: 1, g: 0, b: 0, m: 1, a: 0, y: 1, p: 0 },
-      { takim: "Avusturya", flag: "🇦🇹", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
-      { takim: "Ürdün", flag: "🇯🇴", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 }
+      { takim: "Arjantin", flag: "🇦🇷", o: 1, g: 1, b: 0, m: 0, a: 3, y: 0, p: 3 },
+      { takim: "Avusturya", flag: "🇦🇹", o: 1, g: 1, b: 0, m: 0, a: 3, y: 1, p: 3 },
+      { takim: "Ürdün", flag: "🇯🇴", o: 1, g: 0, b: 0, m: 1, a: 1, y: 3, p: 0 },
+      { takim: "Cezayir", flag: "🇩🇿", o: 1, g: 0, b: 0, m: 1, a: 0, y: 3, p: 0 }
     ],
     "K": [
       { takim: "Portekiz", flag: "🇵🇹", o: 0, g: 0, b: 0, m: 0, a: 0, y: 0, p: 0 },
@@ -286,26 +290,26 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "Türkiye lost their opener 2-0 to Australia, making June 20 vs Paraguay decisive. If they top Group D, path: 81 → 94 → 98 → 101 → Final (orange boxes). Argentina 1-0 Algeria confirmed (Messi 17’). Norway 4-1 Iraq, France 3-1 Senegal confirmed. Still today: Austria–Jordan 07:00, Portugal–DR Congo 20:00, England–Croatia 23:00 TST.",
-    note: "Türkiye, Avustralya’ya 2-0 yenilerek kötü başladı; 20 Haziran Paraguay maçı kritik. Arjantin 1-0 Cezayir kesinleşti (Messi 17’). Norveç 4-1 Irak, Fransa 3-1 Senegal kesinleşti. Bugün devam: Avusturya–Ürdün 07:00, Portekiz–DR Kongo 20:00, İngiltere–Hırvatistan 23:00 TSİ."
+    note_en: "Türkiye lost their opener 2-0 to Australia, making June 20 vs Paraguay decisive. If they top Group D, path: 81 → 94 → 98 → 101 → Final (orange boxes). Argentina 3-0 Algeria confirmed (Messi hat-trick 17’/60’/76’). Austria 3-1 Jordan confirmed. Tonight: Portugal–DR Congo 20:00, England–Croatia 23:00 TST.",
+    note: "Türkiye, Avustralya'ya 2-0 yenilerek kötü başladı; 20 Haziran Paraguay maçı kritik. Arjantin 3-0 Cezayir kesinleşti (Messi hat-trick 17\u2019/60\u2019/76\u2019). Avusturya 3-1 Ürdün kesinleşti. Bu akşam: Portekiz\u2013DR Kongo 20:00, İngiltere\u2013Hırvatistan 23:00 TSİ."
   },
 
   // ---------------- BİLGİ KUTUSU ----------------
   facts_en: [
     "First World Cup with 48 teams and 3 host nations (USA, Canada, Mexico). 104 matches in total.",
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
-    "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27’, Metcalfe 75’). June 20 vs Paraguay is now decisive.",
+    "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27\u2019, Metcalfe 75\u2019). June 20 vs Paraguay is now decisive.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "Messi scored vs Algeria (17’) to become only the second player to score at five different World Cups, equalling Cristiano Ronaldo’s record. His 14th career World Cup goal moves him to joint 7th in the all-time list. Argentina top Group J on 3 points.",
-    "Norway 4-1 Iraq & France 3-1 Senegal confirmed (June 17). Haaland’s World Cup debut: 2 goals. Today still: Austria–Jordan 07:00, Portugal–DR Congo 20:00, England–Croatia 23:00 TST. Group G: all four teams on 1 point after Belgium–Egypt 1-1 and Iran–New Zealand 2-2."
+    "Messi scored a hat-trick vs Algeria (17\u2019, 60\u2019, 76\u2019) to become the first player ever to score at 6 different World Cups. His 16th career WC goal equals Miroslav Klose\u2019s all-time scoring record. Argentina top Group J.",
+    "Austria beat Jordan 3-1 (June 17) for their first WC win in 36 years — Jordan\u2019s Ali Olwan scored the country\u2019s first-ever World Cup goal. Tonight: Portugal–DR Congo 20:00, England–Croatia 23:00 TST."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
-    "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası’na Avustralya’ya 2-0 yenilerek başladı. 20 Haziran Paraguay maçı artık kritik.",
-    "Final 19 Temmuz’da New Jersey MetLife Stadyumu’nda (TSİ 22:00 civarı).",
-    "Messi, Cezayir’e karşı (17.) gol atarak 5 farklı Dünya Kupası’nda gol atan yalnızca ikinci oyuncu oldu — Cristiano Ronaldo ile eşit. 14 kariyer DK golüyle tüm zamanlar listesinde 7. sıraya ortak oldu. Arjantin J Grubu’nda 3 puanla lider.",
-    "Norveç 4-1 Irak ve Fransa 3-1 Senegal kesinleşti (17 Haziran). Haaland’ın DK debutu: 2 gol. Bugün devam: Avusturya–Ürdün 07:00, Portekiz–DR Kongo 20:00, İngiltere–Hırvatistan 23:00 TSİ. G Grubu: 4 takım 1’er puanda (Belçika–Mısır 1-1, İran–Yeni Zelanda 2-2)."
+    "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası\u2019na Avustralya\u2019ya 2-0 yenilerek başladı. 20 Haziran Paraguay maçı artık kritik.",
+    "Final 19 Temmuz\u2019da New Jersey MetLife Stadyumu\u2019nda (TSİ 22:00 civarı).",
+    "Messi, Cezayir\u2019e hat-trick (17\u2019, 60\u2019, 76\u2019) atarak 6 farklı Dünya Kupası\u2019nda gol atan ilk oyuncu oldu. 16. kariyer DK goliyle Miroslav Klose\u2019nin tüm zamanlar rekorunu eşitledi. Arjantin J Grubu\u2019nda lider.",
+    "Avusturya, Ürdün\u2019ü 3-1 yenerek 36 yılın ardından ilk DK galibiyetini aldı (17 Haziran). Ürdün\u2019ün Ali Olwan, ülkesinin DK tarihindeki ilk golü attı. Bu akşam: Portekiz–DR Kongo 20:00, İngiltere–Hırvatistan 23:00 TSİ."
   ]
 };
 ;
