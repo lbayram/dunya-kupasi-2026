@@ -218,7 +218,7 @@ const LANGS = {
     goals:"Goller:", months:{} },
   en: { flag:"🇬🇧", name:"English", locale:"en-GB",
     sub:"USA · Canada · Mexico | June 11 – July 19 | 48 teams · 104 matches",
-    day:n=>"📆 Tournament day "+n, upd:"🔄 Last update: ", tz:"⏰ All times GMT+3 (Türkiye time)",
+    day:n=>"📆 Tournament day "+n, upd:"🔄 Last update: ", tz:"⏰ All times UK time (BST, GMT+1)",
     fav:"⭐ My Favourite Teams", pick:"🇹🇷 Türkiye + your picks:", pickPh:"— pick a team —",
     clear:"Clear", pickNote:"Your picks are remembered in this browser.",
     hint:n=>"⚙ You can add up to "+n+"<br>more teams from the boxes above",
@@ -238,7 +238,7 @@ const LANGS = {
     goals:"Goals:", months:{"Haziran":"June","Temmuz":"July","Haz":"Jun","Tem":"Jul","Pazar":"Sunday","TSİ":"GMT+3"} },
   fr: { flag:"🇫🇷", name:"Français", locale:"fr-FR",
     sub:"USA · Canada · Mexique | 11 juin – 19 juillet | 48 équipes · 104 matchs",
-    day:n=>"📆 Jour "+n+" du tournoi", upd:"🔄 Dernière mise à jour : ", tz:"⏰ Toutes les heures en GMT+3 (heure turque)",
+    day:n=>"📆 Jour "+n+" du tournoi", upd:"🔄 Dernière mise à jour : ", tz:"⏰ Toutes les heures en heure française (CEST, GMT+2)",
     fav:"⭐ Mes Équipes Favorites", pick:"🇹🇷 Türkiye + vos choix :", pickPh:"— choisir une équipe —",
     clear:"Effacer", pickNote:"Vos choix sont mémorisés dans ce navigateur.",
     hint:n=>"⚙ Vous pouvez ajouter jusqu'à "+n+"<br>équipes via les listes ci-dessus",
@@ -258,7 +258,7 @@ const LANGS = {
     goals:"Buts :", months:{"Haziran":"juin","Temmuz":"juillet","Haz":"juin","Tem":"juil","Pazar":"dimanche","TSİ":"GMT+3"} },
   es: { flag:"🇪🇸", name:"Español", locale:"es-ES",
     sub:"EE. UU. · Canadá · México | 11 junio – 19 julio | 48 equipos · 104 partidos",
-    day:n=>"📆 Día "+n+" del torneo", upd:"🔄 Última actualización: ", tz:"⏰ Todas las horas en GMT+3 (hora turca)",
+    day:n=>"📆 Día "+n+" del torneo", upd:"🔄 Última actualización: ", tz:"⏰ Todas las horas en hora española (CEST, GMT+2)",
     fav:"⭐ Mis Equipos Favoritos", pick:"🇹🇷 Türkiye + tus elecciones:", pickPh:"— elegir equipo —",
     clear:"Borrar", pickNote:"Tus elecciones se recuerdan en este navegador.",
     hint:n=>"⚙ Puedes añadir hasta "+n+"<br>equipos más en las listas de arriba",
@@ -278,7 +278,7 @@ const LANGS = {
     goals:"Goles:", months:{"Haziran":"junio","Temmuz":"julio","Haz":"jun","Tem":"jul","Pazar":"domingo","TSİ":"GMT+3"} },
   de: { flag:"🇩🇪", name:"Deutsch", locale:"de-DE",
     sub:"USA · Kanada · Mexiko | 11. Juni – 19. Juli | 48 Teams · 104 Spiele",
-    day:n=>"📆 Turniertag "+n, upd:"🔄 Letzte Aktualisierung: ", tz:"⏰ Alle Zeiten GMT+3 (türkische Zeit)",
+    day:n=>"📆 Turniertag "+n, upd:"🔄 Letzte Aktualisierung: ", tz:"⏰ Alle Zeiten Berliner Zeit (MESZ, GMT+2)",
     fav:"⭐ Meine Lieblingsteams", pick:"🇹🇷 Türkiye + deine Auswahl:", pickPh:"— Team wählen —",
     clear:"Löschen", pickNote:"Deine Auswahl wird in diesem Browser gespeichert.",
     hint:n=>"⚙ Du kannst oben noch bis zu "+n+"<br>weitere Teams hinzufügen",
@@ -298,7 +298,7 @@ const LANGS = {
     goals:"Tore:", months:{"Haziran":"Juni","Temmuz":"Juli","Haz":"Jun","Tem":"Jul","Pazar":"Sonntag","TSİ":"GMT+3"} },
   ja: { flag:"🇯🇵", name:"日本語", locale:"ja-JP",
     sub:"アメリカ · カナダ · メキシコ | 6月11日〜7月19日 | 48チーム · 104試合",
-    day:n=>"📆 大会"+n+"日目", upd:"🔄 最終更新: ", tz:"⏰ 時刻はすべてGMT+3（トルコ時間）",
+    day:n=>"📆 大会"+n+"日目", upd:"🔄 最終更新: ", tz:"⏰ 時刻はすべて日本時間（JST、GMT+9）",
     fav:"⭐ お気に入りチーム", pick:"🇹🇷 トルコ + あなたの選択:", pickPh:"— チームを選ぶ —",
     clear:"クリア", pickNote:"選択はこのブラウザに保存されます。",
     hint:n=>"⚙ 上のボックスからあと"+n+"チーム<br>追加できます",
@@ -370,6 +370,12 @@ const TEAM_I18N = {
   "Panama":{en:"Panama",fr:"Panama",es:"Panamá",de:"Panama",ja:"パナマ"}
 };
 
+/* ================= TİMEZONE HARİTASI ================= */
+const LANG_TZ = {
+  tr:"Europe/Istanbul", en:"Europe/London", fr:"Europe/Paris",
+  es:"Europe/Madrid",   de:"Europe/Berlin", ja:"Asia/Tokyo"
+};
+
 /* ================= DİL DURUMU ================= */
 const LKEY = "dk2026_lang";
 let lang = localStorage.getItem(LKEY);
@@ -378,6 +384,7 @@ if (!LANGS[lang]) {
   lang = LANGS[nav] ? nav : "tr";
 }
 let L = LANGS[lang];
+let TZ = LANG_TZ[lang] || "Europe/Istanbul";
 
 const tname = ad => lang === "tr" ? ad : (TEAM_I18N[ad] ? (TEAM_I18N[ad][lang] || TEAM_I18N[ad].en) : ad);
 const trMonths = s => { let r = s; Object.entries(L.months).forEach(([k,v]) => r = r.split(k).join(v)); return r; };
@@ -399,21 +406,39 @@ function bLabel(s) {
   return TEAMS[s] ? tkm(s) : s;
 }
 
-/* ================= TARİH YARDIMCILARI (TSİ) ================= */
-const fmtKey = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Istanbul",
-  year: "numeric", month: "2-digit", day: "2-digit" });
-const isoTR = d => fmtKey.format(d);
-const todayIso = isoTR(new Date());
-const tomorrowIso = isoTR(new Date(Date.now() + 864e5));
-function gunAdi(iso) {
-  const d = new Date(iso + "T12:00:00+03:00");
-  return new Intl.DateTimeFormat(L.locale, { timeZone: "Europe/Istanbul",
-    day: "numeric", month: "short", weekday: "long" }).format(d);
+/* ================= TARİH / SAAT YARDIMCILARI ================= */
+/* iso = "YYYY-MM-DD" (TSİ tarihi), saat = "HH:MM" (TSİ saati) */
+const toIsoDate = (d, tz) => new Intl.DateTimeFormat("en-CA", { timeZone: tz }).format(d);
+
+/* TSİ saatini seçili dile göre dönüştür */
+function saatStr(iso, saat) {
+  const dt = new Date(`${iso}T${saat}:00+03:00`);
+  return new Intl.DateTimeFormat("en-GB", {
+    timeZone: TZ, hour: "2-digit", minute: "2-digit", hour12: false
+  }).format(dt);
 }
-function gunKisa(iso) {
-  const d = new Date(iso + "T12:00:00+03:00");
-  return new Intl.DateTimeFormat(L.locale, { timeZone: "Europe/Istanbul",
-    day: "numeric", month: "short" }).format(d);
+
+/* Bugünün tarih etiketini seçili TZ'ye göre döndür */
+function todayLabel() {
+  return new Intl.DateTimeFormat(L.locale, {
+    timeZone: TZ, day: "numeric", month: "short", weekday: "long"
+  }).format(new Date());
+}
+
+/* Maçın gün adını seçili TZ'de göster */
+function gunAdi(iso, saat) {
+  const d = new Date(`${iso}T${saat || "12:00"}:00+03:00`);
+  return new Intl.DateTimeFormat(L.locale, {
+    timeZone: TZ, day: "numeric", month: "short", weekday: "long"
+  }).format(d);
+}
+
+/* Maçın kısa tarihini seçili TZ'de göster */
+function gunKisa(iso, saat) {
+  const d = new Date(`${iso}T${saat || "12:00"}:00+03:00`);
+  return new Intl.DateTimeFormat(L.locale, {
+    timeZone: TZ, day: "numeric", month: "short"
+  }).format(d);
 }
 
 /* ================= FAVORİ SEÇİMİ ================= */
@@ -457,7 +482,7 @@ function takimKarti(ad) {
   const gd = (me.a - me.y > 0 ? "+" : "") + (me.a - me.y);
   const durum = me.o === 0 ? L.notPlayed : L.status(g, idx + 1, me, gd);
   const sonrakiTxt = sonraki
-    ? `${tname(sonraki.ev === ad ? sonraki.dep : sonraki.ev)} — ${gunAdi(sonraki.iso)}, ${sonraki.saat} (${sonraki.yer})`
+    ? `${tname(sonraki.ev === ad ? sonraki.dep : sonraki.ev)} — ${gunAdi(sonraki.iso, sonraki.saat)}, ${saatStr(sonraki.iso, sonraki.saat)} (${sonraki.yer})`
     : L.noNext;
   const noteTr = D.teamNotes[ad], noteEn = (D.teamNotesEn || {})[ad];
   const note = prose(noteTr, noteEn);
@@ -471,7 +496,7 @@ function takimKarti(ad) {
     <table>${maclar.map(f => {
       const rakip = f.ev === ad ? f.dep : f.ev;
       const evMi = f.ev === ad ? "" : L.away;
-      return `<tr><td>${tkm(rakip)}${evMi}</td><td>${gunKisa(f.iso)} ${f.saat}</td>
+      return `<tr><td>${tkm(rakip)}${evMi}</td><td>${gunKisa(f.iso, f.saat)} ${saatStr(f.iso, f.saat)}</td>
         <td style="text-align:right;${f.skor ? "color:var(--green);font-weight:700" : "color:var(--muted)"}">${f.skor ?? f.yer}</td></tr>`;
     }).join("")}</table>
     ${note ? `<div class="note">${note}</div>` : ""}
@@ -484,7 +509,7 @@ function notCevir(s) { return lang === "tr" ? s : s.replace(/^Goller:/, L.goals)
 
 function macSatiri(f) {
   return `<div class="matchrow ${favMi(f) ? "favmatch" : ""}">
-    <span class="time">${f.saat}</span><span class="grp">${grpEtiket(f)}</span>
+    <span class="time">${saatStr(f.iso, f.saat)}</span><span class="grp">${grpEtiket(f)}</span>
     <span class="teams">${tkm(f.ev)} ${f.skor ? `<span class="score">${f.skor}</span>` : "—"} ${tkm(f.dep)}</span>
     <span class="venue">📍 ${f.yer}</span>
     ${favMi(f) ? `<span class="mnote">${L.favMatch}</span>` : ""}
@@ -501,9 +526,11 @@ function renderDynamic() {
       <div class="favhint" style="text-align:center">${L.hint(4 - secim.length)}</div></div>` : "");
 
   /* Bugünün maçları */
-  const bugun = D.fixtures.filter(f => f.iso === todayIso);
-  const gece = D.fixtures.filter(f => f.iso === tomorrowIso && f.saat <= "08:00");
-  $("todayLabel").textContent = "· " + gunAdi(todayIso);
+  const todayIso = toIsoDate(new Date(), TZ);
+  const tomorrowIso = toIsoDate(new Date(Date.now() + 864e5), TZ);
+  const bugun = D.fixtures.filter(f => toIsoDate(new Date(`${f.iso}T${f.saat}:00+03:00`), TZ) === todayIso);
+  const gece  = D.fixtures.filter(f => toIsoDate(new Date(`${f.iso}T${f.saat}:00+03:00`), TZ) === tomorrowIso && saatStr(f.iso, f.saat) <= "06:00");
+  $("todayLabel").textContent = "· " + todayLabel();
   $("todayBox").innerHTML =
     (bugun.length ? bugun.map(macSatiri).join("") : `<div class="muted">${L.noToday}</div>`) +
     (gece.length ? `<div class="muted" style="margin:10px 0 6px">${L.tonight}</div>` + gece.map(macSatiri).join("") : "");
@@ -514,7 +541,7 @@ function renderDynamic() {
   $("resultsBox").innerHTML = biten.length
     ? biten.map(f => `
       <div class="matchrow ${favMi(f) ? "favmatch" : ""}">
-        <span class="time">${gunKisa(f.iso)}</span>
+        <span class="time">${gunKisa(f.iso, f.saat)}</span>
         <span class="grp">${grpEtiket(f)}</span>
         <span class="teams">${tkm(f.ev)} <span class="score">${f.skor}</span> ${tkm(f.dep)}</span>
         ${f.not ? `<span class="resnote">${notCevir(f.not)}</span>` : ""}
@@ -598,6 +625,7 @@ $("langSel").innerHTML = Object.entries(LANGS)
 $("langSel").onchange = () => {
   lang = $("langSel").value;
   L = LANGS[lang];
+  TZ = LANG_TZ[lang] || "Europe/Istanbul";
   try { localStorage.setItem(LKEY, lang); } catch (e) {}
   renderStatic(); renderDynamic();
 };
