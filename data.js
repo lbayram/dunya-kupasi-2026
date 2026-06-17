@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "17 Haziran 2026, 03:17 TSİ",
-  headline_en: "RESULT: Norway 4-1 Iraq (Group I, Boston) — Haaland ×2, Østigård (76'), Thorstvedt; Aymen Hussein (Iraq). Haaland now joint top scorer on 2 goals. Still today: Portugal vs DR Congo 20:00 TST, England vs Croatia 23:00 TST. Argentina–Algeria and Austria–Jordan also concluded (scores pending verification). Türkiye vs Paraguay June 20 is decisive.",
-  headline: "SONUÇ: Norveç 4-1 Irak (I Grubu, Boston) — Haaland ×2, Østigård (76'), Thorstvedt; Aymen Hussein (Irak). Haaland 2 golle gol krallığında ortak lider. Bugün devam: Portekiz–DR Kongo 20:00 TSİ, İngiltere–Hırvatistan 23:00 TSİ. Arjantin–Cezayir ve Avusturya–Ürdün sonuçları teyit bekleniyor. Türkiye 20 Haziran'da Paraguay karşısında — kritik.",
+  lastUpdate: "17 Haziran 2026, 04:12 TSİ",
+  headline_en: "LIVE: Argentina vs Algeria in progress in Kansas City (Group J, kicked off 04:00 TST). Confirmed Day 6 results: Norway 4-1 Iraq (Haaland ×2, Østigård 76', Thorstvedt) and France 3-1 Senegal (Mbappé ×2, Barcola). Still today: Austria–Jordan 07:00 TST, Portugal–DR Congo 20:00 TST, England–Croatia 23:00 TST. Türkiye vs Paraguay June 20 is decisive.",
+  headline: "CANLI: Arjantin–Cezayir Kansas City'de oynuyor (J Grubu, 04:00 TSİ başladı). 6. gün kesinleşen sonuçlar: Norveç 4-1 Irak (Haaland ×2, Østigård 76', Thorstvedt) ve Fransa 3-1 Senegal (Mbappé ×2, Barcola). Bugün devam: Avusturya–Ürdün 07:00, Portekiz–DR Kongo 20:00, İngiltere–Hırvatistan 23:00 TSİ. Türkiye 20 Haziran Paraguay karşısında — kritik.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
@@ -44,7 +44,7 @@ window.WC_DATA = {
     "Almanya": "E Grubu'na NRG Stadyumu'nda Curaçao'yu 7-1 yenerek muhteşem başladı. Nmecha (6'), Schlotterbeck (38'), Havertz (45+5' pen ve 88'), Musiala (47'), Brown (68') ve Undav (78') gol attı; Comenencia (21') Curaçao'nun tarihi golünü kaydetti. Nagelsmann'ın takımı 3 puanla E Grubu'nun zirvesinde, turnuvanın şimdiye kadarki en farklı galibiyetlerinden birini aldı.",
     "İran": "Los Angeles'ta Yeni Zelanda ile 2-2 berabere kalan İran, nefes kesen bir maç sergiledi. Elijah Just'ın çifte golüne (7', 54') Rezaeian (32') ve Mohebbi (64') birer golle cevap verdi; Mohebbi kafasıyla tamamladığı gol Rezaeian'ın asistinden geldi. G Grubu'nda 4 takım 1'er puanda — Belçika ve Mısır maçları belirleyici olacak.",
     "Yeni Zelanda": "Los Angeles'ta İran ile 2-2 berabere kalan Yeni Zelanda, Just'ın çifte golüyle (7', 54') iki kez öne geçti ama İran iki kez yakaladı (Rezaeian 32', Mohebbi 64'). Just bu performansıyla Dünya Kupası tarihinin en golcü All Whites oyuncuları arasına girdi. G Grubu'nda 1 puanla devam ediyorlar.",
-    "Arjantin": "Son şampiyon Arjantin, bu akşam 04:00 TSİ'de (yerel 21:00) Kansas City'de Cezayir karşısına çıkıyor. Messi'nin 5. ve muhtemelen son Dünya Kupası'nda üst üste ikinci kupayı hedefliyor. FIFA sıralamasında 8. olan Cezayir zor olabilir.",
+    "Arjantin": "Son şampiyon Arjantin, J Grubu'nu Kansas City'de Cezayir karşısında CANLI oynuyor (04:00 TSİ'de başladı). Messi'nin 5. ve muhtemelen son Dünya Kupası; üst üste ikinci kupayı hedefliyor. Cezayir son hazırlıklarda Hollanda'yı 1-0, Bolivya'yı 4-0 yendi; hafife alınamaz.",
     "İngiltere": "FIFA sıralamasında 4. Bu akşam 23:00 TSİ'de Hırvatistan'a karşı L Grubunu açıyor. 2022 Katar'da Yarı Final'e ulaşmış İngiltere, bu sefer kupayı hedefliyor.",
     "Brezilya": "Fas ile 1-1 berabere kaldı (Saibari 21', Vinícius Júnior 32') — Alisson'un son dakika çift kurtarışı puanı korudu. Rekor 5 kez şampiyon; 2002'den beri kupa hasreti sürüyor.",
     "Fransa": "2018 şampiyonu Fransa, I Grubu'na MetLife'da Senegal'i 3-1 yenerek 3 puanla başladı. Mbappé 66. dakikada skoru açtı, Barcola 82'de ikinci golü attı. Senegal geç gollerle 2-1'e düşürse de Mbappé ikinci golüyle skoru 3-1'e taşıdı. Mbappé 2 golle gol krallığında liderlere ortak oldu.",
@@ -62,7 +62,7 @@ window.WC_DATA = {
     "Senegal": "Senegal, MetLife'da Fransa'ya 1-3 yenilerek I Grubu'na puansız başladı. İlk yarıyı 0-0 kapattılar; ancak Mbappé (66') ve Barcola (82') golle 2-0 geride kaldılar. Mbaye geç bir golle 2-1'e düşürse de Mbappé ikinci golüyle 3-1 oldu. Norveç maçı (23 Haziran) kritik.",
     "Norveç": "Erling Haaland, Boston'da Irak'a karşı oynadığı ilk Dünya Kupası maçında iki gol atarak Norveç'i 4-1'lik galibiyete taşıdı. Østigård (76') ve Thorstvedt da katkı sağlarken Aymen Hussein Irak'ın tek golünü kaydetti. 1998'den bu yana ilk DK katılımı olan Norveç, I Grubu'nda Fransa ile birlikte 3 puanda; Haaland 2 golle gol krallığında ortak lider.",
     "Irak": "Irak, 1986'dan bu yana ilk Dünya Kupası maçında Boston'da Norveç'e 1-4 yenildi. Aymen Hussein gol atarak tarihe geçti; ancak Haaland (×2), Østigård (76') ve Thorstvedt'in golleri Norveç'i büyük farka taşıdı. Bolivya'yı 2-1 yenerek inter-konfederasyon play-off'tan kalifikasyonu almışlardı — devam maçları kritik.",
-    "Cezayir": "2022 Dünya Kupası'na katılamamış Cezayir, bu gece 04:00 TSİ'de Kansas City'de şampiyon Arjantin karşısında J Grubunu açıyor. FIFA sıralamasında 8. sırada olan Cezayir, Sofiane Feghouli, İslam Slimani ve Riyad Mahrez nesli kapandıktan sonra yeni kuşakla geliyor."
+    "Cezayir": "2022'ye katılamamış Cezayir, J Grubunu Kansas City'de şampiyon Arjantin karşısında CANLI oynuyor (04:00 TSİ). FIFA sıralamasında 8. sırada; son hazırlıklarda Hollanda'yı 1-0, Guatemala'yı 7-0 yenerek güçlü geldi. Kaptan Mahrez ve Gouiri forvet hattı tehdidi oluşturabilir."
   },
 
   teamNotesEn: {
@@ -77,7 +77,7 @@ window.WC_DATA = {
     "Almanya": "Opened their Group E campaign in style with a 7-1 win over Curaçao at NRG Stadium. Nmecha (6'), Schlotterbeck (38'), Havertz (45+5' pen and 88'), Musiala (47'), Brown (68') and Undav (78') all scored; Comenencia (21') got Curaçao's historic goal. Nagelsmann's side top Group E after one of the tournament's biggest wins so far.",
     "İran": "Iran fought back twice to draw 2-2 with New Zealand in Los Angeles. Elijah Just gave New Zealand the lead twice (7', 54'), but Rezaeian (32') and Mohebbi (64' — a header from Rezaeian's cross) earned Iran a point each time. All four Group G teams remain level on 1 point — the Belgium and Egypt matches will be decisive.",
     "Yeni Zelanda": "New Zealand twice led through Elijah Just's brace (7', 54') but couldn't hold on, as Iran equalised twice through Rezaeian (32') and Mohebbi (64') to earn a 2-2 draw in Los Angeles. Just's double makes him one of the most prolific All Whites scorers in World Cup history. They continue on 1 point in Group G.",
-    "Arjantin": "Defending champions Argentina face Algeria tonight at 04:00 TST (9 PM local) in Kansas City. Messi plays in his 5th World Cup chasing back-to-back titles, but FIFA 8th-ranked Algeria could prove a stern test.",
+    "Arjantin": "Defending champions Argentina are currently LIVE vs Algeria in Kansas City (Group J, kicked off 04:00 TST). Messi plays in his 5th and likely final World Cup, chasing back-to-back titles. Algeria beat the Netherlands 1-0 and Bolivia 4-0 in warm-ups — not to be underestimated.",
     "İngiltere": "Ranked 4th by FIFA. They open Group L tonight at 23:00 TST against Croatia. England reached the semifinals in Qatar 2022 and are targeting the trophy this time.",
     "Brezilya": "Drew 1-1 with Morocco (Saibari 21', Vinícius Júnior 32') — a late Alisson double save preserved the point. Record 5-time champions, still chasing a title since 2002.",
     "Fransa": "2018 champions France opened Group I with a 3-1 win over Senegal at MetLife. Mbappé scored in the 66th minute, Barcola added a second in the 82nd. Mbaye pulled one back for Senegal late on, but Mbappé sealed it with his second goal to make it 3-1. Mbappé now shares the golden boot lead with 2 goals.",
@@ -95,7 +95,7 @@ window.WC_DATA = {
     "Senegal": "Senegal lost 1-3 to France at MetLife, opening Group I with 0 points. They held firm through the first half but conceded to Mbappé (66') and Barcola (82'). Mbaye pulled one back late, but Mbappé sealed the result at 3-1. The June 23 clash vs Norway is now must-win.",
     "Norveç": "Erling Haaland delivered on his World Cup debut, scoring twice (both in the first half) as Norway beat Iraq 4-1 in Boston. Østigård added a 76th-minute header from an Ødegaard corner, and Thorstvedt also scored late. Haaland now joins the golden boot leaders on 2 goals. Norway's first World Cup since 1998, and they've made an emphatic start — top of Group I alongside France on 3 points.",
     "Irak": "Iraq's first World Cup since 1986 ended in a 1-4 defeat to Norway in Boston. Aymen Hussein scored to make history as Iraq's first World Cup scorer since 1986, but Erling Haaland's double, Østigård (76') and Thorstvedt's goals proved too much. They qualified through the inter-confederation playoff beating Bolivia 2-1 — next up is France on June 23.",
-    "Cezayir": "Algeria return to the World Cup after missing out in 2022, opening against defending champions Argentina tonight at 04:00 TST in Kansas City. Ranked 8th by FIFA, they represent a genuine threat but face a daunting first test."
+    "Cezayir": "Algeria return to the World Cup after missing out in 2022, currently LIVE against defending champions Argentina in Kansas City (Group J, kicked off 04:00 TST). Ranked 8th by FIFA; beat the Netherlands 1-0 and Guatemala 7-0 in warm-ups. Captain Mahrez and striker Gouiri lead a genuine threat."
   },
 
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
@@ -292,8 +292,8 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "Türkiye lost their opener 2-0 to Australia, making June 20 vs Paraguay decisive. If they top Group D, path: 81 → 94 → 98 → 101 → Final (orange boxes). Norway beat Iraq 4-1 (Haaland ×2, Østigård 76’, Thorstvedt) — Group I: Norway & France both on 3 pts. Still today: Portugal–DR Congo 20:00 TST, England–Croatia 23:00 TST.",
-    note: "Türkiye, Avustralya’ya 2-0 yenilerek kötü başladı; 20 Haziran Paraguay maçı kritik. Norveç, Irak’ı 4-1 yendi (Haaland ×2, Østigård 76’, Thorstvedt) — I Grubu: Norveç ve Fransa 3’er puanda. Bugün devam: Portekiz–DR Kongo 20:00 TSİ, İngiltere–Hırvatistan 23:00 TSİ."
+    note_en: "Türkiye lost their opener 2-0 to Australia, making June 20 vs Paraguay decisive. If they top Group D, path: 81 → 94 → 98 → 101 → Final (orange boxes). LIVE now: Argentina vs Algeria (Group J, 04:00 TST). Norway 4-1 Iraq, France 3-1 Senegal confirmed. Still today: Austria–Jordan 07:00, Portugal–DR Congo 20:00, England–Croatia 23:00 TST.",
+    note: "Türkiye, Avustralya’ya 2-0 yenilerek kötü başladı; 20 Haziran Paraguay maçı kritik. ŞU AN CANLI: Arjantin–Cezayir (J Grubu, 04:00 TSİ). Norveç 4-1 Irak, Fransa 3-1 Senegal kesinleşti. Bugün devam: Avusturya–Ürdün 07:00, Portekiz–DR Kongo 20:00, İngiltere–Hırvatistan 23:00 TSİ."
   },
 
   // ---------------- BİLGİ KUTUSU ----------------
@@ -303,14 +303,15 @@ window.WC_DATA = {
     "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia in Vancouver (Irankunda 27’, Metcalfe 75’). June 20 vs Paraguay is now decisive.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
     "Group G: All four teams level on 1 point after a dramatic matchday 1 — Belgium–Egypt 1-1 and Iran–New Zealand 2-2 (Just scored twice for NZ; Rezaeian and Mohebbi each equalised for Iran). The group is wide open.",
-    "Norway 4-1 Iraq (Boston, June 17): Haaland scored twice in the first half for his World Cup debut; Østigård added a 76' header from an Ødegaard corner, and Thorstvedt sealed it late. Aymen Hussein scored Iraq's only goal. Haaland joins the golden boot leaders on 2 goals. Group I: Norway & France level on 3 points. Still today (June 17): Portugal–DR Congo 20:00 TST, England–Croatia 23:00 TST."
+    "Norway 4-1 Iraq (Boston, June 17): Haaland scored twice in the first half for his World Cup debut; Østigård added a 76’ header from an Ødegaard corner, and Thorstvedt sealed it late. Aymen Hussein scored Iraq’s only goal. Haaland joins the golden boot leaders on 2 goals. Group I: Norway & France level on 3 points. Still today (June 17): Portugal–DR Congo 20:00 TST, England–Croatia 23:00 TST."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
     "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası’na Avustralya’ya 2-0 yenilerek başladı. 20 Haziran Paraguay maçı artık kritik.",
     "Final 19 Temmuz’da New Jersey MetLife Stadyumu’nda (TSİ 22:00 civarı).",
-    "G Grubu'nda 4 takım 1'er puanda: Belçika–Mısır 1-1, İran–Yeni Zelanda ise 2-2 bitti (Just çifte gol; Rezaeian ve Mohebbi birer gol). Grup tamamen açık.",
-    "Norveç 4-1 Irak (Boston, 17 Haziran): Haaland ilk yarıda iki gol atarak Dünya Kupası'na muhteşem bir giriş yaptı; Østigård 76. dakikada Ødegaard'ın köşe vuruşundan kafa golü attı, Thorstvedt de tamamladı. Aymen Hussein Irak'ın tek golünü kaydetti. Haaland 2 golle gol krallığına ortak lider oldu. I Grubu: Norveç ve Fransa 3'er puanda eşit. Bugün devam (17 Haziran): Portekiz–DR Kongo 20:00 TSİ, İngiltere–Hırvatistan 23:00 TSİ."
+    "G Grubu’nda 4 takım 1’er puanda: Belçika–Mısır 1-1, İran–Yeni Zelanda ise 2-2 bitti (Just çifte gol; Rezaeian ve Mohebbi birer gol). Grup tamamen açık.",
+    "Norveç 4-1 Irak (Boston, 17 Haziran): Haaland ilk yarıda iki gol atarak Dünya Kupası’na muhteşem bir giriş yaptı; Østigård 76. dakikada Ødegaard’ın köşe vuruşundan kafa golü attı, Thorstvedt de tamamladı. Aymen Hussein Irak’ın tek golünü kaydetti. Haaland 2 golle gol krallığına ortak lider oldu. I Grubu: Norveç ve Fransa 3'er puanda eşit. Bugün devam (17 Haziran): Portekiz–DR Kongo 20:00 TSİ, İngiltere–Hırvatistan 23:00 TSİ."
   ]
 };
+;
