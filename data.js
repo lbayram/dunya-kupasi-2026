@@ -5,7 +5,7 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "17 Haziran 2026, 10:00 TSİ",
+  lastUpdate: "17 Haziran 2026, 06:10 TSİ",
   headline_en: "Day 7: Argentina beat Algeria 1-0 in Kansas City — Messi struck in the 17th minute (De Paul assist) to begin their title defence with 3 points. Austria vs Jordan (Group J, 07:00 TST) and Portugal vs DR Congo (20:00) are today's next fixtures; England vs Croatia follows at 23:00 TST. Türkiye face Paraguay on June 20 — a must-win.",
   headline: "7. gün: Arjantin, Kansas City'de Cezayir'i 1-0 yendi — Messi 17. dakikada De Paul'un asistinden uzaktan muhteşem bir golle kupa savunmasına 3 puanla başladı. Avusturya–Ürdün (07:00 TSİ) ve Portekiz–DR Kongo (20:00) bugün sahada; İngiltere–Hırvatistan 23:00 TSİ'de. Türkiye 20 Haziran Paraguay maçı kritik.",
 
