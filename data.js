@@ -5,34 +5,34 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "18 Haziran 2026, 09:00 TSİ",
-  headline_en: "Day 9: England thrashed Croatia 4-2 in Arlington — Kane brace (12' pen, 42'), Bellingham (47') and Rashford (85') put the Three Lions top of Group L. Portugal were frustrated by debutants DR Congo, drawing 1-1 (Neves 6', Wissa 45+5') — Congo's first WC point since 1974. Colombia cruised past Uzbekistan 3-1 to top Group K. Ghana edged Panama 1-0 (Yirenkyi 90+5'). Today: Czech Republic–South Africa 19:00, Switzerland–Bosnia 22:00 TST. Türkiye face Paraguay on June 20 — must-win.",
-  headline: "9. gün: İngiltere, Hırvatistan'ı 4-2 ezdi — Kane çifti (12' pen, 42'), Bellingham (47') ve Rashford (85') ile L Grubuna lider başladı. Portekiz, debutant DR Kongo ile 1-1 berabere kaldı (Neves 6', Wissa 45+5') — Kongo'nun 1974'ten bu yana ilk DK puanı. Kolombiya, Özbekistan'ı 3-1 yenerek K Grubuna lider başladı. Gana, Panama'yı 1-0 geçti (Yirenkyi 90+5'). Bugün: Çekya–G.Afrika 19:00, İsviçre–Bosna Hersek 22:00 TSİ. Türkiye 20 Haziran Paraguay maçına hazırlanıyor — kritik.",
+  lastUpdate: "19 Haziran 2026, 09:00 TSİ",
+  headline_en: "Day 9 wrap-up: Messi's first World Cup hat-trick (17', 60', 76') demolished Algeria 3-0 — his 16th career WC goal equals Klose's all-time record. Canada crushed Qatar 6-0 (Jonathan David hat-trick: 29', 45+3', 90+2') for their first ever World Cup win. Mexico beat South Korea 1-0 (Romo 50') and became the first team to qualify for the Round of 32. Switzerland beat Bosnia 4-1. Today: USA vs Australia at 22:00 TST; Türkiye face Paraguay tomorrow at 06:00 TST — must-win.",
+  headline: "9. gün tamamlandı: Messi'nin ilk DK hat-trick'i (17', 60', 76') Cezayir'i 3-0 sildi — 16. kariyer golüyle Klose'nin rekorunu eşitledi. Kanada, Katar'ı 6-0 ezdi (David hat-trick: 29', 45+3', 90+2') ve tarihinde ilk DK galibiyetini aldı. Meksika, Güney Kore'yi 1-0 yenerek (Romo 50') Son 32'ye kalan ilk takım oldu. İsviçre, Bosna'yı 4-1 yendi. Bugün: ABD–Avustralya 22:00 TSİ; Türkiye yarın 06:00 TSİ'de Paraguay — 3 puan şart.",
 
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 3 },
-    { sira: 2, oyuncu: "Harry Kane", takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", gol: 2 },
-    { sira: 2, oyuncu: "Kylian Mbappé", takim: "Fransa", flag: "🇫🇷", gol: 2 },
-    { sira: 2, oyuncu: "Erling Haaland", takim: "Norveç", flag: "🇳🇴", gol: 2 },
-    { sira: 2, oyuncu: "Folarin Balogun", takim: "ABD", flag: "🇺🇸", gol: 2 },
-    { sira: 2, oyuncu: "Kai Havertz", takim: "Almanya", flag: "🇩🇪", gol: 2 },
-    { sira: 2, oyuncu: "Yasin Ayari", takim: "İsveç", flag: "🇸🇪", gol: 2 },
-    { sira: 2, oyuncu: "Elijah Just", takim: "Yeni Zelanda", flag: "🇳🇿", gol: 2 },
-    { sira: 9, oyuncu: "Romano Schmid", takim: "Avusturya", flag: "🇦🇹", gol: 1 },
-    { sira: 9, oyuncu: "Bradley Barcola", takim: "Fransa", flag: "🇫🇷", gol: 1 }
+    { sira: 1, oyuncu: "Jonathan David", takim: "Kanada", flag: "🇨🇦", gol: 3 },
+    { sira: 3, oyuncu: "Harry Kane", takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", gol: 2 },
+    { sira: 3, oyuncu: "Kylian Mbappé", takim: "Fransa", flag: "🇫🇷", gol: 2 },
+    { sira: 3, oyuncu: "Erling Haaland", takim: "Norveç", flag: "🇳🇴", gol: 2 },
+    { sira: 3, oyuncu: "Folarin Balogun", takim: "ABD", flag: "🇺🇸", gol: 2 },
+    { sira: 3, oyuncu: "Kai Havertz", takim: "Almanya", flag: "🇩🇪", gol: 2 },
+    { sira: 3, oyuncu: "Yasin Ayari", takim: "İsveç", flag: "🇸🇪", gol: 2 },
+    { sira: 3, oyuncu: "Cyle Larin", takim: "Kanada", flag: "🇨🇦", gol: 2 },
+    { sira: 3, oyuncu: "Elijah Just", takim: "Yeni Zelanda", flag: "🇳🇿", gol: 2 }
   ],
-  topScorersNote: "25 maç tamamlandı. Messi 3 golle zirvede tek başına. 7 oyuncu 2'şer golde: Kane (İngiltere), Mbappé (Fransa), Haaland (Norveç), Balogun (ABD), Havertz (Almanya), Ayari (İsveç) ve Just (Yeni Zelanda). Kane, Hırvatistan'a karşı penaltı (12') ve serbest vuruş (42') ile bu topluluğa katıldı. Bugün: Çekya–G.Afrika 19:00, İsviçre–Bosna 22:00 TSİ.",
-  topScorersNote_en: "25 matches completed. Messi leads alone with 3 goals. Seven players on 2 goals: Kane (England), Mbappé (France), Haaland (Norway), Balogun (USA), Havertz (Germany), Ayari (Sweden) and Just (New Zealand). Kane joined after his brace vs Croatia (12' pen, 42'). Today: Czech Republic–South Africa 19:00, Switzerland–Bosnia 22:00 TST.",
+  topScorersNote: "28 maç tamamlandı. Messi (ARJ) ve Jonathan David (KAN) 3'er golle ortak lider. David, Katar'a hat-trick yaptı (29', 45+3', 90+2'); Messi Cezayir'e hat-trick (17', 60', 76'). 8 oyuncu 2'şer golde: Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin (Bosna+Katar), Just. Türkiye 20 Haziran Paraguay maçı kritik. Bugün 22:00 TSİ: ABD–Avustralya.",
+  topScorersNote_en: "28 matches completed. Messi (ARG) and Jonathan David (CAN) joint top with 3 goals each. David hat-trick vs Qatar (29', 45+3', 90+2'); Messi hat-trick vs Algeria (17', 60', 76'). Eight players on 2 goals: Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin (Bosnia+Qatar), Just. Türkiye face Paraguay tomorrow — must-win. Today at 22:00 TST: USA vs Australia.",
 
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
     "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası kötü başladı: Vancouver'da Avustralya'ya 2-0 yenildi (Irankunda 27', Metcalfe 75'). Türkiye topa daha çok sahip oldu, Bardakcı'nın şutu direkten döndü ama kaleci Patrick Beach aşılamadı. Gruptan çıkmak için 20 Haziran'daki Paraguay maçı kritik. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
     "ABD": "Açılış maçında Paraguay'ı 4-1 yendi — Folarin Balogun 2 gol attı, Gio Reyna uzatmalarda farkı açtı. D Grubu'nda 3 puanla Avustralya ile birlikte zirvede; ev sahibi avantajıyla favori konumda.",
     "Avustralya": "Vancouver'da Türkiye'yi 2-0 yenerek turnuvaya güçlü başladı. Irankunda (27') Avustralya tarihinin en genç DK golcüsü oldu; Metcalfe (75') uzaktan attı. D Grubu'nda ABD ile zirvede.",
-    "Kanada": "Ev sahibi Kanada, Bosna Hersek ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı (1986 ve 2022'de 6 maçta 6 mağlubiyet vardı).",
-    "Katar": "Katar, B Grubu'nda İsviçre ile 1-1 berabere kalarak Dünya Kupası tarihindeki ilk puanını aldı — kaptan Boualem Khoukhi'nin 90+4. dakikadaki kafa golü kurtardı.",
-    "İsviçre": "İsviçre, Embolo'nun 17. dakikada penaltıdan attığı golle öne geçti ve 26 şutla maça baskın kurdu, ancak Katar'ın son dakika golüyle 1-1'e razı oldu.",
+    "Kanada": "Ev sahibi Kanada, Bosna Hersek ile 1-1 berabere kalarak (Larin 78') Dünya Kupası tarihindeki ilk puanını aldı. Ardından Katar'ı 6-0 ezerek tarihindeki ilk DK galibiyetini aldı — Jonathan David hat-trick (29', 45+3', 90+2'), Larin (16'), Saliba (64') ve Manai KK (75'). 4 puanla B Grubuna lider; gol averajıyla İsviçre'nin önünde.",
+    "Katar": "B Grubu'nda İsviçre ile 1-1 berabere kalarak (Khoukhi 90+4' kafa) Dünya Kupası tarihindeki ilk puanını aldı. Ancak ikinci maçta Kanada'ya 0-6 yenildi — DK tarihinin en büyük mağlubiyetlerinden biri. 2 maçta 1 puan ve -6 averajla gruptan çıkması çok zor.",
+    "İsviçre": "Katar'la 1-1 berabere kaldıktan (Embolo 17' pen) sonra Bosna Hersek'i 4-1 yenerek toparlandı. Son çeyrek inanılmazdı: Manzambi (74', 90'), Vargas (84') ve Xhaka (90+7' pen) gollerle B Grubunu gol averajıyla Kanada'nın hemen arkasında 4 puanla kapattı. Mahmić'in (90+3') Bosna için tek golü teselli ödülüydü.",
     "İspanya": "FIFA sıralamasının 1 numarası ve Avrupa şampiyonu olan İspanya, Atlanta'da Dünya Kupası'na ilk kez katılan Cape Verde'yi aşamadı ve 0-0'da kaldı. 27 şut (7 isabetli) çekmesine rağmen 40 yaşındaki kaleci Vozinha'nın 7 kurtarışına çarptı; Ferran Torres 39. dakikada direkten döndü. Kura gereği Arjantin'le ancak finalde karşılaşabilir.",
     "Cape Verde": "Dünya Kupası'na ilk kez katılan Cape Verde, Atlanta'da favori İspanya'yı 0-0'a tuttu — turnuvanın en büyük sürprizlerinden biri. 40 yaşındaki kaleci Vozinha 7 kurtarış yaptı. H Grubu'na 1 puanla başladı.",
     "Almanya": "E Grubu'na NRG Stadyumu'nda Curaçao'yu 7-1 yenerek muhteşem başladı. Nmecha (6'), Schlotterbeck (38'), Havertz (45+5' pen ve 88'), Musiala (47'), Brown (68') ve Undav (78') gol attı; Comenencia (21') Curaçao'nun tarihi golünü kaydetti. Nagelsmann'ın takımı 3 puanla E Grubu'nun zirvesinde, turnuvanın şimdiye kadarki en farklı galibiyetlerinden birini aldı.",
@@ -44,7 +44,7 @@ window.WC_DATA = {
     "Avusturya": "J Grubu'na Santa Clara'da Ürdün'ü 3-1 yenerek güçlü başladı — 1990'dan bu yana ilk Dünya Kupası galibiyeti (36 yıl sonra). Schmid (20') güzel bir uzak şutla açtı, Olwan'ın (50') tarihi Ürdün golünden sonra Al Arab kendi kalesine (76') ve Arnautovic penaltısıyla (90+12') zaferi pekiştirdi. 22 Haziran'da Arjantin karşı son derece çetin bir randevu var.",
     "Ürdün": "İlk Dünya Kupası maçında Santa Clara'da Avusturya'ya 1-3 yenildi. Ali Olwan'ın 50. dakikadaki golü ülkenin DK tarihindeki ilk golü olarak tarihe geçti, ancak Avusturya'nın skor üstünlüğü engel aşılamadı. 23 Haziran'da Cezayir karşısında gruptan çıkmak için 3 puan şart.",
     "Brezilya": "Fas ile 1-1 berabere kaldı (Saibari 21', Vinícius Júnior 32') — Alisson'un son dakika çift kurtarışı puanı korudu. Rekor 5 kez şampiyon; 2002'den beri kupa hasreti sürüyor.",
-    "Fransa": "2018 şampiyonu Fransa, I Grubu'na MetLife'da Senegal'i 3-1 yenerek 3 puanla başladı. Mbappé 66. dakikada skoru açtı, Barcola 82'de ikinci golü attı. Senegal geç gollerle 2-1'e düşürse de Mbappé ikinci golüyle skoru 3-1'e taşıdı. Mbappé 2 golle gol krallığında liderlere ortak oldu.",
+    "Fransa": "2018 şampiyonu Fransa, I Grubu'na MetLife'da Senegal'i 3-1 yenerek 3 puanla başladı. Mbappé 66' (Olise asisti) ve 90+6'da çift gol attı; Barcola 82'de ikinci golü ekledi. İbrahim Mbaye 90+5'te Senegal'i 1-3'e düşürse de Mbappé son hamlesiyle sonucu kapattı. Mbappé 58. milli golüyle Fransa'nın tüm zamanlar golcü rekorcusu oldu (Giroud'u geçti).",
     "İskoçya": "Haiti'yi McGinn'in 28. dakika golüyle 1-0 yendi — 1990'dan sonraki ilk Dünya Kupası galibiyeti. C Grubu'nda lider durumda.",
     "Hollanda": "Dallas'ta Japonya ile nefes kesen bir 2-2'ye imza attı: Van Dijk (51') ve Summerville (64') ile iki kez öne geçti, ancak Nakamura (57') ve uzatmalarda Kamada'nın (88') golleriyle her seferinde yakalandı. F Grubu'na 1 puanla başladı.",
     "Japonya": "2022'de Almanya ve İspanya'yı deviren Japonya, açılış maçında Hollanda karşısında 2-2'lik müthiş bir geri dönüş gösterdi: Nakamura (57') ve Kamada (88', Ito'nun kornerinden Ogawa'nın uzatmasıyla) golleriyle iki kez öne geçen rakibini yakaladı.",
@@ -57,22 +57,23 @@ window.WC_DATA = {
     "S. Arabistan": "Miami'de Uruguay ile gücünü belli eden bir beraberlik: Al-Amri'nin 41. dakika golüyle öne geçti, ancak Araujo'nun 80. dakika golüyle 1-1'e razı oldu. H Grubu'nda 4 takım da 1'er puanda — son iki maç belirleyici olacak.",
     "Uruguay": "Miami'de S. Arabistan karşısında 41. dakikadan itibaren geride kalan Uruguay, Maximiliano Araujo'nun 80. dakika golüyle 1-1'e denkleştirdi. H Grubu'na 1 puanla başlayan Uruguay, İspanya ve Cape Verde ile eşit durumda.",
     "Senegal": "Senegal, MetLife'da Fransa'ya 1-3 yenilerek I Grubu'na puansız başladı. İlk yarıyı 0-0 kapattılar; ancak Mbappé (66') ve Barcola (82') golle 2-0 geride kaldılar. Mbaye geç bir golle 2-1'e düşürse de Mbappé ikinci golüyle 3-1 oldu. Norveç maçı (23 Haziran) kritik.",
-    "Norveç": "Erling Haaland, Boston'da Irak'a karşı oynadığı ilk Dünya Kupası maçında iki gol atarak Norveç'i 4-1'lik galibiyete taşıdı. Østigård (76') ve Thorstvedt da katkı sağlarken Aymen Hussein Irak'ın tek golünü kaydetti. 1998'den bu yana ilk DK katılımı olan Norveç, I Grubu'nda Fransa ile birlikte 3 puanda; Haaland 2 golle gol krallığında ortak lider.",
+    "Norveç": "Erling Haaland, Boston'da Irak'a karşı oynadığı ilk Dünya Kupası maçında 28' ve 42'de birer gol atarak Norveç'i 4-1'lik galibiyete taşıdı. Østigård (76', Ødegaard köşe asisti) kafayla üçüncü golü attı; Thorstvedt son dakika golüyle tamamladı. Aymen Hussein Irak'ın tek golünü kaydetti. 1998'den bu yana ilk DK katılımı olan Norveç, I Grubu'nda Fransa ile birlikte 3 puanda.",
     "Irak": "Irak, 1986'dan bu yana ilk Dünya Kupası maçında Boston'da Norveç'e 1-4 yenildi. Aymen Hussein gol atarak tarihe geçti; ancak Haaland (×2), Østigård (76') ve Thorstvedt'in golleri Norveç'i büyük farka taşıdı. Bolivya'yı 2-1 yenerek inter-konfederasyon play-off'tan kalifikasyonu almışlardı — devam maçları kritik.",
     "Cezayir": "J Grubu'na Kansas City'de şampiyon Arjantin'e 0-3 yenilerek ağır bir başlangıç yaptı. Messi'nin hat-trick'i (17', 60', 76') önünde çaresiz kalan Cezayir, Chaibi'nin golünü de offside nedeniyle sayıramadı. 23 Haziran'daki Ürdün maçı artık mutlak 3 puan zorunluluğu.",
     "Portekiz": "K Grubu'nu Houston'da DR Kongo ile 1-1 berabere kaldı — turnuvanın sürpriz sonuçlarından biri. Neves (6', Neto asisti) kafa golüyle öne geçti ama Wissa (45+5', Masuaku asisti) kafa golüyle eşitledi. Ronaldo ıskaladı; Portekiz 27 şut çekmesine rağmen kazanamadı. 23 Haziran Özbekistan maçı önem kazandı.",
     "DR Kongo": "1974'ten bu yana ilk Dünya Kupası'nda K Grubunu çarpıcı açtılar: Houston'da favori Portekiz'i 1-1'e tuttular. Wissa'nın 45+5. dakika kafa golü (Masuaku asisti) tarihî bir puan getirdi. Kongo'nun 1974'ten bu yana ilk DK maçı ve ilk DK puanı. 24 Haziran Kolombiya maçı belirleyici olacak.",
     "Kolombiya": "K Grubuna Azteca'da Özbekistan'ı 3-1 yenerek lider başladı. Muñoz (41') erken golü attı; Fayzullaev (60') eşitlese de Díaz (65') ve Campaz (90+') galibiyeti garantiledi. Luis Díaz turnuvada etkileyici bir debut yaptı. 24 Haziran DR Kongo maçına güçlü geliyor.",
-    "Gana": "L Grubu'na Toronto'da Panama'yı 1-0 yenerek 3 puanla başladı. Thomas-Asante'nin pasından Yirenkyi'nin 90+5. dakika golü kazandırdı. İngiltere ile aynı grupta ama ikinci maçta üst sıra için mücadele edecekler."
+    "Gana": "L Grubu'na Toronto'da Panama'yı 1-0 yenerek 3 puanla başladı. Thomas-Asante'nin pasından Yirenkyi'nin 90+5. dakika golü kazandırdı. İngiltere ile aynı grupta ama ikinci maçta üst sıra için mücadele edecekler.",
+    "Meksika": "Ev sahibi Meksika, A Grubunu 6 puanla ve iki galibiyetle kapattı — turnuvanın ilk gruptan çıkan takımı oldu. G. Afrika'yı 2-0 (Quiñones 9', Jiménez 66'), Güney Kore'yi 1-0 (Romo 50') yendi. Final için yolu: Mexico City (Son 32) → muhtemel B 1. veya B 2. eşleşmesi. Baskı ev sahibi sıfatıyla her zaman var."
   },
 
   teamNotesEn: {
     "Türkiye": "First World Cup since finishing 3rd in 2002 began badly: a 2-0 defeat to Australia in Vancouver (Irankunda 27', Metcalfe 75'). Türkiye dominated possession and Bardakcı hit the post, but couldn't beat goalkeeper Patrick Beach. The June 20 game vs Paraguay is now critical to reach the Round of 32. If they top the group: 81 → 94 → 98 → 101 → Final.",
     "ABD": "Opened with a 4-1 win over Paraguay — Folarin Balogun scored twice and Gio Reyna added a stoppage-time goal. Level with Australia at the top of Group D on 3 points, riding home advantage.",
     "Avustralya": "Strong start to the tournament with a 2-0 win over Türkiye in Vancouver. Irankunda (27') became Australia's youngest ever World Cup scorer; Metcalfe (75') struck from range. Level with the USA at the top of Group D.",
-    "Kanada": "Hosts Canada earned their first-ever World Cup point, drawing 1-1 with Bosnia and Herzegovina (they had lost all 6 previous matches in 1986 and 2022).",
-    "Katar": "Qatar earned their first-ever World Cup point with a 1-1 draw against Switzerland — captain Boualem Khoukhi's stoppage-time header (90+4') rescued the point.",
-    "İsviçre": "Switzerland took the lead through Embolo's 17th-minute penalty and dominated with 26 shots, but had to settle for a 1-1 draw after Qatar's late equaliser.",
+    "Kanada": "Hosts Canada earned their first-ever World Cup point drawing 1-1 with Bosnia (Larin 78'), then recorded their first-ever World Cup win in stunning fashion: 6-0 over Qatar (Larin 16', David 29'/45+3'/90+2' hat-trick, Saliba 64', Manai OG 75'). Jonathan David's hat-trick was the tournament's best individual performance so far. Canada lead Group B on 4 points ahead of Switzerland on goal difference.",
+    "Katar": "Qatar earned their first-ever World Cup point with a 1-1 draw against Switzerland (Khoukhi 90+4' header). However, their second match ended in a 0-6 humiliation against hosts Canada — Jonathan David hat-trick (29', 45+3', 90+2'). Qatar now have 1 point and -6 goal difference after two games, making qualification near-impossible.",
+    "İsviçre": "Switzerland drew 1-1 with Qatar (Embolo 17' pen, Khoukhi 90+4') in their opener, then bounced back to beat Bosnia 4-1. The last quarter-hour was extraordinary: Manzambi (74', 90'), Vargas (84') and Xhaka (90+7' pen) ran riot. Mahmić (90+3') consoled Bosnia. Switzerland sit 2nd in Group B on 4 points, behind Canada on goal difference.",
     "İspanya": "FIFA's No. 1 and reigning European champions Spain were held 0-0 by World Cup debutants Cape Verde in Atlanta. Despite 27 shots (7 on target), they were repelled by 40-year-old goalkeeper Vozinha's 7 saves; Ferran Torres hit the crossbar in the 39th minute. Due to the draw, they can only meet Argentina in the final.",
     "Cape Verde": "World Cup debutants Cape Verde held favourites Spain to a 0-0 draw in Atlanta — one of the tournament's biggest shocks. Veteran goalkeeper Vozinha (40) made 7 saves. They start Group H with 1 point.",
     "Almanya": "Opened their Group E campaign in style with a 7-1 win over Curaçao at NRG Stadium. Nmecha (6'), Schlotterbeck (38'), Havertz (45+5' pen and 88'), Musiala (47'), Brown (68') and Undav (78') all scored; Comenencia (21') got Curaçao's historic goal. Nagelsmann's side top Group E after one of the tournament's biggest wins so far.",
@@ -84,7 +85,7 @@ window.WC_DATA = {
     "Avusturya": "Austria opened Group J with a 3-1 win over Jordan in Santa Clara — their first World Cup victory in 36 years (since 1990). Schmid (20') struck from range to open the scoring; Olwan's (50') historic equaliser was cancelled out by an Al Arab own goal (76') and Arnautovic's stoppage-time penalty (90+12'). A massive Group J showdown vs Argentina awaits on June 22.",
     "Ürdün": "Jordan lost 1-3 to Austria in their World Cup debut in Santa Clara. Ali Olwan's 50th-minute goal became the country's first-ever World Cup goal, but Austria's three-goal haul proved too much. The June 23 match vs Algeria is now must-win.",
     "Brezilya": "Drew 1-1 with Morocco (Saibari 21', Vinícius Júnior 32') — a late Alisson double save preserved the point. Record 5-time champions, still chasing a title since 2002.",
-    "Fransa": "2018 champions France opened Group I with a 3-1 win over Senegal at MetLife. Mbappé scored in the 66th minute, Barcola added a second in the 82nd. Mbaye pulled one back for Senegal late on, but Mbappé sealed it with his second goal to make it 3-1. Mbappé now shares the golden boot lead with 2 goals.",
+    "Fransa": "2018 champions France opened Group I with a 3-1 win over Senegal at MetLife. Mbappé struck in the 66th minute (Olise assist) and 90+6', with Barcola adding a second in the 82nd. Ibrahim Mbaye pulled one back in the 90+5' but Mbappé's long-range late strike sealed it. Mbappé's brace made him France's all-time leading scorer with 58 international goals (passing Giroud).",
     "İskoçya": "Beat Haiti 1-0 thanks to John McGinn's 28th-minute goal — their first World Cup win since 1990. They top Group C.",
     "Hollanda": "Produced a thrilling 2-2 draw with Japan in Dallas: Van Dijk (51') and Summerville (64') gave the Dutch the lead twice, but Nakamura (57') and a stoppage-time Kamada goal (88') brought Japan level both times. They open Group F with 1 point.",
     "Japonya": "Having shocked Germany and Spain in 2022, Japan fought back from behind twice to draw 2-2 with the Netherlands in their opener — Nakamura (57') and Kamada (88', turning in an Ogawa flick from an Ito corner) cancelled out two Dutch leads.",
@@ -97,12 +98,13 @@ window.WC_DATA = {
     "S. Arabistan": "Showed real quality in Miami, taking the lead through Al-Amri's 41st-minute goal against Uruguay, only to be pegged back by Araujo's 80th-minute equaliser. All four Group H teams are level on 1 point — the group is wide open.",
     "Uruguay": "Fought back from a goal down in Miami to earn a 1-1 draw against Saudi Arabia — Maximiliano Araujo's 80th-minute strike cancelled out Al-Amri's first-half opener. Uruguay start Group H on 1 point alongside Spain, Cape Verde and Saudi Arabia.",
     "Senegal": "Senegal lost 1-3 to France at MetLife, opening Group I with 0 points. They held firm through the first half but conceded to Mbappé (66') and Barcola (82'). Mbaye pulled one back late, but Mbappé sealed the result at 3-1. The June 23 clash vs Norway is now must-win.",
-    "Norveç": "Erling Haaland delivered on his World Cup debut, scoring twice (both in the first half) as Norway beat Iraq 4-1 in Boston. Østigård added a 76th-minute header from an Ødegaard corner, and Thorstvedt also scored late. Haaland now joins the golden boot leaders on 2 goals. Norway's first World Cup since 1998, and they've made an emphatic start — top of Group I alongside France on 3 points.",
+    "Norveç": "Erling Haaland delivered on his World Cup debut, scoring in the 28th (Wolfe assist) and 42nd minutes as Norway beat Iraq 4-1 in Boston. Østigård added a 76th-minute header from an Ødegaard corner, and Thorstvedt also scored late. Haaland now joins the golden boot leaders on 2 goals. Norway's first World Cup since 1998, and they've made an emphatic start — top of Group I alongside France on 3 points.",
     "Irak": "Iraq's first World Cup since 1986 ended in a 1-4 defeat to Norway in Boston. Aymen Hussein scored to make history as Iraq's first World Cup scorer since 1986, but Erling Haaland's double, Østigård (76') and Thorstvedt's goals proved too much. They qualified through the inter-confederation playoff beating Bolivia 2-1 — next up is France on June 23.",
     "Cezayir": "Algeria were on the wrong end of a historic night, losing 0-3 to defending champions Argentina in Kansas City. Messi's hat-trick (17', 60', 76') was devastating; Chaibi's goal was also ruled offside. With no points and a -3 goal difference, the June 23 clash vs Jordan is now must-win.",
     "Portekiz": "Portugal were held to a frustrating 1-1 draw by debutants DR Congo in Houston. João Neves (6', Neto assist, header) gave them an early lead but Yoane Wissa (45+5', Masuaku cross) levelled with a header. Ronaldo missed chances and Portugal had 27 shots but couldn't win. June 23 vs Uzbekistan is now must-win for Group K leadership.",
     "DR Kongo": "DR Congo made a stunning return to the World Cup for the first time since 1974, holding favourites Portugal to a 1-1 draw in Houston. Yoane Wissa's 45+5' header (Masuaku assist) earned a historic first World Cup point. First WC appearance since 1974. The June 24 clash with Colombia will be decisive.",
     "Kolombiya": "Colombia topped Group K after beating Uzbekistan 3-1 at Azteca Stadium. Muñoz (41') opened the scoring; Fayzullaev (60') levelled for Uzbekistan, but Díaz (65') and Campaz (90+') sealed the win. Luis Díaz impressed on his debut stage. June 24 vs DR Congo is next.",
+    "Meksika": "Host nation Mexico topped Group A with a perfect 6 points from two wins — the first team to qualify for the Round of 32. Beat South Africa 2-0 (Quiñones 9', Jiménez 66') and South Korea 1-0 (Romo 50'). Their route: Mexico City (R32) → likely vs Group B 1st or 2nd. Home crowd pressure is a factor but also a massive advantage.",
     "Gana": "Ghana won 1-0 against Panama in Toronto to top Group L alongside England. Caleb Yirenkyi scored the only goal in the 90+5th minute from a Brandon Thomas-Asante cross. A disciplined defensive performance — tough competition awaits in the remaining group matches."
   },
 
@@ -125,18 +127,18 @@ window.WC_DATA = {
     { iso: "2026-06-15", saat: "22:00", grup: "G", ev: "Belçika", dep: "Mısır", yer: "Seattle", skor: "1 - 1", not: "Goller: Ashour (19' - Mısır, Salah asist), Hany OG (66' - Belçika). Ashour'un A Milli Takım'daki ilk golü Mısır'ı öne geçirdi; Lukaku'nun baskısıyla elde edilen Hany kendi kale goluyla Belçika 1-1'e denkleştirdi." },
     { iso: "2026-06-16", saat: "01:00", grup: "H", ev: "S. Arabistan", dep: "Uruguay", yer: "Miami", skor: "1 - 1", not: "Goller: Al-Amri (41' - S. Arabistan), Araujo (80' - Uruguay)." },
     { iso: "2026-06-16", saat: "04:00", grup: "G", ev: "İran", dep: "Yeni Zelanda", yer: "Los Angeles", skor: "2 - 2", not: "Goller: Just (7' ve 54' - Yeni Zelanda), Rezaeian (32' - İran), Mohebbi (64' - İran, Rezaeian asist). Just iki kez öne geçirdi, Rezaeian ve Mohebbi her seferinde yakaladı — heyecanlı beraberlik." },
-    { iso: "2026-06-16", saat: "22:00", grup: "I", ev: "Fransa", dep: "Senegal", yer: "New Jersey", skor: "3 - 1", not: "Goller: Mbappé (66'), Barcola (82') - Fransa; Mbaye (dk. teyit edilemedi) - Senegal; Mbappé 2. gol (dk. teyit edilemedi) - Fransa. Fransa 3 puanla I Grubu'na lider başladı." },
-    { iso: "2026-06-17", saat: "01:00", grup: "I", ev: "Irak", dep: "Norveç", yer: "Boston", skor: "1 - 4", not: "Goller: Haaland ×2 (ilk yarı) ve Østigård (76') ve Thorstvedt - Norveç; Aymen Hussein - Irak. Haaland'ın Dünya Kupası debutu; Østigård golü Ødegaard'ın köşe vuruşundan kafa." },
+    { iso: "2026-06-16", saat: "22:00", grup: "I", ev: "Fransa", dep: "Senegal", yer: "New Jersey", skor: "3 - 1", not: "Goller: Mbappé (66', Olise asisti), Barcola (82'), Mbappé (90+6') - Fransa; İbrahim Mbaye (90+5') - Senegal. Mbappé 58. milli golüyle Fransa'nın tüm zamanlar golcü rekorcusu oldu (Giroud'u geçti). Fransa 3 puanla I Grubu'na lider başladı." },
+    { iso: "2026-06-17", saat: "01:00", grup: "I", ev: "Irak", dep: "Norveç", yer: "Boston", skor: "1 - 4", not: "Goller: Haaland (28', Wolfe asisti), Haaland (42'), Østigård (76', Ødegaard köşe asisti), Thorstvedt (son dk.) - Norveç; Aymen Hussein - Irak. Haaland ilk DK maçında 2 golle patlama; Østigård Ødegaard'ın köşe vuruşundan kafayla tamamladı." },
     { iso: "2026-06-17", saat: "04:00", grup: "J", ev: "Arjantin", dep: "Cezayir", yer: "Kansas City", skor: "3 - 0", not: "Goller: Messi (17' De Paul asisti, uzaktan vuruş), Messi (60', isabetli vuruş), Messi (76', köşeden bükülerek). Messi DK tarihinin ilk hat-trick'ini attı — 16. kariyer goliyle Klose'nin rekorunu eşitledi; 6 farklı DK'da gol atan ilk oyuncu. Cezayir'in Chaibi golü offside nedeniyle iptal." },
     { iso: "2026-06-17", saat: "07:00", grup: "J", ev: "Avusturya", dep: "Ürdün", yer: "Santa Clara", skor: "3 - 1", not: "Goller: Schmid (20' - Avusturya, uzaktan isabetli vuruş), Olwan (50' - Ürdün, ülkenin DK tarihindeki ilk golü), Al Arab kendi kalesine (76' - Avusturya, köşe vuruşundan), Arnautovic (90+12' penaltı - Avusturya). Avusturya, 36 yılın ardından (1990'dan bu yana) ilk DK galibiyetini aldı." },
     { iso: "2026-06-17", saat: "20:00", grup: "K", ev: "Portekiz", dep: "DR Kongo", yer: "Houston", skor: "1 - 1", not: "Goller: Neves (6' - Portekiz, Neto asisti, kafa), Wissa (45+5' - DR Kongo, Masuaku asisti, kafa). DR Kongo 1974'ten bu yana ilk Dünya Kupası maçında tarihi puana ulaştı; Wissa'nın golü ülkenin ilk DK golü. Ronaldo ıskaladı." },
     { iso: "2026-06-17", saat: "23:00", grup: "L", ev: "İngiltere", dep: "Hırvatistan", yer: "Arlington", skor: "4 - 2", not: "Goller: Kane (12' penaltı - İngiltere), Baturina (36' - Hırvatistan), Kane (42' - İngiltere), Bellingham (47' - İngiltere), Musa (50' - Hırvatistan), Rashford (85' - İngiltere). İngiltere Tuchel yönetiminde görkemli başlangıç; Kane çiftiyle gol krallığı sıralamasına girdi." },
     { iso: "2026-06-18", saat: "02:00", grup: "L", ev: "Gana", dep: "Panama", yer: "Toronto", skor: "1 - 0", not: "Goller: Yirenkyi (90+5' - Gana). Thomas-Asante'nin asistinden Yirenkyi son dakikada tamamladı; Gana 3 puanla L Grubuna lider başladı (İngiltere ile eşit, averajla önde)." },
     { iso: "2026-06-18", saat: "05:00", grup: "K", ev: "Özbekistan", dep: "Kolombiya", yer: "Mexico City", skor: "1 - 3", not: "Goller: Muñoz (41' - Kolombiya), Fayzullaev (60' - Özbekistan), Díaz (65' - Kolombiya), Campaz (90+' - Kolombiya). Kolombiya, debutant Özbekistan'ı 3-1 yenerek K Grubuna lider başladı; Luis Díaz parlak debut." },
-    { iso: "2026-06-18", saat: "19:00", grup: "A", ev: "Çekya", dep: "Güney Afrika", yer: "Atlanta", skor: null },
-    { iso: "2026-06-18", saat: "22:00", grup: "B", ev: "İsviçre", dep: "Bosna Hersek", yer: "Los Angeles", skor: null },
-    { iso: "2026-06-19", saat: "01:00", grup: "B", ev: "Kanada", dep: "Katar", yer: "Vancouver", skor: null },
-    { iso: "2026-06-19", saat: "04:00", grup: "A", ev: "Meksika", dep: "Güney Kore", yer: "Guadalajara", skor: null },
+    { iso: "2026-06-18", saat: "19:00", grup: "A", ev: "Çekya", dep: "Güney Afrika", yer: "Atlanta", skor: "1 - 1", not: "Goller: Sadilek (6' - Çekya), Mokoena (83' penaltı - Güney Afrika). Sulc'ün el ile müdahalesi VAR tarafından tespit edildi; Mokoena son anlarda eşitledi." },
+    { iso: "2026-06-18", saat: "22:00", grup: "B", ev: "İsviçre", dep: "Bosna Hersek", yer: "Los Angeles", skor: "4 - 1", not: "Goller: Manzambi (74', 90'), Vargas (84'), Xhaka (90+7' penaltı) - İsviçre; Mahmić (90+3') - Bosna Hersek. İsviçre son 15 dakikada patladı; Manzambi çifteyle maçın adamı oldu." },
+    { iso: "2026-06-19", saat: "01:00", grup: "B", ev: "Kanada", dep: "Katar", yer: "Vancouver", skor: "6 - 0", not: "Goller: Larin (16'), David (29', 45+3', 90+2'), Saliba (64'), Manai KK (75') - Kanada. Jonathan David hat-trick yaptı; Kanada Dünya Kupası tarihindeki ilk galibiyetini 6-0'lık muazzam bir skorla aldı." },
+    { iso: "2026-06-19", saat: "04:00", grup: "A", ev: "Meksika", dep: "Güney Kore", yer: "Guadalajara", skor: "1 - 0", not: "Goller: Romo (50', Kim'in hatası) - Meksika. Meksika 2 galibiyetle A Grubundan lider çıkışı garantiledi ve Son 32'ye kalan turnuvanın ilk takımı oldu." },
     { iso: "2026-06-19", saat: "22:00", grup: "D", ev: "ABD", dep: "Avustralya", yer: "Seattle", skor: null },
     { iso: "2026-06-20", saat: "01:00", grup: "C", ev: "İskoçya", dep: "Fas", yer: "Boston", skor: null },
     { iso: "2026-06-20", saat: "03:30", grup: "C", ev: "Brezilya", dep: "Haiti", yer: "Philadelphia", skor: null },
@@ -186,16 +188,16 @@ window.WC_DATA = {
   // ---------------- GRUPLAR VE PUAN DURUMU ----------------
   groups: {
     "A": [
-      { takim: "Meksika", flag: "🇲🇽", ev: true, o: 1, g: 1, b: 0, m: 0, a: 2, y: 0, p: 3 },
-      { takim: "Güney Kore", flag: "🇰🇷", o: 1, g: 1, b: 0, m: 0, a: 2, y: 1, p: 3 },
-      { takim: "Çekya", flag: "🇨🇿", o: 1, g: 0, b: 0, m: 1, a: 1, y: 2, p: 0 },
-      { takim: "Güney Afrika", flag: "🇿🇦", o: 1, g: 0, b: 0, m: 1, a: 0, y: 2, p: 0 }
+      { takim: "Meksika", flag: "🇲🇽", ev: true, o: 2, g: 2, b: 0, m: 0, a: 3, y: 0, p: 6 },
+      { takim: "Güney Kore", flag: "🇰🇷", o: 2, g: 1, b: 0, m: 1, a: 2, y: 2, p: 3 },
+      { takim: "Çekya", flag: "🇨🇿", o: 2, g: 0, b: 1, m: 1, a: 2, y: 3, p: 1 },
+      { takim: "Güney Afrika", flag: "🇿🇦", o: 2, g: 0, b: 1, m: 1, a: 1, y: 3, p: 1 }
     ],
     "B": [
-      { takim: "Kanada", flag: "🇨🇦", ev: true, o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
-      { takim: "Bosna Hersek", flag: "🇧🇦", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
-      { takim: "Katar", flag: "🇶🇦", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
-      { takim: "İsviçre", flag: "🇨🇭", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 }
+      { takim: "Kanada", flag: "🇨🇦", ev: true, o: 2, g: 1, b: 1, m: 0, a: 7, y: 1, p: 4 },
+      { takim: "İsviçre", flag: "🇨🇭", o: 2, g: 1, b: 1, m: 0, a: 5, y: 2, p: 4 },
+      { takim: "Bosna Hersek", flag: "🇧🇦", o: 2, g: 0, b: 1, m: 1, a: 2, y: 5, p: 1 },
+      { takim: "Katar", flag: "🇶🇦", o: 2, g: 0, b: 1, m: 1, a: 1, y: 7, p: 1 }
     ],
     "C": [
       { takim: "İskoçya", flag: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", o: 1, g: 1, b: 0, m: 0, a: 1, y: 0, p: 3 },
@@ -300,26 +302,26 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "Türkiye lost their opener 2-0 to Australia — June 20 vs Paraguay is now must-win. England topped Group L with an impressive 4-2 win over Croatia (Kane ×2, Bellingham, Rashford). Portugal drew 1-1 with DR Congo — surprise result. Colombia lead Group K after beating Uzbekistan 3-1. Today: Czech Republic–South Africa 19:00, Switzerland–Bosnia 22:00 TST.",
-    note: "Türkiye, Avustralya'ya 2-0 yenilerek kötü başladı; 20 Haziran Paraguay maçı artık kritik. İngiltere, Hırvatistan'ı 4-2 ezerek L Grubuna lider başladı (Kane ×2, Bellingham, Rashford). Portekiz–DR Kongo 1-1 — sürpriz beraberlik. Kolombiya, Özbekistan'ı 3-1 yenerek K Grubuna lider başladı. Bugün: Çekya–G.Afrika 19:00, İsviçre–Bosna 22:00 TSİ."
+    note_en: "Türkiye lost opener 2-0 to Australia — June 20 vs Paraguay at 06:00 TST is must-win. Mexico are first team qualified (6pts, 2 wins). Canada 6-0 Qatar, Switzerland 4-1 Bosnia. England top Group L (4-2 Croatia). Messi's hat-trick made Argentina 3-0 Algeria. Today: USA vs Australia 22:00 TST.",
+    note: "Türkiye, Avustralya'ya 2-0 yenildi — 20 Haziran Paraguay maçı (06:00 TSİ) artık kritik. Meksika, Son 32'ye kalan ilk takım (6 puan, 2 galibiyet). Kanada 6-0 Katar, İsviçre 4-1 Bosna. İngiltere L Grubunda lider (4-2 Hırvatistan). Messi'nin hat-trick'i Arjantin'i 3-0 yaptı. Bugün: ABD–Avustralya 22:00 TSİ."
   },
 
   // ---------------- BİLGİ KUTUSU ----------------
   facts_en: [
     "First World Cup with 48 teams and 3 host nations (USA, Canada, Mexico). 104 matches in total.",
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
-    "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia (Irankunda 27’, Metcalfe 75’). June 20 vs Paraguay is now decisive.",
+    "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia. June 20 vs Paraguay at 06:00 TST is now must-win.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "England beat Croatia 4-2 on June 17 — Kane scored twice (12’ pen, 42’), Bellingham added a third (47’) and Rashford sealed it (85’). Kane joins the 2-goal golden boot leaders.",
-    "Portugal were held 1-1 by debutants DR Congo (Neves 6’, Wissa 45+5’) — Congo’s first WC point since 1974. Colombia lead Group K after a 3-1 win over Uzbekistan."
+    "Messi scored a hat-trick against Algeria (17’, 60’, 76’) — his first World Cup hat-trick. His 16th career WC goal equals Miroslav Klose’s all-time record. Mexico are the first qualified team (6pts).",
+    "Canada beat Qatar 6-0 (Jonathan David hat-trick: 29’, 45+3’, 90+2’) for their first ever World Cup win. England beat Croatia 4-2 (Kane ×2, Bellingham, Rashford). Switzerland topped Group B with a 4-1 win over Bosnia on late goals."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
-    "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası’na Avustralya’ya 2-0 yenilerek başladı. 20 Haziran Paraguay maçı artık kritik.",
+    "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası’na Avustralya’ya 2-0 yenilerek başladı. 20 Haziran Paraguay maçı (06:00 TSİ) artık kritik.",
     "Final 19 Temmuz’da New Jersey MetLife Stadyumu’nda (TSİ 22:00 civarı).",
-    "İngiltere, Hırvatistan’ı 4-2 ezdi (17 Haziran) — Kane çifti (12’ pen, 42’), Bellingham (47’) ve Rashford (85’). Kane gol krallığı sıralamasına 2 golle girdi.",
-    "Portekiz, debutant DR Kongo ile 1-1 berabere kaldı (Neves 6’, Wissa 45+5’) — Kongo’nun 1974’ten bu yana ilk DK puanı. Kolombiya, Özbekistan’ı 3-1 yenerek K Grubuna lider başladı."
+    "Messi Cezayir’e hat-trick attı (17’, 60’, 76’) — ilk DK hat-trick’i. 16. kariyer golüyle Klose’nin rekorunu eşitledi. Meksika turnuvanın ilk gruptan çıkan takımı oldu (6 puan).",
+    "Kanada, Katar’ı 6-0 yendi (David hat-trick: 29’, 45+3’, 90+2’) — tarihin ilk DK galibiyeti. İngiltere, Hırvatistan’ı 4-2 ezdi (Kane ×2, Bellingham, Rashford). İsviçre, geç gollerle Bosna’yı 4-1 yenerek B Grubuna lider çıktı."
   ]
 };
 ;
