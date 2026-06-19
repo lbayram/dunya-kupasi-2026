@@ -6,9 +6,8 @@
 // =====================================================================
 window.WC_DATA = {
   lastUpdate: "19 Haziran 2026, 09:00 TSİ",
-  headline_en: "Day 9 wrap-up: Messi's first World Cup hat-trick (17', 60', 76') demolished Algeria 3-0 — his 16th career WC goal equals Klose's all-time record. Canada crushed Qatar 6-0 (Jonathan David hat-trick: 29', 45+3', 90+2') for their first ever World Cup win. Mexico beat South Korea 1-0 (Romo 50') and became the first team to qualify for the Round of 32. Switzerland beat Bosnia 4-1. Today: USA vs Australia at 22:00 TST; Türkiye face Paraguay tomorrow at 06:00 TST — must-win.",
-  headline: "9. gün tamamlandı: Messi'nin ilk DK hat-trick'i (17', 60', 76') Cezayir'i 3-0 sildi — 16. kariyer golüyle Klose'nin rekorunu eşitledi. Kanada, Katar'ı 6-0 ezdi (David hat-trick: 29', 45+3', 90+2') ve tarihinde ilk DK galibiyetini aldı. Meksika, Güney Kore'yi 1-0 yenerek (Romo 50') Son 32'ye kalan ilk takım oldu. İsviçre, Bosna'yı 4-1 yendi. Bugün: ABD–Avustralya 22:00 TSİ; Türkiye yarın 06:00 TSİ'de Paraguay — 3 puan şart.",
-
+  headline_en: "Day 9 morning: Canada crushed Qatar 6-0 (Jonathan David hat-trick: 29', 45+3', 90+2') for their first ever World Cup win. Mexico beat South Korea 1-0 (Romo 50') — first team to qualify for the Round of 32. Switzerland 4-1 Bosnia (Manzambi ×2, Vargas, Xhaka pen). Tonight: USA vs Australia at 22:00 TST; Türkiye face Paraguay tomorrow at 06:00 TST — must-win.",
+  headline: "9. gün sabahı: Kanada, Katar'ı tarihin en büyük skorlarından biriyle 6-0 geçti (David hat-trick: 29', 45+3', 90+2') — tarihinin ilk DK galibiyeti. Meksika, G. Kore'yi 1-0 yenerek (Romo 50') Son 32'ye kalan ilk takım oldu. İsviçre 4-1 Bosna (Manzambi ×2, Vargas, Xhaka pen). Bugün: ABD–Avustralya 22:00 TSİ; Türkiye yarın 06:00 TSİ'de Paraguay — 3 puan şart.",
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 3 },
@@ -20,11 +19,11 @@ window.WC_DATA = {
     { sira: 3, oyuncu: "Kai Havertz", takim: "Almanya", flag: "🇩🇪", gol: 2 },
     { sira: 3, oyuncu: "Yasin Ayari", takim: "İsveç", flag: "🇸🇪", gol: 2 },
     { sira: 3, oyuncu: "Cyle Larin", takim: "Kanada", flag: "🇨🇦", gol: 2 },
-    { sira: 3, oyuncu: "Elijah Just", takim: "Yeni Zelanda", flag: "🇳🇿", gol: 2 }
+    { sira: 3, oyuncu: "Elijah Just", takim: "Yeni Zelanda", flag: "🇳🇿", gol: 2 },
+    { sira: 3, oyuncu: "Manzambi", takim: "İsviçre", flag: "🇨🇭", gol: 2 }
   ],
-  topScorersNote: "28 maç tamamlandı. Messi (ARJ) ve Jonathan David (KAN) 3'er golle ortak lider. David, Katar'a hat-trick yaptı (29', 45+3', 90+2'); Messi Cezayir'e hat-trick (17', 60', 76'). 8 oyuncu 2'şer golde: Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin (Bosna+Katar), Just. Türkiye 20 Haziran Paraguay maçı kritik. Bugün 22:00 TSİ: ABD–Avustralya.",
-  topScorersNote_en: "28 matches completed. Messi (ARG) and Jonathan David (CAN) joint top with 3 goals each. David hat-trick vs Qatar (29', 45+3', 90+2'); Messi hat-trick vs Algeria (17', 60', 76'). Eight players on 2 goals: Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin (Bosnia+Qatar), Just. Türkiye face Paraguay tomorrow — must-win. Today at 22:00 TST: USA vs Australia.",
-
+  topScorersNote: "28 maç tamamlandı. Messi (ARJ) ve Jonathan David (KAN) 3'er golle ortak lider. David, Katar'a hat-trick yaptı (29', 45+3', 90+2'); Messi Cezayir'e hat-trick (17', 60', 76'). 9 oyuncu 2'şer golde: Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin (Bosna+Katar), Just, Manzambi (İsviçre, Bosna'ya 74'+90'). Türkiye 20 Haziran Paraguay maçı kritik. Bugün 22:00 TSİ: ABD–Avustralya.",
+  topScorersNote_en: "28 matches completed. Messi (ARG) and Jonathan David (CAN) joint top with 3 goals each. David hat-trick vs Qatar (29', 45+3', 90+2'); Messi hat-trick vs Algeria (17', 60', 76'). Nine players on 2 goals: Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin (Bosnia+Qatar), Just, Manzambi (SUI, 74'+90' vs Bosnia). Türkiye face Paraguay tomorrow — must-win. Today at 22:00 TST: USA vs Australia.",
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
     "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası kötü başladı: Vancouver'da Avustralya'ya 2-0 yenildi (Irankunda 27', Metcalfe 75'). Türkiye topa daha çok sahip oldu, Bardakcı'nın şutu direkten döndü ama kaleci Patrick Beach aşılamadı. Gruptan çıkmak için 20 Haziran'daki Paraguay maçı kritik. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
@@ -66,7 +65,6 @@ window.WC_DATA = {
     "Gana": "L Grubu'na Toronto'da Panama'yı 1-0 yenerek 3 puanla başladı. Thomas-Asante'nin pasından Yirenkyi'nin 90+5. dakika golü kazandırdı. İngiltere ile aynı grupta ama ikinci maçta üst sıra için mücadele edecekler.",
     "Meksika": "Ev sahibi Meksika, A Grubunu 6 puanla ve iki galibiyetle kapattı — turnuvanın ilk gruptan çıkan takımı oldu. G. Afrika'yı 2-0 (Quiñones 9', Jiménez 66'), Güney Kore'yi 1-0 (Romo 50') yendi. Final için yolu: Mexico City (Son 32) → muhtemel B 1. veya B 2. eşleşmesi. Baskı ev sahibi sıfatıyla her zaman var."
   },
-
   teamNotesEn: {
     "Türkiye": "First World Cup since finishing 3rd in 2002 began badly: a 2-0 defeat to Australia in Vancouver (Irankunda 27', Metcalfe 75'). Türkiye dominated possession and Bardakcı hit the post, but couldn't beat goalkeeper Patrick Beach. The June 20 game vs Paraguay is now critical to reach the Round of 32. If they top the group: 81 → 94 → 98 → 101 → Final.",
     "ABD": "Opened with a 4-1 win over Paraguay — Folarin Balogun scored twice and Gio Reyna added a stoppage-time goal. Level with Australia at the top of Group D on 3 points, riding home advantage.",
@@ -107,7 +105,6 @@ window.WC_DATA = {
     "Meksika": "Host nation Mexico topped Group A with a perfect 6 points from two wins — the first team to qualify for the Round of 32. Beat South Africa 2-0 (Quiñones 9', Jiménez 66') and South Korea 1-0 (Romo 50'). Their route: Mexico City (R32) → likely vs Group B 1st or 2nd. Home crowd pressure is a factor but also a massive advantage.",
     "Gana": "Ghana won 1-0 against Panama in Toronto to top Group L alongside England. Caleb Yirenkyi scored the only goal in the 90+5th minute from a Brandon Thomas-Asante cross. A disciplined defensive performance — tough competition awaits in the remaining group matches."
   },
-
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
   // skor: null = oynanmadı. Oynanınca "2 - 0" formatında yazılır, "not" alanına golcüler eklenebilir.
   fixtures: [
@@ -184,7 +181,6 @@ window.WC_DATA = {
     { iso: "2026-06-28", saat: "05:00", grup: "J", ev: "Cezayir", dep: "Avusturya", yer: "Kansas City", skor: null },
     { iso: "2026-06-28", saat: "05:00", grup: "J", ev: "Ürdün", dep: "Arjantin", yer: "Arlington", skor: null }
   ],
-
   // ---------------- GRUPLAR VE PUAN DURUMU ----------------
   groups: {
     "A": [
@@ -260,7 +256,6 @@ window.WC_DATA = {
       { takim: "Panama", flag: "🇵🇦", o: 1, g: 0, b: 0, m: 1, a: 0, y: 1, p: 0 }
     ]
   },
-
   // ---------------- ELEME AĞACI ----------------
   bracket: {
     r32: [
@@ -305,7 +300,6 @@ window.WC_DATA = {
     note_en: "Türkiye lost opener 2-0 to Australia — June 20 vs Paraguay at 06:00 TST is must-win. Mexico are first team qualified (6pts, 2 wins). Canada 6-0 Qatar, Switzerland 4-1 Bosnia. England top Group L (4-2 Croatia). Messi's hat-trick made Argentina 3-0 Algeria. Today: USA vs Australia 22:00 TST.",
     note: "Türkiye, Avustralya'ya 2-0 yenildi — 20 Haziran Paraguay maçı (06:00 TSİ) artık kritik. Meksika, Son 32'ye kalan ilk takım (6 puan, 2 galibiyet). Kanada 6-0 Katar, İsviçre 4-1 Bosna. İngiltere L Grubunda lider (4-2 Hırvatistan). Messi'nin hat-trick'i Arjantin'i 3-0 yaptı. Bugün: ABD–Avustralya 22:00 TSİ."
   },
-
   // ---------------- BİLGİ KUTUSU ----------------
   facts_en: [
     "First World Cup with 48 teams and 3 host nations (USA, Canada, Mexico). 104 matches in total.",
