@@ -5,13 +5,14 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "20 Haziran 2026, 13:00 TSİ",
-  headline_en: "Day 11: Türkiye ELIMINATED after a 0-1 defeat to Paraguay (Galarza 2', 65 seconds — the tournament's new fastest goal, breaking Saibari's 70-second record). Almirón shown the World Cup's first-ever red card for covering his mouth under FIFA's new rule (45'). 10-man Paraguay held on. USA confirmed as Group D winners (6pts); Paraguay vs Australia (June 26) decides 2nd place.",
-  headline: "11. gün: Türkiye, Paraguay'a 0-1 yenilerek (Galarza 2', 65. saniye — turnuvanın yeni en hızlı golü, Saibari'nin 70 saniyelik rekorunu kırdı) D Grubu'ndan elendi! Almiron 45. dakikada ağzını kapatan yeni FIFA kuralıyla DK tarihinin ilk kırmızı kartını gördü; 10 kişilik Paraguay tutundu. ABD D Grubu'nda 1. sıraya oturdu (6 puan); 26 Haziran'da Paraguay-Avustralya 2. sıra için çarpışacak.",
+  lastUpdate: "20 Haziran 2026, 23:30 TSİ",
+  headline_en: "Day 11 results: Netherlands beat Sweden 2-0 (Brobbey brace: 5', 17') in Houston — NED move to 4pts and top Group F. Germany vs Ivory Coast in progress (23:00). Earlier today: Türkiye ELIMINATED (0-1 vs Paraguay, Galarza 65 sec), USA confirmed Group D winners (6pts).",
+  headline: "Gün 11 (akşam): Hollanda, Houston'da İsveç'i 2-0 yendi (Brobbey çifti: 5', 17') — 4 puanla F Grubu'nun başına geçti. Almanya-Fildişi Sahili maçı devam ediyor (23:00). Bugün erken saatte: Türkiye Paraguay'a 0-1 yenilerek (Galarza 65 sn) D Grubu'ndan elendi; ABD 6 puanla D Grubu birincisi.",
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 3 },
     { sira: 1, oyuncu: "Jonathan David", takim: "Kanada", flag: "🇨🇦", gol: 3 },
+    { sira: 3, oyuncu: "Brian Brobbey", takim: "Hollanda", flag: "🇳🇱", gol: 2 },
     { sira: 3, oyuncu: "Harry Kane", takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", gol: 2 },
     { sira: 3, oyuncu: "Kylian Mbappé", takim: "Fransa", flag: "🇫🇷", gol: 2 },
     { sira: 3, oyuncu: "Erling Haaland", takim: "Norveç", flag: "🇳🇴", gol: 2 },
@@ -24,11 +25,11 @@ window.WC_DATA = {
     { sira: 3, oyuncu: "Matheus Cunha", takim: "Brezilya", flag: "🇧🇷", gol: 2 },
     { sira: 3, oyuncu: "Vinícius Júnior", takim: "Brezilya", flag: "🇧🇷", gol: 2 },
     { sira: 3, oyuncu: "Ismael Saibari", takim: "Fas", flag: "🇲🇦", gol: 2 },
-    { sira: 16, oyuncu: "Alex Freeman", takim: "ABD", flag: "🇺🇸", gol: 1 },
-    { sira: 16, oyuncu: "Matías Galarza", takim: "Paraguay", flag: "🇵🇾", gol: 1 }
+    { sira: 17, oyuncu: "Alex Freeman", takim: "ABD", flag: "🇺🇸", gol: 1 },
+    { sira: 17, oyuncu: "Matías Galarza", takim: "Paraguay", flag: "🇵🇾", gol: 1 }
   ],
-  topScorersNote: "32 maç tamamlandı. Messi (ARJ) ve Jonathan David (KAN) 3'er golle ortak lider. 13 oyuncu 2'şer golde: Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin, Just, Manzambi, Cunha, Vinícius Júnior, Saibari. 1 golle: Freeman (ABD), Galarza (Paraguay, 65. saniyede turnuvanın yeni en hızlı golünü atan). Türkiye elendi.",
-  topScorersNote_en: "32 matches completed. Messi (ARG) and Jonathan David (CAN) joint top with 3 goals each. 13 players on 2 goals: Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin, Just, Manzambi, Cunha, Vinícius Júnior, Saibari. On 1 goal: Freeman (USA), Galarza (Paraguay — scored the tournament's new fastest goal at 65 seconds). Türkiye eliminated.",
+  topScorersNote: "33 maç tamamlandı (GER-CIV devam ediyor). Messi (ARJ) ve Jonathan David (KAN) 3'er golle ortak lider. 14 oyuncu 2'şer golde: Brobbey (HOL, bugün çifti), Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin, Just, Manzambi, Cunha, Vinícius Jr., Saibari. Türkiye elendi.",
+  topScorersNote_en: "33 matches completed (GER-CIV in progress). Messi (ARG) and Jonathan David (CAN) joint top on 3 goals. 14 players on 2 goals: Brobbey (NED, brace today), Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin, Just, Manzambi, Cunha, Vinícius Jr., Saibari. Türkiye eliminated.",
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
     "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası hayal kırıklığıyla sona erdi: Avustralya'ya 2-0, Paraguay'a 0-1 yenilerek D Grubu'ndan elendi. Galarza'nın 2. dakikadaki (65. saniye) golü yeterli oldu; Almiron'ın 45. dakikada ağzını kapatan kırmızı kart görmesi de skor değiştirmedi. 3. maç (26 Haz ABD'ye karşı) sadece gurur mücadelesi.",
@@ -51,11 +52,11 @@ window.WC_DATA = {
     "Fransa": "2018 şampiyonu Fransa, I Grubu'na MetLife'da Senegal'i 3-1 yenerek 3 puanla başladı. Mbappé 66' (Olise asisti) ve 90+6'da çift gol attı; Barcola 82'de ikinci golü ekledi. İbrahim Mbaye 90+5'te Senegal'i 1-3'e düşürse de Mbappé son hamlesiyle sonucu kapattı. Mbappé 58. milli golüyle Fransa'nın tüm zamanlar golcü rekorcusu oldu (Giroud'u geçti).",
     "İskoçya": "Haiti'yi 1-0 yendi (McGinn 28') — 1990'dan beri ilk DK galibiyeti. Ardından Fas'a 0-1 yenildi (Saibari 2', turnuvanın en hızlı golü). 3 puanla üçüncü sırada; son maç 25 Haziran Brezilya'ya karşı.",
     "Fas": "Brezilya ile 1-1 berabere kaldıktan (Saibari 21') sonra İskoçya'yı Saibari'nin 2. dakika golüyle (turnuvanın en hızlı golü) 1-0 yendi. 4 puanla C Grubu'nda Brezilya ile birlikte lider; Son 32 yolunda güçlü konumda.",
-    "Hollanda": "Dallas'ta Japonya ile nefes kesen bir 2-2'ye imza attı: Van Dijk (51') ve Summerville (64') ile iki kez öne geçti, ancak Nakamura (57') ve uzatmalarda Kamada'nın (88') golleriyle her seferinde yakalandı. F Grubu'na 1 puanla başladı.",
+    "Hollanda": "Japonya ile 2-2 berabere kaldıktan sonra (Van Dijk 51', Summerville 64'; Nakamura 57', Kamada 88') Houston'da İsveç'i 2-0 yenerek toplandı — Brian Brobbey çiftiyle (5' Gakpo asisti, 17' Dumfries asisti) F Grubu'nda 4 puanla liderliği devraldı. Son 32 yolunda güçlü.",
     "Japonya": "2022'de Almanya ve İspanya'yı deviren Japonya, açılış maçında Hollanda karşısında 2-2'lik müthiş bir geri dönüş gösterdi: Nakamura (57') ve Kamada (88', Ito'nun kornerinden Ogawa'nın uzatmasıyla) golleriyle iki kez öne geçen rakibini yakaladı.",
     "Fildişi Sahili": "Ekvador'u Amad Diallo'nun 90. dakikadaki golüyle 1-0 yenerek 2014'ten sonraki ilk Dünya Kupası'na 3 puanla başladı; E Grubu'nda Almanya ile birlikte zirvede.",
     "Ekvador": "Fildişi Sahili karşısında uzun süre 0-0'ı korudu, ancak 90. dakikada Amad Diallo'nun golüyle 1-0 mağlup oldu ve E Grubu'na puansız başladı.",
-    "İsveç": "Monterrey'de Tunus'u 5-1 farkla yenerek F Grubu'na 3 puanla lider başladı. Yasin Ayari iki gol kaydetti (7', 90+6'), Isak (30'), Gyökeres (59') ve Svanberg (84') de farkı açan golleri attı; Rekik (43') Tunus için tek golü buldu.",
+    "İsveç": "Tunus'u 5-1 yenerek başlayan turnuvada Houston'da Hollanda'ya 0-2 yenildi — Brobbey'nin çifti (5', 17') belirleyiciydi; İsveç'in devre sonunda attığı gol ofsayt nedeniyle iptal edildi. 3 puanla F Grubunda 2. sıraya geriledi. 25 Haziran Japonya maçı belirleyici.",
     "Tunus": "Monterrey'de İsveç'e 5-1 farkla mağlup oldu; Omar Rekik (43') tek golü kaydetti. F Grubu'na puansız başladı.",
     "Mısır": "Seattle'da Belçika ile 1-1 berabere kaldı. Emam Ashour, Salah'ın asistiyle 19. dakikada attığı golle (A Milli Takım'daki ilk golü) Mısır'ı öne geçirdi; ancak Mohamed Hany'nin 66. dakikadaki kendi kale goluyla (Lukaku baskısı) Belçika denkleştirdi. G Grubu'na 1 puanla başladı.",
     "Belçika": "Seattle'da Mısır ile 1-1 berabere kaldı. Ashour'un 19. dakika golüyle (Salah asist) geriye düşen Belçika, Lukaku'nun baskısının yol açtığı Mohamed Hany kendi kale goluyla (66') denkliği yakaladı. G Grubu'na 1 puanla başladı. De Bruyne ilk yarıda etkisiz kaldı.",
@@ -147,7 +148,7 @@ window.WC_DATA = {
     { iso: "2026-06-20", saat: "01:00", grup: "C", ev: "İskoçya", dep: "Fas", yer: "Boston", skor: "0 - 1", not: "Goller: Saibari (2' - Fas). Turnuvanın en hızlı golü." },
     { iso: "2026-06-20", saat: "03:30", grup: "C", ev: "Brezilya", dep: "Haiti", yer: "Philadelphia", skor: "3 - 0", not: "Goller: Cunha (23'), Cunha (36'), Vinícius Júnior (40' - Brezilya)." },
     { iso: "2026-06-20", saat: "06:00", grup: "D", ev: "Türkiye", dep: "Paraguay", yer: "Santa Clara", skor: "0 - 1", not: "Goller: Galarza (2', 65. saniye — turnuvanın yeni en hızlı golü, Saibari'nin 70 saniye rekorunu kırdı). Almiron KK (45') — ağzını kapatma yeni FIFA kuralı; DK tarihindeki ilk bu tür kırmızı kart. 10 kişilik Paraguay tutundu, Türkiye elendi." },
-    { iso: "2026-06-20", saat: "20:00", grup: "F", ev: "Hollanda", dep: "İsveç", yer: "Houston", skor: null },
+    { iso: "2026-06-20", saat: "20:00", grup: "F", ev: "Hollanda", dep: "İsveç", yer: "Houston", skor: "2 - 0", not: "Goller: Brobbey (5', Gakpo asisti), Brobbey (17', Dumfries asisti). İsveç'in devre sonu kafası ofsayt nedeniyle sayılmadı; Hollanda F Grubu liderliğini devraldı." },
     { iso: "2026-06-20", saat: "23:00", grup: "E", ev: "Almanya", dep: "Fildişi Sahili", yer: "Toronto", skor: null },
     { iso: "2026-06-21", saat: "03:00", grup: "E", ev: "Ekvador", dep: "Curaçao", yer: "Kansas City", skor: null },
     { iso: "2026-06-21", saat: "07:00", grup: "F", ev: "Tunus", dep: "Japonya", yer: "Monterrey", skor: null },
@@ -221,8 +222,8 @@ window.WC_DATA = {
       { takim: "Curaçao", flag: "🇨🇼", o: 1, g: 0, b: 0, m: 1, a: 1, y: 7, p: 0 }
     ],
     "F": [
-      { takim: "İsveç", flag: "🇸🇪", o: 1, g: 1, b: 0, m: 0, a: 5, y: 1, p: 3 },
-      { takim: "Hollanda", flag: "🇳🇱", o: 1, g: 0, b: 1, m: 0, a: 2, y: 2, p: 1 },
+      { takim: "Hollanda", flag: "🇳🇱", o: 2, g: 1, b: 1, m: 0, a: 4, y: 2, p: 4 },
+      { takim: "İsveç", flag: "🇸🇪", o: 2, g: 1, b: 0, m: 1, a: 5, y: 3, p: 3 },
       { takim: "Japonya", flag: "🇯🇵", o: 1, g: 0, b: 1, m: 0, a: 2, y: 2, p: 1 },
       { takim: "Tunus", flag: "🇹🇳", o: 1, g: 0, b: 0, m: 1, a: 1, y: 5, p: 0 }
     ],
