@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "20 Haziran 2026, 09:00 TSİ",
-  headline_en: "Day 10 morning: USA qualified for the Round of 32 with a 2-0 win over Australia (Burgess OG 11', Freeman 43') — 6 points, top of Group D. Morocco beat Scotland 1-0 (Saibari 2' — fastest goal of the tournament). Brazil crushed Haiti 3-0 (Cunha 23', 36', Vinícius Júnior 40'). Türkiye vs Paraguay (06:00 TST) result pending.",
-  headline: "10. gün sabahı: ABD, Avustralya'yı 2-0 yenerek (Burgess KK 11', Freeman 43') D Grubu'nda 6 puanla Son 32'ye kaldı. Fas, İskoçya'yı 1-0 yendi (Saibari 2' — turnuvanın en hızlı golü). Brezilya Haiti'yi 3-0 ezdi (Cunha 23', 36', Vinícius Júnior 40'). Türkiye–Paraguay (06:00 TSİ) sonucu bekleniyor.",
+  lastUpdate: "20 Haziran 2026, 13:00 TSİ",
+  headline_en: "Day 11: Türkiye ELIMINATED after a 0-1 defeat to Paraguay (Galarza 2', 65 seconds — the tournament's new fastest goal, breaking Saibari's 70-second record). Almirón shown the World Cup's first-ever red card for covering his mouth under FIFA's new rule (45'). 10-man Paraguay held on. USA confirmed as Group D winners (6pts); Paraguay vs Australia (June 26) decides 2nd place.",
+  headline: "11. gün: Türkiye, Paraguay'a 0-1 yenilerek (Galarza 2', 65. saniye — turnuvanın yeni en hızlı golü, Saibari'nin 70 saniyelik rekorunu kırdı) D Grubu'ndan elendi! Almiron 45. dakikada ağzını kapatan yeni FIFA kuralıyla DK tarihinin ilk kırmızı kartını gördü; 10 kişilik Paraguay tutundu. ABD D Grubu'nda 1. sıraya oturdu (6 puan); 26 Haziran'da Paraguay-Avustralya 2. sıra için çarpışacak.",
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 3 },
@@ -24,13 +24,14 @@ window.WC_DATA = {
     { sira: 3, oyuncu: "Matheus Cunha", takim: "Brezilya", flag: "🇧🇷", gol: 2 },
     { sira: 3, oyuncu: "Vinícius Júnior", takim: "Brezilya", flag: "🇧🇷", gol: 2 },
     { sira: 3, oyuncu: "Ismael Saibari", takim: "Fas", flag: "🇲🇦", gol: 2 },
-    { sira: 16, oyuncu: "Alex Freeman", takim: "ABD", flag: "🇺🇸", gol: 1 }
+    { sira: 16, oyuncu: "Alex Freeman", takim: "ABD", flag: "🇺🇸", gol: 1 },
+    { sira: 16, oyuncu: "Matías Galarza", takim: "Paraguay", flag: "🇵🇾", gol: 1 }
   ],
-  topScorersNote: "31 maç tamamlandı. Messi (ARJ) ve Jonathan David (KAN) 3'er golle ortak lider. 13 oyuncu 2'şer golde: Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin, Just, Manzambi, Cunha (Brezilya, Haiti'ye çift), Vinícius Júnior (Fas+Haiti), Saibari (Brezilya+İskoçya). Freeman (ABD) 1 golle listeye girdi. Türkiye–Paraguay (06:00 TSİ) bekleniyor.",
-  topScorersNote_en: "31 matches completed. Messi (ARG) and Jonathan David (CAN) joint top with 3 goals each. 13 players on 2 goals: Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin, Just, Manzambi, Cunha (brace vs Haiti), Vinícius Júnior (Morocco+Haiti), Saibari (Brazil+Scotland). Freeman (USA) enters on 1 goal. Türkiye–Paraguay (06:00 TST) result pending.",
+  topScorersNote: "32 maç tamamlandı. Messi (ARJ) ve Jonathan David (KAN) 3'er golle ortak lider. 13 oyuncu 2'şer golde: Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin, Just, Manzambi, Cunha, Vinícius Júnior, Saibari. 1 golle: Freeman (ABD), Galarza (Paraguay, 65. saniyede turnuvanın yeni en hızlı golünü atan). Türkiye elendi.",
+  topScorersNote_en: "32 matches completed. Messi (ARG) and Jonathan David (CAN) joint top with 3 goals each. 13 players on 2 goals: Kane, Mbappé, Haaland, Balogun, Havertz, Ayari, Larin, Just, Manzambi, Cunha, Vinícius Júnior, Saibari. On 1 goal: Freeman (USA), Galarza (Paraguay — scored the tournament's new fastest goal at 65 seconds). Türkiye eliminated.",
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
-    "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası kötü başladı: Vancouver'da Avustralya'ya 2-0 yenildi (Irankunda 27', Metcalfe 75'). 20 Haziran'daki Paraguay maçının (06:00 TSİ) sonucu henüz teyit edilmedi. Gruptan çıkmak için bu maçtan 3 puan şart. Gruptan lider çıkarsa yol: 81 → 94 → 98 → 101 → Final.",
+    "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası hayal kırıklığıyla sona erdi: Avustralya'ya 2-0, Paraguay'a 0-1 yenilerek D Grubu'ndan elendi. Galarza'nın 2. dakikadaki (65. saniye) golü yeterli oldu; Almiron'ın 45. dakikada ağzını kapatan kırmızı kart görmesi de skor değiştirmedi. 3. maç (26 Haz ABD'ye karşı) sadece gurur mücadelesi.",
     "ABD": "İki maçta 2 galibiyet ve 6 puan — D Grubu'nda lider, Son 32'ye kaldı! Paraguay'ı 4-1, Avustralya'yı 2-0 yendi. Balogun (2+0), Freeman (1), Reyna, Burgess KK. Son maç 26 Haziran Türkiye'ye karşı.",
     "Avustralya": "Vancouver'da Türkiye'yi 2-0 yenerek turnuvaya güçlü başladı (Irankunda 27', Metcalfe 75'). Ardından Seattle'da ABD'ye 0-2 yenildi — Burgess'in 11. dakikadaki kendi golü ve Freeman'ın (43') kafası bitti. 3 puanla gruptan çıkma şansı devam ediyor; 26 Haziran Paraguay maçı kritik.",
     "Kanada": "Ev sahibi Kanada, Bosna Hersek ile 1-1 berabere kalarak (Larin 78') Dünya Kupası tarihindeki ilk puanını aldı. Ardından Katar'ı 6-0 ezerek tarihindeki ilk DK galibiyetini aldı — Jonathan David hat-trick (29', 45+3', 90+2'), Larin (16'), Saliba (64') ve Manai KK (75'). 4 puanla B Grubuna lider; gol averajıyla İsviçre'nin önünde.",
@@ -71,7 +72,7 @@ window.WC_DATA = {
     "Meksika": "Ev sahibi Meksika, A Grubunu 6 puanla ve iki galibiyetle kapattı — turnuvanın ilk gruptan çıkan takımı oldu. G. Afrika'yı 2-0 (Quiñones 9', Jiménez 66'), Güney Kore'yi 1-0 (Romo 50') yendi. Final için yolu: Mexico City (Son 32) → muhtemel B 1. veya B 2. eşleşmesi. Baskı ev sahibi sıfatıyla her zaman var."
   },
   teamNotesEn: {
-    "Türkiye": "First World Cup since finishing 3rd in 2002 began with a 2-0 defeat to Australia in Vancouver (Irankunda 27', Metcalfe 75'). The June 20 match vs Paraguay (06:00 TST) result is not yet confirmed. A win was needed to stay in contention for the Round of 32. If they top the group: 81 → 94 → 98 → 101 → Final.",
+    "Türkiye": "First World Cup since finishing 3rd in 2002 ended in elimination: beaten 2-0 by Australia and 1-0 by Paraguay (Galarza 2', 65 seconds — the tournament's fastest goal). Almirón's red card (45') for covering his mouth under FIFA's new rule reduced Paraguay to 10 men but Türkiye still couldn't equalise. The June 26 match vs USA is now a dead rubber.",
     "ABD": "Two wins, 6 points — Group D leaders, through to the Round of 32! Beat Paraguay 4-1 and Australia 2-0 (Burgess OG 11', Freeman 43'). Balogun leads the line; final group game vs Türkiye on June 26.",
     "Avustralya": "Strong start with a 2-0 win over Türkiye in Vancouver (Irankunda 27', Metcalfe 75'). Then beaten 0-2 by the USA in Seattle — Burgess's 11th-minute own goal and Freeman's 43rd-minute header ended their chances of topping the group. Still on 3 points; the June 26 match vs Paraguay is must-win to advance.",
     "Kanada": "Hosts Canada earned their first-ever World Cup point drawing 1-1 with Bosnia (Larin 78'), then recorded their first-ever World Cup win in stunning fashion: 6-0 over Qatar (Larin 16', David 29'/45+3'/90+2' hat-trick, Saliba 64', Manai OG 75'). Jonathan David's hat-trick was the tournament's best individual performance so far. Canada lead Group B on 4 points ahead of Switzerland on goal difference.",
@@ -145,7 +146,7 @@ window.WC_DATA = {
     { iso: "2026-06-19", saat: "22:00", grup: "D", ev: "ABD", dep: "Avustralya", yer: "Seattle", skor: "2 - 0", not: "Goller: Burgess (11' kendi kalesine - ABD), Freeman (43'). ABD 6 puanla Son 32'ye kaldı." },
     { iso: "2026-06-20", saat: "01:00", grup: "C", ev: "İskoçya", dep: "Fas", yer: "Boston", skor: "0 - 1", not: "Goller: Saibari (2' - Fas). Turnuvanın en hızlı golü." },
     { iso: "2026-06-20", saat: "03:30", grup: "C", ev: "Brezilya", dep: "Haiti", yer: "Philadelphia", skor: "3 - 0", not: "Goller: Cunha (23'), Cunha (36'), Vinícius Júnior (40' - Brezilya)." },
-    { iso: "2026-06-20", saat: "06:00", grup: "D", ev: "Türkiye", dep: "Paraguay", yer: "Santa Clara", skor: null },
+    { iso: "2026-06-20", saat: "06:00", grup: "D", ev: "Türkiye", dep: "Paraguay", yer: "Santa Clara", skor: "0 - 1", not: "Goller: Galarza (2', 65. saniye — turnuvanın yeni en hızlı golü, Saibari'nin 70 saniye rekorunu kırdı). Almiron KK (45') — ağzını kapatma yeni FIFA kuralı; DK tarihindeki ilk bu tür kırmızı kart. 10 kişilik Paraguay tutundu, Türkiye elendi." },
     { iso: "2026-06-20", saat: "20:00", grup: "F", ev: "Hollanda", dep: "İsveç", yer: "Houston", skor: null },
     { iso: "2026-06-20", saat: "23:00", grup: "E", ev: "Almanya", dep: "Fildişi Sahili", yer: "Toronto", skor: null },
     { iso: "2026-06-21", saat: "03:00", grup: "E", ev: "Ekvador", dep: "Curaçao", yer: "Kansas City", skor: null },
@@ -210,8 +211,8 @@ window.WC_DATA = {
     "D": [
       { takim: "ABD", flag: "🇺🇸", ev: true, o: 2, g: 2, b: 0, m: 0, a: 6, y: 1, p: 6 },
       { takim: "Avustralya", flag: "🇦🇺", o: 2, g: 1, b: 0, m: 1, a: 2, y: 2, p: 3 },
-      { takim: "Türkiye", flag: "🇹🇷", o: 1, g: 0, b: 0, m: 1, a: 0, y: 2, p: 0 },
-      { takim: "Paraguay", flag: "🇵🇾", o: 1, g: 0, b: 0, m: 1, a: 1, y: 4, p: 0 }
+      { takim: "Paraguay", flag: "🇵🇾", o: 2, g: 1, b: 0, m: 1, a: 2, y: 4, p: 3 },
+      { takim: "Türkiye", flag: "🇹🇷", o: 2, g: 0, b: 0, m: 2, a: 0, y: 3, p: 0 }
     ],
     "E": [
       { takim: "Almanya", flag: "🇩🇪", o: 1, g: 1, b: 0, m: 0, a: 7, y: 1, p: 3 },
@@ -303,14 +304,14 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "USA qualified from Group D (6pts, 2 wins). Brazil and Morocco lead Group C (4pts each). Türkiye vs Paraguay (06:00 TST) result pending. Mexico first qualified (6pts). Messi hat-trick vs Algeria. Canada 6-0 Qatar (David hat-trick). England top Group L (4-2 Croatia).",
-    note: "ABD, D Grubu'ndan 6 puanla Son 32'ye kaldı. C Grubu'nda Brezilya ve Fas 4'er puanla lider. Türkiye–Paraguay (06:00 TSİ) bekleniyor. Meksika ilk gruptan çıkan takım. Messi hat-trick. Kanada 6-0 Katar. İngiltere L'de lider (4-2 Hırvatistan)."
+    note_en: "USA confirmed Group D winners (6pts). Türkiye ELIMINATED (0pts, 2 defeats). Paraguay vs Australia (June 26) to decide who joins USA from Group D. Brazil and Morocco lead Group C (4pts each). Mexico first qualified. Messi hat-trick vs Algeria. Canada 6-0 Qatar. England top Group L.",
+    note: "ABD, D Grubu birincisi (6 puan). Türkiye elendi (0 puan, 2 mağlubiyet). D Grubu 2. sırası için Paraguay–Avustralya 26 Haziran'da karşılaşacak. C Grubu'nda Brezilya ve Fas 4'er puan. Meksika ilk gruptan çıkan. Messi hat-trick. Kanada 6-0 Katar. İngiltere L'de lider."
   },
   // ---------------- BİLGİ KUTUSU ----------------
   facts_en: [
     "First World Cup with 48 teams and 3 host nations (USA, Canada, Mexico). 104 matches in total.",
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
-    "Türkiye are back at the World Cup for the first time since finishing 3rd in 2002 — but lost their opener 2-0 to Australia. June 20 vs Paraguay at 06:00 TST is now must-win.",
+    "Türkiye are eliminated at the group stage — beaten 2-0 by Australia and 1-0 by Paraguay (Galarza 65 seconds, the tournament's fastest goal). Their first World Cup since 2002 ends without a win.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
     "Messi scored a hat-trick against Algeria (17’, 60’, 76’) — his first World Cup hat-trick. His 16th career WC goal equals Miroslav Klose’s all-time record. Mexico are the first qualified team (6pts).",
     "Canada beat Qatar 6-0 (Jonathan David hat-trick: 29', 45+3', 90+2') for their first ever World Cup win. England beat Croatia 4-2 (Kane ×2, Bellingham, Rashford). Switzerland topped Group B with a 4-1 win over Bosnia on late goals.",
@@ -319,10 +320,10 @@ window.WC_DATA = {
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
-    "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'na Avustralya'ya 2-0 yenilerek başladı. 20 Haziran Paraguay maçı sonucu bekleniyor.",
+    "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası'nda Avustralya (0-2) ve Paraguay'a (0-1) yenilerek elendi. Galarza 65. saniyede (2') gol attı — turnuvanın yeni en hızlı golü.",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
     "Messi Cezayir'e hat-trick attı (17', 60', 76') — DK tarihinin ilk hat-trick'i. 16. kariyer DK golüyle Klose'nin tüm zamanlar rekorunu eşitledi. Meksika ilk gruptan çıkan takım.",
     "Kanada, Katar'ı 6-0 yenerek tarihindeki ilk DK galibiyetini aldı (David hat-trick: 29', 45+3', 90+2'). İngiltere, Hırvatistan'ı 4-2 yendi. İsviçre, B Grubunu geç gollerle 4-1 kazandı.",
-    "ABD, D Grubu'ndan 6 puanla Son 32'ye kaldı (Paraguay 4-1, Avustralya 2-0). Brezilya ve Fas, C Grubu'nda 4'er puanla lider. Saibari (Fas) İskoçya'ya karşı 2. dakikada gol attı — turnuvanın en hızlı golü."
+    "ABD 6 puanla D Grubu'ndan çıktı; Paraguay, 10 kişiyle Türkiye'yi 1-0 yenerek (Galarza 65 sn — turnuvanın yeni en hızlı golü, Saibari'nin rekorunu kırdı) Türkiye'yi eledi. Brezilya ve Fas, C Grubu'nda 4'er puanla lider."
   ]
 };
