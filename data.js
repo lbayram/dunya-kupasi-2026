@@ -318,7 +318,7 @@ window.WC_DATA = {
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
     "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası’nda Avustralya (0-2) ve Paraguay’a (0-1) yenilerek elendi. Galarza 65. saniyede (2’) gol attı — turnuvanın yeni en hızlı golü.",
     "Final 19 Temmuz’da New Jersey MetLife Stadyumu’nda (TSİ 22:00 civarı).",
-    "Messi Cezayir’e hat-trick attı (17’, 60’, 76’) — DK tarihinin ilk hat-trick’i. 16. kariyer DK golüyle Klose’nin tüm zamanlar rekorunu eşlitledi. Meksika ilk gruptan çıkan takım.",
+    "Messi Cezayir’e hat-trick attı (17’, 60’, 76’) — DK tarihinin ilk hat-trick’i. 16. kariyer DK golüyle Klose’nin tüm zamanlar rekorunu eşitledi. Meksika ilk gruptan çıkan takım.",
     "Hollanda İsveç’i 5-1 ezdi; Japonya Tunus’u 4-0 yendi — F Grubunda Hollanda ve Japonya 4’er puanla eşit lider. Almanya 6 puanla E’den çıktı; Kanada B’de 4 puan (Katar’ı 6-0 ezdi). İngiltere Hırvatistan’ı 4-2 geçti.",
     "ABD 6 puanla D Grubu’ndan çıktı; Brezilya ve Fas C Grubu’nda 4’er puanla lider. Galarza (Paraguay) 65. saniyede Türkiye’ye gol attı — turnuvanın en hızlı golü.",
     "İspanya, Atlanta’da S. Arabistan’ı 4-0 ezdi (Yamal 10’, Oyarzabal 21’ ve 24’, Altambakti KG 49’) ve H Grubu’nda 4 puanla liderliğe geçti. Gece Belçika-İran maçı oynanacak."
