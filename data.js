@@ -5,24 +5,24 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "22 Haziran 2026, 21:08 TSİ",
-  headline_en: "Matchday 12 live: Messi broke Klose's all-time World Cup scoring record with his 17th goal (38') — Argentina lead Austria 1-0 with the match still in progress at AT&T Stadium. Earlier: Uruguay 2-2 Cape Verde (Pina 21' record-breaking free-kick; Helio Varela 61'; Araujo 44', Canobbio 45+6'), Egypt 3-1 New Zealand (first ever WC win — Zico 58', Salah 67', Trezeguet 82'). Tonight (Jun 23 TSİ): France vs Iraq (03:00), Norway vs Senegal (06:00), Jordan vs Algeria (09:00).",
-  headline: "12. maç günü: Messi, Avusturya'ya 38. dakikada attığı golle 17. DK golüne ulaşarak Klose'nin tüm zamanlar rekorunu kırdı — Arjantin 1-0 önde, maç devam ediyor. Daha önce: Uruguay 2-2 Cape Verde, Mısır 3-1 Yeni Zelanda (tarihî ilk DK galibiyeti). Bu gece (23 Haz TSİ): Fransa-Irak 03:00, Norveç-Senegal 06:00, Ürdün-Cezayir 09:00.",
+  lastUpdate: "23 Haziran 2026, 05:08 TSİ",
+  headline_en: "Matchday 12 wrap-up: Messi hat-trick in Argentina's 2-0 win over Austria — 18 career WC goals, the all-time record alone. France 3-0 Iraq (Mbappé brace 14' + 2nd half, Dembélé — match delayed 130 min by lightning storm at halftime; France through). Haaland hat-trick (48', 2 more) powers Norway 3-2 Senegal — Norway also through to Round of 32. Jordan vs Algeria (Group J) kicks off at 06:00 TSİ.",
+  headline: "12. maç günü tamamlandı: Arjantin-Avusturya 2-0 — Messi çift gol (38', 90+5'), 18 kariyer DK golüyle tüm zamanlar rekoru tek başına. Fransa-Irak 3-0 (Mbappé çift, Dembélé; yıldırım nedeniyle 130 dk erteleme); Fransa Son 32'de. Norveç-Senegal 3-2: Haaland hat-trick (48' + 2 gol), Sarr çift (Senegal) — Norveç de Son 32'de. 06:00 TSİ'de Ürdün-Cezayir başlıyor.",
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
-    { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 4 },
-    { sira: 2, oyuncu: "Jonathan David", takim: "Kanada", flag: "🇨🇦", gol: 3 },
-    { sira: 2, oyuncu: "Deniz Undav", takim: "Almanya", flag: "🇩🇪", gol: 3 },
-    { sira: 4, oyuncu: "Brian Brobbey", takim: "Hollanda", flag: "🇳🇱", gol: 2 },
-    { sira: 4, oyuncu: "Cody Gakpo", takim: "Hollanda", flag: "🇳🇱", gol: 2 },
-    { sira: 4, oyuncu: "Crysencio Summerville", takim: "Hollanda", flag: "🇳🇱", gol: 2 },
-    { sira: 4, oyuncu: "Harry Kane", takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", gol: 2 },
-    { sira: 4, oyuncu: "Kylian Mbappé", takim: "Fransa", flag: "🇫🇷", gol: 2 },
-    { sira: 4, oyuncu: "Daichi Kamada", takim: "Japonya", flag: "🇯🇵", gol: 2 },
-    { sira: 4, oyuncu: "Ayase Ueda", takim: "Japonya", flag: "🇯🇵", gol: 2 }
+    { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 5 },
+    { sira: 1, oyuncu: "Erling Haaland", takim: "Norveç", flag: "🇳🇴", gol: 5 },
+    { sira: 3, oyuncu: "Kylian Mbappé", takim: "Fransa", flag: "🇫🇷", gol: 4 },
+    { sira: 4, oyuncu: "Jonathan David", takim: "Kanada", flag: "🇨🇦", gol: 3 },
+    { sira: 4, oyuncu: "Deniz Undav", takim: "Almanya", flag: "🇩🇪", gol: 3 },
+    { sira: 6, oyuncu: "Brian Brobbey", takim: "Hollanda", flag: "🇳🇱", gol: 2 },
+    { sira: 6, oyuncu: "Cody Gakpo", takim: "Hollanda", flag: "🇳🇱", gol: 2 },
+    { sira: 6, oyuncu: "Crysencio Summerville", takim: "Hollanda", flag: "🇳🇱", gol: 2 },
+    { sira: 6, oyuncu: "Harry Kane", takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", gol: 2 },
+    { sira: 6, oyuncu: "Ismaïla Sarr", takim: "Senegal", flag: "🇸🇳", gol: 2 }
   ],
-  topScorersNote: "41 maç (Arjantin-Avusturya devam ediyor). Messi 4 golle tek başına lider — 17. DK golüyle Klose'nin tüm zamanlar rekorunu kırdı. David (KAN) ve Undav (ALM) 3'er golle ikinci sırada. 2 gol grubunda: Brobbey, Gakpo, Summerville, Kane, Mbappé, Kamada, Ueda, Araujo (URU), Haaland, Havertz, Balogun, Larin, Saibari, Manzambi, Oyarzabal ve Vinícius Júnior.",
-  topScorersNote_en: "41 matches (Argentina-Austria ongoing). Messi leads alone on 4 goals — his 17th WC goal breaks Klose's all-time record. David (CAN) and Undav (GER) trail on 3 goals. 2-goal group: Brobbey, Gakpo, Summerville, Kane, Mbappé, Kamada, Ueda, Araujo (URU), Haaland, Havertz, Balogun, Larin, Saibari, Manzambi, Oyarzabal and Vinícius Júnior.",
+  topScorersNote: "45 maç tamamlandı (Jordan-Cezayir devam edecek). Messi ve Haaland 5'er golle ortak lider: Messi'nin 18 kariyer DK golü tüm zamanlar rekoru; Haaland'ın Senegal'e hat-trick'i (48', 2 gol daha). Mbappé 4 golle 3. sırada (Irak'a çift gol + Senegal'e çift). David ve Undav 3'er golle 4. sırada. 2 gol grubunda: Brobbey, Gakpo, Summerville, Kane, Sarr, Kamada, Ueda, Araujo, Havertz, Balogun, Larin, Saibari, Manzambi, Oyarzabal ve Vinícius Júnior.",
+  topScorersNote_en: "45 matches played. Messi and Haaland joint top on 5 goals each: Messi's 18 career WC goals is the all-time record; Haaland's hat-trick vs Senegal (48' + 2 more) is his 5th of the tournament. Mbappé 3rd on 4 goals (brace vs Iraq + brace vs Senegal). David and Undav on 3. 2-goal group: Brobbey, Gakpo, Summerville, Kane, Sarr, Kamada, Ueda, Araujo, Havertz, Balogun, Larin, Saibari, Manzambi, Oyarzabal and Vinícius Júnior.",
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
     "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası hayal kırıklığıyla sona erdi: Avustralya'ya 2-0, Paraguay'a 0-1 yenilerek D Grubu'ndan elendi. Galarza'nın 2. dakikadaki (65. saniye) golü yeterli oldu; Almiron'ın 45. dakikada ağzını kapatan kırmızı kart görmesi de skor değiştirmedi. 3. maç (26 Haz ABD'ye karşı) sadece gurur mücadelesi.",
@@ -36,13 +36,13 @@ window.WC_DATA = {
     "Almanya": "E Grubuna Curaçao'yu 7-1 ezerek başlayan Almanya, Toronto'da Fildişi Sahili'ne Kessié'nin 30. dakika golüyle 0-1 geride kaldı; ancak yedek Deniz Undav 68' (Amiri asisti) ve 90+4' (Nmecha asisti) çifte golüyle durumu 2-1'e çevirdi. Almanya 12 yıl aradan sonra Son 32'yi garantiledi — 6 puanla E Grubu birincisi. Undav 3 golle (1 Curaçao + 2 CIV) turnuvanın ortak gol kraliçesi.",
     "İran": "Yeni Zelanda'ya karşı 2-2 beraberliğin ardından Los Angeles'ta 10 kişilik Belçika'yı 0-0'a tuttu — Beiranvand 7 kurtarış yaptı, Ngoy'un 66. dakika kırmızı kartı da İran'a avantaj sağladı. 2 puanla G Grubu'nda ikinci sırada. 26 Haziran'da Mısır maçı Son 32 için belirleyici.",
     "Yeni Zelanda": "İran ile 2-2 berabere kaldıktan sonra Vancouver'da Mısır'a 1-3 yenildi. Surman'ın (15') güzel golüyle öne geçtiler ama Mısır üç golle yanıt verdi. Just'ın başarısından sonra ikinci maçta boş geçti. 1 puanla G Grubunda son sırada — gruptan çıkma şansı çok zor.",
-    "Arjantin": "Son şampiyon Arjantin, Cezayir'i 3-0 ezerken Messi DK tarihinin ilk hat-trick'ini attı (17', 60', 76') ve Klose'yi 16 golle eşitledi. 2. maçta Avusturya'ya karşı 38. dakikada attığı golle (Medina asisti) 17. DK golüne ulaşarak Klose'nin tüm zamanlar rekorunu tek başına kırdı — maç 1-0 devam ediyor. 8. dakika penaltısını kaçırdı; ardından tek golle öne geçti.",
+    "Arjantin": "Son şampiyon Arjantin, 2 maçta 6 puan ve Son 32'de. Cezayir'e 3-0 (Messi hat-trick, 17', 60', 76') ve Avusturya'ya 2-0 (Messi 38' + 90+5'). Messi'nin 18 kariyer DK golü, tüm zamanlar rekorunu kırıyor. 8. dakika penaltısını kaçırdı ama rakibe nefes aldırmadı — tarihî brace. 28 Haziran son maç Ürdün'e karşı.",
     "İngiltere": "Tuchel yönetimindeki İngiltere, L Grubunu Arlington'da Hırvatistan'ı 4-2 yenerek açtı. Kane penaltıdan (12') ve serbest vuruşla (42') çift gol attı; Bellingham (47') ve Rashford (85') farkı kapattı. Hırvatistan iki kez güzel goller atsa da (Baturina 36', Musa 50') skor değişmedi. 2022 finalistleri Hırvatistan'a karşı bu güçlü başlangıç İngiltere'yi kupanın ciddi adaylarından biri gösteriyor.",
     "Hırvatistan": "2018 finalistleri Hırvatistan, L Grubuna İngiltere'ye 2-4 yenilerek kötü başladı. Baturina (36') ve Musa (50') etkileyici goller attı ama Kane (12', 42'), Bellingham (47') ve Rashford (85')'ın önünde durdurulamadı. 24 Haziran Panama, 28 Haziran İngiltere maçları var — gruptan çıkmak için ardışık galibiyet şart.",
-    "Avusturya": "J Grubu'na Ürdün'ü 3-1 yenerek güçlü başladı (Schmid 20', Al Arab KG 76', Arnautovic 90+12'). 2. maçta Arjantin'e karşı zorlu sınav: Messi'nin 8. dakika penaltısını kaleci Schlager kurtardı, ancak Messi 38. dakikada Medina'nın asistinden tüm zamanlar rekoru kıran 17. DK golünü attı. 0-1 geriye düşen Avusturya son çeyrekte eşitliği arıyor.",
+    "Avusturya": "J Grubu'na Ürdün'ü 3-1 yenerek güçlü başlayan Avusturya, 2. maçta Arjantin'e 0-2 yenildi. Schlager 8. dakika Messi penaltısını kurtarsa da Messi 38' ve 90+5'te çift gol attı. 3 puanla ikinci sırada; 28 Haziran Cezayir maçını kazanırsa Son 32'ye kalır.",
     "Ürdün": "İlk Dünya Kupası maçında Santa Clara'da Avusturya'ya 1-3 yenildi. Ali Olwan'ın 50. dakikadaki golü ülkenin DK tarihindeki ilk golü olarak tarihe geçti, ancak Avusturya'nın skor üstünlüğü engel aşılamadı. 23 Haziran'da Cezayir karşısında gruptan çıkmak için 3 puan şart.",
     "Brezilya": "Fas ile 1-1 berabere kaldıktan (Saibari 21', Vinícius Júnior 32') sonra Haiti'yi 3-0 ezdi — Cunha çift attı (23', 36'), Vinícius Júnior tamamladı (40'). C Grubu'nda 4 puanla Fas ile birlikte lider; gruptan çıkma güçlü.",
-    "Fransa": "2018 şampiyonu Fransa, I Grubu'na MetLife'da Senegal'i 3-1 yenerek 3 puanla başladı. Mbappé 66' (Olise asisti) ve 90+6'da çift gol attı; Barcola 82'de ikinci golü ekledi. İbrahim Mbaye 90+5'te Senegal'i 1-3'e düşürse de Mbappé son hamlesiyle sonucu kapattı. Mbappé 58. milli golüyle Fransa'nın tüm zamanlar golcü rekorcusu oldu (Giroud'u geçti).",
+    "Fransa": "I Grubu'nda 2 maç 2 galibiyet, 6 puan — Son 32'de! Senegal'i 3-1 (Mbappé 66', 90+6', Barcola 82'), Irak'ı 3-0 yendi (Mbappé 14', 2. yarıda çift; Dembélé 3.). Irak maçında şiddetli yıldırım fırtınası nedeniyle ilk yarı sonrası 130 dk erteleme yaşandı. Mbappé bu turnuvada 4 golle 3. sırada; Dembélé ilk DK golünü kaydetti. 26 Haziran son maç Norveç'e karşı — I Grubu liderliği için kritik.",
     "İskoçya": "Haiti'yi 1-0 yendi (McGinn 28') — 1990'dan beri ilk DK galibiyeti. Ardından Fas'a 0-1 yenildi (Saibari 2', turnuvanın en hızlı golü). 3 puanla üçüncü sırada; son maç 25 Haziran Brezilya'ya karşı.",
     "Fas": "Brezilya ile 1-1 berabere kaldıktan (Saibari 21') sonra İskoçya'yı Saibari'nin 2. dakika golüyle (turnuvanın en hızlı golü) 1-0 yendi. 4 puanla C Grubu'nda Brezilya ile birlikte lider; Son 32 yolunda güçlü konumda.",
     "Hollanda": "Japonya ile 2-2 berabere kaldıktan (Van Dijk 51', Summerville 64'; Nakamura 57', Kamada 88') sonra Houston'da İsveç'i 5-1 ezerek turnuvanın en büyük sürprizlerinden birini üretti — Brobbey (5', 17') ve Gakpo (47', 54') çifter, Summerville (89') tamamladı; İsveç için Elanga (59') tek golü attı. Brobbey'nin brace'i DK tarihinin en hızlı 4. çifti. F Grubu'nda 4 puanla lider.",
@@ -55,9 +55,9 @@ window.WC_DATA = {
     "Belçika": "İki maçta 0 galibiyet ve 2 puan — Mısır'la 1-1, İran'la 0-0. Los Angeles'ta İran'a karşı 23 şut çekti ama Beiranvand'ı geçemedi; Ngoy'un 66. dakika kırmızı kartıyla da 10 kişiyle bitirdi. De Bruyne ve Lukaku etkisiz; 26 Haziran'da Yeni Zelanda maçı hayatta kalma maçı.",
     "S. Arabistan": "Miami'de Uruguay ile 1-1 berabere kaldıktan sonra Atlanta'da İspanya'ya 4-0 yenilerek zor duruma düştü. 1 puan ve -4 averajla H Grubu'nda son sıraya geriledi. Gruptan çıkış için son maçta Cape Verde'yi yenmek şart.",
     "Uruguay": "S. Arabistan'la 1-1 beraberliğin ardından Miami'de Cape Verde'ye 2-1 öne geçti (Araujo 44', Canobbio 45+6') ama Helio Varela'nın 61. dakika golüyle 2-2'ye düşürüldü. Cape Verde'nin DK sürprizi devam etti. Araujo turnuvada 2 gole ulaştı. 2 puanla H Grubu'nda Cape Verde ile birlikte ikinci sırada (gol averajıyla önde); 27 Haziran'da İspanya maçı belirleyici.",
-    "Senegal": "Senegal, MetLife'da Fransa'ya 1-3 yenilerek I Grubu'na puansız başladı. İlk yarıyı 0-0 kapattılar; ancak Mbappé (66') ve Barcola (82') golle 2-0 geride kaldılar. Mbaye geç bir golle 2-1'e düşürse de Mbappé ikinci golüyle 3-1 oldu. Norveç maçı (23 Haziran) kritik.",
-    "Norveç": "Erling Haaland, Boston'da Irak'a karşı oynadığı ilk Dünya Kupası maçında 28' ve 42'de birer gol atarak Norveç'i 4-1'lik galibiyete taşıdı. Østigård (76', Ødegaard köşe asisti) kafayla üçüncü golü attı; Thorstvedt son dakika golüyle tamamladı. Aymen Hussein Irak'ın tek golünü kaydetti. 1998'den bu yana ilk DK katılımı olan Norveç, I Grubu'nda Fransa ile birlikte 3 puanda.",
-    "Irak": "Irak, 1986'dan bu yana ilk Dünya Kupası maçında Boston'da Norveç'e 1-4 yenildi. Aymen Hussein gol atarak tarihe geçti; ancak Haaland (×2), Østigård (76') ve Thorstvedt'in golleri Norveç'i büyük farka taşıdı. Bolivya'yı 2-1 yenerek inter-konfederasyon play-off'tan kalifikasyonu almışlardı — devam maçları kritik.",
+    "Senegal": "2 maçta 0 puan — Fransa'ya 1-3, Norveç'e 2-3 yenildi. Norveç maçında Sarr çift gol atarak (Mané asisti, Jackson asisti) geriye döndürmeye çalıştı ama Haaland'ın hat-trick'i karşısında yetmedi. 26 Haziran son maç Irak'a karşı — bir teselli galibiyeti hedefi.",
+    "Norveç": "I Grubu'nda 2 maç 2 galibiyet, 6 puan — Son 32'de! Irak'ı 4-1 (Haaland 28', 42', Østigård 76', Thorstvedt), Senegal'i 3-2 yendi. Senegal maçında Haaland hat-trick (48' + 2 gol); Sarr çiftle geri döndüyse de Norveç tutundu. Haaland bu turnuvada 5 golle Messi ile birlikte gol krallığı lideri. 26 Haziran son maç Fransa'ya karşı — I Grubu zirvesi için.",
+    "Irak": "2 maçta 0 puan — Norveç'e 1-4, Fransa'ya 0-3 yenildi. Fransa maçında şiddetli fırtına nedeniyle 130 dk erteleme yaşandı; ikinci yarı başlayınca Mbappé ve Dembélé farkı açtı. Grubun son maçı 26 Haziran'da Senegal'e karşı — gruptan çıkış artık çok zor.",
     "Cezayir": "J Grubu'na Kansas City'de şampiyon Arjantin'e 0-3 yenilerek ağır bir başlangıç yaptı. Messi'nin hat-trick'i (17', 60', 76') önünde çaresiz kalan Cezayir, Chaibi'nin golünü de offside nedeniyle sayıramadı. 23 Haziran'daki Ürdün maçı artık mutlak 3 puan zorunluluğu.",
     "Portekiz": "K Grubu'nu Houston'da DR Kongo ile 1-1 berabere kaldı — turnuvanın sürpriz sonuçlarından biri. Neves (6', Neto asisti) kafa golüyle öne geçti ama Wissa (45+5', Masuaku asisti) kafa golüyle eşitledi. Ronaldo ıskaladı; Portekiz 27 şut çekmesine rağmen kazanamadı. 23 Haziran Özbekistan maçı önem kazandı.",
     "DR Kongo": "1974'ten bu yana ilk Dünya Kupası'nda K Grubunu çarpıcı açtılar: Houston'da favori Portekiz'i 1-1'e tuttular. Wissa'nın 45+5. dakika kafa golü (Masuaku asisti) tarihî bir puan getirdi. Kongo'nun 1974'ten bu yana ilk DK maçı ve ilk DK puanı. 24 Haziran Kolombiya maçı belirleyici olacak.",
@@ -309,7 +309,7 @@ window.WC_DATA = {
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
     "Messi scored a hat-trick against Algeria (17’, 60’, 76’) — the first WC hat-trick. His 16th WC goal equalled Klose’s record. Against Austria (Jun 22), his 38th-minute goal became his 17th WC goal — breaking Klose’s all-time record outright. Mexico are the first qualified team (6pts).",
     "Egypt recorded their first-ever World Cup win beating New Zealand 3-1 (Zico 58’, Salah 67’, Trezeguet 82’). Cape Verde are the tournament’s biggest surprise — two draws (0-0 vs Spain, 2-2 vs Uruguay) and 2 points. Kevin Pina’s 32-metre free-kick vs Uruguay was the longest-range goal of the tournament.",
-    "Belgium 0-0 Iran in Los Angeles: Beiranvand made 7 saves, Ngoy (66min) red card. Top scorers: Messi, David, Undav on 3 goals each.",
+    "Belgium 0-0 Iran in Los Angeles: Beiranvand made 7 saves, Ngoy (66min) red card. Messi now leads the Golden Boot race alone with 4 goals (17th WC goal — all-time record).",
     "Netherlands and Japan lead Group F on 4pts each. Brazil and Morocco lead Group C (4pts). Canada lead Group B (4pts). Spain lead Group H (4pts). Egypt lead Group G (4pts). USA and Germany already qualified."
   ],
   facts: [
@@ -319,7 +319,7 @@ window.WC_DATA = {
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
     "Messi Cezayir'e hat-trick attı (17', 60', 76') — DK tarihinin ilk hat-trick'i. 16. kariyer DK golüyle Klose'yi eşitledi. Avusturya karşısında 38. dakikada 17. golünü atarak Klose'nin tüm zamanlar rekorunu tek başına kırdı. Meksika ilk gruptan çıkan takım.",
     "Mısır, Yeni Zelanda'yı 3-1 yenerek DK tarihindeki ilk galibiyetini aldı (Zico 58', Salah 67', Trezeguet 82') ve G Grubunda 4 puanla lider oldu. Cape Verde turnuvanın sürprizi: İspanya'yı 0-0'a tuttu, Uruguay ile 2-2 berabere kaldı. Kevin Pina'nın 32 metrelik serbest vuruşu turnuvanın en uzun mesafeli golü.",
-    "Belçika-İran 0-0 Los Angeles'ta bitti: Beiranvand 7 kurtarış, Ngoy 66. dakikada kırmızı kart. Messi, David ve Undav 3'er golle gol krallığında lider.",
+    "Belçika-İran 0-0 Los Angeles'ta bitti: Beiranvand 7 kurtarış, Ngoy 66. dakikada kırmızı kart. Messi 4 golle tek başına gol krallığında lider.",
     "Hollanda ve Japonya F'de; Brezilya ve Fas C'de; Kanada B'de; İspanya H'de; Mısır G'de 4'er puanla lider. ABD ve Almanya Son 32'yi garantiledi."
   ]
 };
