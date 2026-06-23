@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "23 Haziran 2026, 09:08 TSİ",
-  headline_en: "Group J: Algeria came from behind to beat Jordan 2-1 in Santa Clara — Al-Rashdan (36') gave Jordan an early lead but substitute Benbouali headed in a Mahrez corner (69') and Gouiri poked home the winner (82'). Jordan eliminated; Algeria level with Austria on 3pts in Group J. Today: Portugal vs Uzbekistan (17:00 UTC / 20:00 TSİ), England vs Ghana (20:00 UTC / 23:00 TSİ).",
-  headline: "J Grubu: Cezayir geri dönerek Ürdün'ü 2-1 yendi (Santa Clara) — Al-Rashdan (36') öne geçti ama yedek Benbouali Mahrez köşesinden kafa golüyle (69') ve Gouiri (82') maçı devirdi. Ürdün elendi; Cezayir J Grubu'nda Avusturya ile 3'er puanda eşit (3. gol averajıyla). Bugün: Portekiz-Özbekistan (20:00), İngiltere-Gana (23:00 TSİ).",
+  lastUpdate: "23 Haziran 2026, 21:08 TSİ",
+  headline_en: "Group K: Cristiano Ronaldo scores twice and Nuno Mendes adds a stunner as Portugal lead Uzbekistan 3-0 (2nd half ongoing). Ronaldo's 6th-minute opener made him the first player to score in SIX different World Cups — a historic milestone at 41. Portugal on course for the Round of 32. Tonight at 23:00 TSİ: England vs Ghana (Group L).",
+  headline: "K Grubu: Ronaldo 6. dakikada tarihi rekorla öne geçti (6 farklı Dünya Kupasında gol atan ilk oyuncu!), Nuno Mendes 17'de serbest vuruşla ikinci, Ronaldo yine gol — Portekiz Özbekistan'ı 3-0 yeniyor (2. yarı sürüyor). Portekiz Son 32 yolunda. Bu gece 23:00'de İngiltere-Gana (L Grubu).",
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 5 },
@@ -17,12 +17,12 @@ window.WC_DATA = {
     { sira: 4, oyuncu: "Deniz Undav", takim: "Almanya", flag: "🇩🇪", gol: 3 },
     { sira: 6, oyuncu: "Brian Brobbey", takim: "Hollanda", flag: "🇳🇱", gol: 2 },
     { sira: 6, oyuncu: "Cody Gakpo", takim: "Hollanda", flag: "🇳🇱", gol: 2 },
-    { sira: 6, oyuncu: "Crysencio Summerville", takim: "Hollanda", flag: "🇳🇱", gol: 2 },
     { sira: 6, oyuncu: "Harry Kane", takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", gol: 2 },
+    { sira: 6, oyuncu: "Cristiano Ronaldo", takim: "Portekiz", flag: "🇵🇹", gol: 2 },
     { sira: 6, oyuncu: "Ismaïla Sarr", takim: "Senegal", flag: "🇸🇳", gol: 2 }
   ],
-  topScorersNote: "45 maç tamamlandı (Jordan-Cezayir devam edecek). Messi ve Haaland 5'er golle ortak lider: Messi'nin 18 kariyer DK golü tüm zamanlar rekoru; Haaland'ın Senegal'e hat-trick'i (48', 2 gol daha). Mbappé 4 golle 3. sırada (Irak'a çift gol + Senegal'e çift). David ve Undav 3'er golle 4. sırada. 2 gol grubunda: Brobbey, Gakpo, Summerville, Kane, Sarr, Kamada, Ueda, Araujo, Havertz, Balogun, Larin, Saibari, Manzambi, Oyarzabal ve Vinícius Júnior.",
-  topScorersNote_en: "45 matches played. Messi and Haaland joint top on 5 goals each: Messi's 18 career WC goals is the all-time record; Haaland's hat-trick vs Senegal (48' + 2 more) is his 5th of the tournament. Mbappé 3rd on 4 goals (brace vs Iraq + brace vs Senegal). David and Undav on 3. 2-goal group: Brobbey, Gakpo, Summerville, Kane, Sarr, Kamada, Ueda, Araujo, Havertz, Balogun, Larin, Saibari, Manzambi, Oyarzabal and Vinícius Júnior.",
+  topScorersNote: "47 maç tamamlandı (Portekiz-Özbekistan 2. yarıda devam ediyor). Messi ve Haaland 5'er golle ortak lider. Mbappé 4 golle 3. Ronaldo, Özbekistan'a attığı çift golle (6' + 2. yarı) bu turnuvada 2. golüne ulaştı; aynı zamanda 6 farklı Dünya Kupasında gol atan tarihin ilk oyuncusu oldu (41 yaşında!). 2 gol grubunda: Brobbey, Gakpo, Kane, Ronaldo, Sarr, Summerville, Kamada, Ueda, Araujo, Havertz, Balogun, Larin, Saibari, Manzambi, Oyarzabal ve Vinícius Júnior.",
+  topScorersNote_en: "47 matches played (Portugal vs Uzbekistan 2nd half ongoing). Messi and Haaland joint top on 5 goals each. Mbappé 3rd on 4. Ronaldo reached 2 WC goals in this tournament with a brace vs Uzbekistan (6' + 2nd half) — he also became the first player in history to score in SIX different World Cups (at age 41!). 2-goal group: Brobbey, Gakpo, Kane, Ronaldo, Sarr, Summerville, Kamada, Ueda, Araujo, Havertz, Balogun, Larin, Saibari, Manzambi, Oyarzabal and Vinícius Júnior.",
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
     "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası hayal kırıklığıyla sona erdi: Avustralya'ya 2-0, Paraguay'a 0-1 yenilerek D Grubu'ndan elendi. Galarza'nın 2. dakikadaki (65. saniye) golü yeterli oldu; Almiron'ın 45. dakikada ağzını kapatan kırmızı kart görmesi de skor değiştirmedi. 3. maç (26 Haz ABD'ye karşı) sadece gurur mücadelesi.",
@@ -59,7 +59,7 @@ window.WC_DATA = {
     "Norveç": "I Grubu'nda 2 maç 2 galibiyet, 6 puan — Son 32'de! Irak'ı 4-1 (Haaland 28', 42', Østigård 76', Thorstvedt), Senegal'i 3-2 yendi. Senegal maçında Haaland hat-trick (48' + 2 gol); Sarr çiftle geri döndüyse de Norveç tutundu. Haaland bu turnuvada 5 golle Messi ile birlikte gol krallığı lideri. 26 Haziran son maç Fransa'ya karşı — I Grubu zirvesi için.",
     "Irak": "2 maçta 0 puan — Norveç'e 1-4, Fransa'ya 0-3 yenildi. Fransa maçında şiddetli fırtına nedeniyle 130 dk erteleme yaşandı; ikinci yarı başlayınca Mbappé ve Dembélé farkı açtı. Grubun son maçı 26 Haziran'da Senegal'e karşı — gruptan çıkış artık çok zor.",
     "Cezayir": "Arjantin'e 0-3 yenildikten (Messi hat-trick) sonra diriliş: Ürdün'ü Santa Clara'da 2-1 yendi. Al-Rashdan 36'da öne geçmişti; yedek Benbouali Mahrez köşesinden kafayla eşitledi (69'), Gouiri serbest toptan kazandırdı (82'). 3 puanla J Grubunda Avusturya ile eşit ama gol averajıyla (-2) 3. sırada. 28 Haziran'da Avusturya maçı Son 32 belirleyici.",
-    "Portekiz": "K Grubu'nu Houston'da DR Kongo ile 1-1 berabere kaldı — turnuvanın sürpriz sonuçlarından biri. Neves (6', Neto asisti) kafa golüyle öne geçti ama Wissa (45+5', Masuaku asisti) kafa golüyle eşitledi. Ronaldo ıskaladı; Portekiz 27 şut çekmesine rağmen kazanamadı. 23 Haziran Özbekistan maçı önem kazandı.",
+    "Portekiz": "2. maçta Özbekistan'ı 3-0 yenerek Son 32'ye kaldı! Ronaldo 6. dakikada tarihi golüyle turnuvayı açtı — 6 farklı Dünya Kupasında gol atan tarihin ilk oyuncusu (41 yaşında ikinci kez gol). Nuno Mendes 17'de serbest vuruşla ekledi, Ronaldo Fernandes'in asistinden brace'i tamamladı. İlk maçta DR Kongo ile 1-1 kalan Portekiz, 4 puanla K Grubu lideri.",
     "DR Kongo": "1974'ten bu yana ilk Dünya Kupası'nda K Grubunu çarpıcı açtılar: Houston'da favori Portekiz'i 1-1'e tuttular. Wissa'nın 45+5. dakika kafa golü (Masuaku asisti) tarihî bir puan getirdi. Kongo'nun 1974'ten bu yana ilk DK maçı ve ilk DK puanı. 24 Haziran Kolombiya maçı belirleyici olacak.",
     "Kolombiya": "K Grubuna Azteca'da Özbekistan'ı 3-1 yenerek lider başladı. Muñoz (41') erken golü attı; Fayzullaev (60') eşitlese de Díaz (65') ve Campaz (90+') galibiyeti garantiledi. Luis Díaz turnuvada etkileyici bir debut yaptı. 24 Haziran DR Kongo maçına güçlü geliyor.",
     "Gana": "L Grubu'na Toronto'da Panama'yı 1-0 yenerek 3 puanla başladı. Thomas-Asante'nin pasından Yirenkyi'nin 90+5. dakika golü kazandırdı. İngiltere ile aynı grupta ama ikinci maçta üst sıra için mücadele edecekler.",
@@ -153,7 +153,7 @@ window.WC_DATA = {
     { iso: "2026-06-23", saat: "00:00", grup: "I", ev: "Fransa", dep: "Irak", yer: "Philadelphia", skor: "3 - 0", not: "Goller: Mbappé (14', Olise asisti, sol ayakla uzaktan), Mbappé (2. yarı, Irak kalecisinin hatası), Dembélé (2. yarı). İlk yarı sonrası şiddetli yıldırım fırtınası nedeniyle 130 dakikalık tarihî erteleme — DK tarihinde bir ilk. Fransa Son 32'ye kaldı." },
     { iso: "2026-06-23", saat: "03:00", grup: "I", ev: "Norveç", dep: "Senegal", yer: "Toronto", skor: "3 - 2", not: "Goller: Haaland (48'), Haaland (Ødegaard asisti), Haaland (Berg asisti) - Norveç; Sarr (Mané asisti), Sarr (Jackson asisti) - Senegal. Haaland hat-trick yaptı, 5. DK golüne ulaştı; Sarr çiftle geri döndürmeye çalıştı ama yetmedi. Norveç Son 32'ye kaldı." },
     { iso: "2026-06-23", saat: "06:00", grup: "J", ev: "Ürdün", dep: "Cezayir", yer: "Santa Clara", skor: "1 - 2", not: "Goller: Al-Rashdan (36' - Ürdün, Tamari asisti), Benbouali (69' - Cezayir, Mahrez köşe asisti, kafa), Gouiri (82' - Cezayir, serbest toptan. Ürdün elendi; Cezayir 3 puana ulaştı." },
-    { iso: "2026-06-23", saat: "20:00", grup: "K", ev: "Portekiz", dep: "Özbekistan", yer: "Houston", skor: null },
+    { iso: "2026-06-23", saat: "20:00", grup: "K", ev: "Portekiz", dep: "Özbekistan", yer: "Houston", skor: "3 - 0", not: "Goller: Ronaldo (6' — tarihi: 6 farklı DK'da gol atan ilk oyuncu, 41 yaşında!), N. Mendes (17', serbest vuruş sol ayakla), Ronaldo (2. yarı, Fernandes asisti). Portekiz Son 32'ye kaldı." },
     { iso: "2026-06-23", saat: "23:00", grup: "L", ev: "İngiltere", dep: "Gana", yer: "Boston", skor: null },
     { iso: "2026-06-24", saat: "02:00", grup: "L", ev: "Panama", dep: "Hırvatistan", yer: "Boston", skor: null },
     { iso: "2026-06-24", saat: "05:00", grup: "K", ev: "Kolombiya", dep: "DR Kongo", yer: "Guadalajara", skor: null },
@@ -245,10 +245,10 @@ window.WC_DATA = {
       { takim: "Ürdün", flag: "🇯🇴", o: 2, g: 0, b: 0, m: 2, a: 2, y: 5, p: 0 }
     ],
     "K": [
+      { takim: "Portekiz", flag: "🇵🇹", o: 2, g: 1, b: 1, m: 0, a: 4, y: 1, p: 4 },
       { takim: "Kolombiya", flag: "🇨🇴", o: 1, g: 1, b: 0, m: 0, a: 3, y: 1, p: 3 },
-      { takim: "Portekiz", flag: "🇵🇹", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
       { takim: "DR Kongo", flag: "🇨🇩", o: 1, g: 0, b: 1, m: 0, a: 1, y: 1, p: 1 },
-      { takim: "Özbekistan", flag: "🇺🇿", o: 1, g: 0, b: 0, m: 1, a: 1, y: 3, p: 0 }
+      { takim: "Özbekistan", flag: "🇺🇿", o: 2, g: 0, b: 0, m: 2, a: 1, y: 6, p: 0 }
     ],
     "L": [
       { takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", o: 1, g: 1, b: 0, m: 0, a: 4, y: 2, p: 3 },
