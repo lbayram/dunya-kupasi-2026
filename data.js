@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "24 Haziran 2026, 09:08 TSİ",
-  headline_en: "Group K done: Colombia 1-0 DR Congo (Muñoz 76', Quintero assist) — Colombia through to Round of 32 with 6 points. Goalkeeper Mpasi made 8 saves for DR Congo who stay on 1 point. Group K finale (June 28): Colombia vs Portugal, DR Congo vs Uzbekistan. Today at 22:00 TSİ: Group B finale — Switzerland vs Canada and Bosnia vs Qatar (both in Vancouver and Seattle). Tonight Group C finale: Morocco vs Haiti, Scotland vs Brazil.",
-  headline: "K Grubu tamamlandı: Kolombiya 1-0 DR Kongo (Muñoz 76', Quintero asist) — Kolombiya 6 puanla Son 32'ye kaldı. Kaleci Mpasi DR Kongo için 8 kurtarış yaptı, Kongo 1 puanda kaldı. K Grubu finali (28 Haz): Kolombiya-Portekiz, DR Kongo-Özbekistan. Bugün 22:00 TSİ'de B Grubu finali: İsviçre-Kanada (Vancouver) ve Bosna-Katar (Seattle). Bu gece C Grubu finali: Fas-Haiti ve İskoçya-Brezilya.",
+  lastUpdate: "24 Haziran 2026, 21:08 TSİ",
+  headline_en: "52 minutes to kickoff! Group B finale: Switzerland vs Canada (Vancouver) and Bosnia vs Qatar (Seattle) both at 22:00 TSİ — Canada top on goal difference, Switzerland need a win. Earlier today: Croatia 1-0 Panama (Budimir 54') — Croatia alive on 3pts; Colombia 1-0 DR Congo (Muñoz 76') — Colombia through with 6pts. Tonight Group C finale (01:00 TSİ June 25): Morocco vs Haiti, Scotland vs Brazil.",
+  headline: "52 dakika kaldı! B Grubu finali: İsviçre-Kanada (Vancouver) ve Bosna-Katar (Seattle) saat 22:00 TSİ'de başlıyor — Kanada gol averajıyla lider, İsviçre'nin galibiyete ihtiyacı var. Bugün: Hırvatistan 1-0 Panama (Budimir 54') — Hırvatistan 3 puanla umutlu; Kolombiya 1-0 DR Kongo (Muñoz 76') — Kolombiya 6 puanla Son 32'de. Bu gece C Grubu finali (01:00 TSİ 25 Haz): Fas-Haiti ve İskoçya-Brezilya.",
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 5 },
@@ -298,8 +298,8 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "Qualified for Round of 32: Mexico (A, 6pts), USA (D, 6pts), Germany (E, 6pts), Argentina (J, 6pts), France (I, 6pts), Norway (I, 6pts), Portugal (K, 4pts), Colombia (K, 6pts). Türkiye & Jordan & Panama ELIMINATED. England and Ghana lead Group L (4pts each); Croatia 3pts. Netherlands and Japan lead Group F (4pts each). Brazil and Morocco lead Group C (4pts). Spain lead Group H (4pts). Egypt lead Group G (4pts). Algeria & Austria level on 3pts in Group J. Belgium and Iran level on 2pts; Uruguay and Cape Verde level on 2pts. Today (June 24): Group B finale — Switzerland vs Canada, Bosnia vs Qatar (22:00 TSİ).",
-    note: "Son 32'ye kalanlar: Meksika (A), ABD (D), Almanya (E), Arjantin (J), Fransa (I), Norveç (I), Portekiz (K), Kolombiya (K, 6 puan). Türkiye, Ürdün ve Panama elendi. İngiltere ve Gana L'de 4'er puanla lider; Hırvatistan 3 puan. Hollanda ve Japonya F'de 4'er puan. Brezilya ve Fas C'de 4'er puan. İspanya H'de 4 puan. Mısır G'de 4 puan. Kanada B'de 4 puan. J Grubu'nda Cezayir ve Avusturya 3'er puan. Bugün (24 Haz) 22:00 TSİ'de B Grubu finali: İsviçre-Kanada, Bosna-Katar."
+    note_en: "Qualified for Round of 32: Mexico (A, 6pts), USA (D, 6pts), Germany (E, 6pts), Argentina (J, 6pts), France (I, 6pts), Norway (I, 6pts), Portugal (K, 4pts), Colombia (K, 6pts). Türkiye, Jordan & Panama ELIMINATED. England and Ghana lead Group L (4pts each); Croatia now on 3pts after beating Panama 1-0 (Budimir 54'). Netherlands and Japan lead Group F (4pts). Brazil and Morocco lead Group C (4pts). Spain lead Group H (4pts). Egypt lead Group G (4pts). Algeria & Austria level on 3pts in Group J. TONIGHT (22:00 TSİ): Group B finale — Switzerland vs Canada (Vancouver), Bosnia vs Qatar (Seattle). Group C finale at 01:00 TSİ June 25: Morocco vs Haiti, Scotland vs Brazil.",
+    note: "Son 32'ye kalanlar: Meksika (A), ABD (D), Almanya (E), Arjantin (J), Fransa (I), Norveç (I), Portekiz (K), Kolombiya (K, 6 puan). Türkiye, Ürdün ve Panama elendi. İngiltere ve Gana L'de 4'er puanla lider; Hırvatistan, Panama'yı 1-0 (Budimir 54') yenerek 3 puana çıktı. Hollanda ve Japonya F'de 4'er puan. Brezilya ve Fas C'de 4'er puan. İspanya H'de 4 puan. Mısır G'de 4 puan. J'de Cezayir ve Avusturya 3'er puan. BU GECE 22:00 TSİ: B Grubu finali — İsviçre-Kanada (Vancouver), Bosna-Katar (Seattle). C Grubu finali 01:00 TSİ 25 Haz: Fas-Haiti, İskoçya-Brezilya."
   },
   // ---------------- BİLGİ KUTUSU ----------------
   facts_en: [
@@ -309,8 +309,8 @@ window.WC_DATA = {
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
     "Messi 18 WC goals (all-time record). Haaland 5 goals. Mbappé 4. Muñoz (Colombia) has 2 goals after netting the winner vs DR Congo (76’). Ronaldo 2 goals — first to score in SIX different World Cups (age 41).",
     "8 teams through to the Round of 32: Mexico, USA, Germany, Argentina, France, Norway, Portugal, Colombia. Türkiye, Jordan and Panama eliminated. Groups B, C, F, G, H, I, J, L finales still to play.",
-    "June 24 at 22:00 TSİ: Group B finale — Switzerland vs Canada (Vancouver), Bosnia vs Qatar (Seattle). Tonight: Group C finale — Morocco vs Haiti (Atlanta), Scotland vs Brazil (Miami).",
-    "June 25: Group A finale (South Africa vs South Korea, Czechia vs Mexico) and Group E finale (Curaçao vs Ivory Coast, Ecuador vs Germany)."
+    "June 24 at 22:00 TSİ: Group B finale — Switzerland vs Canada (Vancouver), Bosnia vs Qatar (Seattle) — Switzerland need a win to top Group B; Canada lead on goal difference. Tonight June 25 01:00 TSİ: Group C finale — Morocco vs Haiti (Atlanta), Scotland vs Brazil (Miami).",
+    "June 25: Group A finale (South Africa vs South Korea, Czechia vs Mexico, both at 04:00 TSİ) and Group E finale (Curaçao vs Ivory Coast, Ecuador vs Germany, both at 23:00 TSİ)."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
@@ -319,7 +319,7 @@ window.WC_DATA = {
     "Final 19 Temmuz’da New Jersey MetLife Stadyumu’nda (TSİ 22:00 civarı).",
     "Messi 18 DK goluyla tüm zamanlar rekorcusu. Haaland 5 gol. Mbappé 4. Muñoz (Kolombiya) DR Kongo’ya attığı golle 2 DK golüne ulaştı. Ronaldo 2 gol, 6 farklı DK’da gol atan ilk oyuncu (41 yaşında).",
     "Son 32’ye kalan 8 takım: Meksika, ABD, Almanya, Arjantin, Fransa, Norveç, Portekiz, Kolombiya. Türkiye, Ürdün ve Panama elendi.",
-    "Bugün 22:00 TSİ’de B Grubu finali: İsviçre-Kanada (Vancouver), Bosna-Katar (Seattle). Bu gece C Grubu finali: Fas-Haiti (Atlanta), İskoçya-Brezilya (Miami).",
-    "25 Haziran: A Grubu finali (G. Afrika-G. Kore, Çekya-Meksika) ve E Grubu finali (Curaçao-Fildişi Sahili, Ekvador-Almanya)."
+    "Bu gece 22:00 TSİ: B Grubu finali — İsviçre-Kanada (Vancouver), Bosna-Katar (Seattle). İsviçre'nin galibiyete ihtiyacı var; Kanada gol averajıyla lider. 25 Haz 01:00 TSİ: C Grubu finali — Fas-Haiti (Atlanta), İskoçya-Brezilya (Miami).",
+    "25 Haziran 04:00 TSİ: A Grubu finali (G. Afrika-G. Kore, Çekya-Meksika). 25 Haziran 23:00 TSİ: E Grubu finali (Curaçao-Fildişi Sahili, Ekvador-Almanya)."
   ]
 };
