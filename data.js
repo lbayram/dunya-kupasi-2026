@@ -5,9 +5,9 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "25 Haziran 2026, 05:08 TSİ",
-  headline_en: "Group B & C finales done! Switzerland beat Canada 2-1 (Vargas 46', Manzambi 57') to win Group B; Bosnia beat Qatar 3-1. Canada still through as runners-up. In Group C: Morocco beat Haiti 4-2 (Hakimi 39', Saibari 45+1', Rahimi 78', Gessime 89') and Brazil thrashed Scotland 3-0 (Vinícius Júnior 7', 45+3'; Cunha 60') — Brazil and Morocco both qualify. Group A finale ongoing (04:00 TSİ): Czechia vs Mexico, South Africa vs South Korea.",
-  headline: "B ve C Grupları tamamlandı! İsviçre 2-1 Kanada (Vargas 46', Manzambi 57') galibiyetiyle B Grubu birincisi oldu; Bosna Katar'ı 3-1 yendi; Kanada da ikinci sırayla Son 32'de. C Grubu'nda: Fas Haiti'yi 4-2 (Hakimi 39', Saibari 45+1', Rahimi 78', Gessime 89') ve Brezilya İskoçya'yı 3-0 (Vinícius Júnior 7', 45+3'; Cunha 60') yendi — Brezilya ve Fas Son 32'ye kaldı. A Grubu finali sürüyor (04:00 TSİ): Çekya-Meksika ve G.Afrika-G.Kore.",
+  lastUpdate: "25 Haziran 2026, 09:08 TSİ",
+  headline_en: "Group A wrapped up! Mexico perfect with 9 points (3W, 6-0). South Africa 1-0 South Korea (Maseko 63') — Bafana Bafana qualify for the knockout stage for the FIRST TIME EVER! South Korea and Czechia eliminated. Tonight (23:00 TSİ): Group E finale — Germany vs Ecuador, Curaçao vs Ivory Coast.",
+  headline: "A Grubu tamamlandı! Meksika 9 puanla mükemmel (3G, 6-0). Güney Afrika Maseko'nun 63. dakika golüyle G. Kore'yi 1-0 yenerek tarihe geçti — Bafana Bafana ilk kez eleme aşamasında! G. Kore ve Çekya elendi. Bu gece (23:00 TSİ): E Grubu finali — Almanya-Ekvador ve Curaçao-Fildişi Sahili.",
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 5 },
@@ -63,7 +63,10 @@ window.WC_DATA = {
     "DR Kongo": "1974'ten bu yana ilk Dünya Kupasında K Grubunu çarpıcı açtılar: Houston'da favori Portekiz'i 1-1'e tuttular (Wissa 45+5' kafa). Ancak 2. maçta Kolombiya'ya 0-1 yenildi (Muñoz 76') — kaleci Mpasi 8 kurtarış yapmasına rağmen tutamadı. 1 puanla Son 32 şansı zayıf; 28 Haziran Özbekistan maçında galibiyet şart.",
     "Kolombiya": "K Grubunda 2 maç 2 galibiyet, 6 puan — Son 32'ye kaldı! Özbekistan'ı 3-1 (Muñoz 41', Díaz 65', Campaz 90+') ardından DR Kongo'yu 1-0 yendi (Muñoz 76', Quintero asist). Kaleci Mpasi 8 kurtarış yaptı ama tutamadı. Muñoz turnuvada 2 gole ulaştı. 28 Haziran son maç Portekiz'e karşı.",
     "Gana": "Panama'yı 1-0 yenerek (Yirenkyi 90+5') başlayan Gana, Boston'da İngiltere ile 0-0 berabere kaldı — derinlerde savunma yaparak İngiltere'ye büyük fırsatları kaçırttı. 4 puanla İngiltere ile birlikte L Grubu'nun zirvesinde. 28 Haziran son maçta Hırvatistan'a karşı 1 puan yeterli olabilir.",
-    "Meksika": "Ev sahibi Meksika, A Grubunu 6 puanla ve iki galibiyetle kapattı — turnuvanın ilk gruptan çıkan takımı oldu. G. Afrika'yı 2-0 (Quiñones 9', Jiménez 66'), Güney Kore'yi 1-0 (Romo 50') yendi. Final için yolu: Mexico City (Son 32) → muhtemel B 1. veya B 2. eşleşmesi. Baskı ev sahibi sıfatıyla her zaman var."
+    "Güney Afrika": "Dünya Kupası tarihinin en büyük başarısı: 3 maçta 4 puanla A Grubu ikincisi — DK'da ilk kez Son 32'ye kaldılar! Meksika'ya 0-2 yenilip Çekya ile 1-1 berabere kaldıktan sonra G. Kore'yi Maseko'nun 63. dakika golüyle 1-0 yendi. 29 Haziran Los Angeles'ta Kanada'ya karşı tarihi eşleşme.",
+    "Güney Kore": "Son 32 hayalleri son anlarda yıkıldı. Çekya'yı 2-1 yenerek güçlü başladılar ama Meksika'ya 0-1 ve G. Afrika'ya 0-1 yenildi. Maseko'nun 63. dakika golü Güney Kore'yi gruptan eleydi; Son Heung-min son maçtan çıkarıldı. 3 puanla 3. sıradan elendiler.",
+    "Çekya": "İlk Dünya Kupası deneyimleri hayal kırıklığıyla bitti. G. Kore'ye 1-2 yenildi, G. Afrika ile 1-1 berabere kaldı ve son maçta Meksika'ya 0-3 ezildi. 2006'dan bu yana ilk DK'larında grup aşamasından geçemediler.",
+    "Meksika": "Ev sahibi Meksika, A Grubunu 3 maç 3 galibiyet 9 puanla namağlup kapattı — turnuvanın tek mükemmel rekoru! G. Afrika 2-0, G. Kore 1-0, Çekya 3-0 (Chávez 55', Quiñones 61', Fidalgo 90+') yendi. 6 gol, sıfır yenilen — Quiñones 2. golüne ulaştı. 1 Temmuz'da Mexico City'de Son 32 maçı."
   },
   teamNotesEn: {
     "Türkiye": "First World Cup since finishing 3rd in 2002 ended in elimination: beaten 2-0 by Australia and 1-0 by Paraguay (Galarza 2', 65 seconds — the tournament's fastest goal). Almirón's red card (45') for covering his mouth under FIFA's new rule reduced Paraguay to 10 men but Türkiye still couldn't equalise. The June 26 match vs USA is now a dead rubber.",
@@ -82,10 +85,10 @@ window.WC_DATA = {
     "Hırvatistan": "After losing 2-4 to England on matchday 1, Croatia bounced back with a 1-0 win over Panama in Toronto — substitute Ante Budimir tapped home a Stanišić cross at the far post in the 54th minute. Croatia move to 3 points and into third. They need to beat England on June 28 to advance (or hope for help from Ghana vs Panama).",
     "Avusturya": "Austria beat Jordan 3-1 on matchday 1 (first WC win in 36 years). On matchday 2 vs Argentina, Schlager heroically saved Messi's 8th-minute penalty, but Messi scored twice (38' and 90+5') for a 2-0 defeat. Austria sit 2nd in Group J on 3 points — a win vs Algeria on June 28 secures the Round of 32.",
     "Ürdün": "Jordan's first-ever World Cup campaign ended with two defeats. Lost 1-3 to Austria (Olwan 50' — Jordan's first-ever WC goal) then 1-2 to Algeria: Al-Rashdan (36') gave them a stunning lead but Benbouali (69') and Gouiri (82') completed Algeria's comeback. Jordan are eliminated.",
-    "Brezilya": "Drew 1-1 with Morocco (Saibari 21', Vinícius Júnior 32') then crushed Haiti 3-0 — Cunha brace (23', 36') and Vinícius Júnior (40'). Top of Group C alongside Morocco on 4 points. Record 5-time champions on track.",
+    "Brezilya": "Brazil top Group C on 7 points! Drew 1-1 with Morocco, beat Haiti 3-0, then thrashed Scotland 3-0. Vinícius Júnior scored in all three group games (7' + 45+3' vs Scotland) — only the 5th Brazilian to do so, joining Jairzinho (1970), Romario (1994), Ronaldo/Rivaldo (2002). He now has 4 WC goals in this tournament. Cunha (60') also on 3 goals. Brazil look like genuine title contenders.",
     "Fransa": "France through to the Round of 32 with 6 points (2 wins). Beat Senegal 3-1 (Mbappé 66', 90+6'; Barcola 82') on matchday 1, then beat Iraq 3-0 on matchday 2 (Mbappé 14' Olise assist; Mbappé 2nd-half brace; Dembélé 3rd). The Iraq match made history as the first WC game delayed by weather — a 130-minute lightning storm stoppage at halftime. Mbappé now has 4 WC goals in this tournament and 60 international goals total. June 26 vs Norway decides Group I leadership.",
-    "İskoçya": "Beat Haiti 1-0 (McGinn 28') — first World Cup win since 1990. Then lost 0-1 to Morocco (Saibari 2', the tournament's fastest goal). On 3 points in third place; final group game vs Brazil on June 25.",
-    "Fas": "Drew 1-1 with Brazil (Saibari 21') then beat Scotland 1-0 with Saibari's 2nd-minute goal — the fastest of the tournament. On 4 points alongside Brazil at the top of Group C. Strong Round of 32 prospects.",
+    "İskoçya": "Scotland exit Group C on 3 points (1W 2L). Beat Haiti 1-0 (McGinn 28') — first WC win since 1990 — but lost 0-1 to Morocco and 0-3 to Brazil. Against Brazil, Vinícius Júnior scored twice and Scotland's defence was overrun. Their first World Cup since 1998 ends at the group stage.",
+    "Fas": "Morocco through to the Round of 32 on 7 points (alongside Brazil). Drew 1-1 with Brazil, beat Scotland 1-0, then beat Haiti 4-2 in the finale. Saibari scored in all three group games — 3 WC goals total. Against Haiti: Bounou's OG (10') gave Haiti an early lead but Morocco responded with Hakimi (39'), Saibari (45+1'), Rahimi (78') and Gessime (89'). Atlas Lions are a legitimate knockout contender.",
     "Hollanda": "After a 2-2 draw with Japan, the Dutch demolished Sweden 5-1 in Houston — Brobbey (5', 17') and Gakpo (47', 54') each scored twice, with Summerville (89') adding a fifth; Elanga (59') pulled one back for Sweden. Brobbey's opening brace was the 4th fastest in World Cup history. Netherlands lead Group F on 4 points.",
     "Japonya": "After drawing 2-2 with the Netherlands on matchday 1, Japan thrashed Tunisia 4-0 in Monterrey to join the Dutch at the top of Group F on 4 points. Kamada (4'), Ueda (31', 82') and Itō (69') produced Japan's biggest-ever World Cup scoring performance. The June 26 clash with Sweden is now a potential group decider.",
     "Fildişi Sahili": "Beat Ecuador 1-0 with a 90th-minute Amad Diallo goal to open the tournament, then lost 1-2 to Germany in Toronto: Kessié (30') put them ahead but Undav's late brace (68', 90+4') turned the match. On 3 points and second in Group E; a win vs Ecuador on June 25 would secure progress.",
@@ -161,8 +164,8 @@ window.WC_DATA = {
     { iso: "2026-06-24", saat: "22:00", grup: "B", ev: "Bosna Hersek", dep: "Katar", yer: "Seattle", skor: "3 - 1", not: "Goller: Alajbegović (29' — 18 yaşında ülkenin DK tarihindeki en genç golcüsü, turnuva tarihinin 8. en genç golcüsü), Sultan Al-Brake KG (34'), Mahmić (80') - Bosna Hersek; Al-Haydos (42') - Katar. Bosna üçüncü takım olarak en iyi 3. gruplar sıralamasına girdi." },
     { iso: "2026-06-25", saat: "01:00", grup: "C", ev: "Fas", dep: "Haiti", yer: "Atlanta", skor: "4 - 2", not: "Goller: Bounou KG (10' - Haiti, Joseph'in topuk pası sonrası), Hakimi (39' - Fas), Isidor (43' - Haiti), Saibari (45+1' - Fas, Hakimi asisti), Rahimi (78' - Fas), Gessime (89' - Fas, Rahimi asisti). Beşinci gol sürprizle tamamlandı. Fas 7 puanla C Grubu'nda Brezilya ile eşit ama gol averajıyla 2." },
     { iso: "2026-06-25", saat: "01:00", grup: "C", ev: "İskoçya", dep: "Brezilya", yer: "Miami", skor: "0 - 3", not: "Goller: Vinícius Júnior (7', Rayan asisti), Vinícius Júnior (45+3', Guimarães asisti, kafa), Cunha (60') - Brezilya. Vinícius her üç grup maçında da gol attı — Brezilya tarihindeki 5. oyuncu (Jairzinho 1970, Romario 1994, Ronaldo/Rivaldo 2002). Brezilya 7 puanla C Grubu birincisi." },
-    { iso: "2026-06-25", saat: "04:00", grup: "A", ev: "Güney Afrika", dep: "Güney Kore", yer: "Monterrey", skor: null },
-    { iso: "2026-06-25", saat: "04:00", grup: "A", ev: "Çekya", dep: "Meksika", yer: "Mexico City", skor: null },
+    { iso: "2026-06-25", saat: "04:00", grup: "A", ev: "Güney Afrika", dep: "Güney Kore", yer: "Monterrey", skor: "1 - 0", not: "Goller: Maseko (63' - Güney Afrika). Güney Afrika Dünya Kupası tarihinde ilk kez Son 32'ye kaldı — Son 32'de Kanada ile karşılaşacak (29 Haz Los Angeles)." },
+    { iso: "2026-06-25", saat: "04:00", grup: "A", ev: "Çekya", dep: "Meksika", yer: "Mexico City", skor: "0 - 3", not: "Goller: M. Chávez (55' - Meksika), Quiñones (61' - Meksika), Fidalgo (90+' - Meksika). Meksika 3 maç 3 galibiyet, 9 puan — A Grubu'nu namağlup kapattı; Quiñones 2. golüne ulaştı." },
     { iso: "2026-06-25", saat: "23:00", grup: "E", ev: "Curaçao", dep: "Fildişi Sahili", yer: "Philadelphia", skor: null },
     { iso: "2026-06-25", saat: "23:00", grup: "E", ev: "Ekvador", dep: "Almanya", yer: "New Jersey", skor: null },
     { iso: "2026-06-26", saat: "02:00", grup: "F", ev: "Tunus", dep: "Hollanda", yer: "Kansas City", skor: null },
@@ -185,10 +188,10 @@ window.WC_DATA = {
   // ---------------- GRUPLAR VE PUAN DURUMU ----------------
   groups: {
     "A": [
-      { takim: "Meksika", flag: "🇲🇽", ev: true, o: 2, g: 2, b: 0, m: 0, a: 3, y: 0, p: 6 },
-      { takim: "Güney Kore", flag: "🇰🇷", o: 2, g: 1, b: 0, m: 1, a: 2, y: 2, p: 3 },
-      { takim: "Çekya", flag: "🇨🇿", o: 2, g: 0, b: 1, m: 1, a: 2, y: 3, p: 1 },
-      { takim: "Güney Afrika", flag: "🇿🇦", o: 2, g: 0, b: 1, m: 1, a: 1, y: 3, p: 1 }
+      { takim: "Meksika", flag: "🇲🇽", ev: true, o: 3, g: 3, b: 0, m: 0, a: 6, y: 0, p: 9 },
+      { takim: "Güney Afrika", flag: "🇿🇦", o: 3, g: 1, b: 1, m: 1, a: 2, y: 3, p: 4 },
+      { takim: "Güney Kore", flag: "🇰🇷", o: 3, g: 1, b: 0, m: 2, a: 2, y: 3, p: 3 },
+      { takim: "Çekya", flag: "🇨🇿", o: 3, g: 0, b: 1, m: 2, a: 2, y: 6, p: 1 }
     ],
     "B": [
       { takim: "İsviçre", flag: "🇨🇭", o: 3, g: 2, b: 1, m: 0, a: 7, y: 3, p: 7 },
@@ -260,19 +263,19 @@ window.WC_DATA = {
   // ---------------- ELEME AĞACI ----------------
   bracket: {
     r32: [
-      { id: 73, ev: "A 2.si", dep: "B 2.si", tarih: "29 Haz 03:00", yer: "Los Angeles" },
-      { id: 74, ev: "E 1.si", dep: "3. (A/B/C/D/F)", tarih: "29 Haz 23:30", yer: "Boston" },
-      { id: 75, ev: "F 1.si", dep: "C 2.si", tarih: "30 Haz 04:00", yer: "Monterrey" },
-      { id: 76, ev: "C 1.si", dep: "F 2.si", tarih: "29 Haz 20:00", yer: "Houston" },
-      { id: 77, ev: "I 1.si", dep: "3. (C/D/F/G/H)", tarih: "1 Tem 00:00", yer: "New Jersey" },
-      { id: 78, ev: "E 2.si", dep: "I 2.si", tarih: "30 Haz 20:00", yer: "Arlington" },
-      { id: 79, ev: "A 1.si", dep: "3. (C/E/F/H/I)", tarih: "1 Tem 04:00", yer: "Mexico City" },
+      { id: 73, ev: "Güney Afrika", dep: "Kanada", tarih: "29 Haz 03:00", yer: "Los Angeles" },
+      { id: 74, ev: "Almanya", dep: "3. (A/B/C/D/F)", tarih: "29 Haz 23:30", yer: "Boston" },
+      { id: 75, ev: "F 1.si", dep: "Fas", tarih: "30 Haz 04:00", yer: "Monterrey" },
+      { id: 76, ev: "Brezilya", dep: "F 2.si", tarih: "29 Haz 20:00", yer: "Houston" },
+      { id: 77, ev: "Fransa", dep: "3. (C/D/F/G/H)", tarih: "1 Tem 00:00", yer: "New Jersey" },
+      { id: 78, ev: "E 2.si", dep: "Norveç", tarih: "30 Haz 20:00", yer: "Arlington" },
+      { id: 79, ev: "Meksika", dep: "3. (C/E/F/H/I)", tarih: "1 Tem 04:00", yer: "Mexico City" },
       { id: 80, ev: "L 1.si", dep: "3. (E/H/I/J/K)", tarih: "1 Tem 19:00", yer: "Atlanta" },
       { id: 81, ev: "D 1.si", dep: "3. (B/E/F/I/J)", tarih: "2 Tem 03:00", yer: "Santa Clara", tur: true },
       { id: 82, ev: "G 1.si", dep: "3. (A/E/H/I/J)", tarih: "1 Tem 23:00", yer: "Seattle" },
       { id: 83, ev: "K 2.si", dep: "L 2.si", tarih: "3 Tem 02:00", yer: "Toronto" },
       { id: 84, ev: "H 1.si", dep: "J 2.si", tarih: "2 Tem 22:00", yer: "Los Angeles" },
-      { id: 85, ev: "B 1.si", dep: "3. (E/F/G/I/J)", tarih: "3 Tem 06:00", yer: "Vancouver" },
+      { id: 85, ev: "İsviçre", dep: "3. (E/F/G/I/J)", tarih: "3 Tem 06:00", yer: "Vancouver" },
       { id: 86, ev: "J 1.si", dep: "H 2.si", tarih: "4 Tem 01:00", yer: "Miami" },
       { id: 87, ev: "K 1.si", dep: "3. (D/E/I/J/L)", tarih: "4 Tem 04:30", yer: "Kansas City" },
       { id: 88, ev: "D 2.si", dep: "G 2.si", tarih: "2 Tem 21:00", yer: "Arlington", tur: true }
@@ -298,28 +301,31 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "Qualified for Round of 32 (12 teams): Mexico (A), Switzerland (B, 7pts), Canada (B, 4pts), Brazil (C, 7pts), Morocco (C, 7pts), USA (D), Germany (E), France (I), Norway (I), Argentina (J), Portugal (K), Colombia (K). ELIMINATED: Türkiye, Jordan, Panama, Qatar, Haiti. Group A finale in progress (04:00 TSİ, June 25): Czechia vs Mexico, South Africa vs South Korea. Groups D, E, F, G, H, I, J, K, L finales still to play (June 26–28).",
-    note: "Son 32'ye kalanlar (12 takım): Meksika (A), İsviçre (B, 7 puan), Kanada (B, 4 puan), Brezilya (C, 7 puan), Fas (C, 7 puan), ABD (D), Almanya (E), Fransa (I), Norveç (I), Arjantin (J), Portekiz (K), Kolombiya (K). ELİNENLER: Türkiye, Ürdün, Panama, Katar, Haiti. A Grubu finali sürüyor (04:00 TSİ, 25 Haz): Çekya-Meksika, G.Afrika-G.Kore. D, E, F, G, H, I, J, K, L grupları finalleri 26-28 Haziran'da."
+    note_en: "Qualified for Round of 32 (13 teams): Mexico (A, 9pts), Switzerland (B, 7pts), Canada (B, 4pts), Brazil (C, 7pts), Morocco (C, 7pts), USA (D), Germany (E), South Africa (A, 4pts), France (I), Norway (I), Argentina (J), Portugal (K), Colombia (K). ELIMINATED: Türkiye, Jordan, Panama, Qatar, Haiti, South Korea, Czechia. Groups D, E, F, G, H, J, K, L finales still to play (June 25–28).",
+    note: "Son 32'ye kalanlar (13 takım): Meksika (A, 9 puan), İsviçre (B, 7 puan), Kanada (B, 4 puan), Brezilya (C, 7 puan), Fas (C, 7 puan), ABD (D), Almanya (E), Güney Afrika (A, 4 puan), Fransa (I), Norveç (I), Arjantin (J), Portekiz (K), Kolombiya (K). ELİNENLER: Türkiye, Ürdün, Panama, Katar, Haiti, Güney Kore, Çekya. D, E, F, G, H, J, K, L grup finalleri 25-28 Haziran'da."
   },
   // ---------------- BİLGİ KUTUSU ----------------
   facts_en: [
     "First World Cup with 48 teams and 3 host nations (USA, Canada, Mexico). 104 matches in total.",
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
-    "Türkiye are eliminated at the group stage — beaten 2-0 by Australia and 1-0 by Paraguay (Galarza 65 seconds, the tournament’s fastest goal). Their first World Cup since 2002 ends without a win.",
-    "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 GMT+3).",
-    "Messi 18 WC goals (all-time record). Haaland 5 goals. Mbappé 4. Muñoz (Colombia) has 2 goals after netting the winner vs DR Congo (76’). Ronaldo 2 goals — first to score in SIX different World Cups (age 41).",
-    "8 teams through to the Round of 32: Mexico, USA, Germany, Argentina, France, Norway, Portugal, Colombia. Türkiye, Jordan and Panama eliminated. Groups B, C, F, G, H, I, J, L finales still to play.",
-    "June 24 at 22:00 TSİ: Group B finale — Switzerland vs Canada (Vancouver), Bosnia vs Qatar (Seattle) — Switzerland need a win to top Group B; Canada lead on goal difference. Tonight June 25 01:00 TSİ: Group C finale — Morocco vs Haiti (Atlanta), Scotland vs Brazil (Miami).",
-    "June 25: Group A finale (South Africa vs South Korea, Czechia vs Mexico, both at 04:00 TSİ) and Group E finale (Curaçao vs Ivory Coast, Ecuador vs Germany, both at 23:00 TSİ)."
+    "Türkiye eliminated: beaten 2-0 by Australia and 1-0 by Paraguay (Galarza 65 seconds — tournament’s fastest goal). First WC since 2002 ends without a win.",
+    "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 TSİ).",
+    "12 teams through to the Round of 32: Mexico, Switzerland, Canada, Brazil, Morocco, USA, Germany, France, Norway, Argentina, Portugal, Colombia. Eliminated: Türkiye, Jordan, Panama, Qatar, Haiti.",
+    "Messi 18 WC goals (all-time record). Haaland 5. Mbappé & Vinícius Júnior 4 each. Vinícius scored in all 3 Brazil group games — only the 5th Brazilian to do so. Saibari (Morocco) and Cunha (Brazil) both on 3 goals.",
+    "June 25 at 04:00 TSİ: Group A finale — Czechia vs Mexico, South Africa vs South Korea. June 25 at 23:00 TSİ: Group E finale — Curaçao vs Ivory Coast, Ecuador vs Germany.",
+    "Kerim Alajbegović (Bosnia, 18 years old) became the youngest-ever WC scorer for his country and 8th youngest in WC history with his solo goal vs Qatar (29’)."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
-    "Türkiye, 2002 dünya üçüncülüğünden sonraki ilk Dünya Kupasında Avustralya (0-2) ve Paraguay’a (0-1) yenilerek elendi. Galarza 65. saniyede (2’) gol attı — turnuvanın en hızlı golü.",
-    "Final 19 Temmuz’da New Jersey MetLife Stadyumu’nda (TSİ 22:00 civarı).",
-    "Messi 18 DK goluyla tüm zamanlar rekorcusu. Haaland 5 gol. Mbappé 4. Muñoz (Kolombiya) DR Kongo’ya attığı golle 2 DK golüne ulaştı. Ronaldo 2 gol, 6 farklı DK’da gol atan ilk oyuncu (41 yaşında).",
-    "Son 32’ye kalan 8 takım: Meksika, ABD, Almanya, Arjantin, Fransa, Norveç, Portekiz, Kolombiya. Türkiye, Ürdün ve Panama elendi.",
-    "Bu gece 22:00 TSİ: B Grubu finali — İsviçre-Kanada (Vancouver), Bosna-Katar (Seattle). İsviçre'nin galibiyete ihtiyacı var; Kanada gol averajıyla lider. 25 Haz 01:00 TSİ: C Grubu finali — Fas-Haiti (Atlanta), İskoçya-Brezilya (Miami).",
-    "25 Haziran 04:00 TSİ: A Grubu finali (G. Afrika-G. Kore, Çekya-Meksika). 25 Haziran 23:00 TSİ: E Grubu finali (Curaçao-Fildişi Sahili, Ekvador-Almanya)."
+    "Türkiye elendi: Avustralya (0-2) ve Paraguay'a (0-1) yenildi. Galarza 65. saniyede gol attı — turnuvanın en hızlı golü. 2002'den bu yana ilk DK'da galibiyet çıkaramadı.",
+    "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
+    "Son 32'ye kalan 12 takım: Meksika, İsviçre, Kanada, Brezilya, Fas, ABD, Almanya, Fransa, Norveç, Arjantin, Portekiz, Kolombiya. Elenenler: Türkiye, Ürdün, Panama, Katar, Haiti.",
+    "Messi 18 DK goluyla tüm zamanlar rekorcusu. Haaland 5 gol. Mbappé ve Vinícius Júnior 4'er gol. Vinícius her üç grup maçında gol attı — tarihin 5. Brezilyalısı. Saibari (Fas) ve Cunha (Brezilya) 3'er gol.",
+    "25 Haziran 04:00 TSİ: A Grubu finali — Çekya-Meksika ve G.Afrika-G.Kore. 25 Haziran 23:00 TSİ: E Grubu finali — Curaçao-Fildişi Sahili ve Ekvador-Almanya.",
+    "Kerim Alajbegović (Bosna, 18 yaşında) Katar'a attığı golü ile ülkesinin DK tarihindeki en genç golcüsü ve turnuva tarihinin 8. en genç golcüsü oldu."
+  ]
+};
+sü oldu."
   ]
 };
