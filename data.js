@@ -106,7 +106,10 @@ window.WC_DATA = {
     "Portekiz": "Portugal demolished Uzbekistan 5-0 in Houston to secure the Round of 32! Ronaldo's brace (6' + 39', both in the first half) made him the first player in history to score in SIX different World Cups at age 41. Nuno Mendes added a free-kick (17'), then Nematov's own goal (60') and Leão's strike (87') completed the rout. Portugal lead Group K with 4 points.",
     "DR Kongo": "DR Congo made a stunning return to the World Cup for the first time since 1974, holding Portugal 1-1 (Wissa 45+5' header). But in match 2, they lost 0-1 to Colombia — goalkeeper Mpasi made 8 saves before Muñoz (76') broke through. On 1 point; must beat Uzbekistan on June 28 to have any qualification hope.",
     "Kolombiya": "Colombia through to the Round of 32 with 6 points from 2 wins! Beat Uzbekistan 3-1 (Muñoz 41', Díaz 65', Campaz 90+') then DR Congo 1-0 (Muñoz 76', Quintero assist). Keeper Mpasi made 8 saves but Muñoz's deflected shot ended his resistance. Muñoz now has 2 WC goals. Final group game vs Portugal on June 28.",
-    "Meksika": "Host nation Mexico topped Group A with a perfect 6 points from two wins — the first team to qualify for the Round of 32. Beat South Africa 2-0 (Quiñones 9', Jiménez 66') and South Korea 1-0 (Romo 50'). Their route: Mexico City (R32) → likely vs Group B 1st or 2nd. Home crowd pressure is a factor but also a massive advantage.",
+    "Güney Afrika": "South Africa made history: they qualified for the knockout stage for the FIRST TIME EVER, finishing 2nd in Group A on 4 points. After losing 2-0 to Mexico and drawing 1-1 with Czechia, Bafana Bafana beat South Korea 1-0 — Thapelo Maseko's 63rd-minute goal sealed it. They face Canada on June 29 in Los Angeles in a historic Round of 32 clash.",
+    "Güney Kore": "South Korea exit on 3 points in 3rd place. They opened with a bright 2-1 win over Czechia but lost 1-0 to Mexico and 1-0 to South Africa — Maseko's 63rd-minute goal the knockout blow. Son Heung-min was reportedly dropped for the final match. Their first World Cup since 2022 ends at the group stage.",
+    "Çekya": "Czech Republic exit with just 1 point — lost 1-2 to South Korea, drew 1-1 with South Africa, then were beaten 3-0 by Mexico in the finale (Chávez 55', Quiñones 61', Fidalgo 90+'). Their first World Cup since 2006 ends at the group stage.",
+    "Meksika": "Host nation Mexico swept through Group A with a perfect record: 3 wins, 9 points, 6 goals scored, 0 conceded — the tournament's only unbeaten group-stage sweep. Beat South Africa 2-0, South Korea 1-0, Czechia 3-0 (Chávez 55', Quiñones 61', Fidalgo 90+'). Quiñones now has 2 WC goals. Round of 32 on July 1 in Mexico City.",
     "Gana": "Ghana won 1-0 against Panama (Yirenkyi 90+5') then held England to a 0-0 draw in Boston, frustrating the Three Lions with a deep defensive shape that forced 27 shots but conceded nothing. Ghana sit joint-top of Group L on 4 points alongside England. One point from the June 28 match vs Croatia should be enough to advance."
   },
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
@@ -308,24 +311,21 @@ window.WC_DATA = {
   facts_en: [
     "First World Cup with 48 teams and 3 host nations (USA, Canada, Mexico). 104 matches in total.",
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
-    "Türkiye eliminated: beaten 2-0 by Australia and 1-0 by Paraguay (Galarza 65 seconds — tournament’s fastest goal). First WC since 2002 ends without a win.",
+    "Türkiye eliminated: beaten 2-0 by Australia and 1-0 by Paraguay (Galarza 65 seconds — tournament's fastest goal). First WC since 2002 ends without a win.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 TSİ).",
-    "12 teams through to the Round of 32: Mexico, Switzerland, Canada, Brazil, Morocco, USA, Germany, France, Norway, Argentina, Portugal, Colombia. Eliminated: Türkiye, Jordan, Panama, Qatar, Haiti.",
-    "Messi 18 WC goals (all-time record). Haaland 5. Mbappé & Vinícius Júnior 4 each. Vinícius scored in all 3 Brazil group games — only the 5th Brazilian to do so. Saibari (Morocco) and Cunha (Brazil) both on 3 goals.",
-    "June 25 at 04:00 TSİ: Group A finale — Czechia vs Mexico, South Africa vs South Korea. June 25 at 23:00 TSİ: Group E finale — Curaçao vs Ivory Coast, Ecuador vs Germany.",
-    "Kerim Alajbegović (Bosnia, 18 years old) became the youngest-ever WC scorer for his country and 8th youngest in WC history with his solo goal vs Qatar (29’)."
+    "13 teams through to the Round of 32: Mexico (9pts, perfect), Switzerland, Canada, Brazil, Morocco, USA, Germany, South Africa, France, Norway, Argentina, Portugal, Colombia. Eliminated: Türkiye, Jordan, Panama, Qatar, Haiti, South Korea, Czechia.",
+    "South Africa qualify for the knockouts for the FIRST TIME EVER (Maseko 63' vs South Korea). Mexico sweep Group A with 9 points, 6 goals, 0 conceded — the tournament's only perfect group record.",
+    "Messi 18 WC goals (all-time record). Haaland 5. Mbappé & Vinícius Júnior 4 each. June 25 at 23:00 TSİ: Group E finale — Germany vs Ecuador, Curaçao vs Ivory Coast.",
+    "Kerim Alajbegović (Bosnia, 18 years old) became the youngest-ever WC scorer for his country and 8th youngest in WC history with his solo goal vs Qatar (29')."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
     "Türkiye elendi: Avustralya (0-2) ve Paraguay'a (0-1) yenildi. Galarza 65. saniyede gol attı — turnuvanın en hızlı golü. 2002'den bu yana ilk DK'da galibiyet çıkaramadı.",
-    "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "Son 32'ye kalan 12 takım: Meksika, İsviçre, Kanada, Brezilya, Fas, ABD, Almanya, Fransa, Norveç, Arjantin, Portekiz, Kolombiya. Elenenler: Türkiye, Ürdün, Panama, Katar, Haiti.",
-    "Messi 18 DK goluyla tüm zamanlar rekorcusu. Haaland 5 gol. Mbappé ve Vinícius Júnior 4'er gol. Vinícius her üç grup maçında gol attı — tarihin 5. Brezilyalısı. Saibari (Fas) ve Cunha (Brezilya) 3'er gol.",
-    "25 Haziran 04:00 TSİ: A Grubu finali — Çekya-Meksika ve G.Afrika-G.Kore. 25 Haziran 23:00 TSİ: E Grubu finali — Curaçao-Fildişi Sahili ve Ekvador-Almanya.",
-    "Kerim Alajbegović (Bosna, 18 yaşında) Katar'a attığı golü ile ülkesinin DK tarihindeki en genç golcüsü ve turnuva tarihinin 8. en genç golcüsü oldu."
-  ]
-};
-sü oldu."
+    "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civası).",
+    "Son 32'ye kalan 13 takım: Meksika (9 puan, mükemmel), İsviçre, Kanada, Brezilya, Fas, ABD, Almanya, Güney Afrika, Fransa, Norveç, Arjantin, Portekiz, Kolombiya. Elenenler: Türkiye, Ürdün, Panama, Katar, Haiti, Güney Kore, Çekya.",
+    "Güney Afrika DK tarihinde ilk kez Son 32'ye kaldı! Maseko (63') G. Kore'yi devirdi. Meksika 9 puan, 6 gol, sıfır yenilen — tek mükemmel grup rekoru.",
+    "Messi 18 DK goluyla tüm zamanlar rekorcusu. Haaland 5 gol. Mbappé ve Vinİcius Júnior 4'er gol. Bu gece 23:00 TSİ: E Grubu finali — Almanya-Ekvador, Curaçao-Fildisi Sahili.",
+    "Kerim Alajbegović (Bosna, 18 yaşında) Katar'a attığı golü ile ülkesinin DK tarihindeki en genç gol cüsü ve turnuva tarihinin 8. en genç gol cüsü oldu."
   ]
 };
