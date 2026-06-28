@@ -5,13 +5,13 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "28 Haziran 2026, 05:08 TSİ",
-  headline_en: "GROUP STAGE ALMOST DONE! England 2-0 Panama (Bellingham 62', Kane 67') tops Group L on 7pts — Kane breaks England's all-time WC scoring record with 11 career goals! Croatia 2-1 Ghana (Sucic 31', Vlasic 83') finishes runners-up. Group K: Colombia 0-0 Portugal — Colombia wins the group unbeaten on 7pts; DR Congo's epic comeback vs Uzbekistan 3-1 (down 0-1 at 67', then Wissa pen 68', Mayele 78', Wissa 90+1') puts them in the R32 for the first time since 1974! Group J (Algeria vs Austria, Jordan vs Argentina) LIVE NOW at 05:00 TSI — 70 of 72 group-stage matches complete.",
-  headline: "GRUP AŞAMASI NEREDEYSE BİTTİ! İngiltere Panama'yı 2-0 geçerek (Bellingham 62', Kane 67') L Grubunu 7 puanla lider kapattı — Kane İngiltere'nin tüm zamanlar DK gol rekorunu kırdı: 11 kariyer golu! Hırvatistan Gana'yı 2-1 yenerek ikinci sıraya yerleşti. K Grubunda Kolombiya Portekiz ile 0-0 berabere kalarak grubu namağlup 7 puanla kapattı; DR Kongo Özbekistan'ı inanılmaz geri dönüşle 3-1 geçerek 1974'ten bu yana ilk kez Son 32'ye kaldı (0-1 gerideyken Wissa penaltı 68', Mayele 78', Wissa 90+1')! J Grubunda Cezayir-Avusturya ve Ürdün-Arjantin şu anda 05:00 TSİ'de oynanıyor. 72 grup maçının 70'i tamamlandı.",
+  lastUpdate: "28 Haziran 2026, 21:08 TSİ",
+  headline_en: "GROUP STAGE DONE — FULL R32 BRACKET CONFIRMED! All 32 teams and matchups set. Best 8 thirds: Paraguay (D) vs Germany | Sweden (F) vs France | Ecuador (E) vs Mexico | DR Congo (K) vs England | Bosnia (B) vs USA | Senegal (I) vs Belgium | Algeria (J) vs Switzerland | Ghana (L) vs Colombia. R32 kicks off June 29 with South Africa vs Canada in LA. Messi (6 goals, 7 straight WC games with a goal — a first in history) leads the Golden Boot ahead of Haaland (5). Türkiye bowed out with a 3-2 win over USA on matchday 3 (Arda Güler 10', Kökcü 31', Kaan Ayhan 90+8').",
+  headline: "GRUP AŞAMASI BİTTİ — TÜM SON 32 EŞLEŞMELERİ KESİNLEŞTİ! 32 takım ve eşleşmelerin tamamı belli. En iyi 8 üçüncü: Paraguay (D)→Almanya | İsveç (F)→Fransa | Ekvador (E)→Meksika | DR Kongo (K)→İngiltere | Bosna (B)→ABD | Senegal (I)→Belçika | Cezayir (J)→İsviçre | Gana (L)→Kolombiya. Son 32 bugün gece Güney Afrika-Kanada ile başlıyor (Los Angeles). Messi 6 gol ve ard arda 7 DK maçında gol (tarihin ilki) ile gol krallığı lideri; Haaland 5. Türkiye, ABD'ye karşı 3-2'lik tarihi galibiyetle (Arda Güler 10', Kökcü 31', Kaan Ayhan 90+8') veda etti.",
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
-    { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 5 },
-    { sira: 1, oyuncu: "Erling Haaland", takim: "Norveç", flag: "🇳🇴", gol: 5 },
+    { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 6 },
+    { sira: 2, oyuncu: "Erling Haaland", takim: "Norveç", flag: "🇳🇴", gol: 5 },
     { sira: 3, oyuncu: "Ousmane Dembélé", takim: "Fransa", flag: "🇫🇷", gol: 4 },
     { sira: 3, oyuncu: "Kylian Mbappé", takim: "Fransa", flag: "🇫🇷", gol: 4 },
     { sira: 3, oyuncu: "Vinícius Júnior", takim: "Brezilya", flag: "🇧🇷", gol: 4 },
@@ -21,8 +21,8 @@ window.WC_DATA = {
     { sira: 6, oyuncu: "Matheus Cunha", takim: "Brezilya", flag: "🇧🇷", gol: 3 },
     { sira: 6, oyuncu: "Brian Brobbey", takim: "Hollanda", flag: "🇳🇱", gol: 3 }
   ],
-  topScorersNote: "70 maç tamamlandı. Messi ve Haaland 5'er golle ortak lider. Dembélé, Mbappé ve Vinícius Júnior 4'er golle 3. sırada. 3 gol kulübüne yeni katılanlar: Kane (İngiltere, Panama'ya 67') ve Wissa (DR Kongo, Özbekistan'a 68' pen + 90+1'). Artık 3 gol sahiplerinin sayısı 9: David, Undav, Saibari, Cunha, Brobbey, Sarr, Just, Kane, Wissa. Kane bu golle İngiltere'nin tüm zamanlar DK gol rekorunu kırdı: 11 kariyer gol (Lineker'i geçti!). Ronaldo 2'de kaldı.",
-  topScorersNote_en: "70 matches played. Messi and Haaland joint top on 5. Dembélé, Mbappé, Vinícius Júnior on 4. New 3-goal club members: Kane (England, 67' vs Panama — also breaks England's all-time WC scoring record with 11 career WC goals, passing Lineker!) and Wissa (DR Congo, pen 68' + 90+1' vs Uzbekistan). Now 9 players tied on 3 goals: David, Undav, Saibari, Cunha, Brobbey, Sarr, Just, Kane, Wissa. Ronaldo remains on 2.",
+  topScorersNote: "72 maç tamamlandı (tüm grup aşaması bitti). Messi bugün Ürdün'e karşı 80. dakikada attığı serbest vuruşla 6. golüne ulaşarak tek başına gol krallığı liderine yerleşti! Haaland 5 golle 2. sırada. Dembélé, Mbappé ve Vinícius Júnior 4'er golle 3. sırada. 3 gol sahipleri (9 oyuncu): David, Undav, Saibari, Cunha, Brobbey, Sarr, Just, Kane, Wissa. Ronaldo 2'de kaldı.",
+  topScorersNote_en: "All 72 group-stage matches complete. Messi scored his 6th WC goal of the tournament (80' free kick vs Jordan as a sub) to lead the Golden Boot race alone. He is also now the first player to score in 7 consecutive World Cup games. Haaland 2nd on 5. Dembélé, Mbappé, Vinícius Júnior joint 3rd on 4. Nine players on 3: David, Undav, Saibari, Cunha, Brobbey, Sarr, Just, Kane, Wissa. Ronaldo remains on 2.",
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
     "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası elenmeyle bitti ama son maçta şampiyona karşı 3-2'lik tarihi galibiyet! Arda Güler (10'), Kökcü (31') ve Kaan Ayhan (90+8') ile ABD'yi devirdi. 3 maç: 1G 0B 2M, 3 puan — Avustralya ve Paraguay'a yenilerek erken elendi, ama grubun liderini son güne saklayarak turnuvayı onurla kapattı.",
@@ -36,11 +36,11 @@ window.WC_DATA = {
     "Almanya": "6 puanla E Grubu birincisi! Curaçao'yu 7-1 ve Fildişi Sahili'ni 2-1 yendikten sonra son maçta Ekvador'a sürpriz 1-2 yenildi — Sané 2. dakikada öne geçse de Angulo (9') eşitledi, Plata'nın 77. dakika golü (Neuer'in hatası) maçı bitirdi. Yine de gol averajıyla (+6) 6 puanlı Fildişi Sahili'nin (+2) önünde birinci olarak E Grubunu tamamladı. 29 Haziran Boston'da Son 32 maçı.",
     "İran": "3 maç 3 beraberlik 3 puan — G Grubu'nda 3. sırayla elendi. Mısır maçında Rezaeian (14') eşitleyerek 1-1'e getirdi; Khalilzadeh'in stopaj süresindeki golü VAR tarafından ofsayt nedeniyle iptal edildi. 3pts ve 0 averajla en iyi 3. takımlar sıralamasında — J, K, L gruplarının sonuçlarına bağlı.",
     "Yeni Zelanda": "1 puanla G Grubu'ndan son sırada elendi. Son maçta Belçika'ya 1-5 yenildi — Just (84') tek golü attı (turnuvada toplam 3 gol); Trossard çifti (28', 50'), De Bruyne (66'), Lukaku (86') ve Saelemaekers (90+4') farkı açtı. Kısa ama etkileyici bir DK macerasının sonu.",
-    "Arjantin": "Son şampiyon Arjantin, 2 maçta 6 puan ve Son 32'de. Cezayir'e 3-0 (Messi hat-trick, 17', 60', 76') ve Avusturya'ya 2-0 (Messi 38' + 90+5'). Messi'nin 18 kariyer DK golü, tüm zamanlar rekorunu kırıyor. 8. dakika penaltısını kaçırdı ama rakibe nefes aldırmadı — tarihî brace. 28 Haziran son maç Ürdün'e karşı.",
-    "İngiltere": "Tuchel yönetimindeki İngiltere, Hırvatistan'ı 4-2 yenerek başladı ardından Gana ile 0-0 berabere kaldı. Kane direkten dönen şutla ve son dakika fırsatını kaçıran performansıyla gol bulamayan İngiltere 4 puanla L Grubu'nda lider. Gana da 4 puana ulaştı — son maçta 28 Haziran Panama karşılaşması grubu bitiriyor.",
-    "Hırvatistan": "İngiltere'ye 2-4 yenilen Hırvatistan, Toronto'da Panama'yı yedek giren Budimir'in 54. dakika kafasıyla 1-0 yenerek canlandı. 3 puanla L Grubu'nda üçüncü sıraya çıktı. 28 Haziran'daki son maçta İngiltere karşısında mutlak galibiyet gerekmekte — puan durumuna göre beraberlik de yeterli olabilir.",
-    "Avusturya": "J Grubu'na Ürdün'ü 3-1 yenerek güçlü başlayan Avusturya, 2. maçta Arjantin'e 0-2 yenildi. Schlager 8. dakika Messi penaltısını kurtarsa da Messi 38' ve 90+5'te çift gol attı. 3 puanla ikinci sırada; 28 Haziran Cezayir maçını kazanırsa Son 32'ye kalır.",
-    "Ürdün": "İlk Dünya Kupası maceraları 2 maç 2 mağlubiyetle sona erdi. Avusturya'ya 1-3 yenildi (Olwan 50' ülkenin DK tarihindeki ilk golü); Cezayir'e de 1-2 mağlup oldu (Al-Rashdan 36' öne geçmişti ama Benbouali 69' ve Gouiri 82' döndürdü). Ürdün elendi.",
+    "Arjantin": "Son şampiyon Arjantin, J Grubunu 3 maç 3 galibiyet 9 puanla namağlup kapattı! Cezayir 3-0 (Messi hat-trick, 17', 60', 76'), Avusturya 2-0 (Messi 38' + 90+5'), Ürdün 3-1 (Lo Celso 19', Lautaro 32' pen, Al-Tamari 55' JOR, Messi 80' yedek). Messi bu turnuvada 6 gol (kariyer DK golü: 19 — tüm zamanlar rekoru) ve ard arda 7 DK maçında gol atan tarihin ilk oyuncusu! 4 Temmuz Miami'de Cape Verde ile Son 32.",
+    "İngiltere": "L Grubunu 7 puanla namağlup lider kapattı! Hırvatistan 4-2, Gana 0-0 berabere, Panama 2-0. Son maçta Bellingham (62') ve Kane (67') gollerle Panama'yı 2-0 geçti — Kane bu golle İngiltere'nin tüm zamanlar DK gol rekorunu kırdı: 11 kariyer golu (Lineker'i geçti!). 29 Haziran Houston'da Brezilya-Japonya kazananıyla (M76 galibi) Son 32.",
+    "Hırvatistan": "L Grubunu 6 puanla ikinci sırada kapattı ve Son 32'de! İngiltere'ye 2-4 yenilip Panama'yı 1-0 yendikten sonra son maçta Gana'yı 2-1 geçti: Sucic (31') uzaktan muhteşem sol ayak; Luckassen (73') Gana'yı eşitledi ama Vlasic (83') Modric'in köşe vuruşundan kafayla tekrar öne geçti. 3 Temmuz Toronto'da Portekiz'le Son 32.",
+    "Avusturya": "Avusturya J Grubunu 4 puanla ikinci sırada kapattı ve 1982'den bu yana ilk kez Son 32'de! Ürdün 3-1, Arjantin 0-2, Cezayir 3-3 (dramatik Kalajdzic 96. dakika kafası). 36 yıllık aradan sonra ilk eleme turu maçı: 2 Temmuz Los Angeles'ta İspanya karşılaşması.",
+    "Ürdün": "İlk Dünya Kupası maceraları 3 maç 3 mağlubiyetle sona erdi: Avusturya 1-3, Cezayir 1-2, Arjantin 1-3 (Al-Tamari 55' gururlu bir gol). Ürdün 3 maçta 3 gol atıp 8 yedi ve 0 puanla elendi. Ülke futbol tarihinin en büyük sahnesinden önemli deneyimler kazandı.",
     "Brezilya": "7 puanla C Grubu birincisi! Fas ile 1-1, Haiti'yi 3-0 yendi ve son maçta İskoçya'yı 3-0 geçti. Vinícius Júnior her üç maçta da gol attı (7' + 45+3' vs İskoçya) — 4 DK golüyle Mbappé ile ortak 3. sıraya yerleşti. Cunha da 3. golünü ekledi. 5 kez dünya şampiyonu Brezilya güçlü görünüyor.",
     "Fransa": "I Grubunu 3 maç 3 galibiyet 9 puanla namağlup kapattı! Norveç'i 4-1 (Dembélé hat-trick 7', 20', 32'; Doué 90+') yenerek Haaland ve Ødegaard'ı bankta bırakan Norveç karşısında görkemli bir performans sergiledi. Mbappé bu turnuvada 4 golle 3. sırada; Dembélé ilk yarı hat-trick'iyle 4 gole ulaşarak ortak 3. oldu. Son 32'de rakip belirsiz (en iyi 3. takım), maç 1 Temmuz New Jersey'de.",
     "İskoçya": "C Grubu'ndan 3 puanla (1 galibiyet, 2 mağlubiyet) elendi. Haiti'yi 1-0 yendi (McGinn 28') ama Fas'a 0-1 ve Brezilya'ya 0-3 yenildi. Brezilya karşısında Vinícius Júnior çift atarken (7', 45+3') İskoçya müdafaası kayboldu. 1990'dan bu yana ilk DK'daki yolculukları grup aşamasında son buldu.",
@@ -58,11 +58,11 @@ window.WC_DATA = {
     "Senegal": "3 maç 1 galibiyet 3 puan — en iyi 3. takım olarak Son 32'ye kalma şansı var! 13. dakikada Sulaka'nın kırmızı kartıyla 10 kişiye düşen Irak'ı 5-0 yendi: Diarra (4'), Sarr (56'), Gueye (59', 71') ve Ndiaye (82'). Sarr bu turnuvada toplam 3 gole ulaştı. 3 puan ve +2 averajla en iyi 3. takımlar sıralamasında güçlü konumda; ancak J, K, L gruplarının sonuçları belirleyici olacak.",
     "Norveç": "I Grubunu 6 puanla 2. sıradan kapattı. Haaland ve Ødegaard'ı yedek bırakarak çıktığı Fransa maçında 1-4 yenildi — Dembélé ilk yarıda hat-trick attı (7', 20', 32'), Aasgaard (23', Schjelderup asisti) tek golü kaydetti, Doué 90+'da 4. golü tamamladı. Yine de 6 puan ve I Grubu 2. sırasıyla Son 32'de! 30 Haziran Arlington'da Fildişi Sahili karşılaşması.",
     "Irak": "3 maç 0 puan — Norveç'e 1-4, Fransa'ya 0-3 yenildi ve Senegal maçında Sulaka'nın 13. dakika kırmızı kartıyla 10 kişi kalarak 0-5 mağlup oldu. Gruptan 1 gol atıp 12 yiyerek son sıradan elendi.",
-    "Cezayir": "Arjantin'e 0-3 yenildikten (Messi hat-trick) sonra diriliş: Ürdün'ü Santa Clara'da 2-1 yendi. Al-Rashdan 36'da öne geçmişti; yedek Benbouali Mahrez köşesinden kafayla eşitledi (69'), Gouiri serbest toptan kazandırdı (82'). 3 puanla J Grubunda Avusturya ile eşit ama gol averajıyla (-2) 3. sırada. 28 Haziran'da Avusturya maçı Son 32 belirleyici.",
-    "Portekiz": "Özbekistan'ı Houston'da 5-0 ezerek Son 32'ye kaldı! Ronaldo (6' + 39') ve Nuno Mendes (17' serbest vuruş) ilk yarıda 3-0 yaptı; ikinci yarıda Nematov kendi kalesine (60') ve Leão (87') maçı kapattı. Ronaldo bu turnuvada 2 gol kaydederek 6 farklı Dünya Kupasında gol atan tarihin ilk oyuncusu oldu (41 yaşında). 4 puanla K Grubu liderliği sürüyor.",
-    "DR Kongo": "1974'ten bu yana ilk Dünya Kupasında K Grubunu çarpıcı açtılar: Houston'da favori Portekiz'i 1-1'e tuttular (Wissa 45+5' kafa). Ancak 2. maçta Kolombiya'ya 0-1 yenildi (Muñoz 76') — kaleci Mpasi 8 kurtarış yapmasına rağmen tutamadı. 1 puanla Son 32 şansı zayıf; 28 Haziran Özbekistan maçında galibiyet şart.",
-    "Kolombiya": "K Grubunda 2 maç 2 galibiyet, 6 puan — Son 32'ye kaldı! Özbekistan'ı 3-1 (Muñoz 41', Díaz 65', Campaz 90+') ardından DR Kongo'yu 1-0 yendi (Muñoz 76', Quintero asist). Kaleci Mpasi 8 kurtarış yaptı ama tutamadı. Muñoz turnuvada 2 gole ulaştı. 28 Haziran son maç Portekiz'e karşı.",
-    "Gana": "Panama'yı 1-0 yenerek (Yirenkyi 90+5') başlayan Gana, Boston'da İngiltere ile 0-0 berabere kaldı — derinlerde savunma yaparak İngiltere'ye büyük fırsatları kaçırttı. 4 puanla İngiltere ile birlikte L Grubu'nun zirvesinde. 28 Haziran son maçta Hırvatistan'a karşı 1 puan yeterli olabilir.",
+    "Cezayir": "J Grubunu 4 puanla 3. sırada kapattı ve en iyi 3. takımlar sıralamasıyla Son 32'ye kaldı! Arjantin'e 0-3, Ürdün'ü 2-1 yendikten sonra Avusturya ile 3-3 berabere kaldı: Mahrez çifti (60', 90+3') öne geçirdi ama Kalajdzic 96'da eşitledi. 5 gol, -2 averajla 3. sıradan ilerliyor. Rakip belli olunca Son 32 tarihi netleşecek.",
+    "Portekiz": "K Grubunu 5 puanla ikinci sırada kapattı — Son 32'de! Özbekistan'ı 5-0 ezerek (Ronaldo çifti, Mendes, KG, Leão) ve DR Kongo ile 1-1'den sonra son maçta Kolombiya ile 0-0 kaldı. Ronaldo 2 golle bu turnuvayı 6 farklı DK'da gol atan tarihin ilk oyuncusu olarak bitirdi. 3 Temmuz Toronto'da Son 32 (Hırvatistan karşılaşması).",
+    "DR Kongo": "İnanılmaz dönüş! K Grubunu 4 puanla üçüncü sırada bitirerek Son 32'ye kaldı — 1974'ten bu yana ilk eleme turu! Portekiz'le 1-1, Kolombiya'ya 0-1 yenildikten sonra Son 32 için yalnızca galibiyet şarttı: Özbekistan maçında 0-1 gerideyken Wissa (68' penaltı), Mayele (78') ve Wissa (90+1') ile 3-1 döndürdü. Tarihi gece!",
+    "Kolombiya": "K Grubunu 7 puanla namağlup lider kapattı! Özbekistan 3-1, DR Kongo 1-0 ve son maçta Portekiz ile 0-0 berabere kaldı — beraberlik zaten yeterliydi, grup birinciliği garantilendi. Muñoz turnuvada 2 gol. 4 Temmuz Kansas City'de Son 32 (en iyi 3. gruplar belirlenince rakip netleşecek).",
+    "Gana": "Son 32'ye son anlarda kaçırılan Gana elendi. Panama'yı 1-0 (Yirenkyi 90+5'), İngiltere'yi 0-0 tuttu ama son maçta Hırvatistan'a 1-2 yenildi: Luckassen (73') eşitleyen golü attı ama Vlasic (83') Modric köşesinden geçici zaferi yaşattı. 4 puanla L Grubu 3. sırasında kaldı — en iyi 3. yarışında Hırvatistan'a yenilerek son anlarda çıkamadı.",
     "Güney Afrika": "Dünya Kupası tarihinin en büyük başarısı: 3 maçta 4 puanla A Grubu ikincisi — DK'da ilk kez Son 32'ye kaldılar! Meksika'ya 0-2 yenilip Çekya ile 1-1 berabere kaldıktan sonra G. Kore'yi Maseko'nun 63. dakika golüyle 1-0 yendi. 29 Haziran Los Angeles'ta Kanada'ya karşı tarihi eşleşme.",
     "Güney Kore": "Son 32 hayalleri son anlarda yıkıldı. Çekya'yı 2-1 yenerek güçlü başladılar ama Meksika'ya 0-1 ve G. Afrika'ya 0-1 yenildi. Maseko'nun 63. dakika golü Güney Kore'yi gruptan eleydi; Son Heung-min son maçtan çıkarıldı. 3 puanla 3. sıradan elendiler.",
     "Çekya": "İlk Dünya Kupası deneyimleri hayal kırıklığıyla bitti. G. Kore'ye 1-2 yenildi, G. Afrika ile 1-1 berabere kaldı ve son maçta Meksika'ya 0-3 ezildi. 2006'dan bu yana ilk DK'larında grup aşamasından geçemediler.",
@@ -80,11 +80,11 @@ window.WC_DATA = {
     "Almanya": "Group E winners on 6 points despite a shock final-day defeat! Crushed Curaçao 7-1 and beat Ivory Coast 2-1, then lost 1-2 to Ecuador — Sané (2') put Germany ahead but Angulo (9') equalised and Plata's 77th-minute winner (after Neuer spilled a corner) sealed the upset. Germany still top Group E by superior goal difference (+6 vs Ivory Coast's +2). Round of 32 on June 29 in Boston.",
     "İran": "Iran exit Group G in 3rd on 3 points (3 draws). Against Egypt, Rezaeian (14') cancelled Saber's (5') opener; Khalilzadeh's stoppage-time goal looked to seal a famous win but was overturned by VAR for offside. Iran finish on 3pts, GD 0 — their best-3rd qualification hopes depend on Groups J, K, L results.",
     "Yeni Zelanda": "New Zealand exit Group G bottom on 1 point. The final match vs Belgium ended 1-5 — Just (84') scored their only goal (3 WC goals in total, a fine individual tournament) but Trossard (28', 50'), De Bruyne (66'), Lukaku (86') and Saelemaekers (90+4') were unstoppable. Brave debut but eliminated at the group stage.",
-    "Arjantin": "Defending champions Argentina through to the Round of 32 with 6 points (2 wins). Messi's hat-trick (17', 60', 76') demolished Algeria 3-0 in game 1. Against Austria, Messi missed an 8th-minute penalty but scored in the 38th (Medina assist — 17th WC goal, record-breaking) and again in the 90+5th minute (dribbled through defenders — 18th WC goal, extending the record) for a 2-0 win. Messi is the all-time World Cup scoring leader with 18 goals. Final group game vs Jordan on June 28.",
-    "İngiltere": "England beat Croatia 4-2 on matchday 1 then were held 0-0 by Ghana on matchday 2 in Boston. Despite 27 shots, England couldn't break through Ghana's disciplined defensive block — O'Reilly hit the post and Kane squandered a late chance. England still top Group L on 4 points alongside Ghana. Final group game vs Panama on June 28.",
-    "Hırvatistan": "After losing 2-4 to England on matchday 1, Croatia bounced back with a 1-0 win over Panama in Toronto — substitute Ante Budimir tapped home a Stanišić cross at the far post in the 54th minute. Croatia move to 3 points and into third. They need to beat England on June 28 to advance (or hope for help from Ghana vs Panama).",
-    "Avusturya": "Austria beat Jordan 3-1 on matchday 1 (first WC win in 36 years). On matchday 2 vs Argentina, Schlager heroically saved Messi's 8th-minute penalty, but Messi scored twice (38' and 90+5') for a 2-0 defeat. Austria sit 2nd in Group J on 3 points — a win vs Algeria on June 28 secures the Round of 32.",
-    "Ürdün": "Jordan's first-ever World Cup campaign ended with two defeats. Lost 1-3 to Austria (Olwan 50' — Jordan's first-ever WC goal) then 1-2 to Algeria: Al-Rashdan (36') gave them a stunning lead but Benbouali (69') and Gouiri (82') completed Algeria's comeback. Jordan are eliminated.",
+    "Arjantin": "Argentina swept Group J with a perfect record: 3W, 9pts. Algeria 3-0 (Messi hat-trick 17', 60', 76'), Austria 2-0 (Messi 38' & 90+5'), Jordan 3-1 (Lo Celso 19', Lautaro pen 32', Al-Tamari 55' for Jordan, Messi 80' as a sub). Messi now has 6 goals in this tournament (19 career WC goals — all-time record extended) and is the FIRST player to score in 7 consecutive World Cup games. Round of 32 on July 4 in Miami vs Cape Verde.",
+    "İngiltere": "England top Group L on 7 points — perfect group stage record! Beat Croatia 4-2, drew 0-0 with Ghana, then defeated Panama 2-0 with Bellingham (62') and Kane (67'). Kane's Panama goal was historic: it made him England's all-time World Cup top scorer with 11 career WC goals, surpassing Gary Lineker's record of 10. Round of 32 on June 29 in Houston vs the winner of Brazil vs Japan.",
+    "Hırvatistan": "Croatia through to the Round of 32 as Group L runners-up on 6 points! After losing 2-4 to England then beating Panama 1-0, they clinched second with a 2-1 win over Ghana: Sucic (31') scored from distance with a daisy-cutter; Luckassen (73') volleyed Ghana level but Vlasic (83') headed in Modric's corner to seal it. Round of 32 on July 3 in Toronto vs Portugal.",
+    "Avusturya": "Austria through as Group J runners-up on 4 points — back in the knockout rounds for the first time since 1982! Beat Jordan 3-1 (matchday 1), lost 0-2 to Argentina (matchday 2), drew 3-3 with Algeria in a breathtaking finale — Kalajdzic's 96th-minute header cancelled Mahrez's 90+3' goal and sent both sides through. Round of 32 on July 2 in Los Angeles vs Spain.",
+    "Ürdün": "Jordan's first-ever World Cup campaign ended with three defeats: 1-3 vs Austria (Olwan 50' — Jordan's first-ever WC goal), 1-2 vs Algeria, and 1-3 vs Argentina (Al-Tamari 55' a proud consolation). Eliminated bottom of Group J with 0 points. A historic debut that will inspire Jordanian football for years to come.",
     "Brezilya": "Brazil top Group C on 7 points! Drew 1-1 with Morocco, beat Haiti 3-0, then thrashed Scotland 3-0. Vinícius Júnior scored in all three group games (7' + 45+3' vs Scotland) — only the 5th Brazilian to do so, joining Jairzinho (1970), Romario (1994), Ronaldo/Rivaldo (2002). He now has 4 WC goals in this tournament. Cunha (60') also on 3 goals. Brazil look like genuine title contenders.",
     "Fransa": "France top Group I with a perfect record: 3 wins, 9 points, 10 goals scored, 2 conceded. Dembélé's stunning first-half hat-trick (7', 20', 32') — all set up by Mbappé — dismantled Norway despite Haaland and Ødegaard starting on the bench. Aasgaard's consolation (23') was all Norway could manage; Doué added a 4th in stoppage time. France now face the best 3rd-placed team from groups C/D/F/G/H on July 1 in New Jersey.",
     "İskoçya": "Scotland exit Group C on 3 points (1W 2L). Beat Haiti 1-0 (McGinn 28') — first WC win since 1990 — but lost 0-1 to Morocco and 0-3 to Brazil. Against Brazil, Vinícius Júnior scored twice and Scotland's defence was overrun. Their first World Cup since 1998 ends at the group stage.",
@@ -102,15 +102,15 @@ window.WC_DATA = {
     "Senegal": "Senegal beat Iraq 5-0 (down to 10 men from 13' after Sulaka's red card for denying Mané a clear goal) to finish Group I 3rd on 3 points with +2 goal difference — one of the best third-placed candidates. Scorers: Diarra (4'), Sarr (56'), Gueye (59', 71'), Ndiaye (82'). Sarr now has 3 WC goals in the tournament. Still alive pending Group J, K, L results.",
     "Norveç": "Norway through to the Round of 32 as Group I runners-up on 6 points. Rested Haaland and Ødegaard for the must-win France showdown and paid the price — lost 1-4 as Dembélé's hat-trick (7', 20', 32') overwhelmed them. Aasgaard (23', Schjelderup assist) scored their only goal; Doué added a 4th in stoppage time. Despite the defeat, 6 points secured 2nd place. Face Ivory Coast on June 30 in Arlington.",
     "Irak": "Iraq exit Group I bottom with 0 points — lost all 3 matches (1-4 Norway, 0-3 France, 0-5 Senegal). Sulaka's 13th-minute red card vs Senegal (denying Mané a clear chance) left them with 10 men for 77 minutes; Diarra, Sarr, Gueye (×2) and Ndiaye piled on. 1 goal scored, 12 conceded across the group stage.",
-    "Cezayir": "After the 0-3 hammering by Argentina (Messi hat-trick), Algeria bounced back with a 2-1 win over Jordan in Santa Clara. Al-Rashdan (36') gave Jordan an early lead but substitute Benbouali headed in a Mahrez corner (69') and Gouiri poked home the winner (82'). Algeria sit 3rd in Group J on 3 points, level with Austria but behind on goal difference (-2). The June 28 clash with Austria decides who joins Argentina in the Round of 32.",
-    "Portekiz": "Portugal demolished Uzbekistan 5-0 in Houston to secure the Round of 32! Ronaldo's brace (6' + 39', both in the first half) made him the first player in history to score in SIX different World Cups at age 41. Nuno Mendes added a free-kick (17'), then Nematov's own goal (60') and Leão's strike (87') completed the rout. Portugal lead Group K with 4 points.",
-    "DR Kongo": "DR Congo made a stunning return to the World Cup for the first time since 1974, holding Portugal 1-1 (Wissa 45+5' header). But in match 2, they lost 0-1 to Colombia — goalkeeper Mpasi made 8 saves before Muñoz (76') broke through. On 1 point; must beat Uzbekistan on June 28 to have any qualification hope.",
-    "Kolombiya": "Colombia through to the Round of 32 with 6 points from 2 wins! Beat Uzbekistan 3-1 (Muñoz 41', Díaz 65', Campaz 90+') then DR Congo 1-0 (Muñoz 76', Quintero assist). Keeper Mpasi made 8 saves but Muñoz's deflected shot ended his resistance. Muñoz now has 2 WC goals. Final group game vs Portugal on June 28.",
+    "Cezayir": "Algeria through as Group J's third-placed team on 4 points (GD -2), qualifying as one of the best third-placed sides! Lost 0-3 to Argentina, beat Jordan 2-1, then drew 3-3 with Austria in a classic — Mahrez's brace (60', 90+3') gave Algeria a late lead only for Kalajdzic to equalise at 96'. Both teams advance. Algeria's Round of 32 opponent TBD as the best-third assignment is determined.",
+    "Portekiz": "Portugal through as Group K runners-up on 5 points. Demolished Uzbekistan 5-0 (Ronaldo brace — first to score in 6 WCs), drew 1-1 with DR Congo, then were held 0-0 by Colombia in the final. Ronaldo ends the group stage with 2 goals in this tournament. Round of 32 on July 3 in Toronto vs Croatia.",
+    "DR Kongo": "Incredible comeback story — DR Congo in the Round of 32 for the first time since 1974! After a 1-1 draw with Portugal (Wissa 45+5') and a 0-1 loss to Colombia, they needed a win vs Uzbekistan. Trailed 0-1 to Shomurodov (10') until Wissa's penalty (68') levelled it, Mayele (78') gave them the lead, and Wissa sealed it in the 90+1st minute: 3-1. Historic night for the Leopards.",
+    "Kolombiya": "Colombia top Group K unbeaten on 7 points! Uzbekistan 3-1, DR Congo 1-0, Portugal 0-0 — the draw was all they needed to secure first place. Muñoz ends the group stage with 2 goals. Round of 32 on July 4 in Kansas City vs a best third-placed team (TBD).",
     "Güney Afrika": "South Africa made history: they qualified for the knockout stage for the FIRST TIME EVER, finishing 2nd in Group A on 4 points. After losing 2-0 to Mexico and drawing 1-1 with Czechia, Bafana Bafana beat South Korea 1-0 — Thapelo Maseko's 63rd-minute goal sealed it. They face Canada on June 29 in Los Angeles in a historic Round of 32 clash.",
     "Güney Kore": "South Korea exit on 3 points in 3rd place. They opened with a bright 2-1 win over Czechia but lost 1-0 to Mexico and 1-0 to South Africa — Maseko's 63rd-minute goal the knockout blow. Son Heung-min was reportedly dropped for the final match. Their first World Cup since 2022 ends at the group stage.",
     "Çekya": "Czech Republic exit with just 1 point — lost 1-2 to South Korea, drew 1-1 with South Africa, then were beaten 3-0 by Mexico in the finale (Chávez 55', Quiñones 61', Fidalgo 90+'). Their first World Cup since 2006 ends at the group stage.",
     "Meksika": "Host nation Mexico swept through Group A with a perfect record: 3 wins, 9 points, 6 goals scored, 0 conceded — the tournament's only unbeaten group-stage sweep. Beat South Africa 2-0, South Korea 1-0, Czechia 3-0 (Chávez 55', Quiñones 61', Fidalgo 90+'). Quiñones now has 2 WC goals. Round of 32 on July 1 in Mexico City.",
-    "Gana": "Ghana won 1-0 against Panama (Yirenkyi 90+5') then held England to a 0-0 draw in Boston, frustrating the Three Lions with a deep defensive shape that forced 27 shots but conceded nothing. Ghana sit joint-top of Group L on 4 points alongside England. One point from the June 28 match vs Croatia should be enough to advance."
+    "Gana": "Ghana eliminated in third place with 4 points. Brilliant start: beat Panama 1-0 (Yirenkyi 90+5') and held England 0-0 with a disciplined low block. But on matchday 3 they fell 1-2 to Croatia — Luckassen (73') volleyed an equaliser from Nuamah's free-kick to make it 1-1, only for Vlasic (83') to head in Modric's corner and break Ghanaian hearts. A strong tournament but the knockout stage just out of reach."
   },
   // ---------------- TÜM GRUP MAÇLARI (72 maç) ----------------
   // skor: null = oynanmadı. Oynanınca "2 - 0" formatında yazılır, "not" alanına golcüler eklenebilir.
@@ -181,12 +181,12 @@ window.WC_DATA = {
     { iso: "2026-06-27", saat: "03:00", grup: "H", ev: "Uruguay", dep: "İspanya", yer: "Guadalajara", skor: "0 - 1", not: "Goller: Baena (42' - İspanya). İspanya tek golle Uruguay'ı devirdi ve H Grubu birincisi olarak Son 32'ye kaldı. Uruguay elendi." },
     { iso: "2026-06-27", saat: "06:00", grup: "G", ev: "Yeni Zelanda", dep: "Belçika", yer: "Vancouver", skor: "1 - 5", not: "Goller: Trossard (28' - Belçika), Trossard (50' - Belçika), Just (84' - Yeni Zelanda), De Bruyne (66' - Belçika), Lukaku (86' - Belçika), Saelemaekers (90+4' - Belçika). Belçika 5-1'lik galibiyetle G Grubu birincisi oldu; De Bruyne ve Lukaku turnuvadaki ilk gollerini attı." },
     { iso: "2026-06-27", saat: "06:00", grup: "G", ev: "Mısır", dep: "İran", yer: "Seattle", skor: "1 - 1", not: "Goller: Mahmoud Saber (5' - Mısır), Rezaeian (14' - İran). İran'ın stopaj süresindeki Khalilzadeh golü VAR tarafından ofsayt nedeniyle iptal edildi — dramatik son! Mısır 1-1 beraberliğiyle G Grubu 2. sırası garantilendi." },
-    { iso: "2026-06-28", saat: "00:00", grup: "L", ev: "Panama", dep: "İngiltere", yer: "New Jersey", skor: null },
-    { iso: "2026-06-28", saat: "00:00", grup: "L", ev: "Hırvatistan", dep: "Gana", yer: "Philadelphia", skor: null },
-    { iso: "2026-06-28", saat: "02:30", grup: "K", ev: "Kolombiya", dep: "Portekiz", yer: "Miami", skor: null },
-    { iso: "2026-06-28", saat: "02:30", grup: "K", ev: "DR Kongo", dep: "Özbekistan", yer: "Atlanta", skor: null },
-    { iso: "2026-06-28", saat: "05:00", grup: "J", ev: "Cezayir", dep: "Avusturya", yer: "Kansas City", skor: null },
-    { iso: "2026-06-28", saat: "05:00", grup: "J", ev: "Ürdün", dep: "Arjantin", yer: "Arlington", skor: null }
+    { iso: "2026-06-28", saat: "00:00", grup: "L", ev: "Panama", dep: "İngiltere", yer: "New Jersey", skor: "0 - 2", not: "Goller: Bellingham (62'), Kane (67') - İngiltere. Kane İngiltere'nin tüm zamanlar DK gol rekorunu kırdı: 11 kariyer gol, Lineker'i geçti!" },
+    { iso: "2026-06-28", saat: "00:00", grup: "L", ev: "Hırvatistan", dep: "Gana", yer: "Philadelphia", skor: "2 - 1", not: "Goller: Sucic (31', uzaktan sol ayak - Hırvatistan), Luckassen (73', Nuamah serbest vuruş asisti - Gana), Vlasic (83', Modric köşe asisti kafa - Hırvatistan). Hırvatistan 6 puanla L Grubu ikincisi." },
+    { iso: "2026-06-28", saat: "02:30", grup: "K", ev: "Kolombiya", dep: "Portekiz", yer: "Miami", skor: "0 - 0", not: "Gol yok — beraberlik Kolombiya'ya K Grubu birinciliğini garantiledi (7 puan, 3 maç namağlup). Portekiz 5 puanla ikinci olarak Son 32'ye kaldı." },
+    { iso: "2026-06-28", saat: "02:30", grup: "K", ev: "DR Kongo", dep: "Özbekistan", yer: "Atlanta", skor: "3 - 1", not: "Goller: Shomurodov (10' - Özbekistan), Wissa (68' penaltı - DR Kongo), Mayele (78' - DR Kongo), Wissa (90+1' - DR Kongo). 0-1 gerideyken inanılmaz geri dönüş — DR Kongo 1974'ten bu yana ilk Son 32'ye kaldı!" },
+    { iso: "2026-06-28", saat: "05:00", grup: "J", ev: "Cezayir", dep: "Avusturya", yer: "Kansas City", skor: "3 - 3", not: "Goller: Arnautovic (28' - Avusturya), Belghali (41' - Cezayir), Sabitzer (55' - Avusturya), Mahrez (60', Aouar asisti - Cezayir), Mahrez (90+3' - Cezayir), Kalajdzic (96', kafa - Avusturya). İnanılmaz son: Mahrez 90+3'te Cezayir'i öne geçirdi ama Kalajdzic 96. dakikada kafayla eşitledi — her iki takım Son 32'ye kaldı, İran elendi! 1982'deki 'Gijón Utancı'nın intikamı alındı: bu kez beraberlik ikisini de ileriye taşıdı." },
+    { iso: "2026-06-28", saat: "05:00", grup: "J", ev: "Ürdün", dep: "Arjantin", yer: "Arlington", skor: "1 - 3", not: "Goller: Lo Celso (19', serbest vuruş - Arjantin), Lautaro Martínez (32' penaltı - Arjantin), Al-Tamari (55', Haddad asisti - Ürdün), Messi (80', serbest vuruş, yedek - Arjantin). Messi'nin 6. turne golü; ard arda 7 DK maçında gol atan tarihin ilk oyuncusu. Arjantin J Grubunu 9 puanla namağlup kapattı. Ürdün elendi." }
   ],
   // ---------------- GRUPLAR VE PUAN DURUMU ----------------
   groups: {
@@ -245,42 +245,42 @@ window.WC_DATA = {
       { takim: "Irak", flag: "🇮🇶", o: 3, g: 0, b: 0, m: 3, a: 1, y: 12, p: 0 }
     ],
     "J": [
-      { takim: "Arjantin", flag: "🇦🇷", o: 2, g: 2, b: 0, m: 0, a: 5, y: 0, p: 6 },
-      { takim: "Avusturya", flag: "🇦🇹", o: 2, g: 1, b: 0, m: 1, a: 3, y: 3, p: 3 },
-      { takim: "Cezayir", flag: "🇩🇿", o: 2, g: 1, b: 0, m: 1, a: 2, y: 4, p: 3 },
-      { takim: "Ürdün", flag: "🇯🇴", o: 2, g: 0, b: 0, m: 2, a: 2, y: 5, p: 0 }
+      { takim: "Arjantin", flag: "🇦🇷", o: 3, g: 3, b: 0, m: 0, a: 8, y: 1, p: 9 },
+      { takim: "Avusturya", flag: "🇦🇹", o: 3, g: 1, b: 1, m: 1, a: 6, y: 6, p: 4 },
+      { takim: "Cezayir", flag: "🇩🇿", o: 3, g: 1, b: 1, m: 1, a: 5, y: 7, p: 4 },
+      { takim: "Ürdün", flag: "🇯🇴", o: 3, g: 0, b: 0, m: 3, a: 3, y: 8, p: 0 }
     ],
     "K": [
-      { takim: "Kolombiya", flag: "🇨🇴", o: 2, g: 2, b: 0, m: 0, a: 4, y: 1, p: 6 },
-      { takim: "Portekiz", flag: "🇵🇹", o: 2, g: 1, b: 1, m: 0, a: 6, y: 1, p: 4 },
-      { takim: "DR Kongo", flag: "🇨🇩", o: 2, g: 0, b: 1, m: 1, a: 1, y: 2, p: 1 },
-      { takim: "Özbekistan", flag: "🇺🇿", o: 2, g: 0, b: 0, m: 2, a: 1, y: 8, p: 0 }
+      { takim: "Kolombiya", flag: "🇨🇴", o: 3, g: 2, b: 1, m: 0, a: 4, y: 1, p: 7 },
+      { takim: "Portekiz", flag: "🇵🇹", o: 3, g: 1, b: 2, m: 0, a: 6, y: 1, p: 5 },
+      { takim: "DR Kongo", flag: "🇨🇩", o: 3, g: 1, b: 1, m: 1, a: 4, y: 3, p: 4 },
+      { takim: "Özbekistan", flag: "🇺🇿", o: 3, g: 0, b: 0, m: 3, a: 2, y: 11, p: 0 }
     ],
     "L": [
-      { takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", o: 2, g: 1, b: 1, m: 0, a: 4, y: 2, p: 4 },
-      { takim: "Gana", flag: "🇬🇭", o: 2, g: 1, b: 1, m: 0, a: 1, y: 0, p: 4 },
-      { takim: "Hırvatistan", flag: "🇭🇷", o: 2, g: 1, b: 0, m: 1, a: 3, y: 4, p: 3 },
-      { takim: "Panama", flag: "🇵🇦", o: 2, g: 0, b: 0, m: 2, a: 0, y: 2, p: 0 }
+      { takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", o: 3, g: 2, b: 1, m: 0, a: 6, y: 2, p: 7 },
+      { takim: "Hırvatistan", flag: "🇭🇷", o: 3, g: 2, b: 0, m: 1, a: 5, y: 5, p: 6 },
+      { takim: "Gana", flag: "🇬🇭", o: 3, g: 1, b: 1, m: 1, a: 2, y: 2, p: 4 },
+      { takim: "Panama", flag: "🇵🇦", o: 3, g: 0, b: 0, m: 3, a: 0, y: 4, p: 0 }
     ]
   },
   // ---------------- ELEME AĞACI ----------------
   bracket: {
     r32: [
       { id: 73, ev: "Güney Afrika", dep: "Kanada", tarih: "29 Haz 03:00", yer: "Los Angeles" },
-      { id: 74, ev: "Almanya", dep: "3. (A/B/C/D/F)", tarih: "29 Haz 23:30", yer: "Boston" },
+      { id: 74, ev: "Almanya", dep: "Paraguay", tarih: "29 Haz 23:30", yer: "Boston" },
       { id: 75, ev: "Hollanda", dep: "Fas", tarih: "30 Haz 04:00", yer: "Monterrey" },
       { id: 76, ev: "Brezilya", dep: "Japonya", tarih: "29 Haz 20:00", yer: "Houston" },
-      { id: 77, ev: "Fransa", dep: "3. (C/D/F/G/H)", tarih: "1 Tem 00:00", yer: "New Jersey" },
+      { id: 77, ev: "Fransa", dep: "İsveç", tarih: "1 Tem 00:00", yer: "New Jersey" },
       { id: 78, ev: "Fildişi Sahili", dep: "Norveç", tarih: "30 Haz 20:00", yer: "Arlington" },
-      { id: 79, ev: "Meksika", dep: "3. (C/E/F/H/I)", tarih: "1 Tem 04:00", yer: "Mexico City" },
-      { id: 80, ev: "L 1.si", dep: "3. (E/H/I/J/K)", tarih: "1 Tem 19:00", yer: "Atlanta" },
-      { id: 81, ev: "ABD", dep: "3. (B/E/F/I/J)", tarih: "2 Tem 03:00", yer: "Santa Clara", tur: true },
-      { id: 82, ev: "Belçika", dep: "3. (A/E/H/I/J)", tarih: "1 Tem 23:00", yer: "Seattle" },
-      { id: 83, ev: "K 2.si", dep: "L 2.si", tarih: "3 Tem 02:00", yer: "Toronto" },
-      { id: 84, ev: "İspanya", dep: "J 2.si", tarih: "2 Tem 22:00", yer: "Los Angeles" },
-      { id: 85, ev: "İsviçre", dep: "3. (E/F/G/I/J)", tarih: "3 Tem 06:00", yer: "Vancouver" },
-      { id: 86, ev: "J 1.si", dep: "Cape Verde", tarih: "4 Tem 01:00", yer: "Miami" },
-      { id: 87, ev: "K 1.si", dep: "3. (D/E/I/J/L)", tarih: "4 Tem 04:30", yer: "Kansas City" },
+      { id: 79, ev: "Meksika", dep: "Ekvador", tarih: "1 Tem 04:00", yer: "Mexico City" },
+      { id: 80, ev: "İngiltere", dep: "DR Kongo", tarih: "1 Tem 19:00", yer: "Atlanta" },
+      { id: 81, ev: "ABD", dep: "Bosna Hersek", tarih: "2 Tem 03:00", yer: "Santa Clara", tur: true },
+      { id: 82, ev: "Belçika", dep: "Senegal", tarih: "1 Tem 23:00", yer: "Seattle" },
+      { id: 83, ev: "Portekiz", dep: "Hırvatistan", tarih: "3 Tem 02:00", yer: "Toronto" },
+      { id: 84, ev: "İspanya", dep: "Avusturya", tarih: "2 Tem 22:00", yer: "Los Angeles" },
+      { id: 85, ev: "İsviçre", dep: "Cezayir", tarih: "3 Tem 06:00", yer: "Vancouver" },
+      { id: 86, ev: "Arjantin", dep: "Cape Verde", tarih: "4 Tem 01:00", yer: "Miami" },
+      { id: 87, ev: "Kolombiya", dep: "Gana", tarih: "4 Tem 04:30", yer: "Kansas City" },
       { id: 88, ev: "Avustralya", dep: "Mısır", tarih: "2 Tem 21:00", yer: "Arlington", tur: true }
     ],
     r16: [
@@ -304,26 +304,26 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "Round of 32 confirmed (21 teams): Mexico (A), Switzerland (B), Canada (B), Brazil (C), Morocco (C), USA (D), Australia (D), Germany (E), Ivory Coast (E), Netherlands (F), Japan (F), South Africa (A), Belgium (G, 5pts), Egypt (G, 5pts), Spain (H, 7pts), Cape Verde (H, 3pts), France (I, 9pts), Norway (I, 6pts), Argentina (J), Portugal (K), Colombia (K). ELIMINATED: Türkiye, Jordan, Panama, Qatar, Haiti, South Korea, Czechia, Curaçao, Tunisia, New Zealand, Saudi Arabia, Uruguay, Iraq. Best-third candidates (from completed groups): Ecuador (E, 4pts, GD 0), Sweden (F, 4pts, GD 0), Bosnia (B, 4pts, GD -1), Paraguay (D, 4pts, GD -2), Senegal (I, 3pts, GD +2), Iran (G, 3pts, GD 0). Groups J, K, L finales on June 28.",
-    note: "Son 32'ye kalanlar (21 takım teyitli): Meksika (A), İsviçre (B), Kanada (B), Brezilya (C), Fas (C), ABD (D), Avustralya (D), Almanya (E), Fildişi Sahili (E), Hollanda (F), Japonya (F), Güney Afrika (A), Belçika (G, 5 puan), Mısır (G, 5 puan), İspanya (H, 7 puan), Cape Verde (H, 3 puan), Fransa (I, 9 puan), Norveç (I, 6 puan), Arjantin (J), Portekiz (K), Kolombiya (K). ELİNENLER: Türkiye, Ürdün, Panama, Katar, Haiti, Güney Kore, Çekya, Curaçao, Tunus, Yeni Zelanda, S. Arabistan, Uruguay, Irak. En iyi 3. adaylar (tamamlanan gruplardan): Ekvador (E, 4 puan, averaj 0), İsveç (F, 4 puan, averaj 0), Bosna (B, 4 puan, averaj -1), Paraguay (D, 4 puan, averaj -2), Senegal (I, 3 puan, averaj +2), İran (G, 3 puan, averaj 0). J, K, L grup finalleri 28 Haziran'da."
+    note_en: "ALL 32 R32 MATCHUPS CONFIRMED! Group winners: Mexico (A), Switzerland (B), Brazil (C), USA (D), Germany (E), Netherlands (F), Belgium (G), Spain (H), France (I), Argentina (J), Colombia (K), England (L). Runners-up: S. Africa (A), Canada (B), Morocco (C), Australia (D), Ivory Coast (E), Japan (F), Egypt (G), Cape Verde (H), Norway (I), Austria (J), Portugal (K), Croatia (L). Best 8 thirds and their opponents: Paraguay (D)→Germany | Sweden (F)→France | Ecuador (E)→Mexico | DR Congo (K)→England | Bosnia (B)→USA | Senegal (I)→Belgium | Algeria (J)→Switzerland | Ghana (L)→Colombia. ELIMINATED: Türkiye, Jordan, Panama, Qatar, Haiti, South Korea, Czechia, Curaçao, Tunisia, New Zealand, Saudi Arabia, Uruguay, Iraq, Uzbekistan, Iran.",
+    note: "TÜM SON 32 EŞLEŞMELERİ KESİNLEŞTİ! Grup birincileri: Meksika (A), İsviçre (B), Brezilya (C), ABD (D), Almanya (E), Hollanda (F), Belçika (G), İspanya (H), Fransa (I), Arjantin (J), Kolombiya (K), İngiltere (L). İkinciler: G. Afrika (A), Kanada (B), Fas (C), Avustralya (D), Fildişi Sahili (E), Japonya (F), Mısır (G), Cape Verde (H), Norveç (I), Avusturya (J), Portekiz (K), Hırvatistan (L). En iyi 8 üçüncü ve rakipleri: Paraguay (D)→Almanya | İsveç (F)→Fransa | Ekvador (E)→Meksika | DR Kongo (K)→İngiltere | Bosna (B)→ABD | Senegal (I)→Belçika | Cezayir (J)→İsviçre | Gana (L)→Kolombiya. ELİNENLER: Türkiye, Ürdün, Panama, Katar, Haiti, Güney Kore, Çekya, Curaçao, Tunus, Yeni Zelanda, S. Arabistan, Uruguay, Irak, Özbekistan, İran."
   },
   // ---------------- BİLGİ KUTUSU -----------
   facts_en: [
     "First World Cup with 48 teams and 3 host nations (USA, Canada, Mexico). 104 matches in total.",
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
-    "21 teams confirmed in the Round of 32. New additions from matchday 3: Belgium (G, 5pts), Egypt (G, 5pts), Spain (H, 7pts), Cape Verde (H, 3pts — FIRST-EVER WC, already in the Round of 32!), France (I, 9pts — perfect record), Norway (I, 6pts). Eliminated (13 so far): Türkiye, Jordan, Panama, Qatar, Haiti, South Korea, Czechia, Curaçao, Tunisia, New Zealand, Saudi Arabia, Uruguay, Iraq.",
-    "DEMBÉLÉ masterclass: first-half hat-trick (7', 20', 32') powered France past Norway 4-1 — Haaland and Ødegaard on the bench. Senegal beat 10-man Iraq 5-0. Belgium 5-1 NZ (Trossard brace, De Bruyne + Lukaku finally score). Spain 1-0 Uruguay (Baena 42'). Iran's late goal vs Egypt overturned by VAR.",
+    "All 72 group-stage matches complete! All 32 R32 matchups confirmed. Best 8 thirds: Paraguay (D)→Germany, Sweden (F)→France, Ecuador (E)→Mexico, DR Congo (K)→England, Bosnia (B)→USA, Senegal (I)→Belgium, Algeria (J)→Switzerland, Ghana (L)→Colombia. R32 kicks off June 29.",
+    "MESSI scores in 7 consecutive WC games — first player EVER to do so! 6 tournament goals (80' free kick as sub vs Jordan), 19 career WC goals. Algeria 3-3 Austria: Mahrez 90+3' then Kalajdzic 96' — both advance, Iran out.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 TSI).",
-    "Messi 5 WC goals (18 career WC goals, all-time record). Haaland 5. Dembélé 4 (hat-trick vs Norway). Mbappé and Vinícius Júnior 4 each.",
-    "South Africa in the Round of 32 for the FIRST TIME EVER. Cape Verde in the Round of 32 in their FIRST-EVER World Cup. Mexico perfect in Group A (9pts, 6 goals, 0 conceded)."
+    "Messi 6 WC goals (sole leader). Haaland 5. Dembélé, Mbappé, Vinícius Júnior 4 each. 9 players on 3 goals.",
+    "South Africa in the Round of 32 for the FIRST TIME EVER. Cape Verde in the R32 in their FIRST-EVER World Cup. Austria back in the WC knockouts for first time since 1982."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
-    "21 takım Son 32'ye kaldı. Yeni eklenenler: Belçika (G, 5 puan), Mısır (G, 5 puan), İspanya (H, 7 puan), Cape Verde (H, 3 puan — İLK DK'sında Son 32!), Fransa (I, 9 puan — namağlup), Norveç (I, 6 puan). Elenenler (13 takım): Türkiye, Ürdün, Panama, Katar, Haiti, Güney Kore, Çekya, Curaçao, Tunus, Yeni Zelanda, S. Arabistan, Uruguay, Irak.",
-    "DEMBÉLÉ şovu: ilk yarıda hat-trick (7', 20', 32') ile Fransa Norveç'i 4-1 devirdi — Haaland ve Ødegaard yedek başladı. Senegal 10 kişilik Irak'ı 5-0 yendi. Belçika NZ'yi 5-1 ezdi. İspanya Uruguay'ı 1-0 geçti (Baena 42'). İran'ın Mısır'a karşı son dakika golu VAR ile iptal.",
+    "72 grup maçı tamamlandı! Tüm Son 32 eşleşmeleri kesinleşti. En iyi 8 üçüncü: Paraguay (D)→Almanya, İsveç (F)→Fransa, Ekvador (E)→Meksika, DR Kongo (K)→İngiltere, Bosna (B)→ABD, Senegal (I)→Belçika, Cezayir (J)→İsviçre, Gana (L)→Kolombiya. Son 32 bugün başlıyor.",
+    "MESSİ, ard arda 7 DK maçında gol atan tarihin ilk oyuncusu oldu! 6 turne golü (Ürdün'e 80. dk serbest vuruş, yedek) ve 19 kariyer DK golüyle tüm zamanlar rekorcusu. Cezayir-Avusturya 3-3'te bitti: Mahrez 90+3' → Kalajdzic 96' — her ikisi de geçti, İran elendi.",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "Messi 5 gol (18 kariyer DK golüyle tüm zamanlar rekorcusu). Haaland 5 gol. Dembélé 4 gol (hat-trick sonrası). Mbappé ve Vinícius Júnior 4er gol.",
-    "Güney Afrika DK tarihinde ilk kez Son 32'de. Cape Verde İLK DK'sında Son 32'de! Meksika A Grubunu 9 puanla mükemmel kapattı: 6 gol, sıfır yenilen."
+    "Messi 6 gol (tek lider). Haaland 5. Dembélé, Mbappé ve Vinícius Júnior 4'er gol. 9 oyuncu 3'er gol.",
+    "Güney Afrika DK tarihinde ilk kez Son 32'de. Cape Verde İLK DK'sında Son 32'de! Avusturya 1982'den bu yana ilk kez DK eleme turunda."
   ]
 };
