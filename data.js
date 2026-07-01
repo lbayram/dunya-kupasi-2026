@@ -5,24 +5,24 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "30 Haziran 2026, 23:06 TSİ",
-  headline_en: "HAALAND EQUALS MESSI! Norway beat Ivory Coast 2-1 (Nusa 39', Diallo 74', Haaland 86') — Haaland now on 6 goals, LEVEL with Messi at the top! Norway advance to R16 vs Brazil (July 5, NJ). 5 of 16 R32 matches done. TONIGHT: France vs Sweden (01:00 TSI), Mexico vs Ecuador (04:00 TSI).",
-  headline: "HAALAND MESSİ'Yİ YAKALADI! Norveç, Fildişi Sahili'ni 2-1 geçerek Son 16'ya kaldı (Nusa 39', Diallo 74', Haaland 86'). Haaland 6 golle Messi ile gol krallığında eşit! Norveç'in Son 16 rakibi: Brezilya (5 Tem, NJ). 16'dan 5 maç bitti. BUGÜN GECESİ: Fransa-İsveç (01:00 TSİ), Meksika-Ekvador (04:00 TSİ).",
+  lastUpdate: "1 Temmuz 2026, 05:08 TSİ",
+  headline_en: "TRIPLE TIE AT THE TOP! Mbappé scores twice vs Sweden (3-0, goals 45' & 74') to reach 6 WC goals — now LEVEL with Messi AND Haaland! France in R16 vs Paraguay (5 Jul, Philadelphia). Mexico vs Ecuador delayed ~2 hrs by thunderstorms in Mexico City — match still ongoing. 6 of 16 R32 done.",
+  headline: "ÜÇLÜ EŞİTLİK! Mbappé, İsveç karşısında 2 gol atarak (3-0, 45' ve 74') 6 gole ulaştı — Messi VE Haaland ile eşitledi! Fransa Son 16'da Paraguay ile (5 Tem, Philadelphia). Meksika-Ekvador yıldırım fırtınası nedeniyle Mexico City'de ~2 saat gecikmeli başladı — maç sürmekte. Son 32'de 16 maçın 6'sı bitti.",
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 6 },
     { sira: 1, oyuncu: "Erling Haaland", takim: "Norveç", flag: "🇳🇴", gol: 6 },
-    { sira: 3, oyuncu: "Ousmane Dembélé", takim: "Fransa", flag: "🇫🇷", gol: 4 },
-    { sira: 3, oyuncu: "Kylian Mbappé", takim: "Fransa", flag: "🇫🇷", gol: 4 },
-    { sira: 3, oyuncu: "Vinícius Júnior", takim: "Brezilya", flag: "🇧🇷", gol: 4 },
+    { sira: 1, oyuncu: "Kylian Mbappé", takim: "Fransa", flag: "🇫🇷", gol: 6 },
+    { sira: 4, oyuncu: "Ousmane Dembélé", takim: "Fransa", flag: "🇫🇷", gol: 4 },
+    { sira: 4, oyuncu: "Vinícius Júnior", takim: "Brezilya", flag: "🇧🇷", gol: 4 },
     { sira: 6, oyuncu: "Jonathan David", takim: "Kanada", flag: "🇨🇦", gol: 3 },
     { sira: 6, oyuncu: "Deniz Undav", takim: "Almanya", flag: "🇩🇪", gol: 3 },
     { sira: 6, oyuncu: "Ismael Saibari", takim: "Fas", flag: "🇲🇦", gol: 3 },
     { sira: 6, oyuncu: "Matheus Cunha", takim: "Brezilya", flag: "🇧🇷", gol: 3 },
     { sira: 6, oyuncu: "Brian Brobbey", takim: "Hollanda", flag: "🇳🇱", gol: 3 }
   ],
-  topScorersNote: "Son 32 (5 maç): Haaland 86. dakika golüyle 6'ya ulaşarak Messi ile eşitledi! İkisi de 1. sırada. Dembélé, Mbappé ve Vinícius Júnior 4'er golle 3. sırada. 3 gol sahipleri (11 oyuncu): David, Undav, Saibari, Cunha, Brobbey, Sarr, Just, Kane, Wissa + Gakpo (Hollanda, R32'de attı) + Havertz (Almanya, R32'de attı). Casemiro ve Martinelli (Brezilya) birer golle sıralamada değil. Ronaldo 2'de.",
-  topScorersNote_en: "R32 (5 matches done): HAALAND LEVELS MESSI! Haaland's 86' winner vs Ivory Coast takes him to 6 goals — tied with Messi at the top! Dembélé, Mbappé, Vinícius Júnior joint 3rd on 4. Eleven players on 3: David, Undav, Saibari, Cunha, Brobbey, Sarr, Just, Kane, Wissa + Gakpo (R32) + Havertz (R32). Casemiro and Martinelli (Brazil) each on 1. Ronaldo on 2.",
+  topScorersNote: "Son 32 (6 maç): Mbappé İsveç'e 2 gol atarak (45', 74') 6'ya ulaştı — Messi ve Haaland ile TARİHİ ÜÇLÜ EŞİTLİK! Dembélé ve Vinícius Júnior 4'er golle 4. sırada. 3 gol sahipleri: David, Undav, Saibari, Cunha, Brobbey, Sarr, Just, Kane, Wissa + Gakpo + Havertz. Ronaldo 2'de.",
+  topScorersNote_en: "R32 (6 matches done): TRIPLE TIE AT THE TOP! Mbappé's brace vs Sweden (45', 74') takes him to 6 goals — joined by Messi and Haaland! Dembélé and Vinícius Júnior joint 4th on 4. Eleven players on 3: David, Undav, Saibari, Cunha, Brobbey, Sarr, Just, Kane, Wissa + Gakpo (R32) + Havertz (R32). Ronaldo on 2.",
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
     "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası elenmeyle bitti ama son maçta şampiyona karşı 3-2'lik tarihi galibiyet! Arda Güler (10'), Kökcü (31') ve Kaan Ayhan (90+8') ile ABD'yi devirdi. 3 maç: 1G 0B 2M, 3 puan — Avustralya ve Paraguay'a yenilerek erken elendi, ama grubun liderini son güne saklayarak turnuvayı onurla kapattı.",
@@ -43,7 +43,7 @@ window.WC_DATA = {
     "Avusturya": "Avusturya J Grubunu 4 puanla ikinci sırada kapattı ve 1982'den bu yana ilk kez Son 32'de! Ürdün 3-1, Arjantin 0-2, Cezayir 3-3 (dramatik Kalajdzic 96. dakika kafası). 36 yıllık aradan sonra ilk eleme turu maçı: 2 Temmuz Los Angeles'ta İspanya karşılaşması.",
     "Ürdün": "İlk Dünya Kupası maceraları 3 maç 3 mağlubiyetle sona erdi: Avusturya 1-3, Cezayir 1-2, Arjantin 1-3 (Al-Tamari 55' gururlu bir gol). Ürdün 3 maçta 3 gol atıp 8 yedi ve 0 puanla elendi. Ülke futbol tarihinin en büyük sahnesinden önemli deneyimler kazandı.",
     "Brezilya": "Son 16'ya kaldı! Son 32'de Japonya'ya karşı şok yaşadı: Sano'nun 29. dakika golüyle 1-0 geride girdi ve 90+5'e kadar geriydi. Casemiro (56', Gabriel asisti, kafa) eşitledi, Martinelli (90+5', Guimarães asisti) tarihi galibiyeti getirdi — 2-1! Grup: 7 puanla C Grubu birincisi, Fas ile 1-1, Haiti'yi 3-0, İskoçya'yı 3-0 yendi. Son 16'da M78 galibiyle (Fildişi Sahili veya Norveç).",
-    "Fransa": "I Grubunu 3 maç 3 galibiyet 9 puanla namağlup kapattı! Norveç'i 4-1 (Dembélé hat-trick 7', 20', 32'; Doué 90+') yenerek Haaland ve Ødegaard'ı bankta bırakan Norveç karşısında görkemli bir performans sergiledi. Mbappé bu turnuvada 4 golle 3. sırada; Dembélé ilk yarı hat-trick'iyle 4 gole ulaşarak ortak 3. oldu. Son 32'de rakip belirsiz (en iyi 3. takım), maç 1 Temmuz New Jersey'de.",
+    "Fransa": "SON 32'Yİ GEÇEN İLK GÜÇLÜ FAVORİ! İsveç'i 3-0 geçerek Son 16'ya kaldı (Mbappé 45', Barcola 53', Mbappé 74'). Mbappé 6. golüyle Messi ve Haaland ile gol krallığında tarihi üçlü eşitliğe ulaştı! Son 16'da Paraguay ile 5 Temmuz Philadelphia'da karşılaşacak. Grup: I Grubunu 9 puanla namağlup kapattı, Dembélé Norveç'e hat-trick (4-1). Deschamps annesinin cenazesini kaçırıp İsveç maçında yeniden görevde.",
     "İskoçya": "C Grubu'ndan 3 puanla (1 galibiyet, 2 mağlubiyet) elendi. Haiti'yi 1-0 yendi (McGinn 28') ama Fas'a 0-1 ve Brezilya'ya 0-3 yenildi. Brezilya karşısında Vinícius Júnior çift atarken (7', 45+3') İskoçya müdafaası kayboldu. 1990'dan bu yana ilk DK'daki yolculukları grup aşamasında son buldu.",
     "Fas": "Son 16'ya kaldı! Son 32'de Hollanda'yı penaltılarda 3-2 eledi. 90. dakikada Gakpo (72') öne geçen golü Diop'un 90+1'deki kafa golüyle eşitledi — sonra muhteşem penaltı mücadelesi: Bounou, Summerville'i kurtardı; Saibari belirleyici golü attı. 3-2 Fas! Grup: 7 puanla C Grubu ikincisi (Brezilya ile eşit, averajla geride), Saibari 3 grupta da gol attı. Son 16'da Kanada ile karşılaşacak.",
     "Hollanda": "ELENDİ — Fas'a penaltılarda 2-3 yenildi. Son 32'de Gakpo (72') öne geçirdi ama Diop'un 90+1'deki kafa golü maçı eşitledi, uzatma 1-1. Penaltılarda El Aynaoui direkten döndü ama Kluivert de direğe vurdu; sonunda Bounou, Summerville'in şutunu kurtardı ve Saibari bitirdi. Gakpo turnuvada 3 gole ulaştı (2 vs İsveç + 1 vs Fas). Grup: 7 puanla F Grubu birincisi, İsveç'i 5-1 ezdi, Tunus'u 3-1 yendi.",
@@ -88,7 +88,7 @@ window.WC_DATA = {
     "Avusturya": "Austria through as Group J runners-up on 4 points — back in the knockout rounds for the first time since 1982! Beat Jordan 3-1 (matchday 1), lost 0-2 to Argentina (matchday 2), drew 3-3 with Algeria in a breathtaking finale — Kalajdzic's 96th-minute header cancelled Mahrez's 90+3' goal and sent both sides through. Round of 32 on July 2 in Los Angeles vs Spain.",
     "Ürdün": "Jordan's first-ever World Cup campaign ended with three defeats: 1-3 vs Austria (Olwan 50' — Jordan's first-ever WC goal), 1-2 vs Algeria, and 1-3 vs Argentina (Al-Tamari 55' a proud consolation). Eliminated bottom of Group J with 0 points. A historic debut that will inspire Jordanian football for years to come.",
     "Brezilya": "Brazil through to the Round of 16 after a dramatic 2-1 win over Japan! Sano (29') put Japan ahead and Brazil trailed until the 56th minute when Casemiro (Gabriel assist, header) levelled. The game looked heading to extra time before Martinelli (90+5', Guimarães assist) fired home to seal a gutsy comeback. Group stage: 7 points, Group C winners. In the Round of 16 they face the winner of Ivory Coast vs Norway.",
-    "Fransa": "France top Group I with a perfect record: 3 wins, 9 points, 10 goals scored, 2 conceded. Dembélé's stunning first-half hat-trick (7', 20', 32') — all set up by Mbappé — dismantled Norway despite Haaland and Ødegaard starting on the bench. Aasgaard's consolation (23') was all Norway could manage; Doué added a 4th in stoppage time. France now face the best 3rd-placed team from groups C/D/F/G/H on July 1 in New Jersey.",
+    "Fransa": "R32 DONE — France cruise to the Round of 16 with a dominant 3-0 win over Sweden (MetLife Stadium). Mbappé scored twice (45', Dembélé assist; 74', Olise assist) and Barcola added a second-half goal (53', Olise assist). Mbappé now has 6 WC goals — a HISTORIC THREE-WAY TIE with Messi and Haaland for the Golden Boot! France face Paraguay on July 5 in Philadelphia. Group stage: perfect Group I record (3W, 9pts, 10 goals) — Dembélé's hat-trick vs Norway was the highlight. Deschamps returned to the touchline after missing that game to attend his mother's funeral.",
     "İskoçya": "Scotland exit Group C on 3 points (1W 2L). Beat Haiti 1-0 (McGinn 28') — first WC win since 1990 — but lost 0-1 to Morocco and 0-3 to Brazil. Against Brazil, Vinícius Júnior scored twice and Scotland's defence was overrun. Their first World Cup since 1998 ends at the group stage.",
     "Fas": "Morocco through to the Round of 16 after knocking out the Netherlands on penalties! Gakpo (72') gave the Dutch the lead but Issa Diop's dramatic 90+1' header levelled it. In extra time (1-1) Morocco edged the shootout 3-2 — goalkeeper Bounou was the hero, saving Summerville's penalty. Saibari then stepped up and converted the decisive kick. Group stage: 7 pts, Group C runners-up (drew Brazil 1-1, beat Scotland 1-0, Haiti 4-2). Next: Canada in the Round of 16.",
     "Hollanda": "ELIMINATED — knocked out by Morocco on penalties (1-1 aet, 2-3 pens). Gakpo (72') gave the Dutch the lead against the Atlas Lions, but Issa Diop's 90+1' header levelled it in heartbreaking fashion. In the shootout El Aynaoui (Morocco) hit the bar and Hakimi hit the post, but the Netherlands missed through Kluivert (post) and Summerville (saved by Bounou), with Saibari converting the winner for Morocco 3-2. Gakpo ends with 3 WC goals (joint 6th). Group stage: 7 pts, Group F winners.",
@@ -194,7 +194,7 @@ window.WC_DATA = {
     { iso: "2026-06-29", saat: "23:30", grup: "Son 32", ev: "Almanya", dep: "Paraguay", yer: "Boston", skor: "1 - 1 (3-4 p)", not: "Goller: Enciso (42', kafa - Paraguay), Havertz (54', Wirtz asisti, kafa - Almanya). Uzatmada Tah'ın golü VAR tarafından iptal edildi. Penaltılar (3-4): Almanya'dan Havertz, Woltemade ve Tah kaçırdı; Paraguay'dan Canale belirleyici golü attı — tarihin en büyük sürprizlerinden biri!" },
     { iso: "2026-06-30", saat: "04:00", grup: "Son 32", ev: "Hollanda", dep: "Fas", yer: "Monterrey", skor: "1 - 1 (2-3 p)", not: "Goller: Gakpo (72' - Hollanda), Diop (90+1', kafa - Fas). Uzatma 1-1 bitti. Penaltılar (2-3): Bounou Summerville'i kurtardı; El Aynaoui direkten döndü, Hakimi direkten vurdu ama Fas yine de kazandı — Saibari belirleyici golü attı. Fas Son 16'ya!" },
     { iso: "2026-06-30", saat: "20:00", grup: "Son 32", ev: "Fildişi Sahili", dep: "Norveç", yer: "Arlington", skor: "1 - 2", not: "Goller: Nusa (39', Ødegaard asisti - Norveç), Diallo (74', yedek - Fildişi Sahili), Haaland (86', Berg asisti - Norveç). Haaland 6. DK golüne ulaşarak Messi ile eşitledi! Norveç Son 16'ya kaldı: 5 Temmuz Brezilya karşılaşması." },
-    { iso: "2026-07-01", saat: "00:00", grup: "Son 32", ev: "Fransa", dep: "İsveç", yer: "New Jersey", skor: null, not: null },
+    { iso: "2026-07-01", saat: "00:00", grup: "Son 32", ev: "Fransa", dep: "İsveç", yer: "New Jersey", skor: "3 - 0", not: "Goller: Mbappé (45', Dembélé asisti), Barcola (53', Olise asisti), Mbappé (74', Olise asisti). Mbappé 6. golüyle Messi ve Haaland ile ÜÇLÜ GOL KRALLIĞI EŞİTLİĞİ!" },
     { iso: "2026-07-01", saat: "04:00", grup: "Son 32", ev: "Meksika", dep: "Ekvador", yer: "Mexico City", skor: null, not: null },
     { iso: "2026-07-01", saat: "19:00", grup: "Son 32", ev: "İngiltere", dep: "DR Kongo", yer: "Atlanta", skor: null, not: null },
     { iso: "2026-07-01", saat: "23:00", grup: "Son 32", ev: "Belçika", dep: "Senegal", yer: "Seattle", skor: null, not: null },
@@ -288,7 +288,7 @@ window.WC_DATA = {
       { id: 74, ev: "Almanya", dep: "Paraguay", tarih: "29 Haz 23:30", yer: "Boston", skor: "1-1 (3-4 p)" },
       { id: 75, ev: "Hollanda", dep: "Fas", tarih: "30 Haz 04:00", yer: "Monterrey", skor: "1-1 (2-3 p)" },
       { id: 76, ev: "Brezilya", dep: "Japonya", tarih: "29 Haz 20:00", yer: "Houston", skor: "2-1" },
-      { id: 77, ev: "Fransa", dep: "İsveç", tarih: "1 Tem 00:00", yer: "New Jersey" },
+      { id: 77, ev: "Fransa", dep: "İsveç", tarih: "1 Tem 00:00", yer: "New Jersey", skor: "3-0" },
       { id: 78, ev: "Fildişi Sahili", dep: "Norveç", tarih: "30 Haz 20:00", yer: "Arlington", skor: "1-2" },
       { id: 79, ev: "Meksika", dep: "Ekvador", tarih: "1 Tem 04:00", yer: "Mexico City" },
       { id: 80, ev: "İngiltere", dep: "DR Kongo", tarih: "1 Tem 19:00", yer: "Atlanta" },
@@ -302,7 +302,7 @@ window.WC_DATA = {
       { id: 88, ev: "Avustralya", dep: "Mısır", tarih: "2 Tem 21:00", yer: "Arlington", tur: true }
     ],
     r16: [
-      { id: 89, ev: "Paraguay", dep: "M77 galibi", tarih: "5 Tem 00:00", yer: "Philadelphia" },
+      { id: 89, ev: "Paraguay", dep: "Fransa", tarih: "5 Tem 00:00", yer: "Philadelphia" },
       { id: 90, ev: "Kanada", dep: "Fas", tarih: "4 Tem 20:00", yer: "Houston" },
       { id: 91, ev: "Brezilya", dep: "Norveç", tarih: "5 Tem 23:00", yer: "New Jersey" },
       { id: 92, ev: "M79 galibi", dep: "M80 galibi", tarih: "6 Tem 03:00", yer: "Mexico City" },
@@ -322,26 +322,26 @@ window.WC_DATA = {
       { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "R32: 5 of 16 done. Kanada 1-0 G.Afrika | Brezilya 2-1 Japonya | ŞOK: Paraguay 4-3p Almanya | Fas 3-2p Hollanda | Norveç 2-1 Fildişi Sahili (Haaland 86'!). TONIGHT: Fransa-İsveç (01:00 TSI), Meksika-Ekvador (04:00 TSI). July 1: İngiltere-DR Kongo (19:00), Belçika-Senegal (23:00). July 2: ABD-Bosna (03:00), Avustralya-Mısır (21:00), İspanya-Avusturya (22:00). July 3: Portekiz-Hırvatistan (02:00), İsviçre-Cezayir (06:00). July 4: Arjantin-Cape Verde (01:00), Kolombiya-Gana (04:30). R16 confirmed: Kanada vs Fas (4 Tem Houston), Brezilya vs Norveç (5 Tem NJ), Paraguay vs FRA/SWE winner (5 Tem Philadelphia).",
-    note: "SON 32: 16'dan 5 maç bitti. Kanada 1-0 G.Afrika | Brezilya 2-1 Japonya | ŞOK: Paraguay 4-3p Almanya | Fas 3-2p Hollanda | Norveç 2-1 Fildişi Sahili (Haaland 86'!). BU GECE: Fransa-İsveç (01:00 TSİ), Meksika-Ekvador (04:00 TSİ). 1 Tem: İngiltere-DR Kongo (19:00), Belçika-Senegal (23:00). 2 Tem: ABD-Bosna (03:00), Avustralya-Mısır (21:00), İspanya-Avusturya (22:00). 3 Tem: Portekiz-Hırvatistan (02:00), İsviçre-Cezayir (06:00). 4 Tem: Arjantin-Cape Verde (01:00), Kolombiya-Gana (04:30). SON 16 KESİNLEŞENLER: Kanada-Fas (4 Tem Houston), Brezilya-Norveç (5 Tem NJ), Paraguay-FRA/SWE galibi (5 Tem Philadelphia)."
+    note_en: "R32: 6 of 16 done. Canada 1-0 S.Africa | Brazil 2-1 Japan | SHOCK: Paraguay 4-3p Germany | Morocco 3-2p Netherlands | Norway 2-1 Ivory Coast (Haaland 86'!) | FRANCE 3-0 Sweden (Mbappé 45' & 74'). Mexico vs Ecuador: delayed by thunderstorms, still ongoing. July 1: England vs DR Congo (19:00), Belgium vs Senegal (23:00). July 2: USA vs Bosnia (03:00), Australia vs Egypt (21:00), Spain vs Austria (22:00). July 3: Portugal vs Croatia (02:00), Switzerland vs Algeria (06:00). July 4: Argentina vs Cape Verde (01:00), Colombia vs Ghana (04:30). R16 confirmed: Canada vs Morocco (4 Jul Houston), Brazil vs Norway (5 Jul NJ), Paraguay vs France (5 Jul Philadelphia).",
+    note: "SON 32: 16'dan 6 maç bitti. Kanada 1-0 G.Afrika | Brezilya 2-1 Japonya | ŞOK: Paraguay 4-3p Almanya | Fas 3-2p Hollanda | Norveç 2-1 Fildişi Sahili (Haaland 86'!) | FRANSA 3-0 İsveç (Mbappé 45' ve 74'). Meksika-Ekvador: yıldırım fırtınası nedeniyle gecikmeli — maç sürüyor. 1 Tem: İngiltere-DR Kongo (19:00), Belçika-Senegal (23:00). 2 Tem: ABD-Bosna (03:00), Avustralya-Mısır (21:00), İspanya-Avusturya (22:00). 3 Tem: Portekiz-Hırvatistan (02:00), İsviçre-Cezayir (06:00). 4 Tem: Arjantin-Cape Verde (01:00), Kolombiya-Gana (04:30). SON 16 KESİNLEŞENLER: Kanada-Fas (4 Tem Houston), Brezilya-Norveç (5 Tem NJ), Paraguay-Fransa (5 Tem Philadelphia)."
   },
   // ---------------- BİLGİ KUTUSU -----------
   facts_en: [
     "First World Cup with 48 teams and 3 host nations (USA, Canada, Mexico). 104 matches in total.",
     "Top 2 of each group + the 8 best third-placed teams advance to the Round of 32.",
-    "R32 SHOCKS: Paraguay 4-3p Germany & Morocco 3-2p Netherlands — two huge upsets! Brazil survived 2-1 vs Japan (Martinelli 90+5\'). Canada through 1-0 vs South Africa (Eustaquio 90+2\'). Norway beat Ivory Coast 2-1 (Haaland 86\').",
-    "GOLDEN BOOT RACE: Messi & Haaland both on 6 goals — TIED! Messi scored in 7 consecutive WC games (first ever). Germany eliminated on penalties for the FIRST TIME in their history.",
+    "R32 SHOCKS: Paraguay 4-3p Germany & Morocco 3-2p Netherlands — two huge upsets! Brazil survived 2-1 vs Japan (Martinelli 90+5\'). Canada through 1-0 vs South Africa (Eustaquio 90+2\'). Norway beat Ivory Coast 2-1 (Haaland 86\'). France 3-0 Sweden (Mbappé 45\' & 74\').",
+    "GOLDEN BOOT RACE: Messi, Haaland AND Mbappé ALL on 6 goals — HISTORIC THREE-WAY TIE! Messi scored in 7 consecutive WC games (first ever). Germany eliminated on penalties for the FIRST TIME in their history.",
     "The final is on July 19 at MetLife Stadium, New Jersey (around 22:00 TSI).",
-    "Messi & Haaland both on 6 WC goals — TIED for the Golden Boot! Dembélé, Mbappé, Vinícius Júnior 4 each. 11 players on 3 goals (incl. Gakpo and Havertz after R32).",
+    "Messi, Haaland & Mbappé ALL on 6 WC goals — HISTORIC THREE-WAY TIE for the Golden Boot! Dembélé & Vinícius Júnior on 4 each. 11 players on 3 goals (incl. Gakpo and Havertz after R32).",
     "Cape Verde in the R32 in their FIRST-EVER World Cup. Canada reach the R16 for the FIRST TIME EVER. Morocco through to R16 again — Atlas Lions are a threat."
   ],
   facts: [
     "İlk kez 48 takım ve 3 ev sahibi ülke (ABD, Kanada, Meksika). Toplam 104 maç.",
     "Her gruptan ilk 2 takım + en iyi 8 üçüncü, Son 32 turuna kalıyor.",
-    "SON 32 ŞOKLARI: Paraguay Almanya'yı penaltılarda 4-3 yendi, Fas Hollanda'yı 3-2 eledi! Brezilya Japonya'yı son nefeste 2-1 geçti (Martinelli 90+5'). Kanada 1-0 G. Afrika. Norveç Fildişi Sahili'ni 2-1 geçti (Haaland 86').",
-    "GOL KRALLIĞI YANIŞIYOR: Messi ve Haaland ikisi de 6 golde EŞİT! Messi ard arda 7 DK maçında gol atan tarihin ilk oyuncusu, 19 kariyer DK golüyle tüm zamanlar rekorcusu. Almanya DK tarihinde ilk kez penaltı serisini kaybetti!",
+    "SON 32 ŞOKLARI: Paraguay Almanya'yı penaltılarda 4-3 yendi, Fas Hollanda'yı 3-2 eledi! Brezilya Japonya'yı son nefeste 2-1 geçti. Kanada 1-0 G. Afrika. Norveç 2-1 Fildişi Sahili (Haaland 86'). Fransa İsveç'i 3-0 geçti (Mbappé 45' ve 74').",
+    "GOL KRALLIĞI KIZIŞIYOR: Messi, Haaland VE Mbappé — ÜÇÜ DE 6 GOLDE TARİHİ EŞİTLİK! Mbappé İsveç'e çift atan son isim oldu. Messi ard arda 7 DK maçında gol atan tarihin ilk oyuncusu. Almanya DK tarihinde ilk kez penaltı serisini kaybetti!",
     "Final 19 Temmuz'da New Jersey MetLife Stadyumu'nda (TSİ 22:00 civarı).",
-    "Messi ve Haaland her ikisi de 6 golde EŞİT — gol krallığı kızıştı! Dembélé, Mbappé ve Vinícius Júnior 4'er gol. 11 oyuncu 3'er gol (Gakpo ve Havertz Son 32'de ekledi).",
+    "Messi, Haaland ve Mbappé ÜÇÜ DE 6 GOLDE — TARİHİ ÜÇLÜ EŞİTLİK! Dembélé ve Vinícius Júnior 4'er gol. 11 oyuncu 3'er gol (Gakpo ve Havertz Son 32'de ekledi).",
     "Cape Verde İLK DK'sında Son 32'de. Kanada DK tarihinde ilk kez Son 16'ya kaldı! Fas tekrar Son 16'da — Atlas Aslanları favori aday."
   ]
 };
