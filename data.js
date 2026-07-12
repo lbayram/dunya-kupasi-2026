@@ -5,24 +5,24 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "12 Temmuz 2026, 01:18 TSİ",
-  headline_en: "SEMIFINALS SET: France & Spain confirmed! France 2-0 Morocco (Mbappé 60', Dembélé 66') and Spain 2-1 Belgium (Ruiz 30', Merino 88') are through. FRANCE vs SPAIN: July 14 Arlington. QF3 IN PROGRESS: Norway vs England (Miami, started 00:00 TSI) — match live! QF4: Argentina vs Switzerland, July 12 04:00 TSI Kansas City (not started). GOLDEN BOOT: Mbappé LEADS with 8 goals (ahead of Messi on assists)! Messi 8. Haaland 7. Kane 6. Dembélé 5.",
-  headline: "YARI FİNALLER BELLİ OLDU: Fransa ve İspanya geçti! Fransa 2-0 Fas (Mbappé 60', Dembélé 66') ve İspanya 2-1 Belçika (Ruiz 30', Merino 88'). FRANSA-İSPANYA: 14 Temmuz Arlington. ÇF3 DEVAM EDİYOR: Norveç-İngiltere (Miami, 00:00 TSİ başladı) — maç sürüyor! ÇF4: Arjantin-İsviçre, 12 Tem 04:00 TSİ Kansas City (başlamadı). GOL KRALLIGI: Mbappé 8 golle LİDER (Messi ile eşit ama asist farkıyla önde)! Messi 8. Haaland 7. Kane 6. Dembélé 5.",
+  lastUpdate: "12 Temmuz 2026, 05:09 TSİ",
+  headline_en: "QF3 DONE: ENGLAND IN THE SEMIFINALS! Bellingham brace (45+', 93' AET) beats Norway 2-1 AET — Schjelderup (36') led for Norway, Heggem's 2H goal wiped by VAR, but Bellingham sealed it in extra time. Bellingham's 6th WC goal. QF4 IN PROGRESS: Argentina vs Switzerland (Kansas City, 04:00 TSI) — Mac Allister 10' header (Messi corner), Argentina 1-0 at HT. SF2: England vs QF4 winner, July 15 Atlanta. GOLDEN BOOT: Mbappé LEADS with 8 (Messi on assists)! Messi 8. Haaland 7. Kane 6. Bellingham 6. Dembélé 5.",
+  headline: "ÇF3 TAMAM: İNGİLTERE YARI FİNALDE! Bellingham çiftiyle (45+', 93' u.z.) Norveç'i 2-1 yendi — Schjelderup 36'da açtı, Heggem'in 2. yarı golü VAR'la iptal, Bellingham uzatmada bitirdi. Bellingham'ın turnuvadaki 6. golü. ÇF4 DEVAM EDİYOR: Arjantin-İsviçre (Kansas City, 04:00 TSİ) — Mac Allister 10'da kafa golü (Messi köşesi), Arjantin 1-0 ilk yarı. SF2: İngiltere vs ÇF4 galibi, 15 Tem Atlanta. GOL KRALLIGI: Mbappé 8 golle LİDER (Messi ile eşit, asist farkıyla önde)! Messi 8. Haaland 7. Kane 6. Bellingham 6. Dembélé 5.",
   // ---------------- GOL KRALLIĞI ----------------
   topScorers: [
     { sira: 1, oyuncu: "Kylian Mbappé", takim: "Fransa", flag: "🇫🇷", gol: 8 },
     { sira: 1, oyuncu: "Lionel Messi", takim: "Arjantin", flag: "🇦🇷", gol: 8 },
     { sira: 3, oyuncu: "Erling Haaland", takim: "Norveç", flag: "🇳🇴", gol: 7 },
     { sira: 4, oyuncu: "Harry Kane", takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", gol: 6 },
-    { sira: 5, oyuncu: "Ousmane Dembélé", takim: "Fransa", flag: "🇫🇷", gol: 5 },
-    { sira: 6, oyuncu: "Vinícius Júnior", takim: "Brezilya", flag: "🇧🇷", gol: 4 },
-    { sira: 6, oyuncu: "Ismaïla Sarr", takim: "Senegal", flag: "🇸🇳", gol: 4 },
-    { sira: 6, oyuncu: "Jonathan David", takim: "Kanada", flag: "🇨🇦", gol: 4 },
-    { sira: 9, oyuncu: "Cristiano Ronaldo", takim: "Portekiz", flag: "🇵🇹", gol: 3 },
-    { sira: 9, oyuncu: "Folarin Balogun", takim: "ABD", flag: "🇺🇸", gol: 3 }
+    { sira: 4, oyuncu: "Jude Bellingham", takim: "İngiltere", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", gol: 6 },
+    { sira: 6, oyuncu: "Ousmane Dembélé", takim: "Fransa", flag: "🇫🇷", gol: 5 },
+    { sira: 7, oyuncu: "Vinícius Júnior", takim: "Brezilya", flag: "🇧🇷", gol: 4 },
+    { sira: 7, oyuncu: "Ismaïla Sarr", takim: "Senegal", flag: "🇸🇳", gol: 4 },
+    { sira: 7, oyuncu: "Jonathan David", takim: "Kanada", flag: "🇨🇦", gol: 4 },
+    { sira: 10, oyuncu: "Cristiano Ronaldo", takim: "Portekiz", flag: "🇵🇹", gol: 3 }
   ],
-  topScorersNote: "ÇEYREK FİNAL: MBAPPÉ 8 GOLLE LİDER (Messi ile eşit ama asist farkıyla önde) — ÇF'de Fas'a karşı 60. dakika gol + penaltı kurtarışı (28'). Messi 8 golle 2.'de — R16'da Mısır'a karşı 84'. Haaland 7 golle 3.'te — R16 Brezilya brace'i (79' kafa + 90' alt köşe). Kane 6'da (R16 Meksika pen 60'). Dembélé 5'te (ÇF Fas 66').",
-  topScorersNote_en: "QF UPDATE: MBAPPÉ LEADS with 8 goals (ahead of Messi on assists) — QF goal vs Morocco (60') + penalty saved (28'). Messi on 8 — R16 goal vs Egypt (84'). Haaland on 7 — R16 brace vs Brazil (79' header + 90' low finish). Kane on 6 (R16 vs Mexico pen 60'). Dembélé on 5 (QF vs Morocco 66').",
+  topScorersNote: "YARI FİNAL ÖNCESİ: MBAPPÉ 8 GOLLE LİDER (Messi ile eşit, asist farkıyla önde). Messi 8 — ARG-İSV maçı DEVAM EDİYOR. Haaland 7 — Norveç ÇF'de İngiltere'ye yenildi, Haaland skorsuz. Bellingham 6 — ÇF'de Norveç'e karşı ÇİFT GOL (45+', 93' u.z.) — Kane ile eşitlendi! Kane 6 (R16 Meksika pen). Dembélé 5 (ÇF Fas 66').",
+  topScorersNote_en: "PRE-SEMIFINALS: MBAPPÉ LEADS with 8 goals (ahead of Messi on assists). Messi on 8 — ARG vs SUI LIVE. Haaland on 7 — Norway eliminated in QF, Haaland didn't score vs England. Bellingham on 6 — QF BRACE vs Norway (45+', 93' AET) — now LEVEL with Kane! Kane on 6 (R16 vs Mexico pen). Dembélé on 5 (QF vs Morocco 66').",
   // ---------------- TAKIM NOTLARI (favori kartlarında gösterilir) ----------------
   teamNotes: {
     "Türkiye": "2002 dünya üçüncülüğünden sonraki ilk Dünya Kupası elenmeyle bitti ama son maçta şampiyona karşı 3-2'lik tarihi galibiyet! Arda Güler (10'), Kökcü (31') ve Kaan Ayhan (90+8') ile ABD'yi devirdi. 3 maç: 1G 0B 2M, 3 puan — Avustralya ve Paraguay'a yenilerek erken elendi, ama grubun liderini son güne saklayarak turnuvayı onurla kapattı.",
@@ -39,7 +39,7 @@ window.WC_DATA = {
     "İran": "3 maç 3 beraberlik 3 puan — G Grubu'nda 3. sırayla elendi. Mısır maçında Rezaeian (14') eşitleyerek 1-1'e getirdi; Khalilzadeh'in stopaj süresindeki golü VAR tarafından ofsayt nedeniyle iptal edildi. 3pts ve 0 averajla en iyi 3. takımlar sıralamasında — J, K, L gruplarının sonuçlarına bağlı.",
     "Yeni Zelanda": "1 puanla G Grubu'ndan son sırada elendi. Son maçta Belçika'ya 1-5 yenildi — Just (84') tek golü attı (turnuvada toplam 3 gol); Trossard çifti (28', 50'), De Bruyne (66'), Lukaku (86') ve Saelemaekers (90+4') farkı açtı. Kısa ama etkileyici bir DK macerasının sonu.",
     "Arjantin": "ÇEYREK FİNALDE! (12 Tem 04:00 TSİ — Maç başlamadı) Son 16'da Mısır'ı 3-2 yendi: 0-2 geride (İbrahim 15', Ziko 67') → Romero (79' kafa, Messi asisti), Messi (84' — 8. DK golü!), Fernández (90+2') ile tarihi dönüş! 12 Temmuz Kansas City'de İsviçre ile çeyrek final. SON 16'DA — ama son nefeste! Cape Verde'yi uzatmada 3-2 yenerek Son 16'ya kaldı. Messi (29', 7. gol — 20. kariyer DK golü!) öne geçirdi; Duarte (59') eşitledi. Uzatmada Lisandro Martínez (92') öne geçirdi, Cabral (103') tekrar eşitledi, son olarak Borges kendi kalesine (111', Messi köşe + Romero kafa) galibiyeti getirdi. GOL KRALLIGI LİDERİ: Messi 7 golle tek başında önde! Son 16: 7 Temmuz Atlanta'da Mısır ile.",
-    "İngiltere": "ÇEYREK FİNALDE! (Maç 00:00 TSİ devam ediyor) Son 16'da Meksika'yı 3-2 yendi: Bellingham çifti (36', 38'), Kane penaltı (60'); Quansah 54. dakikada kırmızı kart — 10 kişiyle savundu! Meksika'nın Quiñones (42') ve Jiménez penaltısına (69') rağmen 3-2 tuttu. 12 Temmuz Miami'de Norveç ile çeyrek final DEVAM EDİYOR. Son 32'de DR Kongo'yu 2-1 yendi: Cipenga'nın 7. dakika golüyle şok yaptıktan sonra Kane (75' kafa, 86' bitirme — her iki golde Gordon asisti) ile döndürdü. Kane bu turnuvada 5. ve 6. gollerini atarak gol krallığı üçlüsünün (Messi/Haaland/Mbappé, 6 gol) hemen gerisine düştü. 6 Temmuz Mexico City'de Meksika ile Son 16!",
+    "İngiltere": "YARI FİNALDE! Çeyrek finalde Norveç'i 2-1 yendi (u.z.) — Schjelderup (36') açtı, Bellingham (45+') eşitledi, Bellingham (93' u.z.) bitirdi! Heggem'in 2. yarı golü VAR tarafından Haaland faulu nedeniyle iptal edildi. Bellingham'ın turnuvadaki 6. golü — Kane ile eşitlendi (her ikisi 6). 15 Temmuz Atlanta'da SF2: İngiltere vs ÇF4 galibi. Son 16'da Meksika'yı 3-2 yendi: Bellingham çifti (36', 38'), Kane penaltı (60'); Quansah 54. dakikada kırmızı kart — 10 kişiyle savundu! Son 32'de DR Kongo'yu 2-1 yendi: Kane çifti (75', 86'). Kane bu turnuvada 6 golle gol krallığı sıralamalarında.",
     "Hırvatistan": "ELENDİ — Son 32'de Portekiz'e 1-2 yenildi. Perisic (53') kesik koşuyla muhteşem goldün öne geçirdi ve Hırvatistan 90. dakikaya kadar direnç gösterdi. Ronaldo penaltıyla (68') eşitledi, Ramos 90+4'te kafadan tamamladı. Gvardiol'un 100. dakika golü ise VAR tarafından ofsayt nedeniyle iptal edildi — 18 dakika uzatma ardından hayal kırıklığı. Perisic 7. DK goluyla Suker'in Hırvatistan rekorunu kırdı. Modric'in Dünya Kupası kariyeri sona erdi.",
     "Avusturya": "Avusturya J Grubunu 4 puanla ikinci sırada kapattı ve 1982'den bu yana ilk kez Son 32'de! Ürdün 3-1, Arjantin 0-2, Cezayir 3-3 (dramatik Kalajdzic 96. dakika kafası). 36 yıllık aradan sonra ilk eleme turu maçı: 2 Temmuz Los Angeles'ta İspanya karşılaşması.",
     "Ürdün": "İlk Dünya Kupası maceraları 3 maç 3 mağlubiyetle sona erdi: Avusturya 1-3, Cezayir 1-2, Arjantin 1-3 (Al-Tamari 55' gururlu bir gol). Ürdün 3 maçta 3 gol atıp 8 yedi ve 0 puanla elendi. Ülke futbol tarihinin en büyük sahnesinden önemli deneyimler kazandı.",
@@ -216,7 +216,9 @@ window.WC_DATA = {
     { iso: "2026-07-07", saat: "19:00", grup: "Son 16", ev: "Arjantin", dep: "Mısır", yer: "Atlanta", skor: "3 - 2", not: "Goller: Ibrahim (15', kafa - Mısır), Ziko (67' - Mısır), Romero (79', kafa, Messi asisti - Arjantin), Messi (84' - Arjantin, 8. DK golü!), Fernández (90+2' - Arjantin). Arjantin 0-2'den 3-2'ye döndü — Messi'nin asisti, Messi'nin golü ve Fernández'in stopaj golüyle tarihi dönüş!" },
     { iso: "2026-07-07", saat: "23:00", grup: "Son 16", ev: "İsviçre", dep: "Kolombiya", yer: "Vancouver", skor: "0 - 0 (4-3 p)", not: "Gol yok (u.z. dahil). Penaltı atışları (4-3): İsviçre dört penaltısını gönderdi; Kolombiya'dan bir atış kaçırıldı. İsviçre çeyrek finale yükseldi!" },
     { iso: "2026-07-09", saat: "23:00", grup: "Çeyrek Final", ev: "Fransa", dep: "Fas", yer: "Boston", skor: "2 - 0", not: "Goller: Mbappé (60', 8. DK golü — 20. kariyer DK golü! Mbappé cezası 28. dakikada Bounou tarafından kurtarıldı), Dembélé (66', 5. DK golü). Fransa yarı finale! 14 Temmuz Arlington'da İspanya ile karşılaşacak." },
-    { iso: "2026-07-10", saat: "22:00", grup: "Çeyrek Final", ev: "İspanya", dep: "Belçika", yer: "Los Angeles", skor: "2 - 1", not: "Goller: Ruiz (30' - İspanya), De Ketelaere (41' - Belçika), Merino (88' - İspanya). Merino çeyrek finale ardından iki kritik gol atmış oldu (R16 Portekiz + ÇF Belçika). İspanya yarı finale! 14 Temmuz Arlington'da Fransa ile tarihi İber/Avrupa yarı final derbisi." }
+    { iso: "2026-07-10", saat: "22:00", grup: "Çeyrek Final", ev: "İspanya", dep: "Belçika", yer: "Los Angeles", skor: "2 - 1", not: "Goller: Ruiz (30' - İspanya), De Ketelaere (41' - Belçika), Merino (88' - İspanya). Merino çeyrek finale ardından iki kritik gol atmış oldu (R16 Portekiz + ÇF Belçika). İspanya yarı finale! 14 Temmuz Arlington'da Fransa ile tarihi İber/Avrupa yarı final derbisi." },
+    { iso: "2026-07-12", saat: "00:00", grup: "Çeyrek Final", ev: "Norveç", dep: "İngiltere", yer: "Miami", skor: "1 - 2 u.z.", not: "Goller: Schjelderup (36', sol ayakla blistering vuruş — Norveç), Bellingham (45+', eşitleme — İngiltere), Bellingham (93' u.z., kaleci sekmesinden slotladı — İngiltere). Heggem'in 2. yarı golü VAR tarafından Haaland faulu nedeniyle iptal edildi. Bellingham turnuvadaki 6. golüyle İngiltere'yi yarı finale taşıdı!" },
+    { iso: "2026-07-12", saat: "04:00", grup: "Çeyrek Final", ev: "Arjantin", dep: "İsviçre", yer: "Kansas City", skor: null, not: "DEVAM EDİYOR — Mac Allister (10', Messi köşesinden kafa, uzak köşe) Arjantin'i öne geçirdi. İlk yarı: 1-0 Arjantin. Sonuç teyit edilmedi." }
   ],
   // ---------------- GRUPLAR VE PUAN DURUMU ----------------
   groups: {
@@ -326,16 +328,16 @@ window.WC_DATA = {
     qf: [
       { id: 97, ev: "Fransa", dep: "Fas", tarih: "9 Tem 23:00", yer: "Boston", skor: "2-0" },
       { id: 98, ev: "İspanya", dep: "Belçika", tarih: "10 Tem 22:00", yer: "Los Angeles", tur: true, skor: "2-1" },
-      { id: 99, ev: "Norveç", dep: "İngiltere", tarih: "12 Tem 00:00", yer: "Miami" },
+      { id: 99, ev: "Norveç", dep: "İngiltere", tarih: "12 Tem 00:00", yer: "Miami", skor: "1-2 u.z." },
       { id: 100, ev: "Arjantin", dep: "İsviçre", tarih: "12 Tem 04:00", yer: "Kansas City" }
     ],
     sf: [
       { id: 101, ev: "Fransa", dep: "İspanya", tarih: "14 Tem 22:00", yer: "Arlington", tur: true },
-      { id: 102, ev: "M99 galibi", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
+      { id: 102, ev: "İngiltere", dep: "M100 galibi", tarih: "15 Tem 22:00", yer: "Atlanta" }
     ],
     final: { id: 104, ev: "M101 galibi", dep: "M102 galibi", tarih: "19 Temmuz Pazar 22:00 TSİ", yer: "MetLife Stadyumu, New Jersey" },
-    note_en: "SEMIFINALS CONFIRMED: FRANCE 2-0 Morocco (Mbappé 60', Dembélé 66') | SPAIN 2-1 Belgium (Ruiz 30', Merino 88') → FRANCE vs SPAIN 14 Jul Arlington! QF3 IN PROGRESS: Norway vs England 00:00 TSI Miami. QF4: Argentina vs Switzerland 12 Jul 04:00 TSI Kansas City (not started). | R16 recap: Morocco 1-0 Canada | France 1-0 Paraguay (Mbappé pen) | NORWAY 2-1 Brazil (Haaland 79', 90'!) | England 3-2 Mexico (Bellingham ×2, Kane pen) | Spain 1-0 Portugal (Merino 90+') | Belgium 4-1 USA | Argentina 3-2 Egypt (0-2 comeback! Messi 84') | Switzerland 4-3p Colombia.",
-    note: "YARI FİNALLER BELLİ OLDU: FRANSA 2-0 Fas (Mbappé 60', Dembélé 66') | İSPANYA 2-1 Belçika (Ruiz 30', Merino 88') → FRANSA-İSPANYA 14 Tem Arlington! ÇF3 DEVAM EDİYOR: Norveç-İngiltere 00:00 TSİ Miami. ÇF4: Arjantin-İsviçre 12 Tem 04:00 TSİ Kansas City (başlamadı). | Son 16 özeti: Fas 1-0 Kanada | Fransa 1-0 Paraguay (Mbappé pen) | NORVEÇ 2-1 Brezilya (Haaland 79', 90'!) | İngiltere 3-2 Meksika (Bellingham ×2, Kane pen) | İspanya 1-0 Portekiz (Merino 90+') | Belçika 4-1 ABD | Arjantin 3-2 Mısır (0-2'den dönüş! Messi 84') | İsviçre 4-3p Kolombiya."
+    note_en: "ALL QFs DONE or IN PROGRESS: FRANCE 2-0 Morocco | SPAIN 2-1 Belgium | ENGLAND 2-1 Norway AET (Bellingham ×2: 45+', 93') | ARG vs SUI IN PROGRESS (Mac Allister 10', ARG 1-0 HT). SF1: France vs Spain, 14 Jul Arlington. SF2: England vs QF4 winner, 15 Jul Atlanta. | QF recap: Mbappé 60' + Dembélé 66' vs Morocco | Merino 88' vs Belgium | Bellingham 45+' eq + 93' winner vs Norway (Schjelderup 36' for NOR — Heggem's 2H goal wiped by VAR).",
+    note: "TÜM ÇEYREK FİNALLER TAMAM veya DEVAM EDİYOR: FRANSA 2-0 Fas | İSPANYA 2-1 Belçika | İNGİLTERE 2-1 Norveç u.z. (Bellingham ×2: 45+', 93') | ARJ-İSV DEVAM EDİYOR (Mac Allister 10', Arjantin 1-0 ilk yarı). YARI FİNAL 1: Fransa-İspanya 14 Tem Arlington. YARI FİNAL 2: İngiltere-ÇF4 galibi 15 Tem Atlanta. | Notlar: Schjelderup 36' Norveç için açtı, Heggem'in 2. yarı golü VAR'la iptal. Bellingham eşitledi (45+') ve bitirdi (93' u.z.)."
   },
   // ---------------- BİLGİ KUTUSU -----------
   facts_en: [
