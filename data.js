@@ -5,7 +5,7 @@
 // Kaynaklar: fifa.com, ESPN, Sky Sports, Wikipedia
 // =====================================================================
 window.WC_DATA = {
-  lastUpdate: "17 Temmuz 2026, 05:08 TSİ",
+  lastUpdate: "17 Temmuz 2026, 09:08 TSİ",
   headline_en: "FINAL WEEKEND: two matches remain. Saturday July 18 (Miami) it's France vs England for third place — Didier Deschamps coaches his last match after 14 years in charge, without the injured William Saliba (recurring back problem); Mbappé, still tied with Messi on 8 goals but trailing on the assist tiebreaker, gets one last shot to add to his tally since Messi plays the final. Sunday July 19 (MetLife Stadium, New Jersey, 22:00 TSİ) Spain face Argentina for the title — a storyline bonus: Lamine Yamal and Messi meet on a pitch for the first time, years after a viral photo of the two. The Final Halftime Show is headlined by Madonna, Shakira, BTS and Justin Bieber, curated by Coldplay's Chris Martin.",
   headline: "FİNAL HAFTASI: geriye iki maç kaldı. Yarın (18 Temmuz, Miami) Fransa - İngiltere 3.lük maçında oynayacak — Deschamps 14 yıllık Fransa görevini bu maçla noktalıyor, sakat Saliba (sırt sorunu) kadroda yok; Mbappé hâlâ Messi ile 8 golle eşit ama asist üstünlüğünü kaybetmiş durumda, Messi final oynayacağı için son şansını bu maçta arayacak. Pazar (19 Temmuz, MetLife Stadyumu, New Jersey, 22:00 TSİ) İspanya - Arjantin kupa için karşı karşıya: ilginç bir detay, Lamine Yamal ile Messi yıllar önceki viral fotoğraflarının ardından ilk kez aynı sahada karşılaşacak. Final arası şovunu Madonna, Shakira, BTS ve Justin Bieber üstlenecek (küratör Coldplay'den Chris Martin).",
   // ---------------- GOL KRALLIĞI ----------------
